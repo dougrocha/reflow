@@ -1,0 +1,16 @@
+{
+  "doc": "docaccess-brochure",
+  "page": 1,
+  "description": "Multi-column brochure page 1 (scanned): no whole-page figure above its own text.",
+  "assertions": [
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "max_figure_share": 0.6},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["Free admission!"], "why": "The middle column's notice, read on the page image."},
+    {"toc_lacks": ["and more..."], "why": "OCR text that starts in lowercase is a piece of a sentence, never a heading (#83)."},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "review_lacks": ["unread-signature"], "why": "Italic print OCR could not read, with print beside it on its row, is no signature (#85)."},
+    {"no_text": ["¢"]},
+    {"list_items": {"ordered": false, "items": ["Mary Armes 1860-1947", "Alma Bell 1885-1952", "Minnie Malcom (nee Foster) 1894-1920", "Joe Francis 1854-1919", "Mabel Bronson Spear 1832-1911"]}, "why": "The scanned bullets are one list, including the rows whose bullet OCR read as two symbols."},
+    {"xfail": "#291: OCR misreads names and words, and leaves out the web address and the title set over the photo.", "contains": ["www.placer.ca.gov/museums", "Atwood* 1914-1918", "mourning", "Barter 1833-1859", "Sheriff Elmer Gum", "Old Auburn"]},
+    {"xfail": "#291: OCR's misreadings are kept.", "no_text": ["mouining", "Barterr", "ElImer"]},
+    {"xfail": "#291: the web address is a crop that says 'Not transcribed'.", "no_text": ["Not transcribed"]}
+  ]
+}

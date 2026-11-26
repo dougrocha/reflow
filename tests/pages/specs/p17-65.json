@@ -1,0 +1,17 @@
+{
+  "doc": "p17",
+  "page": 65,
+  "description": "IRS Publication 17 page 65: the Base amount list, the blank Worksheet 7-1 and the filled-in worksheet beside it (known limit: the filled-in worksheet's values come out apart from their lines).",
+  "assertions": [
+    {"min_recall": 92.0},
+    {"no_text": ["�"]},
+    {"heading": {"text": "How To Report Your Benefits", "levels": [2, 3]}},
+    {"heading": {"text": "How Much Is Taxable?", "levels": [2, 4]}},
+    {"list_items": {"ordered": false, "items": [
+      "$25,000 if you are single, head of household, or qualifying surviving spouse;",
+      "$32,000 if you are married filing jointly; or"
+    ]}},
+    {"contains_in_order": ["Base amount. Your base amount is:", "Worksheet 7-1. You can use Worksheet 7-1", "A. Enter the total amount from", "B. Multiply line A by 50%", "C. Enter your total income that is taxable", "D. Enter any tax-exempt interest income", "E. Add lines B, C, and D", "Example. You are over 65", "Filled-in Worksheet 7-1.", "Who is taxed. Benefits are included", "How To Report Your Benefits", "How Much Is Taxable?"]},
+    {"same_block": [["Multiply line A by 50%", "750"], ["Add lines B, C, and D", "$18,450"], ["Enter the total amount from box 5", "$1,500"], ["Enter your total income that is taxable", "17,700"]]}
+  ]
+}

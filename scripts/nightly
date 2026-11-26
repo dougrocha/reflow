@@ -1,0 +1,307 @@
+#!/usr/bin/env python3
+"""Run the slow jobs (the full page checks, the robustness suite, the full docs:build, the evals
+and a benchmark) on one commit of main, and keep one report per commit. systemd starts it
+(ops/systemd/); read the report instead of running these jobs.
+
+    scripts/nightly [--ref REF] [--jobs a,b,...]   run the jobs that REF (default origin/main) lacks
+    scripts/nightly status                         the latest report, and a run in progress
+
+A report is ~/.cache/reflow/nightly/<commit>/ (REFLOW_NIGHTLY_DIR moves it), with
+  <job>/     one scripts/long-run folder per job: log, status, summary
+  status     state (running or complete), result (passed or failed), commit, one line per job
+  summary    each job's summary under a header line
+latest points at the newest complete report of a commit on origin/main.
+
+A run converges, so a timer can start it as often as it likes:
+- One run at a time: a run holds an flock on .lock; a second trigger finds it held and exits 0.
+- Each job's result is kept: a job that passed or failed is never run again for that commit, and
+  a run that finds every asked job finished exits at once. A job that was killed, or that was
+  running when its runner died, runs again, at most MAX_ATTEMPTS times in all.
+- The jobs run in their own worktree (checkout/), reset to the commit, with the commit's own
+  scripts/nightly and scripts/long-run. The conversions in the jobs take the machine's CPU budget
+  and GPU lease (src/reflow/budget.py) like any other conversion, so they share the machine fairly.
+
+REFLOW_NIGHTLY_JOBS, a JSON object {name: [cwd, [argv...]]}, replaces the job table (for tests).
+"""
+from __future__ import annotations
+
+import datetime
+import fcntl
+import json
+import os
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(os.environ.get("REFLOW_NIGHTLY_DIR") or "~/.cache/reflow/nightly").expanduser()
+CHECKOUT = ROOT / "checkout"
+MAX_ATTEMPTS = 2
+KEEP = 30   # reports kept; older complete ones are removed
+FINAL = ("passed", "failed")
+WHOLE_LOG = 80   # an eval's log is its short report; its accuracy isn't in long-run's last lines
+
+# name: (folder of the checkout to run in, argv). {py} is the main checkout's venv python,
+# {checkout} the job worktree, {dir} the job's report folder. The service runs a copy of this
+# file that lives outside the repository, so it cannot import scripts/affected, whose CHECKS hold
+# the same commands; tests/test_nightly.py checks the two tables agree.
+PYTEST = ["{py}", "-m", "pytest", "-o", "pythonpath=src", "-q"]
+JOBS: dict[str, tuple[str, list[str]]] = {
+    "unit": (".", PYTEST),
+    "pages": (".", [*PYTEST, "-m", "pages"]),
+    "robustness": (".", [*PYTEST, "-m", "pages", "--robustness", "tests/robustness",
+                         "--robustness-out", "{dir}"]),
+    "docs": ("web", ["bun", "run", "docs:build"]),
+    "eval-label": (".", ["{py}", "scripts/eval_label_assist.py"]),
+    "eval-structure": (".", ["{py}", "scripts/eval_structure_assist.py"]),
+    "eval-scan": (".", ["{py}", "scripts/eval_scan_fields.py"]),
+    "bench": (".", ["{py}", "scripts/bench_conversion.py", "samples/arxiv.pdf", "8", "3",
+                    "main={checkout}/src", "--json", "{dir}/bench.json"]),
+}
+if (override := os.environ.get("REFLOW_NIGHTLY_JOBS")):
+    JOBS = {k: (v[0], v[1]) for k, v in json.loads(override).items()}
+
+
+def git(*args: str, cwd: Path | None = None, check: bool = True) -> str:
+    done = subprocess.run(["git", *args], cwd=cwd, capture_output=True, text=True)
+    if check and done.returncode:
+        sys.exit(f"nightly: git {' '.join(args)}: {done.stderr.strip()}")
+    return done.stdout.strip() if done.returncode == 0 else ""
+
+
+def main_checkout() -> Path:
+    """The main checkout of the repository the run started in (its cwd): the service runs a copy
+    of this script from origin/main that lives outside the repository."""
+    return Path(git("rev-parse", "--path-format=absolute", "--git-common-dir")).parent
+
+
+def read_status(path: Path) -> dict[str, str]:
+    try:
+        return dict(line.split(": ", 1) for line in path.read_text().splitlines() if ": " in line)
+    except OSError:
+        return {}
+
+
+def write_atomic(path: Path, text: str) -> None:
+    tmp = path.with_name(f".{path.name}.{os.getpid()}.tmp")
+    tmp.write_text(text)
+    tmp.replace(path)
+
+
+def attempts_file(report: Path, job: str) -> Path:
+    return report / ".attempts" / job
+
+
+def finished(report: Path, job: str) -> bool:
+    """A job is done for its commit once it passed or failed, or was killed MAX_ATTEMPTS times."""
+    state = read_status(report / job / "status").get("state")
+    if state in FINAL:
+        return True
+    try:
+        tries = int(attempts_file(report, job).read_text())
+    except (OSError, ValueError):
+        tries = 0
+    return state == "killed" and tries >= MAX_ATTEMPTS
+
+
+def on_main(commit: str, main: Path) -> bool:
+    return subprocess.run(["git", "merge-base", "--is-ancestor", commit, "origin/main"],
+                          cwd=main).returncode == 0
+
+
+def point_latest(report: Path, main: Path) -> None:
+    """latest -> this report, if its commit is on origin/main and not older than latest's."""
+    status = read_status(report / "status")
+    commit = status.get("commit", "")
+    if status.get("state") != "complete" or not commit or not on_main(commit, main):
+        return
+    current = read_status(ROOT / "latest" / "status").get("commit")
+    if current and current != commit and subprocess.run(
+            ["git", "merge-base", "--is-ancestor", current, commit], cwd=main).returncode != 0:
+        return   # latest is newer
+    tmp = ROOT / f".latest.{os.getpid()}"
+    tmp.unlink(missing_ok=True)
+    tmp.symlink_to(report.name)
+    tmp.replace(ROOT / "latest")
+
+
+def finish_report(report: Path, commit: str, ref: str, jobs: list[str], fields: dict) -> None:
+    """Write the report's status and summary from its job folders. Complete once every job of
+    the report, the ones asked now and the ones an earlier run asked, has finished."""
+    known = [j for j in fields.get("jobs", "").split() if j not in jobs] + jobs
+    done = all(finished(report, j) for j in known)
+    lines, summary, ok = [], [], True
+    for job in known:
+        st = read_status(report / job / "status")
+        state = st.get("state", "not run")
+        ok = ok and state == "passed"
+        lines.append(f"job {job}: {state} exit {st.get('exit', '-')} after {st.get('wall', '-')}")
+        try:
+            text = (report / job / "summary").read_text()
+            if job.startswith("eval-") and state == "passed":
+                text = "".join((report / job / "log").read_text().splitlines(True)[:WHOLE_LOG])
+        except OSError:
+            text = "no summary\n"
+        summary.append(f"== {job}: {state}\n{text}")
+    out = {**fields, "state": "complete" if done else "running", "result": "passed" if ok else
+           "failed", "commit": commit, "ref": ref, "jobs": " ".join(known)}
+    if done:
+        out["ended"] = datetime.datetime.now().isoformat(timespec="seconds")
+        out.pop("runner", None)
+    body = "".join(f"{k}: {v}\n" for k, v in out.items() if not k.startswith("job "))
+    write_atomic(report / "status", body + "".join(f"{line}\n" for line in lines))
+    write_atomic(report / "summary", "".join(summary))
+
+
+def prune(keep: Path) -> None:
+    reports = [p for p in ROOT.iterdir() if p.is_dir() and not p.is_symlink()
+               and p.name != "checkout" and not p.name.startswith(".")]
+    reports.sort(key=lambda p: (p / "status").stat().st_mtime if (p / "status").exists() else 0)
+    latest = (ROOT / "latest").resolve() if (ROOT / "latest").exists() else None
+    for old in reports[:-KEEP]:
+        if old not in (keep, latest) and read_status(old / "status").get("state") == "complete":
+            shutil.rmtree(old, ignore_errors=True)
+
+
+def take_lock() -> int | None:
+    ROOT.mkdir(parents=True, exist_ok=True)
+    fd = os.open(ROOT / ".lock", os.O_RDWR | os.O_CREAT, 0o644)
+    try:
+        fcntl.flock(fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        os.close(fd)
+        return None
+    return fd
+
+
+def prepare_checkout(main: Path, commit: str) -> None:
+    """checkout/ is a worktree of the main checkout at `commit`, with no edits of its own."""
+    git("worktree", "prune", cwd=main)
+    if not (CHECKOUT / ".git").exists():
+        shutil.rmtree(CHECKOUT, ignore_errors=True)
+        git("worktree", "add", "--detach", "--force", str(CHECKOUT), commit, cwd=main)
+    else:
+        git("checkout", "--force", "--detach", commit, cwd=CHECKOUT)
+        git("clean", "-fdq", cwd=CHECKOUT)
+
+
+def run_jobs(commit: str, ref: str, jobs: list[str]) -> int:
+    """In the job worktree, at `commit`, with the run's lock already held."""
+    main = main_checkout()
+    report = ROOT / commit[:12]
+    report.mkdir(parents=True, exist_ok=True)
+    (report / ".attempts").mkdir(exist_ok=True)
+    fields = read_status(report / "status")
+    for key in [k for k in fields if k.startswith("job ")] + ["ended", "note"]:
+        fields.pop(key, None)
+    fields.setdefault("started", datetime.datetime.now().isoformat(timespec="seconds"))
+    fields["runner"] = str(os.getpid())
+    finish_report(report, commit, ref, jobs, fields)
+    long_run = CHECKOUT / "scripts" / "long-run"
+    # long-run holds the lock too, so a job that outlives its killed runner keeps other runs out
+    # until long-run has written the job's status.
+    lock = (int(os.environ["NIGHTLY_LOCK_FD"]),)
+    py = str(main / ".venv" / "bin" / "python")
+
+    # The worktree's web dependencies and seeded documents; cheap, and run every time because
+    # the worktree may have been reset to another commit since.
+    setup = report / ".setup"
+    shutil.rmtree(setup, ignore_errors=True)
+    if subprocess.run([sys.executable, long_run, "--into", setup, "setup", "--",
+                       str(CHECKOUT / "scripts" / "worktree-setup")], cwd=CHECKOUT,
+                      stdout=subprocess.DEVNULL, pass_fds=lock).returncode:
+        print(f"nightly: worktree-setup failed; see {setup}/log", file=sys.stderr)
+        return 1
+
+    for job in jobs:
+        if finished(report, job):
+            print(f"nightly: {job}: kept ({read_status(report / job / 'status').get('state')})")
+            continue
+        tries_path = attempts_file(report, job)
+        try:
+            tries = int(tries_path.read_text())
+        except (OSError, ValueError):
+            tries = 0
+        write_atomic(tries_path, f"{tries + 1}\n")
+        shutil.rmtree(report / job, ignore_errors=True)
+        cwd, argv = JOBS[job]
+        values = {"py": py, "checkout": str(CHECKOUT), "dir": str(report / job)}
+        argv = [a.format(**values) for a in argv]
+        print(f"nightly: {job}: running (attempt {tries + 1})", flush=True)
+        done = subprocess.run([sys.executable, long_run, "--into", report / job, job, "--", *argv],
+                              cwd=CHECKOUT / cwd, stdout=subprocess.DEVNULL, pass_fds=lock)
+        state = read_status(report / job / "status").get("state")
+        print(f"nightly: {job}: {state}, exit {done.returncode}", flush=True)
+        finish_report(report, commit, ref, jobs, fields)
+    finish_report(report, commit, ref, jobs, fields)
+    point_latest(report, main)
+    prune(report)
+    st = read_status(report / "status")
+    print(f"nightly: {report}: {st.get('state')}, {st.get('result')}")
+    return 0 if st.get("state") == "complete" else 1
+
+
+def status() -> int:
+    current = read_status(ROOT / ".current")   # read only: taking .lock here would turn a trigger away
+    try:
+        alive = b"nightly" in Path(f"/proc/{current.get('pid')}/cmdline").read_bytes()
+    except OSError:
+        alive = False
+    if alive:
+        print(f"nightly: a run is in progress on {current.get('commit', '?')}")
+    latest = ROOT / "latest"
+    if not (latest / "status").exists():
+        print(f"nightly: no report yet in {ROOT}")
+        return 1
+    print(f"{latest.resolve()}\n{(latest / 'status').read_text()}\n{(latest / 'summary').read_text()}",
+          end="")
+    return 0
+
+
+def main(argv: list[str]) -> int:
+    if argv[:1] == ["status"]:
+        return status()
+    args = dict(zip(argv[::2], argv[1::2]))
+    if len(argv) % 2 or set(args) - {"--ref", "--jobs", "--run"}:
+        print(__doc__.split("\n\n")[1], file=sys.stderr)
+        return 2
+    ref = args.get("--ref", "origin/main")
+    jobs = args["--jobs"].split(",") if "--jobs" in args else list(JOBS)
+    if unknown := [j for j in jobs if j not in JOBS]:
+        print(f"nightly: unknown jobs {unknown}; the jobs are {', '.join(JOBS)}", file=sys.stderr)
+        return 2
+
+    if "--run" in args:   # the second stage, in the job worktree, under the first stage's lock
+        if "NIGHTLY_LOCK_FD" not in os.environ:
+            print("nightly: --run is the runner's own second stage", file=sys.stderr)
+            return 2
+        return run_jobs(args["--run"], ref, jobs)
+
+    lock = take_lock()
+    if lock is None:
+        print("nightly: another run is in progress; it or a later trigger covers this one")
+        return 0
+    main_dir = main_checkout()
+    git("fetch", "--quiet", "origin", cwd=main_dir)
+    commit = git("rev-parse", "--verify", f"{ref}^{{commit}}", cwd=main_dir)
+    report = ROOT / commit[:12]
+    if all(finished(report, j) for j in jobs) and (report / "status").exists():
+        fields = read_status(report / "status")
+        finish_report(report, commit, ref, jobs, fields)
+        point_latest(report, main_dir)
+        print(f"nightly: {report} already has {', '.join(jobs)}")
+        return 0
+    write_atomic(ROOT / ".current", f"commit: {commit}\npid: {os.getpid()}\n")
+    prepare_checkout(main_dir, commit)
+    os.set_inheritable(lock, True)
+    env = {**os.environ, "NIGHTLY_LOCK_FD": str(lock)}
+    script = CHECKOUT / "scripts" / "nightly"
+    stage2 = [sys.executable, str(script), "--run", commit, "--ref", ref, "--jobs", ",".join(jobs)]
+    if not script.exists():   # a commit from before this script: run its jobs with this table
+        os.environ.update(env)
+        return run_jobs(commit, ref, jobs)
+    os.execve(sys.executable, stage2, env)
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

@@ -1,0 +1,32 @@
+# The held-out corpus: public PDFs that only a scorer reads. See samples/heldout/README.md.
+id	url	sha256	licence	added
+us-forms-1	https://www.cms.gov/medicare/cms-forms/cms-forms/downloads/cms36p.pdf	9d62a40118c8fefbe80824666f1d215408ac975b119ad637f01cd80d27f4760d	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-forms-2	https://www.irs.gov/pub/irs-pdf/p1459.pdf	a58733bb0bc772b94a022b17bfff51d746998b49bcabbe51c70f6f9ac7993a48	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-forms-3	https://www.irs.gov/pub/irs-pdf/p5349aht.pdf	052f056ef4fd23e1c9c4f525c9781bb927a12400237434bfc069263cd3cf3756	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-forms-4	https://www.irs.gov/pub/irs-pdf/p5227sp.pdf	94ad322b1b0a720c95733d7606e99308104ceeda7831ffa4c42d02b029cd38f6	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-forms-5	https://www.irs.gov/pub/irs-pdf/i5735.pdf	086ba57497bccead74ec067fc26fb92104d8c2a019cdf370e19910f74fa5c8e2	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-forms-6	https://www.cms.gov/medicare/cms-forms/cms-forms/downloads/cms821.pdf	2c90fa87715c9cbcbcf18af7f661ac8a6b1c735a88f542c8689b30315d8f0992	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-forms-7	https://www.irs.gov/pub/irs-pdf/p4744b.pdf	e06ef6f5afe09db65c117d62d9cf170b652c04b57e875f2baabd5dd667354eb4	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-forms-8	https://www.irs.gov/pub/irs-pdf/f1065x.pdf	0796e450b150b6dcbe77dab0f9b8a123a5ab9908cdd1eebb1147b273f68a607d	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-forms-9	https://www.irs.gov/pub/irs-pdf/f8717a.pdf	664795cb248ae5e6adda3d51f157b2bba9829795eb0e899b5d63097d35ef8fc5	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-forms-10	https://www.irs.gov/pub/irs-pdf/f12203sp.pdf	666d07f779582dabdf8e9ecea087ab77f3ed1ee46b4ab3b39cb71e0d880fa14c	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-reports-1	https://www.govinfo.gov/content/pkg/GAOREPORTS-B-400049/pdf/GAOREPORTS-B-400049.pdf	7e3ca17c063e988e36560dcb357736b212d3680279de05b525ec2ec8fd3e37f3	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-reports-2	https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-07-773R/pdf/GAOREPORTS-GAO-07-773R.pdf	cd92dee84554cb6deb07b815d79770537f8a34a1a57413a6d6dda96a69ce7a00	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-reports-3	https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-07-835T/pdf/GAOREPORTS-GAO-07-835T.pdf	844346b20c0bb2de6ee7595002a95e6d992e75c37db23ebc1699d78dee8d93ab	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-reports-4	https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-05-654T/pdf/GAOREPORTS-GAO-05-654T.pdf	332f282efe1c379e299673f7745235557825f1f770cf5af3b53752237c53c72c	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-reports-5	https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-01-297/pdf/GAOREPORTS-GAO-01-297.pdf	cfb51f51ec032c8017f4c7f01d4673b3a46df958cbfaaa46e57a5a0b4096f263	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-reports-6	https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-03-930T/pdf/GAOREPORTS-GAO-03-930T.pdf	fec28b897347086e60b7d3b1566aa38e4402f2725ecd837c9e417ef217681dfc	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-reports-7	https://www.govinfo.gov/content/pkg/GAOREPORTS-B-280767-4/pdf/GAOREPORTS-B-280767-4.pdf	e18aecd320ed4af6c7b5a92ff9fe13d633641cace7e28eda7a5eebeb6714df3a	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+us-reports-8	https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-06-1087T/pdf/GAOREPORTS-GAO-06-1087T.pdf	d3555ecc737b132554f8b05d97e8d8e243214a208fece35dcad1d22a255d2c0a	US federal work, public domain (17 U.S.C. 105)	2026-11-21
+papers-1	https://arxiv.org/pdf/2503.00930v1	f2e4e7bced3af0db0656915ee3eab104e9b62753aebf570671a9719fc8f61f36	CC BY 4.0	2026-11-21
+papers-2	https://arxiv.org/pdf/2503.02128v1	770ff14f7f16f02bf9c356ebc96b02f61c28d6b8c6e17e5e3d20894a5fb108b8	CC BY 4.0	2026-11-21
+papers-3	https://arxiv.org/pdf/2503.01849v1	e3537184105fbf21de0c8ab353219530acddbc382c38a4c10524b58457df6aec	CC BY 4.0	2026-11-21
+papers-4	https://arxiv.org/pdf/2503.04242v1	7716cea5c703bc9496672cab978c3d9d961724812ff403c382fc2e54583e9804	CC BY 4.0	2026-11-21
+papers-5	https://arxiv.org/pdf/2503.01030v1	ece88aa3c93184dd0b80801b5dd0e10b5f2c8f1ba608f3000cb6828c525191e0	CC BY 4.0	2026-11-21
+scanned-1	https://www.govinfo.gov/content/pkg/FR-1958-06-05/pdf/FR-1958-06-05.pdf	ff9d9e1350cb5ef1a0fa1ecd38a90c92231d390cf97aa1571fd32633aa776ccd	US federal record, public domain (17 U.S.C. 105)	2026-11-21
+scanned-2	https://www.govinfo.gov/content/pkg/FR-1975-06-18/pdf/FR-1975-06-18.pdf	767b141a2652addd37f0b7a309496ee6fdafaffa0716668e455c53be16fcd99d	US federal record, public domain (17 U.S.C. 105)	2026-11-21
+scanned-3	https://www.govinfo.gov/content/pkg/FR-1953-06-09/pdf/FR-1953-06-09.pdf	128b35e402b5446545cee6ae32bb315da8b4913788a5aa826fcf8d939c0fc04f	US federal record, public domain (17 U.S.C. 105)	2026-11-21
+scanned-4	https://www.govinfo.gov/content/pkg/FR-1936-11-14/pdf/FR-1936-11-14.pdf	f55d7a982729f6b13ab6708622d27374343e6a16e02b2a328d8775313871778b	US federal record, public domain (17 U.S.C. 105)	2026-11-21
+scanned-5	https://www.govinfo.gov/content/pkg/FR-1952-07-01/pdf/FR-1952-07-01.pdf	ff3d920378a0c517d7d624c0868a4e79b43f4ab4fdc2adab17235de833007609	US federal record, public domain (17 U.S.C. 105)	2026-11-21
+scanned-6	https://www.govinfo.gov/content/pkg/FR-1937-01-22/pdf/FR-1937-01-22.pdf	992467e8ccedac35f0587bc1068aa0443afd5542d24f0b5d1f95e301df4d8604	US federal record, public domain (17 U.S.C. 105)	2026-11-21
+scanned-7	https://www.govinfo.gov/content/pkg/FR-1941-02-06/pdf/FR-1941-02-06.pdf	c1077cce54481d6a41985daced8101c5ea647de458f91a0652671b56aae01cb9	US federal record, public domain (17 U.S.C. 105)	2026-11-21

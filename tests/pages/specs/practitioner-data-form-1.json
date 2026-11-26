@@ -1,0 +1,19 @@
+{
+  "doc": "practitioner-data-form",
+  "page": 1,
+  "description": "AzAHP practitioner data form page 1 (tagged, no title): a logo and title box, an intro sentence, and eight numbered directions with lettered (a, b, c) and roman (i, ii) sub-steps. No form fields on this page.",
+  "assertions": [
+    {"min_recall": 92.5},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"fields": {}},
+    {"shell_contains": ["AZAHP PRACTITIONER DATA FORM"]},
+    {"contains_in_order": ["AZAHP PRACTITIONER DATA FORM", "Directions for completing the AzAHP Practitioner Data Form", "The information is necessary to add into the Provider Directory", "CAQH Registration is required", "Your CAQH application and attestation MUST be up to date", "Ensure you provide an ACCURATE CAQH number", "PLEASE TYPE OR PRINT CLEARLY AND COMPLETE THE APPLICATION IN ITS ENTIRETY", "Please complete the Provider Assessment of Cognitive and Physical Disabilities Accommodations tool", "The following ATTACHMENTS are required", "New providers receive written confirmation of their effective date"]},
+    {"nested_list": {"parent": "PLEASE TYPE OR PRINT CLEARLY AND COMPLETE THE APPLICATION IN ITS ENTIRETY", "items": ["Additional office locations-please indicate any additional locations on the attached Supplemental Sheet", "Another Supplemental Sheet is included if necessary, to identify additional Practitioners in Call Group. They must be contracted with the plan"]}},
+    {"nested_list": {"parent": "New providers receive written confirmation of their effective date with the health plan(s).", "items": ["Members may not be seen until written confirmation has been received", "AHCCCS registration is required. You cannot receive payment for services provided without an active AHCCCS registration"]}},
+    {"not_heading": ["Directions for completing the AzAHP Practitioner Data Form (AzAHP). Any questions regarding this form, please check with your Health Plan representative."]},
+    {"list_items": {"ordered": true, "items": ["The information is necessary to add into the Provider Directory and payment system for claims processing. This form is also used for providers that may not require credentialing due to their provide type. If you do not have a Professional license (MD, DO, NP, etc), please disregard the CAQH Registration requirements.", "CAQH Registration is required (http:/www.caqh.org—for assistance please contact the CAQH HELP DESK at 1-888-599-1771)"]}},
+    {"xfail": "Item 7b 'Copy of your Board Certification' has two roman sub-steps (i, ii). The output keeps the first inside the parent's own text, and the second becomes a stray paragraph 'ii. If not Board Certified, please provide documentation of CMEs' outside any list.",
+     "nested_list": {"parent": "Copy of your Board Certification (if applicable)", "items": ["Copy of Date of Board Certification Examination", "If not Board Certified, please provide documentation of CMEs"]}}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "doc": "pima-directory",
+  "page": 136,
+  "description": "Pima County provider directory page 136 (Non-Physicians, Family Nurse Practitioner, Tucson, continued): provider headings with their addresses, including a provider with many locations.",
+  "assertions": [
+    {"min_recall": 94.0},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Gillespie, Stephanie M, FNP (F)", "contains": true, "levels": [5, 5]}},
+    {"heading": {"text": "Gomez, Michelle E, FNP (F)", "contains": true, "levels": [5, 5]}},
+    {"same_entry": [["Gil, Leticia L", "2601 S Houghton Rd"], ["Gillespie, Stephanie M", "5301 E Grant Rd"], ["Glasker, Drexzell", "7350 E 22nd St"], ["Gomez, Jacqueline M", "1310 W Saint Marys Rd"]]},
+    {"same_block": [["7350 E 22nd St", "Language: English"]]},
+    {"contains_in_order": ["Continued: Non-Physicians › Family Nurse Practitioner › Tucson", "Gil, Leticia L", "2601 S Houghton Rd", "Gillespie, Stephanie M", "Glasker, Drexzell", "7350 E 22nd St", "Golden, Genevieve D", "Gomez, Jacqueline M", "1310 W Saint Marys Rd", "Gomez, Michelle E", "1570 E Tucson Marketplace Blvd"]}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "doc": "docaccess-audit",
+  "page": 16,
+  "description": "Audit page 16 (born-digital report in image strips): the auditor's letterhead has no text layer and is read by redo OCR (#82); the report's own text is kept.",
+  "assertions": [
+    {"xfail_without_ocr": "Without an OCR runner, the band of the page image is not read.", "contains": ["CERTIFIED PUBLIC ACCOUNTANTS"]},
+    {"contains_in_order": ["INDEPENDENT AUDITOR'S REPORT", "To the Board of Trustees of the San Mateo County Mosquito and Vector Control District"]},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "review_lacks": ["unread-handwriting", "unread-text"]},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "unread_figures": 0, "why": "The navy letterhead #83 leaves out lies in the page image, under half of it: the image's ink, not writing (#84)."}
+  ]
+}

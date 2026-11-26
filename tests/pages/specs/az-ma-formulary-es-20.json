@@ -1,0 +1,63 @@
+{
+  "doc": "az-ma-formulary-es",
+  "page": 20,
+  "description": "Spanish formulary: category rows, drug tiers, and quantity-limit/prior-authorization codes. Printed page is 10.",
+  "assertions": [
+    {
+      "doc_lang": "es"
+    },
+    {
+      "min_recall": 90
+    },
+    {
+      "table": {
+        "rows": 40,
+        "cols": 3,
+        "cells": [
+          "Antagonistas de los receptores de la angiotensina II",
+          "Antiarrítmicos",
+          "QL(30 EA por 30 días); PA"
+        ],
+        "cell_contains": [
+          {
+            "row": {
+              "col": 0,
+              "text": "KERENDIA TABLET 10MG, 20MG, 40MG"
+            },
+            "cols": [
+              1
+            ],
+            "text": "4"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "KERENDIA TABLET 10MG, 20MG, 40MG"
+            },
+            "cols": [
+              2
+            ],
+            "text": "QL(30 EA por 30 días); PA"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "digoxin tablet 62.5mcg"
+            },
+            "cols": [
+              1
+            ],
+            "text": "4"
+          }
+        ]
+      }
+    },
+    {
+      "table": {
+        "cells": [
+          "Nivel del medicamento"
+        ]
+      }
+    }
+  ]
+}

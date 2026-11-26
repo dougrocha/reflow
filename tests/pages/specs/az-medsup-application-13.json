@@ -1,0 +1,83 @@
+{
+  "doc": "az-medsup-application",
+  "page": 13,
+  "description": "Confidential information release form: record choices and recipient fields in ruled cells. The ruled Mail / Fax box is one framed group named by its first line (#170).",
+  "assertions": [
+    {
+      "min_recall": 97.5
+    },
+    {
+      "no_text": [
+        "■",
+        "�"
+      ]
+    },
+    {
+      "contains_in_order": [
+        "Tell Us What Records We Can Share:",
+        "Tell Us Whose Records We Can Share:",
+        "Tell Us Who Can Get the Records:",
+        "Tell Us When to Stop Sharing Your Information:"
+      ]
+    },
+    {
+      "field_labels": {
+        "Company Name": 1,
+        "City": 1
+      }
+    },
+    {
+      "table": {
+        "rows": 3,
+        "cols": 4,
+        "cells": [
+          "Name",
+          "Company Name",
+          "Address",
+          "City"
+        ]
+      }
+    },
+    {
+      "xfail": "The State / ZIP Code caption is cut by estimated character positions into State ZI and P Code, so neither field has its printed name.",
+      "field_labels": {
+        "State": 1,
+        "ZIP Code": 1
+      }
+    },
+    {
+      "ruled_box": {
+        "name": "Mail: BCBSAZ",
+        "texts": [
+          "Mail: BCBSAZ",
+          "Attention: Enrollment",
+          "P.O. Box 13466 | Phoenix, AZ 85002-3466",
+          "Fax: 602-864-4041"
+        ]
+      }
+    },
+    {
+      "box_on_page": {
+        "name": "Mail: BCBSAZ",
+        "bbox": [
+          36.94,
+          680.55,
+          577.94,
+          744.41
+        ]
+      }
+    },
+    {
+      "contains_in_order": [
+        "Please send us your filled-out, signed form by either mail or fax.",
+        "Mail: BCBSAZ",
+        "If you'd like a copy of your signed form"
+      ]
+    },
+    {
+      "review_lacks": [
+        "ruled-box-doubt"
+      ]
+    }
+  ]
+}

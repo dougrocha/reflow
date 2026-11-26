@@ -1,0 +1,14 @@
+{
+  "doc": "az-medsup-outline",
+  "page": 1,
+  "description": "Outline of coverage cover (#160): a tall '2026' beside 'OUTLINE OF' over 'COVERAGE'. The line reader joins '2026' to the 'COVERAGE' row, so the title goes to review rather than published as '2026 COVERAGE OUTLINE OF'.",
+  "assertions": [
+    {
+      "title_suspect": true
+    },
+    {
+      "xfail": "the line reader joins the tall '2026' to the row 'COVERAGE', so the cover's words are out of reading order",
+      "doc_title": "2026 OUTLINE OF COVERAGE"
+    }
+  ]
+}

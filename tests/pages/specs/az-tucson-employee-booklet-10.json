@@ -1,0 +1,19 @@
+{
+  "doc": "az-tucson-employee-booklet",
+  "page": 10,
+  "description": "Photo divider whose live title used to vanish into the photograph.",
+  "assertions": [
+    {
+      "min_recall": 81.5
+    },
+    {
+      "contains_in_order": [
+        "CHOOSING",
+        "THE RIGHT PLAN"
+      ]
+    },
+    {
+      "figures": 1
+    }
+  ]
+}

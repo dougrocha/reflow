@@ -1,0 +1,17 @@
+{
+  "doc": "maricopa-directory",
+  "page": 243,
+  "description": "Maricopa and Pinal provider directory page 243 (Family Nurse Practitioner, Avondale, continued): one h5 per provider with addresses under it. The PDF declares /Lang en-US, and its URLs (azblue.com) are no Portuguese \"com\" (#129).",
+  "assertions": [
+    {"doc_lang": "en-US"},
+    {"min_recall": 95.0},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Osbourne, Lauren", "contains": true, "levels": [5, 5]}},
+    {"heading": {"text": "Pfetsch, Jacob G, FNP (M) — Accepting New Patients", "levels": [5, 5]}},
+    {"heading": {"text": "Pong, Valerie", "contains": true, "levels": [5, 5]}},
+    {"same_entry": [["Osbourne, Lauren", "13055 W Mcdowell Rd, Ste E109"], ["Pelusio, Michele A", "13075 W Mcdowell Rd, Ste D106"], ["Pong, Valerie", "11685 W Van Buren St"]]},
+    {"same_block": [["13055 W Mcdowell Rd, Ste E109", "Language: English"]]},
+    {"contains_in_order": ["Continued: Non-Physicians › Family Nurse Practitioner › Avondale", "Osbourne, Lauren", "13055 W Mcdowell Rd, Ste E109", "Owens, Cassandra D", "Pelusio, Michele A", "Perona, Katherine E", "Peter, Lisa M", "Pfetsch, Jacob G", "Pineda, Alexandra G", "Pong, Valerie"]}
+  ]
+}

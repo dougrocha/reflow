@@ -1,0 +1,31 @@
+{
+  "doc": "az-nurse-on-call-flyer",
+  "page": 1,
+  "description": "Flyer (#160): the largest text is the one word 'HELLO' over a slogan; a one-word title goes to review. Its body, the three-row list of topics and the tinted panel are read one column at a time (#281): the backdrop that bleeds off the page frames no table, so the paragraphs are not cells. The phone number is text.",
+  "assertions": [
+    {
+      "title_suspect": true
+    },
+    {
+      "contains": [
+        "1-866-422-2729",
+        "TTY: 711"
+      ]
+    },
+    {
+      "tables": 0
+    },
+    {
+      "contains_in_order": [
+        "Health problems rarely happen when it’s convenient.",
+        "Caring nurses can talk to you about your symptoms",
+        "SYMPTOMS YOU ARE HAVING",
+        "MINOR INJURIES OR ILLNESSES",
+        "MEDICAL TESTS AND MEDICATIONS",
+        "PREPARING FOR DOCTOR VISITS",
+        "1-866-422-2729",
+        "Services and treatment options presented"
+      ]
+    }
+  ]
+}

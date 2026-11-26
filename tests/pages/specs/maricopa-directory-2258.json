@@ -1,0 +1,16 @@
+{
+  "doc": "maricopa-directory",
+  "page": 2258,
+  "description": "Maricopa and Pinal provider directory page 2258 (Psychiatric Nurse Practitioner, Phoenix, continued): provider headings with addresses; one name wraps and loses its (F).",
+  "assertions": [
+    {"min_recall": 95.5},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Carper, Andrea", "contains": true, "levels": [5, 5]}},
+    {"heading": {"text": "Christian, Marie R, PMHNP (F) — Accepting New Patients", "levels": [5, 5]}},
+    {"same_entry": [["Carper, Andrea", "3033 N Central Ave, Ste 700"], ["Chamoff, Breanna", "3104 E Camelback Rd, Ste 2414"], ["Chavez, Felicia", "3330 N 2nd St, Ste 601"]]},
+    {"same_block": [["3033 N Central Ave, Ste 700", "Language: English"]]},
+    {"contains_in_order": ["Continued: Psychiatric Nurse Practitioner › Phoenix", "Carper, Andrea", "3033 N Central Ave, Ste 700", "Cartwright, Kayla", "Chamoff, Breanna", "Changa, Jamie", "Chavez, Felicia", "Chepchirchir, Domtillah", "Christian, Marie R"]},
+    {"heading": {"text": "Chepchirchir, Domtillah , PMHNP (F)", "contains": true, "levels": [5, 5]}}
+  ]
+}

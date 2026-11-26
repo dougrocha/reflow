@@ -1,0 +1,18 @@
+{
+  "doc": "budget-appendix",
+  "page": 21,
+  "description": "Budget appendix page 21, a dense Legislative Branch page: running text with bold run-in subheads, a Section 110 to 113 administrative provisions block, the Joint Items headings, and the Capitol Police Program and Financing table. The page is not blank.",
+  "assertions": [
+    {"min_recall": 98.5},
+    {"contains_in_order": [
+      "shall remain available until expended",
+      "For the House of Representatives Modernization Initiatives Account",
+      "JOINT ECONOMIC COMMITTEE",
+      "For salaries and expenses of the Joint Committee on Taxation"
+    ]},
+    {"heading": {"text": "JOINT ITEMS", "levels": [3, 3]}},
+    {"heading": {"text": "CAPITOL POLICE", "levels": [3, 3]}},
+    {"tables": 1},
+    {"not_heading": ["(c) As used in this section, the term \"Member of the House of Representatives\" means a Representative in, or a Delegate or Resident Commissioner to, the Congress."]}
+  ]
+}

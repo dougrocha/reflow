@@ -1,0 +1,23 @@
+{
+  "doc": "az-tucson-employee-booklet",
+  "page": 44,
+  "description": "Image-only back cover with City of Tucson lettering. This is a logo cover, not the Notes page described in the collection report.",
+  "assertions": [
+    {
+      "xfail_without_ocr": "No OCR runner is installed, so the lettering inside the logo cannot be read.",
+      "contains_in_order": [
+        "CITY OF",
+        "TUCSON",
+        "BENEFITS AND WELLNESS"
+      ]
+    },
+    {
+      "tables": 0
+    },
+    {
+      "no_text": [
+        "�"
+      ]
+    }
+  ]
+}

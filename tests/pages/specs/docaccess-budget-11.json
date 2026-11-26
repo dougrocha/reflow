@@ -1,0 +1,9 @@
+{
+  "doc": "docaccess-budget",
+  "page": 11,
+  "description": "Budget page 11 (scanned tax form): no whole-page figure.",
+  "assertions": [
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "max_figure_share": 0.6},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["CERTIFICATION OF TAX LEVIES for NON-SCHOOL Governments"], "why": "The form's title, read on the page image."}
+  ]
+}

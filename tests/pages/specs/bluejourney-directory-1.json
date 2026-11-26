@@ -1,0 +1,14 @@
+{
+  "doc": "bluejourney-directory",
+  "page": 1,
+  "description": "BlueJourney (PPO) statewide directory, cover (PDF page 1): a white box with the plan name and 'Statewide (all Arizona Counties)', then '2024' and the title 'Provider/Pharmacy Directory'. Checked in quick mode, where heading levels are not asserted.",
+  "assertions": [
+    {"min_recall": 98.5},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"max_headings": 4},
+    {"heading": {"text": "BlueJourney (PPO)"}},
+    {"heading": {"text": "Provider/Pharmacy Directory"}},
+    {"contains_in_order": ["BlueJourney (PPO)", "Statewide (all Arizona Counties)", "2024", "Provider/Pharmacy Directory"]}
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "doc": "az-dental-claim-form",
+  "page": 1,
+  "description": "ADA dental claim form: the section titles are set in runs of a letter or a few, with box gaps of up to 0.22 em inside words. They read as whole words, and a glyph the PDF hands to an /ActualText span leaves no space inside its word (\"treatment\"). The section bars inside the form table are headings in their cells, and the Contents lists them (#163). A table cell keeps the case of the text layer: the cells' reader mapped the small-capital glyphs one by one (\"COVERAgE\"), where /ActualText says \"other coverage\" (#164). The ruled grid of the whole page is a form layout, not a table (#281): it reads as one column of section headings, each box's caption in the form's printed numbering (1 to 58), and its choices as check boxes in a fieldset under the caption (7 Gender, 10 and 18 Relationship). Only the record of services stays a table, its header row over lines 1 to 10. The two lines of the 52 Phone Number box, set 3 pt apart, are not mixed character by character.",
+  "assertions": [
+    {"heading": {"text": "Insurance Company/Dental Benefit Plan Information"}},
+    {"heading": {"text": "Patient Information"}},
+    {"heading": {"text": "Ancillary claim/treatment information"}},
+    {"heading": {"text": "TREATING DENTIST AND TREATMENT LOCATION INFORMATION"}},
+    {"contains_in_order": ["POLICYHOLDER/SUBSCRIBER INFORMATION (For Insurance Company Named in #3)"]},
+    {"heading": {"text": "HEADER INFORMATION"}},
+    {"heading": {"text": "RECORD OF SERVICES PROVIDED"}},
+    {"heading": {"text": "AUTHORIZATIONS"}},
+    {"contains": ["HEADER INFORMATION", "POLICYHOLDER/SUBSCRIBER INFORMATION", "RECORD OF SERVICES PROVIDED",
+                  "other coverage (Mark applicable box and complete items 5-11. If none, leave blank.)"]},
+    {"max_table_cols": 12},
+    {"tables": 1},
+    {"table": {"rows": 11, "cols": 11, "exact": true, "cells": ["24. Procedure Date (MM/DD/CCYY)", "25. Area of Oral Cavity", "26. Tooth System", "27. Tooth Number(s) or Letter(s)", "28. Tooth Surface", "29. Procedure Code", "29a. Diag. Pointer", "29b. Qty.", "30. Description", "31. Fee", "1", "10"]}},
+    {"fields": {"checkbox": 26}},
+    {"field_group": {"legend": "7. Gender", "options": ["M", "F"], "type": "checkbox"}},
+    {"field_group": {"legend": "14. Gender", "options": ["M", "F"], "type": "checkbox"}},
+    {"field_group": {"legend": "22. Gender", "options": ["M", "F"], "type": "checkbox"}},
+    {"field_group": {"legend": "10. Patient's Relationship to Person named in #5", "options": ["Self", "Spouse", "Dependent", "Other"], "type": "checkbox"}},
+    {"field_group": {"legend": "18. Relationship to Policyholder/Subscriber in #12 Above", "options": ["Self", "Spouse", "Dependent Child", "Other"], "type": "checkbox"}},
+    {"field_group": {"legend": "45. Treatment Resulting from", "options": ["Occupational illness/injury", "Auto accident", "Other accident"], "type": "checkbox"}},
+    {"fieldsets_named": true},
+    {"contains": ["52. Phone Number", "57. Phone Number"]},
+    {"no_text": ["5 2 . P N h u o m n b e e r", "5 7 . P N h u o m n b e e r", "P N h u o m n"]},
+    {"contains_in_order": ["1. Type of Transaction", "2. Predetermination/Preauthorization Number", "3. Company/Plan Name, Address, City, State, Zip Code", "11. Other Insurance Company/Dental Benefit Plan Name", "12. Policyholder/Subscriber Name", "23. Patient ID/Account #", "24. Procedure Date", "31a. Other Fee(s)", "32. Total Fee", "33. Missing Teeth Information", "35. Remarks", "36. I have been informed", "38. Place of Treatment", "47. Auto Accident State", "48. Name, Address, City", "52a. Additional Provider ID", "53. I hereby certify", "58. Additional Provider ID"]},
+    {"no_text": ["INFORmATION", "COmPANy", "POlICyHOlDER", "COVERAgE", "INFOR mAT ION"]},
+    {
+      "xfail": "The OTHER COVERAGE bar shares its cell with the field labels under it: the form has no controls to take them, so the cell is not a bar.",
+      "toc_on_page": [
+        "HEADER INFORMATION",
+        "POLICYHOLDER/SUBSCRIBER INFORMATION (For Insurance Company Named in #3)",
+        "Insurance Company/Dental Benefit Plan Information",
+        "other coverage (Mark applicable box and complete items 5-11. If none, leave blank.)",
+        "Patient Information",
+        "RECORD OF SERVICES PROVIDED",
+        "AUTHORIZATIONS",
+        "Ancillary claim/treatment information",
+        "Billing Dentist or Dental Entity (Leave blank if dentist or dental entity is not submitting claim on behalf of the patient or insured/subscriber.)",
+        "TREATING DENTIST AND TREATMENT LOCATION INFORMATION"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "doc": "az-large-group-member-guide-with-rx",
+  "page": 1,
+  "description": "Member guide cover (#160): a year over a two-line title, each line's box overlapping the next.",
+  "assertions": [
+    {
+      "doc_title": "2026 Member Guide"
+    },
+    {
+      "title_suspect": false
+    }
+  ]
+}

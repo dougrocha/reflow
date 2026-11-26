@@ -1,0 +1,13 @@
+{
+  "doc": "az-claim-submission-guide",
+  "page": 1,
+  "description": "Operating guide section (#160): 'Section 19' over 'Claim Submission' replaces the bookmark '19 Claim Submission', which it prints in full.",
+  "assertions": [
+    {
+      "doc_title": "Section 19 Claim Submission"
+    },
+    {
+      "title_suspect": false
+    }
+  ]
+}

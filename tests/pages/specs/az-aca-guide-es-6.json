@@ -1,0 +1,66 @@
+{
+  "doc": "az-aca-guide-es",
+  "page": 6,
+  "description": "Spanish half of a bilingual ACA guide. Spanish ACA guide: financial-help instructions and the four-column household-income table.",
+  "assertions": [
+    {
+      "doc_lang": "en-US"
+    },
+    {
+      "min_recall": 97.5
+    },
+    {
+      "heading": {
+        "text": "Consejos para elegir el plan de salud correcto"
+      }
+    },
+    {
+      "table": {
+        "rows": 7,
+        "cols": 4,
+        "exact": true,
+        "cells": [
+          "Personas en el hogar",
+          "De $20,783 a $22,590"
+        ],
+        "cell_contains": [
+          {
+            "row": {
+              "col": 0,
+              "text": "1"
+            },
+            "cols": [
+              2
+            ],
+            "text": "De $22,591 a $60,240"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "6"
+            },
+            "cols": [
+              3
+            ],
+            "text": "$167,841 en adelante"
+          }
+        ]
+      }
+    },
+    {
+      "contains_in_order": [
+        "Crédito fiscal para la prima:",
+        "Reducción de costos compartidos:",
+        "Niveles de ingresos elegibles"
+      ]
+    },
+    {
+      "block_lang": [
+        {
+          "text": "Los subsidios se brindan a personas y familias según los ingresos",
+          "lang": "es"
+        }
+      ]
+    }
+  ]
+}

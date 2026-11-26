@@ -1,0 +1,342 @@
+{
+  "doc": "docaccess-assessment-appeal",
+  "page": 1,
+  "description": "Assessment appeal application page 1: numbered form sections 1-4 are headings; the mailing address, fee and pay-to lines are not; the Wingdings check box is not a letter P. The bold-caps sub-labels in section 3 are h3 under their h2 section; PROPERTY TYPE is also the legend of its check-box group. The Mail to / Fee / Pay to panel, between two thick rules, is one framed group named by its first line, before section 1 (#170). The Yes / No boxes of section 3 are one group whose legend is the question printed after them; each label holds only its own word (#281). The 11 boxes of PROPERTY TYPE, printed in three columns under its heading, are one group (#281). The text boxes of sections 1 and 2 are each a group named by the section heading (hidden legend; the heading is in view), and no fieldset has an empty legend. The Yes / No boxes are radios of one group, each still its own PDF field. The group follows its PROPERTY TYPE heading: the boxes of its second column, a point higher than the first's, don't lift it above the heading. Each text box gets its type, inputmode and autocomplete token from its label (#281): section 1's email, city, state, ZIP and area code are the applicant's own and carry a token; the same labels in section 2, the agent's, carry none; fax carries none; no box is type=date. A blank printed inside an option’s label (\"OTHER: ____\", \"NO. OF UNITS ____\") is cut from the label and the text box that sits on it follows its check box in the group, named by the option’s text (#281, F7). The fee's \"$65.75\" is printed in red: a red accent over those characters, inside the bold \"FEE:\" (#281).",
+  "assertions": [
+    {
+      "doc_title": "ASSESSMENT APPEAL APPLICATION"
+    },
+    {
+      "min_recall": 90
+    },
+    {
+      "shell_contains": [
+        "ASSESSMENT APPEAL APPLICATION"
+      ]
+    },
+    {
+      "heading": {
+        "text": "1. APPLICANT INFORMATION",
+        "contains": true,
+        "levels": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "heading": {
+        "text": "2. CONTACT INFORMATION",
+        "contains": true,
+        "levels": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "heading": {
+        "text": "3. PROPERTY IDENTIFICATION INFORMATION",
+        "levels": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "heading": {
+        "text": "4. VALUE",
+        "levels": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "not_heading": [
+        "MAIL TO: ASSESSMENT APPEALS BOARD CLERK",
+        "1055 MONTEREY ST, SUITE D430 SAN LUIS OBISPO, CA 93408",
+        "FEE: $65.75 PER APPLICATION/PARCEL",
+        "PAY TO: COUNTY OF SAN LUIS OBISPO",
+        "THIS DOCUMENT IS SUBJECT TO PUBLIC INSPECTION"
+      ]
+    },
+    {
+      "same_block": [
+        [
+          "MAIL TO:",
+          "ASSESSMENT APPEALS BOARD CLERK"
+        ],
+        [
+          "denial of the appeal. Do not",
+          "attach hearing evidence to this application."
+        ]
+      ]
+    },
+    {
+      "emphasis": {
+        "text": "Do not attach hearing evidence to this application.",
+        "kind": "strong"
+      }
+    },
+    {
+      "no_text": [
+        "PROPERTY TYPE P SINGLE-FAMILY"
+      ]
+    },
+    {
+      "field_labels": {
+        "CITY": 2,
+        "STATE": 2,
+        "ZIP CODE": 2,
+        "DAYTIME TELEPHONE": 2,
+        "ALTERNATE TELEPHONE": 2,
+        "FAX TELEPHONE": 2
+      }
+    },
+    {
+      "heading": {
+        "text": "PROPERTY TYPE",
+        "levels": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "heading": {
+        "text": "ENTER APPLICABLE NUMBER FROM YOUR NOTICE/TAX BILL",
+        "levels": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "field_group": {
+        "legend": "PROPERTY TYPE",
+        "options": [
+          "SINGLE-FAMILY / CONDOMINIUM / TOWNHOUSE / DUPLEX",
+          "MULTI-FAMILY/APARTMENTS: NO. OF UNITS",
+          "COMMERCIAL/INDUSTRIAL",
+          "BUSINESS PERSONAL PROPERTY/FIXTURES",
+          "AGRICULTURAL",
+          "POSSESSORY INTEREST",
+          "MANUFACTURED HOME",
+          "VACANT LAND",
+          "WATER CRAFT",
+          "AIRCRAFT",
+          "OTHER:"
+        ]
+      }
+    },
+    {
+      "field_group": {
+        "legend": "Is this property a single-family dwelling that is occupied as the principal place of residence by the owner?",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "type": "radio"
+      }
+    },
+    {
+      "no_text": [
+        "No Is this property"
+      ]
+    },
+    {
+      "ruled_box": {
+        "name": "MAIL TO: ASSESSMENT APPEALS BOARD CLERK",
+        "texts": [
+          "MAIL TO: ASSESSMENT APPEALS BOARD CLERK",
+          "1055 MONTEREY ST, SUITE D430",
+          "SAN LUIS OBISPO, CA 93408",
+          "FEE: $65.75 PER APPLICATION/PARCEL",
+          "PAY TO: COUNTY OF SAN LUIS OBISPO"
+        ]
+      }
+    },
+    {
+      "box_on_page": {
+        "name": "MAIL TO: ASSESSMENT APPEALS BOARD CLERK",
+        "bbox": [
+          304.96,
+          10.34,
+          578.03,
+          96.83
+        ]
+      }
+    },
+    {
+      "contains_in_order": [
+        "attach hearing evidence to this application.",
+        "PAY TO: COUNTY OF SAN LUIS OBISPO",
+        "1. APPLICANT INFORMATION"
+      ]
+    },
+    {
+      "review_lacks": [
+        "ruled-box-doubt"
+      ]
+    },
+    {
+      "fieldsets_named": true
+    },
+    {
+      "field_group": {
+        "legend": "1. APPLICANT INFORMATION - PLEASE PRINT",
+        "type": "text",
+        "options": [
+          "NAME OF APPLICANT (LAST, FIRST, MIDDLE INITIAL), BUSINESS, OR TRUST NAME",
+          "EMAIL ADDRESS",
+          "MAILING ADDRESS OF APPLICANT (STREET ADDRESS OR P. O. BOX)",
+          "CITY",
+          "STATE",
+          "ZIP CODE",
+          "DAYTIME TELEPHONE",
+          "ALTERNATE TELEPHONE",
+          "FAX TELEPHONE"
+        ]
+      }
+    },
+    {
+      "field_group": {
+        "legend": "2. CONTACT INFORMATION - AGENT, ATTORNEY, OR RELATIVE OF APPLICANT if applicable - (REPRESENTATION IS OPTIONAL)",
+        "type": "text",
+        "options": [
+          "NAME OF AGENT, ATTORNEY, OR RELATIVE (LAST, FIRST, MIDDLE INITIAL)",
+          "EMAIL ADDRESS",
+          "COMPANY NAME",
+          "CONTACT PERSON IF OTHER THAN ABOVE (LAST, FIRST, MIDDLE INTITAL)",
+          "MAILING ADDRESS (STREET ADDRESS OR P. O. BOX)",
+          "CITY",
+          "STATE",
+          "ZIP CODE",
+          "DAYTIME TELEPHONE",
+          "ALTERNATE TELEPHONE",
+          "FAX TELEPHONE"
+        ]
+      }
+    },
+    {
+      "contains_in_order": [
+        "DOING BUSINESS AS",
+        "PROPERTY TYPE",
+        "PROPERTY TYPE",
+        "SINGLE-FAMILY",
+        "AIRCRAFT",
+        "A. VALUE ON ROLL"
+      ]
+    },
+    {
+      "no_blank_runs": true
+    },
+    {
+      "control_names": [
+        "MULTI-FAMILY/APARTMENTS: NO. OF UNITS",
+        "OTHER:"
+      ]
+    },
+    {
+      "no_control_names": [
+        "No. of Units",
+        "Other Description"
+      ]
+    },
+    {
+      "input_attrs": [
+        {
+          "label": "EMAIL ADDRESS",
+          "nth": 0,
+          "type": "email",
+          "inputmode": "email",
+          "autocomplete": "email"
+        },
+        {
+          "label": "CITY",
+          "nth": 0,
+          "type": "text",
+          "inputmode": null,
+          "autocomplete": "address-level2"
+        },
+        {
+          "label": "STATE",
+          "nth": 0,
+          "autocomplete": "address-level1"
+        },
+        {
+          "label": "ZIP CODE",
+          "nth": 0,
+          "type": "text",
+          "inputmode": "numeric",
+          "autocomplete": "postal-code"
+        },
+        {
+          "label": "DAYTIME TELEPHONE",
+          "nth": 0,
+          "type": "tel",
+          "inputmode": "numeric",
+          "autocomplete": "tel-area-code"
+        },
+        {
+          "label": "FAX TELEPHONE",
+          "nth": 0,
+          "type": "tel",
+          "autocomplete": "off"
+        },
+        {
+          "label": "NAME OF APPLICANT (LAST, FIRST, MIDDLE INITIAL), BUSINESS, OR TRUST NAME",
+          "type": "text",
+          "inputmode": null,
+          "autocomplete": "off"
+        },
+        {
+          "label": "ASSESSOR’S PARCEL NUMBER",
+          "type": "text",
+          "inputmode": null,
+          "autocomplete": "off"
+        },
+        {
+          "label": "EMAIL ADDRESS",
+          "nth": 1,
+          "type": "email",
+          "inputmode": "email",
+          "autocomplete": "off"
+        },
+        {
+          "label": "CITY",
+          "nth": 1,
+          "autocomplete": "off"
+        },
+        {
+          "label": "ZIP CODE",
+          "nth": 1,
+          "inputmode": "numeric",
+          "autocomplete": "off"
+        },
+        {
+          "label": "DAYTIME TELEPHONE",
+          "nth": 1,
+          "type": "tel",
+          "autocomplete": "off"
+        }
+      ]
+    },
+    {
+      "emphasis": {
+        "text": "$65.75",
+        "kind": "red"
+      }
+    },
+    {
+      "control_order": [
+        "Daytime Telephone Area Code", "Daytime Telephone", "Alternate Telephone Area Code",
+        "Alternate Telephone", "FAX TELEPHONE AREA CODE", "FAX TELEPHONE",
+        "NAME OF AGENT, ATTORNEY, OR RELATIVE (LAST, FIRST, MIDDLE INITIAL)", "Daytime Telephone Area Code 2",
+        "Daytime Telephone 2", "Alternate Telephone Area Code 2", "Alternate Telephone 2",
+        "Fax Telephone Area Code 2", "Fax Telephone 2"
+      ]
+    }
+  ]
+}

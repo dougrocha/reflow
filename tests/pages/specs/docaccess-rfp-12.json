@@ -1,0 +1,9 @@
+{
+  "doc": "docaccess-rfp",
+  "page": 12,
+  "description": "Kitsap 911 RFP page 12: 3.2 INTERFACES is a sibling of 3.1 CAD SYSTEM, not one of its subsections.",
+  "assertions": [
+    {"heading": {"text": "3.2 INTERFACES", "levels": [3, 3]}},
+    {"heading": {"text": "3.2.1 Fire Station Alerting", "levels": [4, 4]}}
+  ]
+}

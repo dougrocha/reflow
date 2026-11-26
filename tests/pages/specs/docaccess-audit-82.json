@@ -1,0 +1,16 @@
+{
+  "doc": "docaccess-audit",
+  "page": 82,
+  "description": "Audit page 82, demographic statistics: one table of seven columns (year, population, total personal income, per capita personal income, median age, K-12 enrollment, unemployment rate). The gap between the third and the fourth column lies in the middle of this landscape page, where no layout column ends, so the table is not cut there. Its centred headings stand over their columns and are not a reason to leave the table as running text.",
+  "assertions": [
+    {"tables": 1},
+    {"table": {"rows": 17, "cols": 7, "exact": true,
+               "cells": ["2013", "750,489", "65,656", "87,501", "39.3", "93,931", "5.7%", "2022", "765,245",
+                         "86,422", "2.1%", "n/a", "Year"],
+               "cell_contains": [
+                 {"row": {"col": 0, "text": "2017"}, "cols": [1], "text": "770,256"},
+                 {"row": {"col": 0, "text": "2017"}, "cols": [4], "text": "39.9"},
+                 {"row": {"col": 0, "text": "2021"}, "cols": [2], "text": "n/a"},
+                 {"row": {"col": 0, "text": "2021"}, "cols": [5], "text": "90,315"}]}}
+  ]
+}

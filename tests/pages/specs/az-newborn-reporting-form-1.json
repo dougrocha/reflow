@@ -1,0 +1,120 @@
+{
+  "doc": "az-newborn-reporting-form",
+  "page": 1,
+  "description": "Newborn reporting form, a text layer with no AcroForm: every blank printed as a run of underscores is a text input named by the caption before it, several to a line (\"Mother’s Name:____ DOB:____\"), and no underscores stay in the text. The comb of the AHCCCS ID (\"A __ __ __ __\") is one input. Every caption stays on the page once (#281, F7). A blank's field follows the rest of its own printed line and the lines above its caption: \"Type of Delivery\" comes before the \"Reason for C/Sect\" box. Separate rows of the form read one at a time: the NICU Admit row is not cut into columns with the Well/Sick row above it (#281). The check boxes the page draws are inputs with their own words as labels, and each question names its group: \"Induction of Labor? Yes [ ] No [ ] Reason for induction\" is a Yes / No pair of radios (the \"No\" box lies inside the printed line \"No Reason for induction\", which is cut at it), \"Type of Delivery:\" holds VAG, VBAC and C/SECT, and the Tubal Ligation and NICU Admit questions are Yes / No radios (#281).",
+  "assertions": [
+    {
+      "min_recall": 90
+    },
+    {
+      "no_blank_runs": true
+    },
+    {
+      "fields": {
+        "text": 21,
+        "checkbox": 9,
+        "radio": 6
+      }
+    },
+    {
+      "field_labels": {
+        "Facility:": 1,
+        "Facility Provider ID #": 1,
+        "Facility Contact Person:": 1,
+        "Facility Phone Number:": 1,
+        "Facility Fax Number:": 1,
+        "Mother’s Name:": 1,
+        "DOB:": 2,
+        "Mother’s AHCCCS ID: A": 1,
+        "Reason for C/Sect:": 1,
+        "Prenatal Medical Complications:": 1,
+        "Newborn’s Name:": 1,
+        "AHCCCS ID:": 1,
+        "Medical Record Number": 1,
+        "Birth Weight:": 1,
+        "If Sick, Diagnosis:": 1,
+        "Hospital Transferred to:": 1,
+        "Date:": 1
+      }
+    },
+    {
+      "labelled_once": [
+        "Mother’s Name:",
+        "Hospital Transferred to:"
+      ]
+    },
+    {
+      "contains_in_order": [
+        "Type of Delivery:",
+        "Reason for C/Sect:"
+      ]
+    },
+    {
+      "field_group": {
+        "legend": "Induction of Labor?",
+        "type": "radio",
+        "options": [
+          "Yes",
+          "No"
+        ]
+      }
+    },
+    {
+      "field_group": {
+        "legend": "Type of Delivery:",
+        "type": "checkbox",
+        "options": [
+          "VAG",
+          "VBAC",
+          "C/SECT"
+        ]
+      }
+    },
+    {
+      "field_group": {
+        "legend": "Tubal Ligation at Delivery?",
+        "type": "radio",
+        "options": [
+          "Yes",
+          "No"
+        ]
+      }
+    },
+    {
+      "field_group": {
+        "legend": "NICU Admit?",
+        "type": "radio",
+        "options": [
+          "Yes",
+          "No"
+        ]
+      }
+    },
+    {
+      "labelled_once": [
+        "Auto Assigned",
+        "HCA Mom",
+        "Reason for induction"
+      ]
+    },
+    {
+      "field_labels": {
+        "Well": 1,
+        "Sick": 1,
+        "Male": 1,
+        "Female": 1
+      }
+    },
+    {
+      "contains_in_order": [
+        "Well",
+        "Sick",
+        "If Sick, Diagnosis:",
+        "NICU Admit?",
+        "Yes",
+        "No",
+        "Hospital Transferred to:"
+      ]
+    }
+  ]
+}

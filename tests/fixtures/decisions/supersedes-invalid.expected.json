@@ -1,0 +1,28 @@
+{
+  "store": "00112233445566ff",
+  "bytes": 2245,
+  "lines": 7,
+  "counts": {
+    "records": 6,
+    "torn": 0,
+    "unreadable": 0,
+    "duplicate": 0
+  },
+  "active": [
+    "m2k9x4q1-00000001",
+    "m2k9x4q2-00000002",
+    "m2k9x4q3-00000003",
+    "m2k9x4q4-00000004",
+    "m2k9x4q5-00000005",
+    "m2k9x4q6-00000006"
+  ],
+  "invalid": [
+    "m2k9x4q2-00000002",
+    "m2k9x4q3-00000003",
+    "m2k9x4q4-00000004",
+    "m2k9x4q5-00000005"
+  ],
+  "unsupported": [],
+  "reattach": [],
+  "error": null
+}

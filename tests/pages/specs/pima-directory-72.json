@@ -1,0 +1,19 @@
+{
+  "doc": "pima-directory",
+  "page": 72,
+  "description": "Pima County provider directory page 72 (Non-Physicians, Adult Nurse Practitioner, Tucson, continued): one h5 per provider, its addresses as paragraphs under it, in three columns. The PDF declares /Lang en-US, and its URLs (azblue.com) are no Portuguese \"com\" (#129).",
+  "assertions": [
+    {"doc_lang": "en-US"},
+    {"min_recall": 94.5},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Freeman, Matthew G, ANP (M)", "contains": true, "levels": [5, 5]}},
+    {"heading": {"text": "Fuoto, Abby J, ANP (F) — Accepting New Patients", "levels": [5, 5]}},
+    {"heading": {"text": "Jennings, Lauren S, ANP (F)", "contains": true, "levels": [5, 5]}},
+    {"same_entry": [["Freeman, Matthew G", "698 E Wetmore Rd, Ste 370"], ["Fuoto, Abby J", "1625 N Campbell Ave"], ["Gabriel, Omar J", "2200 S Houghton Rd"], ["Kinne, Mary A", "5301 E Grant Rd, Ste 480"]]},
+    {"same_block": [["698 E Wetmore Rd, Ste 370", "Language: English"], ["1625 N Campbell Ave", "(520) 694-0111"]]},
+    {"contains_in_order": ["Continued: Non-Physicians › Adult Nurse Practitioner › Tucson", "Freeman, Matthew G", "698 E Wetmore Rd, Ste 370", "Fuoto, Abby J", "Gabriel, Omar J", "Gilliam, Martha J", "Henager, Helene P", "Irwin, Helen T", "Jackley, Debra L", "Jennings, Lauren S", "Kinne, Mary A", "Kurtin, Sandra"]},
+    {"heading": {"text": "Kurtin, Sandra", "contains": true, "levels": [5, 5]}},
+    {"same_entry": [["Kurtin, Sandra", "1891 W Orange Grove Rd, Bldg 1"]]}
+  ]
+}

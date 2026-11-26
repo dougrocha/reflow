@@ -1,0 +1,27 @@
+{
+  "doc": "az-medical-claim-es",
+  "page": 2,
+  "description": "Instructions page (#158): the centred titles in capitals are headings of their own, not the first words of the paragraph under them. DocAccess's \"Instrucciones y avisos\" is not printed on the page.",
+  "assertions": [
+    {
+      "heading": {
+        "text": "RECLAMOS DE BLACK LUNG Y FECA"
+      }
+    },
+    {
+      "toc_on_page": [
+        "SE REFIERE ÚNICAMENTE A PROGRAMAS GUBERNAMENTALES",
+        "RECLAMOS DE BLACK LUNG Y FECA",
+        "FIRMA DEL MÉDICO O PROVEEDOR (MEDICARE, TRICARE, FECA Y BLACK LUNG)",
+        "PAGOS DE MEDICAID (CERTIFICACIÓN DEL PROVEEDOR)"
+      ]
+    },
+    {
+      "xfail": "A centred title in capitals longer than 120 characters is not a heading.",
+      "heading": {
+        "text": "AVISO AL PACIENTE SOBRE LA RECOPILACIÓN",
+        "contains": true
+      }
+    }
+  ]
+}

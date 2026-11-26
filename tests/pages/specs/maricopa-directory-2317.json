@@ -1,0 +1,16 @@
+{
+  "doc": "maricopa-directory",
+  "page": 2317,
+  "description": "Maricopa and Pinal provider directory page 2317 (Psychiatry, Adult, Adolescent and Child, Glendale, continued, and the Goodyear location): psychiatrist headings in three columns, and a location heading h4.",
+  "assertions": [
+    {"min_recall": 95.5},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Goodyear", "levels": [4, 4]}},
+    {"heading": {"text": "Neff, Ryan", "contains": true, "levels": [5, 5]}},
+    {"heading": {"text": "Purewal, Satinder S, MD (M) — Accepting New Patients", "levels": [5, 5]}},
+    {"same_entry": [["Neff, Ryan", "6015 W Peoria Ave"], ["Purewal, Satinder S", "5720 W Peoria Ave, Ste 101"], ["Segal, Roland", "6120 W Bell Rd, Ste 130"]]},
+    {"same_block": [["6120 W Bell Rd, Ste 130", "Language: Russian"]]},
+    {"contains_in_order": ["Continued: Psychiatry, Adult, Adolescent, & Child › Glendale", "Neff, Ryan", "6015 W Peoria Ave", "Nicoll, Brigham J", "Purewal, Satinder S", "5720 W Peoria Ave, Ste 101", "Rodriguez Sora, Raul J", "Rodriguez, Norberto A", "Salim Khan, Khalid I", "Segal, Roland", "Singh, Divya Jot", "Tan Fermo, Letty G", "Vestal, Tyler R", "Zingsheim, Morgan R", "Goodyear", "Jasser, Samar A", "Kirby, Patricia O", "Zafar, Adeel"]}
+  ]
+}

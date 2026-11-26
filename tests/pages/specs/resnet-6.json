@@ -1,0 +1,25 @@
+{
+  "doc": "resnet",
+  "page": 6,
+  "description": "ResNet paper page 6: Tables 3, 4 and 5 (ImageNet error rates), Figure 5, and the two-column text.",
+  "assertions": [
+    {"min_recall": 93.5},
+    {"no_text": ["�"]},
+    {"tables": 3},
+    {"figures": 1},
+    {"table": {"rows": 11, "cols": 3, "exact": true, "row_headers": true, "cells": ["model", "top-1 err.", "top-5 err.", "VGG-16 [41]", "28.07", "9.33", "ResNet-152", "21.43", "5.71"]}},
+    {"table": {"rows": 11, "cols": 3, "exact": true, "cells": ["method", "top-1 err.", "top-5 err.", "VGG [41] (v5)", "24.4", "7.1", "BN-inception [16]", "21.99", "5.81", "ResNet-152", "19.38", "4.49"]}},
+    {"table": {"rows": 7, "cols": 2, "exact": true, "cells":["method", "top-5 err. (test)", "ResNet (ILSVRC’15)", "3.57", "VGG [41] (ILSVRC’14)", "7.32"]}},
+    {"same_block": [["ResNet-152", "19.38"], ["PReLU-net [13]", "24.27"]]},
+    {"contains_in_order": ["ResNet reduces the top-1 error by 3.5% (Table 2)", "Last, we also note that the 18-layer plain/residual nets", "Identity vs. Projection Shortcuts.", "Table 3 shows that all three options are considerably better", "Deeper Bottleneck Architectures.", "50-layer ResNet:"]},
+    {"not_heading": ["Identity vs. Projection Shortcuts.", "Deeper Bottleneck Architectures."]},
+    {"contains": ["Table 3. Error rates (%, 10-crop testing) on ImageNet validation.", "Table 4. Error rates (%) of single-model results on the ImageNet validation set", "Table 5. Error rates (%) of ensembles.", "Figure 5. A deeper residual function F for ImageNet.", "Deeper non-bottleneck ResNets (e.g., Fig. 5 left) also gain accuracy from increased depth"]},
+    {"separate_blocks": [["Deeper Bottleneck Architectures.", "Deeper non-bottleneck ResNets"]]},
+    {"contains": ["4 Deeper non-bottleneck ResNets"]},
+    {"contains_in_order": ["Table 3. Error rates (%, 10-crop", "Table 4. Error rates (%) of", "Table 5. Error rates (%) of", "ResNet reduces the top-1 error by", "Last, we also note that the", "Identity vs. Projection Shortcuts. We have", "Figure 5. A deeper residual function", "parameter-free, identity shortcuts help with training.", "Table 3 shows that all three", "Deeper Bottleneck Architectures. Next we describe", "The parameter-free identity shortcuts are particularly", "50-layer ResNet: We replace each 2-layer"], "why": "The opening words of each paragraph, list item and heading, in reading order: catches swapped or moved paragraphs (#330)."},
+    {"contains_in_order": ["Table 3. Error", "(%, 10-crop testing)", "validation. VGG-16 is", "test. ResNet-50/101/152 are", "model top-1 err. top-5 err.", "VGG-16 [41] 28.07 9.33", "GoogLeNet [44] - 9.15", "PReLU-net [13] 24.27 7.38", "plain-34 28.54 10.02", "ResNet-34 A 25.03 7.76", "ResNet-34 B 24.52 7.46", "ResNet-34 C 24.19 7.40", "ResNet-50 22.85 6.71", "ResNet-101 21.75 6.05", "ResNet-152 21.43 5.71", "Table 4. Error", "method top-1 err. top-5 err.", "VGG [41] (ILSVRC'14) - 8.43†", "GoogLeNet [44] (ILSVRC'14) - 7.89", "VGG [41] (v5) 24.4 7.1", "PReLU-net [13] 21.59 5.71", "BN-inception [16] 21.99 5.81", "ResNet-34 B 21.84 5.71", "ResNet-34 C 21.53 5.60", "ResNet-50 20.74 5.25", "ResNet-101 19.87 4.60", "ResNet-152 19.38 4.49", "Table 5. Error", "The top-5 error", "method top-5 err.", "VGG [41] (ILSVRC'14) 7.32", "GoogLeNet [44] (ILSVRC'14) 6.66", "VGG [41] (v5) 6.8", "PReLU-net [13] 4.94", "BN-inception [16] 4.82", "ResNet (ILSVRC'15) 3.57", "the top-1 error by 3.5% (Table 2), resulting", "(Fig. 4 right", "the 18-layer plain/residual", "(Table 2), but the 18-layer ResNet", "(Fig. 4 right", "deep\" (18 layers", "Figure 5. A", "(on 56×56 feature", "Fig. 3 for ResNet-34. Right:", "for ResNet-50/101/152.", "64-d", "256-d", "1x1, 64", "3x3, 64", "3x3, 64", "3x3, 64", "1x1, 256", "shortcuts (Eqn.(2)). In Table 3 we", "Table 2 and Fig. 4 right);", "Table 3 shows", "bottleneck design4.", "of 3 layers", "of 2 (Fig. 5). The", "are 1×1, 3×3, and 1×1 convolutions,", "the 1×1 layers", "the 3×3 layer", "Fig. 5 shows", "Fig. 5 (right)", "50-layer ResNet:", "each 2-layer block"], "why": "Every number with a word either side, in reading order: catches a changed digit (#330)."},
+    {"table": {"rows": 11, "cells": ["top-1 err.", "VGG-16 [41]", "GoogLeNet [44]", "PReLU-net [13]", "plain-34", "ResNet-34 A", "ResNet-34 B", "ResNet-34 C", "ResNet-50", "ResNet-101", "ResNet-152"]}, "why": "Its rows, and the longest cell of each: catches a dropped row (#330)."},
+    {"table": {"rows": 11, "cells": ["top-1 err.", "VGG [41] (ILSVRC'14)", "GoogLeNet [44] (ILSVRC'14)", "VGG [41] (v5)", "PReLU-net [13]", "BN-inception [16]", "ResNet-34 B", "ResNet-34 C", "ResNet-50", "ResNet-101", "ResNet-152"]}, "why": "Its rows, and the longest cell of each: catches a dropped row (#330)."},
+    {"table": {"rows": 7, "cells": ["top-5 err. (test)", "VGG [41] (ILSVRC'14)", "GoogLeNet [44] (ILSVRC'14)", "VGG [41] (v5)", "PReLU-net [13]", "BN-inception [16]", "ResNet (ILSVRC'15)"]}, "why": "Its rows, and the longest cell of each: catches a dropped row (#330)."}
+  ]
+}

@@ -1,0 +1,96 @@
+/* reflow viewer: readable, reflows to 320 CSS px (WCAG 1.4.10), AA contrast in both
+   color schemes, visible focus. */
+:root {
+  --bg: #ffffff;
+  --fg: #1b1b1b;
+  --muted: #565656;   /* 7.3:1 on --bg */
+  --link: #0b57d0;    /* 6.0:1 on --bg */
+  --rule: #d6d6d6;
+  --focus: #b4530a;
+  --measure: 72ch;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161616;
+    --fg: #ececec;
+    --muted: #b0b0b0;  /* 8.6:1 on --bg */
+    --link: #8ab4f8;   /* 8.4:1 on --bg */
+    --rule: #3a3a3a;
+    --focus: #f6a35b;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 1.0625rem/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  overflow-wrap: anywhere;
+}
+a { color: var(--link); }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+.skip {
+  position: absolute; left: 1rem; top: -4rem; padding: .5rem 1rem;
+  background: var(--bg); color: var(--link); border: 2px solid var(--focus); z-index: 10;
+}
+.skip:focus { top: 1rem; }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+.doc-header, .toc, main, .pager { max-width: var(--measure); margin-block: 0; margin-inline: auto; padding: 0 1rem; }
+.doc-header { padding-top: 1.5rem; }
+.doc-header h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); line-height: 1.2; margin-block: 0 .5rem; margin-inline: 0; }
+.doc-meta { color: var(--muted); margin-block: 0 1rem; margin-inline: 0; }
+button {
+  font: inherit; padding: .4rem .9rem; border-radius: .3rem; cursor: pointer;
+  border: 1px solid var(--muted); background: transparent; color: var(--fg);
+}
+
+.toc { border-block: 1px solid var(--rule); margin-block: 1rem; }
+.toc h2 { font-size: 1.2rem; line-height: 1.25; margin-block: 1em .5em; }
+/* Headings often carry their own numbers ("3.1."), so the list doesn't add more. */
+.toc ol { list-style: none; padding-inline-start: 1.2rem; }
+.toc > ol { padding-inline-start: 0; }
+.toc li { margin-block: .2rem; margin-inline: 0; }
+.toc-note { color: var(--muted); font-size: .95rem; }
+.pager ul { display: flex; flex-wrap: wrap; gap: 1rem; list-style: none; padding: 0; }
+
+main { padding-bottom: 4rem; }
+main:focus { outline: none; }
+/* The transcript's own rules, its type and rhythm included, are in transcript.css, which comes first in assets/viewer.css. These
+   are the ones only the standalone HTML has. */
+.reflow-transcript .status { font-weight: 400; font-size: .9em; }
+.reflow-transcript .field :is(input[type="checkbox"], input[type="radio"]) { accent-color: var(--link); }
+.reflow-transcript .field input:read-only { background: transparent; }
+
+/* One wrapper per original page. Off-screen pages skip rendering but stay in the DOM
+   and the accessibility tree. */
+.pg {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 900px;
+  border-top: 1px solid var(--rule);
+  padding-top: .5rem;
+  scroll-margin-top: 1rem;
+}
+.pg-label { color: var(--muted); font-size: .9rem; display: flex; flex-wrap: wrap; gap: .25rem 1rem; }
+.chunk-stub { padding: 2rem 0; }
+.chunk-retry { margin-block: .5rem 2rem; margin-inline: 0; }
+.chunk[aria-busy="true"] { opacity: .6; }
+/* Added by viewer.js only during print (beforeprint); never shown on screen. */
+.print-notice, .print-placeholder { display: none; }
+
+@media print {
+  .skip, .toc, .pager, #load-all, .pg-label a, .chunk-retry { display: none; }
+  .pg { content-visibility: visible; }
+  .print-notice, .print-placeholder { display: block; }
+  .print-notice { border: 1px solid; padding: .5rem; margin-block: 0 1rem; margin-inline: 0; font-weight: bold; }
+  .print-placeholder { font-style: italic; margin-block: 1rem; margin-inline: 0; }
+  .reflow-transcript { --rt-doubt-thickness: 1px; }
+  .reflow-transcript :is(.ocr-note, .review-note) { color: inherit; border-inline-start: 2px solid; }
+}

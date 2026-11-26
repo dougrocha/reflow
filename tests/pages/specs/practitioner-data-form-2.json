@@ -1,0 +1,22 @@
+{
+  "doc": "practitioner-data-form",
+  "page": 2,
+  "description": "AzAHP practitioner data form page 2: the main fillable form, a dense grid of boxed fields with 34 text boxes and 59 checkboxes (YES/NO pairs, Group Type, Practitioner Type, Lines of Business, special-needs and diagnosis groups).",
+  "assertions": [
+    {"min_recall": 96},
+    {"no_text": ["�"]},
+    {"contains_in_order": ["PLEASE TYPE OR PRINT CLEARLY AND COMPLETE THIS FORM IN ITS ENTIRETY", "To:", "Fax:", "Phone:", "Date:", "Post the following items", "CAQH #", "DOB:", "Tax ID #", "Group Practice Name (DBA) if applicable:", "Group Type", "Practitioner Type:", "Lines of Business:", "Primary Practicing Specialty:", "Secondary Practicing Specialty:", "Accepting New Patients:"]},
+    {"field_group": {"legend": "Group Type (check all that apply)", "options": ["FQHC/RHC", "IC", "Multi Spec", "Other"]}},
+    {"field_group": {"legend": "Does provider participate in Medicare?", "options": ["YES", "NO"]}},
+    {"field_group": {"legend": "Is provider Hospital Based Only?", "options": ["YES", "NO"]}},
+    {"field_group": {"legend": "Do you provide services to individuals with special needs/chronic conditions? (check all that apply)", "options": ["Physical", "Developmental", "Behavioral", "Emotional", "None"]}},
+    {"labelled_once": ["Tax ID #", "SSN:", "DOB:"]},
+    {"xfail": "The 'Post the following items' group holds only two of its four checkboxes: 'Documentation of board certification or scheduled exam date' and the dental 'General Anesthesia Permit, Conscious Sedation Permit and/or Oral Conscious Sedation Permit' are outside the fieldset.",
+     "field_group": {"legend": "Post the following items (as applicable) to CAQH-Please check box(es) to indicate items posted:", "options": ["IRS 941 coupon or accurate W-9", "Documentation of board certification or scheduled exam date", "Medicaid required insurance certificates as applicable (see page 3 for requirements)", "General Anesthesia Permit, Conscious Sedation Permit and/or Oral Conscious Sedation Permit"]}},
+    {"xfail": "The Patient Gender group has no legend and is missing the 'Male' checkbox: it holds only 'Female' and 'All'.",
+     "field_group": {"legend": "Patient Gender:", "options": ["Male", "Female", "All"]}},
+    {"field_group": {"legend": "Accepting New Patients:", "options": ["YES", "NO"]}},
+    {"xfail": "The diagnoses checkboxes and the PCP/OBGYN services checkboxes run together in one unlabeled group of ten (Anxiety ... None, EPSDT, OB, None); the question 'Do you treat any of the following diagnoses?' is not its legend.",
+     "field_group": {"legend": "Do you treat any of the following diagnoses? (check all that apply):", "options": ["Anxiety", "AHDS", "EPSDT", "Depression", "HIV", "Substance Abuse", "None"]}}
+  ]
+}

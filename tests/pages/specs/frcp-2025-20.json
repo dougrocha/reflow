@@ -1,0 +1,23 @@
+{
+  "doc": "frcp-2025",
+  "page": 20,
+  "description": "Federal Rules of Civil Procedure (Dec. 1, 2025), page 20: the title block, Title I with Rules 1 and 2, Title II with Rule 3, and Rule 4(a)(1) lettered items with the footnote and page number.",
+  "assertions": [
+    {"min_recall": 96.5},
+    {"no_text": ["�"]},
+    {"contains": ["Effective September 16, 1938, as amended to December 1, 2025", "(As amended Apr. 30, 2007, eff. Dec. 1, 2007.)"]},
+    {"heading": {"text": "Rule 4. Summons"}},
+    {"contains_in_order": ["Rule 1. Scope and Purpose", "Rule 2. One Form of Action", "Rule 3. Commencing an Action", "Rule 4. Summons", "(B) be directed to the defendant;", "(F) be signed by the clerk; and", "bear the court"]},
+    {"list_items": {"ordered": true, "items": [
+       "(A) name the court and the parties;",
+       "(B) be directed to the defendant;",
+       "(F) be signed by the clerk; and"
+     ]}},
+    {"nested_list": {"parent": "(1) Contents. A summons must:", "items": [
+       "(A) name the court and the parties;",
+       "(B) be directed to the defendant;",
+       "(G) bear the court’s seal."
+     ]}},
+    {"same_block": [["TITLE II. COMMENCING AN ACTION; SERVICE OF PROCESS,", "PLEADINGS, MOTIONS, AND ORDERS"]]}
+  ]
+}

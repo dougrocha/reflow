@@ -1,0 +1,21 @@
+{
+  "doc": "az-tucson-employee-booklet",
+  "page": 4,
+  "description": "Photo section divider with live white title text. Keep the title in the transcript.",
+  "assertions": [
+    {
+      "min_recall": 84
+    },
+    {
+      "contains_in_order": [
+        "STEPS YOU",
+        "NEED TO TAKE"
+      ]
+    },
+    {
+      "heading": {
+        "text": "1 | STEPS YOU NEED TO TAKE"
+      }
+    }
+  ]
+}

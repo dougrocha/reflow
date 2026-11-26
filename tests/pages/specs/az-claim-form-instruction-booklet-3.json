@@ -1,0 +1,32 @@
+{
+  "doc": "az-claim-form-instruction-booklet",
+  "page": 3,
+  "description": "Booklet page 3 (#281, S2). \"LINE 11\" and its kin are the labels of the claim form's lines, in red beside the picture of the form and again in the list under it. Each is text, as in \"see LINE 11 on the claim form\": none is a heading or a Contents entry, and every one stays on the page.",
+  "assertions": [
+    {
+      "not_heading": [
+        "LINE 1a LINE 2",
+        "LINE 11",
+        "LINE 13",
+        "Insured’s name (LINE 4)"
+      ]
+    },
+    {
+      "toc_lacks": [
+        "LINE 1a LINE 2",
+        "LINE 11",
+        "LINE 13",
+        "Insured’s name (LINE 4)"
+      ]
+    },
+    {
+      "contains": [
+        "LINE 1a LINE 2",
+        "LINE 11",
+        "LINE 13",
+        "Insured’s name (LINE 4)",
+        "The key to getting your claim processed"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+#!/usr/bin/env bash
+# Set up a new worktree once, from inside it: web dependencies, main's gitignored local config
+# (.worktreeinclude, when the repository has one) and main's published documents and how fresh they are here.
+# Safe to run again: it never replaces what the worktree already has.
+#   scripts/worktree-setup [SLUG...]
+# With slugs, only those documents are seeded. Without them, every document main has.
+set -euo pipefail
+start=$(date +%s%N)
+
+here="$(git rev-parse --show-toplevel)"
+main="$(dirname "$(git rev-parse --path-format=absolute --git-common-dir)")"
+if [[ "$here" == "$main" ]]; then echo "worktree-setup: this is the main checkout; run it in a worktree" >&2; exit 2; fi
+for slug in "$@"; do
+  [[ "$slug" =~ ^[a-z0-9][a-z0-9-]*(~[a-z0-9][a-z0-9._-]*)?$ ]] || { echo "worktree-setup: not a document slug: $slug" >&2; exit 2; }
+done
+local_dir="$here/.worktree"   # gitignored: this worktree's ports, PIDs and logs
+mkdir -p "$local_dir"
+
+# 1. Dependencies. A real node_modules: Turbopack rejects a symlinked one.
+if [[ -L "$here/web/node_modules" ]]; then
+  echo "removing the symlink web/node_modules (Turbopack rejects it)"
+  rm "$here/web/node_modules"
+fi
+(cd "$here/web" && bun install --frozen-lockfile --silent)
+
+# 2. Gitignored local config from main, as listed in .worktreeinclude, if the repository has one. Each line is a path glob
+# relative to the repo root. A file is copied only while it is still gitignored, and never over one
+# the worktree already has.
+if [[ -f "$here/.worktreeinclude" ]]; then
+  shopt -s nullglob dotglob
+  while IFS= read -r pattern || [[ -n "$pattern" ]]; do
+    [[ -z "$pattern" || "$pattern" == \#* ]] && continue
+    for src in "$main"/$pattern; do
+      rel="${src#"$main"/}"
+      [[ -f "$src" && ! -L "$src" ]] || continue
+      [[ -e "$here/$rel" || -L "$here/$rel" ]] && continue
+      git -C "$here" check-ignore -q --no-index -- "$rel" || { echo "not copying $rel: it is not gitignored"; continue; }
+      mkdir -p "$(dirname "$here/$rel")"
+      cp --preserve=mode "$src" "$here/$rel"
+      echo "copied $rel from main"
+    done
+  done <"$here/.worktreeinclude"
+  shopt -u nullglob dotglob
+fi
+
+# 3. Main's published documents. A document is public/docs/<slug>, public/pdfs/<slug>.pdf and its
+# conversion data in .reflow/<slug>, with its provenance record .reflow/.provenance/<slug>.json
+# when it has one (docs/provenance.md). Copies are reflinks (copy-on-write), so a rebuild here never
+# touches main's files; where reflinks don't work there is no fallback to links, and only the
+# documents named on the command line are copied in full. Build state (.reflow/.builds: jobs,
+# claims, locks) and temporary output are never copied: main's records name live PIDs and queued
+# jobs that this worktree's server would otherwise dispatch or kill.
+mw="$main/web"; hw="$here/web"
+mkdir -p "$hw/public/docs" "$hw/public/pdfs" "$hw/.reflow/.provenance"
+probe="$hw/.reflow/.reflink-probe"
+reflink=1
+cp --reflink=always "$main/web/package.json" "$probe" 2>/dev/null || reflink=0
+rm -f "$probe"
+
+if [[ $# -gt 0 ]]; then
+  slugs=("$@")
+elif [[ $reflink == 1 ]]; then
+  mapfile -t slugs < <(fd -I -td -d1 '^[a-z0-9][a-z0-9-]*(~[a-z0-9][a-z0-9._-]*)?$' "$mw/public/docs" "$mw/.reflow" -x basename | sort -u)
+else
+  slugs=()
+  echo "reflinks don't work between $main and $here, so no documents were seeded."
+  echo "Name the documents to copy in full: scripts/worktree-setup <slug>..."
+fi
+mode=always; [[ $reflink == 1 ]] || mode=never
+
+# Copies one document as a unit into staging names, then renames the parts into place, so the
+# worktree has all of a document or none of it. Prints seeded|kept|busy|missing <slug>.
+seed() {
+  local slug="$1" mw="$2" hw="$3" mode="$4"
+  # A variant (<slug>~<pipeline>) shares its document's PDF copy, which is copied when it is not here.
+  local parts=("public/docs/$slug" ".reflow/$slug") part have=0 any=0 pdf="public/pdfs/${slug%%~*}.pdf"
+  for part in "${parts[@]}"; do [[ -e "$hw/$part" ]] && have=1; [[ -e "$mw/$part" ]] && any=1; done
+  [[ $slug == *~* || ! -e "$mw/$pdf" ]] || any=1   # "here" counts only its own parts: a variant may have copied the PDF
+  if [[ $have == 1 ]]; then echo "kept $slug"; return; fi
+  if [[ $any == 0 ]]; then echo "missing $slug"; return; fi
+  busy() {
+    [[ -e "$mw/.reflow/.builds/claims/$slug.json" || -e "$mw/public/docs/$slug.new" ]] \
+      || compgen -G "$mw/.reflow/.$slug.tmp-*" >/dev/null
+  }
+  if busy; then echo "busy $slug"; return; fi
+  parts+=(".reflow/.provenance/$slug.json")   # the record goes with the conversion it describes
+  [[ -e "$hw/$pdf" ]] || parts+=("$pdf")
+  local staged=() dests=()
+  for part in "${parts[@]}"; do
+    [[ -e "$mw/$part" ]] || continue
+    # Staged under this seed's own name: the default and its variants share the PDF copy and are
+    # seeded at the same time.
+    local tmp; tmp="$(dirname "$hw/$part")/.seed-$BASHPID-$(basename "$part")"
+    rm -rf "$tmp"
+    if ! cp -r --reflink="$mode" "$mw/$part" "$tmp"; then
+      rm -rf "$tmp" "${staged[@]}"; echo "failed $slug"; return
+    fi
+    staged+=("$tmp"); dests+=("$hw/$part")
+  done
+  # main started rebuilding it while we copied: the copy may mix two builds
+  if busy; then rm -rf "${staged[@]}"; echo "busy $slug"; return; fi
+  local i
+  for i in "${!staged[@]}"; do
+    if [[ ${dests[$i]} == "$hw/$pdf" ]]; then
+      mv -n -T "${staged[$i]}" "${dests[$i]}"; rm -f "${staged[$i]}"   # another seed may have put it there
+    else
+      mv -T "${staged[$i]}" "${dests[$i]}"
+    fi
+  done
+  echo "seeded $slug"
+}
+export -f seed
+
+results=()
+if [[ ${#slugs[@]} -gt 0 ]]; then
+  mapfile -t results < <(printf '%s\n' "${slugs[@]}" | xargs -P "$(nproc)" -I{} bash -c 'seed "$@"' _ {} "$mw" "$hw" "$mode")
+fi
+count() { printf '%s\n' "${results[@]}" | rg -c "^$1 " || true; }
+list() { printf '%s\n' "${results[@]}" | rg "^$1 " -r '' | sort | tr '\n' ' '; }
+seeded=$(count seeded); kept=$(count kept)
+echo "documents: ${seeded:-0} seeded from main, ${kept:-0} already here"
+[[ -n "$(count busy)" ]] && echo "skipped (main is rebuilding them): $(list busy)"
+[[ -n "$(count missing)" ]] && echo "not in main: $(list missing)"
+[[ -n "$(count failed)" ]] && echo "could not copy: $(list failed)"
+
+# 3b. How fresh the documents here are. A seeded document is main's output: it is current here only
+# when its provenance record matches this worktree's converter source, PDF, options and dependency
+# versions. One without a record (built before records were kept) is unverifiable, never current.
+# Only the corpus's documents are checked: a leftover folder of a removed sample, or a variant, is not.
+fresh=$(cd "$hw" && bun scripts/build-docs.ts --check --summary --present) || [[ $? == 1 ]] \
+  || fresh="  (the freshness check could not run)"
+if [[ -n "$fresh" ]]; then
+  echo "document freshness against this worktree:"
+  echo "$fresh"
+  echo "Before you measure or compare against a document, check it and rebuild only what you use:"
+  echo "  cd web && bun run docs:check <slug>...            # why each is current, stale, missing or unverifiable"
+  echo "  cd web && bun run docs:build --stale <slug>...    # rebuild here only the ones that are not current"
+fi
+
+echo "worktree-setup done in $(( ($(date +%s%N) - start) / 1000000 )) ms. Start the server with scripts/dev start."

@@ -1,0 +1,13 @@
+{
+  "doc": "az-bluehpn-benefits",
+  "page": 1,
+  "description": "Benefits flyer (#160): a title line ending in a colon runs on into the smaller line under it.",
+  "assertions": [
+    {
+      "doc_title": "INTRODUCING A NEW OPTION: Blue High Performance NetworkSM (BlueHPNSM)"
+    },
+    {
+      "title_suspect": false
+    }
+  ]
+}

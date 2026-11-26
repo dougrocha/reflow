@@ -1,0 +1,14 @@
+{
+  "doc": "docaccess-brochure",
+  "page": 2,
+  "description": "Multi-column brochure page 2 (scanned): the tour title is recovered by OCR; the printed cemetery map is a figure holding its labels, not handwriting and not headings.",
+  "assertions": [
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "doc_title": "OLD AUBURN CEMETERY TOUR"},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["OLD AUBURN CEMETERY TOUR"]},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "review_lacks": ["unread-handwriting", "unread-text"]},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "min_figures": 1},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "in_figure": ["CROSBY"]},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "not_heading": ["CROSBY", "Gletzen"]},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "unread_figures": 0, "why": "The printed map is a picture, not writing (#84)."}
+  ]
+}

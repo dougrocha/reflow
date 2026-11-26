@@ -1,0 +1,25 @@
+{
+  "doc": "cdc-hepb-arabic",
+  "page": 1,
+  "description": "CDC Hepatitis B fact sheet (Arabic), page 1: right-to-left title and subtitle, the two-column body with headings, the bulleted list of people to test, the photo box, and the footer with the CDC logo.",
+  "assertions": [
+    {"min_recall": 83.9,
+     "why": "Logical joins restore معرض and يوصى; the PDF text layer splits them into fragments, losing three source-token matches. Observed recall is 83.98%."},
+    {"no_text": ["�"]},
+    {"figures": 2},
+    {"contains_in_order": ["من يجب أن يقوم بإجراء اختبار", "لماذا يجب أن يخضع", "للمزيد من المعلومات"]},
+    {"xfail": "The page title is split into 'الالتهاب الكبديب' with the space before ب lost, so it is not the heading 'الالتهاب الكبدي ب'.",
+     "heading": {"text": "الالتهاب الكبدي ب"}},
+    {"xfail": "The title and subtitle come after the left-column body and the footer in text order; the subtitle 'هل أنت مُعرّض للخطر؟' should come first, before 'من يجب أن يقوم بإجراء اختبار'.",
+     "contains_in_order": ["هل أنت", "من يجب أن يقوم بإجراء اختبار"]},
+    {"same_block": [["هل يشعر المصابون بالالتهاب", "الكبدي ب بالمرض؟"]]},
+    {"xfail": "The three bulleted items are paragraph text before the ul; each li holds only a stray character.",
+     "list_items": {"ordered": false, "items": [
+       "الأشخاص من مواليد العديد من المناطق في أفريقيا أو الشرق الأوسط",
+       "الأشخاص الذين يعودون لأبوين من مواليد بعض مناطق أفريقيا أو الشرق الأوسط",
+       "الأشخاص الذين يعيشون مع شخص مصاب بالالتهاب الكبدي ب"
+     ]}},
+    {"contains": ["هل أنت معرض للخطر؟"]},
+    {"contains_in_order": ["www.cdc.gov/hepatitis", "October 2016", "Arabic"]}
+  ]
+}

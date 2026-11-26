@@ -1,0 +1,15 @@
+{
+  "doc": "bluejourney-directory",
+  "page": 12,
+  "description": "BlueJourney directory, Section 1 Introduction (PDF page 12, printed page 10): a heading, seven paragraphs, a second heading ('What is the service area for BlueJourney?') and the start of the county bullet list.",
+  "assertions": [
+    {"min_recall": 97.3},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Section 1 — Introduction"}},
+    {"heading": {"text": "What is the service area for BlueJourney?"}},
+    {"contains_in_order": ["Section 1 — Introduction", "This directory provides a list of BlueJourney", "Out-of-network providers are under no obligation", "If you have a medical emergency", "What is the service area for BlueJourney?", "The counties in our service area are listed below.", "Apache County", "Greenlee County"]},
+    {"list_items": {"items": ["Apache County", "Cochise County", "Coconino County", "Gila County", "Graham County", "Greenlee County"]}},
+    {"same_block": [["If you have a medical emergency", "Call 911 for help"]]}
+  ]
+}

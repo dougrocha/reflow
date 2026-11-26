@@ -1,0 +1,32 @@
+{
+  "doc": "az-bluedental-manual",
+  "page": 19,
+  "description": "Coordination-of-benefits rules, printed page 17, including nested birthday and gender rules.",
+  "assertions": [
+    {
+      "min_recall": 94
+    },
+    {
+      "heading": {
+        "text": "Order of benefit determination rules"
+      }
+    },
+    {
+      "contains_in_order": [
+        "Non-dependent or dependent:",
+        "Dependent child covered under more than one plan:",
+        "Birthday rule:",
+        "Gender rule:",
+        "If a court decree states that one of the parents is responsible"
+      ]
+    },
+    {
+      "same_block": [
+        [
+          "Birthday rule:",
+          "falls earlier in the calendar year is the Primary Plan."
+        ]
+      ]
+    }
+  ]
+}

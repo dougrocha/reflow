@@ -1,0 +1,29 @@
+{
+  "doc": "az-group-contract-form",
+  "page": 3,
+  "description": "Group contract form, release and attestation page: its paragraphs are set at 11 pt, larger than the form fields that set the document's body size, and are not headings.",
+  "assertions": [
+    {
+      "heading": {
+        "text": "INSTITUTION/ENTITY RELEASE AND ATTESTATION"
+      }
+    },
+    {
+      "not_heading": [
+        "The Entity also authorizes the release of this information to other credentialing entities within or which contract with AZ Blue or any of its affiliates and to accrediting organizations.",
+        "The completion of this request form does not guarantee network participation. You will be notified after your request has been researched and processed for credentialing."
+      ]
+    },
+    {
+      "not_heading": [
+        "Authorized Electronic Signature *",
+        "Sign, save, and email this form to Cred@azblue.com."
+      ]
+    },
+    {
+      "toc_on_page": [
+        "INSTITUTION/ENTITY RELEASE AND ATTESTATION"
+      ]
+    }
+  ]
+}

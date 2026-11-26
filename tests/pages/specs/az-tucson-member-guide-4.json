@@ -1,0 +1,56 @@
+{
+  "doc": "az-tucson-member-guide",
+  "page": 4,
+  "description": "Plan comparison and intact fl ligatures in flexibility. The table keeps its EPO and two PPO choices aligned.",
+  "assertions": [
+    {
+      "min_recall": 98
+    },
+    {
+      "contains": [
+        "choice and flexibility",
+        "The EPO plan offers flexibility while keeping costs predictable."
+      ]
+    },
+    {
+      "no_text": [
+        "�",
+        "fexibility"
+      ]
+    },
+    {
+      "table": {
+        "rows": 5,
+        "cols": 4,
+        "exact": true,
+        "cells": [
+          "EPO In-Network Only",
+          "PPO HDHP with HRA",
+          "PPO HDHP with HSA"
+        ],
+        "cell_contains": [
+          {
+            "row": {
+              "col": 0,
+              "text": "Network"
+            },
+            "cols": [
+              1
+            ],
+            "text": "National EPO"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Coinsurance"
+            },
+            "cols": [
+              3
+            ],
+            "text": "plan pays 90%, you pay 10%"
+          }
+        ]
+      }
+    }
+  ]
+}

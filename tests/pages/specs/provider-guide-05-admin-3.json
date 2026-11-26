@@ -1,0 +1,15 @@
+{
+  "doc": "provider-guide-05-admin",
+  "page": 3,
+  "description": "Provider guide page 5-2 (Payment Integrity Activities and Programs): headings, paragraphs and a seven-item bullet list.",
+  "assertions": [
+    {"min_recall": 93},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Payment Integrity Activities and Programs", "levels": [1, 2]}},
+    {"heading": {"text": "Overview"}},
+    {"heading": {"text": "Requests for information"}},
+    {"list_items": {"items": ["Data analytics", "Contract compliance reviews", "Itemized bill reviews (pre- and post-payment)", "Credit balance reviews", "Secondary claim code editing", "DRG and clinical audits (pre- and post-payment)", "Provider outreach and education"]}},
+    {"contains_in_order": ["Payment Integrity Activities and Programs", "Overview", "Payment integrity activities and programs", "Data analytics", "Requests for information"]}
+  ]
+}

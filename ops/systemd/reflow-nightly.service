@@ -1,0 +1,21 @@
+# Runs scripts/nightly once: the slow jobs on the newest commit of origin/main that has no
+# complete report yet. Started by reflow-nightly.timer; `systemctl --user start reflow-nightly`
+# triggers it by hand. It runs origin/main's scripts/nightly, so a main checkout that is behind
+# or on another branch doesn't matter; the checkout only gives the repository.
+[Unit]
+Description=reflow: slow jobs on the newest commit of main (scripts/nightly)
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/dev/reflow
+RuntimeDirectory=reflow-nightly
+ExecStart=/bin/sh -c 'git fetch --quiet origin && git show origin/main:scripts/nightly >"$${RUNTIME_DIRECTORY}/nightly" && exec /usr/bin/python3 "$${RUNTIME_DIRECTORY}/nightly"'
+# Conversions come first: the jobs take the CPU budget and GPU lease like any conversion, and below
+# that they get the CPU and disk last.
+Nice=10
+IOSchedulingClass=idle
+TimeoutStartSec=4h
+# SIGTERM reaches every job; scripts/long-run marks a stopped job killed, and the next trigger
+# runs it again.
+KillMode=control-group

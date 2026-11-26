@@ -1,0 +1,39 @@
+{
+  "doc": "p17",
+  "page": 94,
+  "description": "IRS Publication 17 page 94: Part Three opener, chapter 10 headings, bullet lists, the Useful Items publication list, and hyphenated words at column breaks.",
+  "assertions": [
+    {"min_recall": 88.0},
+    {"no_text": ["�"]},
+    {"heading": {"text": "What's New", "levels": [3, 3]}},
+    {"heading": {"text": "Introduction", "levels": [3, 3]}},
+    {"heading": {"text": "Standard Deduction Amount", "levels": [3, 3]}},
+    {"heading": {"text": "Higher Standard Deduction for Age (65 or Older)", "levels": [2, 4]}},
+    {"heading": {"text": "Useful Items", "levels": [2, 4]}},
+    {"heading": {"text": "10. Standard Deduction", "levels": [1, 2]}},
+    {"heading": {"text": "Standard Deduction, Itemized Deductions, and Other Deductions", "levels": [1, 3]}},
+    {"not_heading":["501", "502", "526", "530", "547", "550", "936", "970", "Publication", "Schedule A (Form 1040)"]},
+    {"not_heading": ["TIP"]},
+    {"list_items": {"ordered": false, "items": [
+      "How to figure the amount of your standard deduction.",
+      "The standard deduction for dependents.",
+      "Who should itemize deductions."
+    ]}},
+    {"list_items": {"ordered": false, "items": [
+      "Schedule 1, Additional Income and Adjustments to Income;",
+      "Schedule 2, Part II, Other Taxes; and",
+      "Schedule 3, Part I, Nonrefundable Credits."
+    ]}},
+    {"list_items": {"ordered": false, "items": [
+      "Your filing status is married filing separately, and your spouse itemizes deductions on their return;",
+      "You are filing a tax return for a short tax year because of a change in your annual accounting period; or"
+    ]}},
+    {"contains": ["Persons not eligible for the standard deduction."]},
+    {"contains": ["standard deduction may be limited."]},
+    {"contains_in_order": ["Part Three.", "What's New", "Introduction", "Standard Deduction Amount", "Higher Standard Deduction for Age", "Use Table 10-2 to figure the standard deduction amount."]},
+    {"tables": 0},
+    {"links": [
+      {"text": "chapter 10", "internal": true}
+    ]}
+  ]
+}

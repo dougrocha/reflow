@@ -1,0 +1,45 @@
+{
+  "doc": "az-claim-form-instruction-booklet",
+  "page": 4,
+  "description": "Booklet page 4 (#281, S2). The red line labels of the claim form (\"LINE 24f\", the run-together \"LINE33\" and the OCR-split \"LI N E 24a\" (OCRmyPDF 17.13 read the column letter \"J.\" before it on one line, 17.14 on its own) are text, not headings or Contents entries. \"The key items on the form that MUST be completed are:\" is a real heading and stays one.",
+  "assertions": [
+    {
+      "not_heading": [
+        "J. LI N E 24a",
+        "LI N E 24a",
+        "LINE 24f",
+        "LINE33",
+        "LINE 21",
+        "LINE 24a LINE 24d",
+        "LINE 25 LINE 28 LINE 33"
+      ]
+    },
+    {
+      "toc_lacks": [
+        "J. LI N E 24a",
+        "LI N E 24a",
+        "LINE 24f",
+        "LINE33",
+        "LINE 21",
+        "LINE 24a LINE 24d",
+        "LINE 25 LINE 28 LINE 33"
+      ]
+    },
+    {
+      "contains": [
+        "LI N E 24a",
+        "LINE 24f",
+        "LINE33",
+        "LINE 21",
+        "LINE 24a LINE 24d",
+        "LINE 25 LINE 28 LINE 33"
+      ]
+    },
+    {
+      "heading": {
+        "text": "The key items on the form that MUST be completed are:"
+      }
+    },
+    {"xfail": "#291: the callouts on the annotated form picture are dumped as OCR text, split into letters.", "no_text": ["LI N E"]}
+  ]
+}

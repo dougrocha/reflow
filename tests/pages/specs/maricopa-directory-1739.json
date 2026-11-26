@@ -1,0 +1,15 @@
+{
+  "doc": "maricopa-directory",
+  "page": 1739,
+  "description": "Maricopa and Pinal provider directory page 1739 (Optometry, Phoenix, continued): optometrist headings with addresses under them.",
+  "assertions": [
+    {"min_recall": 96.0},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Oetomo, Elaine", "contains": true, "levels": [5, 5]}},
+    {"heading": {"text": "Pick, Jason B, OD (M) — Accepting New Patients", "levels": [5, 5]}},
+    {"same_entry": [["Oetomo, Elaine", "3202 E Greenway, Ste 1631"], ["Panora, Sylvia J", "3815 E Bell Rd, Ste 2500"], ["Pick, Jason B", "21001 N Tatum Blvd, Ste 18 1030"]]},
+    {"same_block": [["3815 E Bell Rd, Ste 2500", "Language: Spanish"]]},
+    {"contains_in_order": ["Continued: Optometry › Phoenix", "Oetomo, Elaine", "3202 E Greenway, Ste 1631", "Palmer, Matthew", "2125 W Indian School Rd", "Panora, Sylvia J", "3815 E Bell Rd, Ste 2500", "Patel, Taral", "Paz, Naul", "Perkins, Joshua S", "Pick, Jason B"]}
+  ]
+}

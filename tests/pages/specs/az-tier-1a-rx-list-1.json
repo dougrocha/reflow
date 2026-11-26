@@ -1,0 +1,14 @@
+{
+  "doc": "az-tier-1a-rx-list",
+  "page": 1,
+  "description": "Drug list with two ruled tables side by side under the intro (#281). Both hang from the same paragraph; the left table is read before the right one, not after it.",
+  "assertions": [
+    {"tables": 2},
+    {"contains_in_order": [
+      "Please call the phone number on the back of your member ID card.",
+      "CLAVULANATE 200-28.5 MG/5ML",
+      "Anti-Coagulants/Platelets (Continued)",
+      "WARFARIN 2.5 MG"
+    ]}
+  ]
+}

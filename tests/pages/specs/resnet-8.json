@@ -1,0 +1,22 @@
+{
+  "doc": "resnet",
+  "page": 8,
+  "description": "ResNet paper page 8: Figures 6 and 7 (charts, captions), Tables 7 and 8 (object detection baselines), and the analysis and 4.3 prose.",
+  "assertions": [
+    {"min_recall": 95.5},
+    {"no_text": ["�"]},
+    {"heading": {"text": "4.3. Object Detection on PASCAL and MS COCO", "levels": [3, 3]}},
+    {"contains": ["Figure 6. Training on CIFAR-10.", "Figure 7. Standard deviations (std) of layer responses on CIFAR-10.", "Table 7. Object detection mAP (%) on the PASCAL VOC 2007/2012 test sets", "Table 8. Object detection mAP (%) on the COCO validation set"]},
+    {"contains_in_order": ["networks such as FitNet [35] and Highway [42] (Table 6)", "Analysis of Layer Responses.", "Exploring Over 1000 layers.", "4.3. Object Detection on PASCAL and MS COCO", "Our method has good generalization performance on"]},
+    {"tables": 2},
+    {"figures": 2},
+    {"no_block": ["error (%)", "std std"]},
+    {"in_figure": ["error (%)", "std"]},
+    {"table": {"rows": 4, "cols": 3, "exact": true, "cells": ["07+12", "07++12", "VOC 07 test", "VOC 12 test", "VGG-16", "73.2", "70.4", "ResNet-101", "76.4", "73.8"]}},
+    {"table": {"rows": 3, "cols": 3, "exact": true, "cells": ["metric", "mAP@.5", "mAP@[.5, .95]", "VGG-16", "41.5", "21.2", "ResNet-101", "48.4", "27.2"]}},
+    {"contains_in_order": ["Figure 6. Training on CIFAR-10. Dashed", "Figure 7. Standard deviations (std) of", "layer index (sorted by magnitude)", "networks such as FitNet [35] and", "Analysis of Layer Responses. Fig. 7", "Fig. 7 shows that ResNets have", "We also notice that the deeper", "Exploring Over 1000 layers. We explore", "But there are still open problems", "Table 7. Object detection mAP (%)", "Table 8. Object detection mAP (%)", "have similar training error. We argue", "4.3. Object Detection on PASCAL and", "Our method has good generalization performance", "Based on deep residual nets, we"], "why": "The opening words of each paragraph, list item and heading, in reading order: catches swapped or moved paragraphs (#330)."},
+    {"contains_in_order": ["Figure 6. Training on CIFAR-10. Dashed", "of plain-110 is", "than 60% and", "with 110 and 1202 layers.", "20", "20", "20", "ResNet-20", "residual-110", "ResNet-32", "residual-1202", "ResNet-44", "ResNet-56", "ResNet-110", "56-layer", "10", "10", "10", "20-layer", "20-layer", "110-layer", "5", "5", "5", "plain-20", "plain-32", "plain-44", "1", "plain-56", "0", "0", "0", "0", "1", "2", "3", "4", "5", "6", "0", "1", "2", "3", "4", "5", "6", "4", "5", "6", "iter. (1e4)", "iter. (1e4)", "iter. (1e4)", "Figure 7. Standard", "on CIFAR-10. The", "each 3×3 layer,", "plain-20", "3", "plain-56", "ResNet-20", "ResNet-56", "2", "ResNet-110", "1", "0", "20", "40", "60", "80", "100", "plain-20", "3", "plain-56", "ResNet-20", "ResNet-56", "2", "ResNet-110", "1", "0", "20", "40", "60", "80", "100", "FitNet [35] and Highway [42] (Table 6), yet", "results (6.43%, Table 6).", "Fig. 7 shows", "each 3×3 layer,", "Fig. 7 shows", "motivation (Sec.3.1) that", "among ResNet-20, 56, and 110 in Fig. 7. When", "Over 1000 layers.", "over 1000 layers.", "= 200 that", "a 1202-layer network,", "this 103-layer", "error <0.1% (Fig. 6, right).", "good (7.93%, Table 6).", "this 1202-layer network", "our 110-layer network,", "Table 7. Object", "VOC 2007/2012 test", "Table 10 and 11 for", "data 07+12 07++12", "VOC 07 test VOC 12 test", "VGG-16 73.2 70.4", "ResNet-101 76.4 73.8", "Table 8. Object", "Table 9 for", "metric mAP@.5 mAP@[.5, .95]", "VGG-16 41.5 21.2", "ResNet-101 48.4 27.2", "The 1202-layer network", "large (19.4M) for", "maxout [10] or dropout [14] is", "results ([10, 25, 24, 35]) on", "4.3. Object", "Table 7 and 8 show", "VOC 2007 and 2012 [5] and COCO [26]. We", "R-CNN [32] as", "replacing VGG-16 [41] with ResNet-101. The", "a 6.0% increase", "metric (mAP@[.5, .95]), which", "a 28% relative", "the 1st places", "COCO 2015 competitions:"], "why": "Every number with a word either side, in reading order: catches a changed digit (#330)."},
+    {"table": {"rows": 4, "cells": ["training data", "VOC 07 test", "VGG-16", "ResNet-101"]}, "why": "Its rows, and the longest cell of each: catches a dropped row (#330)."},
+    {"table": {"rows": 3, "cells": ["mAP@[.5, .95]", "VGG-16", "ResNet-101"]}, "why": "Its rows, and the longest cell of each: catches a dropped row (#330)."}
+  ]
+}

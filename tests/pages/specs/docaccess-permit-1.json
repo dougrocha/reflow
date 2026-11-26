@@ -1,0 +1,14 @@
+{
+  "doc": "docaccess-permit",
+  "page": 1,
+  "description": "Building permit applications page 1 (scanned): the title is recovered by OCR.",
+  "assertions": [
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "doc_title": "BUILDING PERMIT APPLICATIONS"},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["BUILDING PERMIT APPLICATIONS"]},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "unread_figures": {"min": 1}, "why": "The handwritten ledger is a crop: OCR's junk reading of it is not trusted (#84)."},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "review_has": ["unread-text"]},
+    {"xfail": "#291: OCR's junk reading of the printed header row is kept.", "no_text": ["8USINES3", "NAfvtE"]},
+    {"xfail": "#291: the handwritten ledger is crops marked 'Not transcribed', and the header is junk.", "contains": ["BUSINESS NAME", "Allstate", "Apple Press", "Triangle Auto Parts", "87/88-1", "Advance Design"], "why": "#291: the ledger, read (research/transcription-2026-11/truth/permit-p1.hand.txt)."},
+    {"xfail": "#291: the ledger is two crops that say 'Not transcribed'.", "no_text": ["Not transcribed"]}
+  ]
+}

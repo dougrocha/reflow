@@ -1,0 +1,26 @@
+{
+  "doc": "fw9",
+  "page": 2,
+  "description": "Form W-9 page 2: the information-return bullets, the five signing certifications, the U.S. person definition, the chapter 3 and 4 withholding paragraphs and the start of Backup Withholding, whose list items break across paragraphs.",
+  "assertions": [
+    {"min_recall": 98.0},
+    {"heading": {"text": "Backup Withholding", "levels": [3, 3]}},
+    {"list_items": {"ordered": true, "items": [
+      "Certify that the TIN you are giving is correct (or you are waiting for a number to be issued);",
+      "Certify that you are not subject to backup withholding; or",
+      "Claim exemption from backup withholding if you are a U.S. exempt payee; and"
+    ]}},
+    {"list_items": {"ordered": false, "items": [
+      "An individual who is a U.S. citizen or U.S. resident alien;",
+      "An estate (other than a foreign estate); or",
+      "A domestic trust (as defined in Regulations section 301.7701-7)."
+    ]}},
+    {"contains_in_order": ["Form 1099-A (acquisition or abandonment of secured property).", "Caution: If you don't return Form W-9", "Establishing U.S. status for purposes of chapter 3 and chapter 4"]},
+    {"xfail": "The FATCA sentence breaks: 'See What Is' ends the last signing item, and 'FATCA Reporting, later, for further information.' starts the next paragraph.",
+     "same_block": [["See What Is", "FATCA Reporting, later, for further information."]]},
+    {"xfail": "The backup withholding item breaks at '(see the instructions for' and 'Part II for details);' is emitted as a separate paragraph between the two list parts.",
+     "same_block": [["You do not certify your TIN when required (see the instructions for", "Part II for details);"]]},
+    {"contains_in_order": ["must obtain your correct taxpayer identification", "Form 1099-INT (interest earned or paid).", "Form 1099-DIV (dividends, including those from", "Form 1099-MISC (various types of income,", "Form 1099-NEC (nonemployee compensation).", "Form 1099-B (stock or mutual fund", "Form 1099-S (proceeds from real estate", "Form 1099-K (merchant card and third-party", "Form 1098 (home mortgage interest), 1098-E", "Form 1099-C (canceled debt).", "Form 1099-A (acquisition or abandonment of", "Caution: If you don't return Form", "By signing the filled-out form, you:", "Certify that the TIN you are", "Certify that you are not subject", "Claim exemption from backup withholding if", "Certify to your non-foreign status for", "Certify that FATCA code(s) entered on", "FATCA Reporting, later, for further information.", "Note: If you are a U.S.", "Definition of a U.S. person. For", "An individual who is a U.S.", "A partnership, corporation, company, or association", "An estate (other than a foreign", "A domestic trust (as defined in", "Establishing U.S. status for purposes of", "The following persons must provide Form", "In the case of a disregarded", "In the case of a grantor", "In the case of a U.S.", "See Pub. 515 for more information", "Foreign person. If you are a", "Nonresident alien who becomes a resident", "If you are a U.S. resident", "The treaty country. Generally, this must", "The treaty article addressing the income.", "The article number (or location) in", "The type and amount of income", "Sufficient facts to justify the exemption", "Example. Article 20 of the U.S.-China", "If you are a nonresident alien", "What is backup withholding? Persons making", "You will not be subject to", "Payments you receive will be subject", "You do not furnish your TIN", "You do not certify your TIN", "Part II for details);", "The IRS tells the requester that", "The IRS tells you that you", "You do not certify to the"], "why": "The opening words of each paragraph, list item and heading, in reading order: catches swapped or moved paragraphs (#330)."},
+    {"contains_in_order": ["Form 1099-INT (interest", "Form 1099-DIV (dividends,", "Form 1099-MISC (various", "Form 1099-NEC (nonemployee", "Form 1099-B (stock", "Form 1099-S (proceeds", "Form 1099-K (merchant", "Form 1098 (home", "interest), 1098-E (student", "and 1098-T (tuition).", "Form 1099-C (canceled", "Form 1099-A (acquisition", "Form W-9 only", "Form W-9 to", "chapter 3 or 4 of", "Form W-9 to", "Form W-9.", "section 301.7701-7).", "chapter 3 and chapter 4 withholding.", "chapter 3 or chapter 4 of", "(sections 1441–1474). Under", "Form W-9 or", "Pub. 515, Withholding", "Form W-9 to", "Pub. 515 for", "Form W-9 or", "section 1.1441-1(b)(2)(iv) or", "chapter 3 or 4 purposes),", "Form W-9. Instead,", "Form W-8 or Form 8233 (see Pub. 515). If", "section 1.897(l)-1(d), or", "section 1445 withholding,", "Form W-9. Instead,", "Form W-8EXP (or", "Form W-9 that", "Article 20 of", "exceeds 5 calendar", "paragraph 2 of", "April 30, 1984) allows", "Article 20 to", "paragraph 2 of", "Form W-9 a", "Form W-8 or Form 8233.", "IRS 24% of", "item 4 under", "after 1983 only)."], "why": "Every number with a word either side, in reading order: catches a changed digit (#330)."}
+  ]
+}

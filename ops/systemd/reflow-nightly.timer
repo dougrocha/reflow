@@ -1,0 +1,14 @@
+# Every 15 minutes, so a merge to main gets its report within about 15 minutes plus the jobs'
+# time. A tick on a commit that already has its report exits at once; a tick while a run is
+# going exits at once too.
+[Unit]
+Description=reflow: run scripts/nightly after a merge to main
+
+[Timer]
+OnBootSec=10min
+OnCalendar=*:0/15
+Persistent=true
+RandomizedDelaySec=60
+
+[Install]
+WantedBy=timers.target

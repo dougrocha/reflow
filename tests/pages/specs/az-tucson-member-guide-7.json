@@ -1,0 +1,32 @@
+{
+  "doc": "az-tucson-member-guide",
+  "page": 7,
+  "description": "Pharmacy instructions with a home-delivery list and a right-hand specialty-medication sidebar. Keep the sidebar out of list items.",
+  "assertions": [
+    {
+      "min_recall": 96
+    },
+    {
+      "contains": [
+        "603017",
+        "102470",
+        "reimbursementhelp@azblue.com"
+      ]
+    },
+    {
+      "heading": {
+        "text": "If you need to fill a prescription before you receive your ID card"
+      }
+    },
+    {
+      "xfail": "The specialty-medication sidebar interleaves with the home-delivery steps and precedes their section heading.",
+      "contains_in_order": [
+        "After your plan starts",
+        "Prescription Home Delivery",
+        "Log in to azblue.com/member",
+        "Select Get Home Delivery",
+        "Specialty Medications"
+      ]
+    }
+  ]
+}

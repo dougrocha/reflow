@@ -1,0 +1,22 @@
+{
+  "doc": "az-sbc-p7950",
+  "page": 2,
+  "description": "\"What You Will Pay\" spans the network and out-of-network columns over their names, and the other headings span both header rows (#393).",
+  "assertions": [
+    {
+      "table": {
+        "cols": 5,
+        "col_headers": [
+          "Common Medical Event",
+          "Services You May Need",
+          "What You Will Pay",
+          "Limitations, Exceptions, & Other Important Information"
+        ],
+        "cells": [
+          "Network Provider (You will pay the least)",
+          "Out-of-Network Provider (You will pay the most)"
+        ]
+      }
+    }
+  ]
+}

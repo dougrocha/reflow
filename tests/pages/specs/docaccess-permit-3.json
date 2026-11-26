@@ -1,0 +1,13 @@
+{
+  "doc": "docaccess-permit",
+  "page": 3,
+  "description": "Permit ledger page 3 (scanned, handwritten entries): OCR's unreadable words are left out and reported, and its junk is never navigation (#83).",
+  "assertions": [
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "no_text": ["3Ww.", "CHARLES IL.", "¢ meT", "B3L40d"], "why": "Words OCR could not read are not printed."},
+    {"max_headings": 0, "why": "A handwritten ledger has no heading."},
+    {"toc_lacks": ["3Ww.", "vzw/é’fl/", "Syl", "Volip", "edce"]},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "review_has": ["ocr-words-omitted"]},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "unread_figures": {"min": 1}, "why": "Writing OCR cannot read is a labelled crop with a review error (#84)."},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "review_lacks": ["unread-signature"], "why": "A ledger entry on a rule across the table is no signature (#85)."}
+  ]
+}

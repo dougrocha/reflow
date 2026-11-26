@@ -1,0 +1,129 @@
+{
+  "doc": "docaccess-audit",
+  "page": 76,
+  "description": "Audit page 76, Changes in Net Position, last 10 fiscal years: one table of 11 columns (the label and FY 2023 to FY 2014). The table was cut at the 2020 and 2019 columns into two, the second with no labels. The export draws a row's figures out of order, so the first two years of each total were swapped and some figures ended in a stray digit (\"$ 241,27 1\"). Each year keeps its own figure whole, with its currency sign.",
+  "assertions": [
+    {
+      "min_recall": 90
+    },
+    {
+      "tables": 1
+    },
+    {
+      "table": {
+        "rows": 17,
+        "cols": 11,
+        "exact": true,
+        "cells": [
+          "2023",
+          "2014",
+          "$ 15,531,912",
+          "$ 14,215,319",
+          "$ 241,271",
+          "$ 3,670,042",
+          "$ 6,055,241",
+          "$ 5,145,392",
+          "$ 4,443,714",
+          "$ 3,745,105",
+          "$ 6,854,290",
+          "$ 6,232,419",
+          "(242)",
+          "(1,638,095)",
+          "$ 10,486,196"
+        ],
+        "cell_contains": [
+          {
+            "row": {
+              "col": 0,
+              "text": "Total General Revenue"
+            },
+            "cols": [
+              1
+            ],
+            "text": "$ 4,443,714"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Total General Revenue"
+            },
+            "cols": [
+              2
+            ],
+            "text": "$ 3,745,105"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Total General Revenue"
+            },
+            "cols": [
+              3
+            ],
+            "text": "$ 3,670,042"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Total Revenue"
+            },
+            "cols": [
+              1
+            ],
+            "text": "$ 6,854,290"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Total Revenue"
+            },
+            "cols": [
+              2
+            ],
+            "text": "$ 6,232,419"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Total Revenue"
+            },
+            "cols": [
+              3
+            ],
+            "text": "$ 6,055,241"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Charges for Services"
+            },
+            "cols": [
+              4
+            ],
+            "text": "$ 241,271"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Investment Earnings"
+            },
+            "cols": [
+              2
+            ],
+            "text": "(272,008)"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Net Position, End of Period"
+            },
+            "cols": [
+              10
+            ],
+            "text": "$ 10,486,196"
+          }
+        ]
+      }
+    }
+  ]
+}

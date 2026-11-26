@@ -1,0 +1,16 @@
+{
+  "doc": "docaccess-rfp",
+  "page": 6,
+  "description": "Kitsap 911 RFP page 6: the CAD reports table is one table of three columns (Report Name, Description, Generated) and 29 rows. The gap between the report names and the descriptions is the table's own column gap, not a gutter between two layout columns of the page (the rules frame the whole table). The nine rows with no description keep their own Generated value, \"Auto\", in the last column; \"Manual\" and \"Auto\" are not stacked into one cell.",
+  "assertions": [
+    {"tables": 1},
+    {"table": {"rows": 29, "cols": 3, "exact": true,
+               "cells": ["Report Name", "Description", "Generated", "Response CENCOM for YYYY-MM",
+                         "Call Performance Statistics", "Stats Report YYYY-MM",
+                         "Various database queries", "Manual", "Auto"],
+               "cell_contains": [
+                 {"row": {"col": 0, "text": "Stats Report YYYY-MM"}, "cols": [2], "text": "Manual"},
+                 {"row": {"col": 0, "text": "PFD Monthly Data"}, "cols": [2], "text": "Auto"},
+                 {"row": {"col": 0, "text": "FireOps-LE-Events"}, "cols": [2], "text": "Auto"}]}}
+  ]
+}

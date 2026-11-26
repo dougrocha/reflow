@@ -1,0 +1,141 @@
+#!/usr/bin/env python3
+"""The local gate, in place of CI: run every check that scripts/affected prints for a commit, and
+keep a record of the results keyed by the commit, so whoever merges its PR can check it.
+
+    scripts/gate                   run the checks of HEAD's change from main; the tree must be clean
+    scripts/gate status [<rev>]    the record of <rev> (default HEAD); exit 0 only if it passed
+
+A run is ~/.cache/reflow/gate/<commit>/<time>/ (REFLOW_GATE_DIR moves it), with
+  <n>-<check>/   one scripts/long-run folder per check: log, status, summary
+  record.json    the commit, its base, and each check's name, command, state, exit and time
+The newest complete record of a commit decides its status. A change with a file that
+scripts/affected has no rule for fails the gate: add the rule, then run the gate again.
+"""
+from __future__ import annotations
+
+import datetime
+import importlib.machinery
+import importlib.util
+import json
+import os
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parent.parent
+ROOT = Path(os.environ.get("REFLOW_GATE_DIR") or "~/.cache/reflow/gate").expanduser()
+
+
+def load_affected():
+    loader = importlib.machinery.SourceFileLoader("affected", str(REPO / "scripts/affected"))
+    module = importlib.util.module_from_spec(importlib.util.spec_from_loader("affected", loader))
+    sys.modules["affected"] = module
+    loader.exec_module(module)
+    return module
+
+
+def git(*args: str) -> str:
+    done = subprocess.run(["git", "-C", str(REPO), *args], capture_output=True, text=True)
+    if done.returncode != 0:
+        sys.exit(f"gate: git {' '.join(args)}: {done.stderr.strip()}")
+    return done.stdout.strip()
+
+
+def read_status(path: Path) -> dict:
+    fields = {}
+    for line in path.read_text().splitlines():
+        key, _, value = line.partition(": ")
+        fields[key] = value
+    return fields
+
+
+def write_json(path: Path, data: dict) -> None:
+    tmp = path.with_suffix(".tmp")
+    tmp.write_text(json.dumps(data, indent=2) + "\n")
+    tmp.replace(path)
+
+
+def run() -> int:
+    if dirty := git("status", "--porcelain"):
+        print(f"gate: the tree has changes that are not committed:\n{dirty}\n"
+              "Commit them first, so the record describes the commit.", file=sys.stderr)
+        return 2
+    affected = load_affected()
+    commit = git("rev-parse", "HEAD")
+    ch = affected.Change.of([])
+    plan = affected.plan(ch)
+    py = str(affected.main_checkout(REPO) / ".venv/bin/python")
+    checks = affected.rows(ch, plan, py)
+
+    folder = ROOT / commit / datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+    folder.mkdir(parents=True)
+    record = {"commit": commit, "base": ch.old, "state": "running", "result": None,
+              "started": datetime.datetime.now().isoformat(timespec="seconds"),
+              "unknown": plan.unknown, "checks": []}
+    write_json(folder / "record.json", record)
+    print(f"gate: {commit[:12]}, {len(checks)} check(s), record in {folder}", flush=True)
+
+    for n, (_, name, command, _) in enumerate(checks, 1):
+        slug = f"{n}-" + re.sub(r"[^\w.-]+", "-", name).strip("-")
+        print(f"gate: {name}: {command}", flush=True)
+        done = subprocess.run([str(REPO / "scripts/long-run"), "--into", str(folder / slug), slug,
+                               "--", "bash", "-c", command], cwd=REPO,
+                              stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
+        status = read_status(folder / slug / "status")
+        record["checks"].append({"name": name, "command": command, "state": status.get("state"),
+                                 "exit": done.returncode, "wall": status.get("wall"),
+                                 "run": str(folder / slug)})
+        print(f"gate: {name}: {status.get('state')} after {status.get('wall')}", flush=True)
+        write_json(folder / "record.json", record)
+
+    passed = not plan.unknown and all(c["state"] == "passed" for c in record["checks"])
+    record.update(state="complete", result="passed" if passed else "failed",
+                  ended=datetime.datetime.now().isoformat(timespec="seconds"))
+    write_json(folder / "record.json", record)
+    if plan.unknown:
+        print(f"gate: no rule in scripts/affected for {', '.join(plan.unknown)}", file=sys.stderr)
+    for c in record["checks"]:
+        if c["state"] != "passed":
+            print(f"gate: {c['name']} {c['state']}; see {c['run']}/summary", file=sys.stderr)
+    print(f"gate: {record['result']} on {commit[:12]}")
+    return 0 if passed else 1
+
+
+def status(rev: str) -> int:
+    commit = git("rev-parse", "--verify", f"{rev}^{{commit}}")
+    records = []
+    for path in sorted((ROOT / commit).glob("*/record.json")):
+        try:
+            records.append(json.loads(path.read_text()))
+        except (OSError, ValueError):
+            continue
+    complete = [r for r in records if r.get("state") == "complete"]
+    if not complete:
+        running = " (a run is in progress)" if records else ""
+        print(f"gate: no complete record for {commit[:12]}{running}; run scripts/gate on it")
+        return 1
+    last = complete[-1]
+    print(f"gate: {last['result']} on {commit[:12]} (base {last['base'][:12]}, "
+          f"ended {last.get('ended')})")
+    for c in last["checks"]:
+        print(f"  {c['state']}: {c['name']} ({c['wall']})")
+    if last.get("unknown"):
+        print(f"  no rule in scripts/affected for {', '.join(last['unknown'])}")
+    return 0 if last["result"] == "passed" else 1
+
+
+def main(argv: list[str]) -> int:
+    if argv[:1] in (["-h"], ["--help"]):
+        print(__doc__)
+        return 0
+    if argv[:1] == ["status"] and len(argv) <= 2:
+        return status(argv[1] if len(argv) == 2 else "HEAD")
+    if argv:
+        print(__doc__.strip().split("\n\n")[1], file=sys.stderr)
+        return 2
+    return run()
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

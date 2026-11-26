@@ -1,0 +1,24 @@
+{
+  "doc": "docaccess-legislation",
+  "page": 5,
+  "description": "Legislation page 5, a double-spaced scan: each printed paragraph and list item is one block, not one block per line, no body line is a heading (each SECTION line opens an amendment sentence, so it holds no title, #223), and the running head and footer are artifacts.",
+  "assertions": [
+    {"same_item": [["the last three numbers of the party's driver's", "license number, if the party has been issued a driver's license; and"]], "xfail_without_ocr": "No OCR runner"},
+    {"separate_blocks": [["license number, if the party has been issued a driver's license; and", "the last three numbers of the party's social"]], "xfail_without_ocr": "No OCR runner"},
+    {"same_block": [["SECTION 6.", "Code, is amended to read as follows:"]], "xfail_without_ocr": "No OCR runner"},
+    {"separate_blocks": [["Code, is amended to read as follows:", "In a civil action filed in a district court"]], "xfail_without_ocr": "No OCR runner"},
+    {"max_blocks": 14, "xfail_without_ocr": "No OCR runner"},
+    {"max_headings": 0, "xfail_without_ocr": "No OCR runner"},
+    {"not_heading": ["SECTION 6. Section 30.015(a), Civil Practice and Remedies Code, is amended to read as follows:", "SECTION 7. Section 30.016(a), Civil Practice and Remedies Code, is amended to read as follows:", "SECTION 8. Sections 30.017(a) and (c), Civil Practice and Remedies Code, are amended to read as follows:"], "xfail_without_ocr": "No OCR runner", "why": "A SECTION line that opens an amendment sentence holds no title, so it is no heading (#223)."},
+    {"not_heading": ["H.B. No. 40"], "xfail_without_ocr": "No OCR runner"},
+    {"no_text": ["H.B. No. 40", "89R34727"], "xfail_without_ocr": "No OCR runner"},
+    {"no_text": ["e¥"], "xfail_without_ocr": "Without an OCR runner, the page is not read.", "why": "#86: each struck [or] OCR misread as e¥ is a struck placeholder between the printed brackets, the underlined words are insertions, and the text around them is unmarked."},
+    {"del_count": 3, "xfail_without_ocr": "Without an OCR runner, the page is not read."},
+    {"contains": ["a [] statutory probate court", "a district court, [] statutory county court", "court, [] statutory county court, or business court judge"], "xfail_without_ocr": "Without an OCR runner, the page is not read."},
+    {"ins_texts": {"includes": [", or the business court", ", or business court"]}, "xfail_without_ocr": "Without an OCR runner, the page is not read."},
+    {"ins_count": 8, "xfail_without_ocr": "Without an OCR runner, the page is not read.", "why": "Read off the page image: court; a three times; , or the business court; the lone comma of line 19; , or business court twice."},
+    {"unmarked": ["statutory probate court", "statutory county court"], "xfail_without_ocr": "Without an OCR runner, the page is not read."},
+    {"review_has": ["struck-word-unread"], "xfail_without_ocr": "Without an OCR runner, the page is not read."},
+    {"xfail": "#291: a struck word OCR cannot read is the placeholder '[]'.", "contains": ["a [or] statutory probate court"], "why": "#291: the struck 'or' is read (research/transcription-2026-11/truth/legislation-p5.printed.txt)."}
+  ]
+}

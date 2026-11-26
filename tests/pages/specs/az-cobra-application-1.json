@@ -1,0 +1,99 @@
+{
+  "doc": "az-cobra-application",
+  "page": 1,
+  "description": "COBRA application, page 1: the form's ruled grid holds 25 choice circles and a logo's curves, which read as the dots and wedges of a chart, so the whole form came out as one picture with its text in a list. A grid of labels with no figure in it is a form's: it stays tables. The dependents block, which the form prints three times (labels over blank cells), is one table with a column for each label and a row for each dependent, not three repeats of its labels (#281). Its choice circles with words right of them are radio buttons named by those words, grouped under their headings: the coverage lists, the event list and the eligibility status are separate groups (#281). The circles under the captions MALE FEMALE MARRIED SINGLE DIVORCED, and the dependents' MALE and FEMALE, are not yet found: the caption is a table cell, and the cell reader would have to give each circle its own word (#281 follow-up).",
+  "assertions": [
+    {
+      "min_recall": 90
+    },
+    {
+      "figures": 0
+    },
+    {
+      "tables": 3
+    },
+    {
+      "table": {
+        "rows": 4,
+        "cols": 7,
+        "exact": true,
+        "cells": [
+          "LAST NAME",
+          "FIRST NAME",
+          "M.I.",
+          "SOCIAL SECURITY NUMBER",
+          "DATE OF BIRTH (MM/DD/YYYY)",
+          "MALE FEMALE",
+          "RELATIONSHIP"
+        ]
+      }
+    },
+    {
+      "table": {
+        "rows": 15,
+        "cols": 4,
+        "cells": [
+          "SECTION I - INFORMATION REGARDING YOUR EMPLOYER",
+          "EMPLOYER NAME",
+          "SOCIAL SECURITY NUMBER",
+          "EMAIL ADDRESS"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "radio": 19
+      }
+    },
+    {
+      "field_group": {
+        "legend": "MEDICAL COVERAGE",
+        "type": "radio",
+        "options": [
+          "ELECTOR ONLY",
+          "ELECTOR & SPOUSE",
+          "ELECTOR & CHILD(REN)",
+          "FAMILY"
+        ]
+      }
+    },
+    {
+      "field_group": {
+        "legend": "DENTAL COVERAGE",
+        "type": "radio",
+        "options": [
+          "ELECTOR ONLY",
+          "ELECTOR & SPOUSE",
+          "ELECTOR & CHILD(REN)",
+          "FAMILY"
+        ]
+      }
+    },
+    {
+      "field_group": {
+        "legend": "EVENT TYPE",
+        "type": "radio",
+        "options": [
+          "TERMINATION OF EMPLOYEE EMPLOYMENT",
+          "REDUCTION OF EMPLOYEE HOURS",
+          "DEATH OF EMPLOYEE",
+          "DIVORCE OR LEGAL SEPARATION",
+          "EMPLOYEE ENTITLED TO MEDICARE",
+          "NO LONGER ELIGIBLE AS A DEPENDENT"
+        ]
+      }
+    },
+    {
+      "field_group": {
+        "legend": "ELIGIBILITY STATUS OF ELECTOR",
+        "type": "radio",
+        "options": [
+          "FORMER EMPLOYEE",
+          "SPOUSE",
+          "DEPENDENT CHILD OF FORMER EMPLOYEE",
+          "FORMER SPOUSE"
+        ]
+      }
+    }
+  ]
+}

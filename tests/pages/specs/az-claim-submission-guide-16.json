@@ -1,0 +1,22 @@
+{
+  "doc": "az-claim-submission-guide",
+  "page": 16,
+  "description": "A thin bar over the network table, cut into two cells by a rule that meets it, is no row: the table's header row is its column names, not an empty row above them (#393).",
+  "assertions": [
+    {
+      "table": {
+        "cols": 5,
+        "col_headers": [
+          "NETWORK",
+          "BENEFIT PLAN",
+          "PREFIX",
+          "SERVICE AREA",
+          "CLAIM ADMINISTRATOR"
+        ],
+        "cells": [
+          "Blue Advantage Network"
+        ]
+      }
+    }
+  ]
+}

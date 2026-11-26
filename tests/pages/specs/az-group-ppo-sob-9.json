@@ -1,0 +1,20 @@
+{
+  "doc": "az-group-ppo-sob",
+  "page": 9,
+  "description": "The value at the end of a list item's row does not run into the lead-in under it (#159).",
+  "assertions": [
+    {
+      "not_heading": [
+        "50% This EXAMPLE event includes services like:"
+      ]
+    },
+    {
+      "separate_blocks": [
+        [
+          "50%",
+          "This EXAMPLE event includes services like:"
+        ]
+      ]
+    }
+  ]
+}

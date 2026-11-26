@@ -1,0 +1,28 @@
+{
+  "doc": "budget-appendix",
+  "page": 5,
+  "description": "Budget appendix page 5, the table of contents: the title, two section labels, and two lists of agency and material entries with page numbers.",
+  "assertions": [
+    {"min_recall": 98.5},
+    {"no_text": ["�"]},
+    {"heading": {"text": "TABLE OF CONTENTS", "levels": [1, 2]}},
+    {"heading": {"text": "Detailed Budget Estimates by Agency:", "levels": [2, 3]}},
+    {"heading": {"text": "Other Materials:", "levels": [2, 3]}},
+    {"not_heading": ["Page"]},
+    {"list_items": {"ordered": false, "items": [
+      "Explanation of Estimates 1",
+      "General Provisions Government-Wide 7",
+      "Legislative Branch 13",
+      "Judicial Branch 47",
+      "Department of Agriculture 59",
+      "Other Independent Agencies 1123"
+    ]}},
+    {"list_items": {"ordered": false, "items": [
+      "Amendments to and Revisions in Budget Authority for 2024 1245",
+      "Advance Appropriations 1247",
+      "Index 1255"
+    ]}},
+    {"contains_in_order": ["TABLE OF CONTENTS", "Detailed Budget Estimates by Agency:", "Explanation of Estimates 1", "Department of Agriculture 59", "Social Security Administration 1113", "Other Independent Agencies 1123", "Other Materials:", "Index 1255"]},
+    {"tables": 0}
+  ]
+}

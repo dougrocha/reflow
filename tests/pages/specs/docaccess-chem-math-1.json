@@ -1,0 +1,20 @@
+{
+  "doc": "docaccess-chem-math",
+  "page": 1,
+  "description": "Chemistry worksheet page 1 (scanned): the worksheet title is recovered by OCR.",
+  "assertions": [
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["Colligative Properties with Ionic Compounds"]},
+    {"no_text": ["DgCusoux", "CusOy"], "why": "#82 keeps the file's own OCR layer; its readings of the purple working are graded by a reading reflow throws away, and left out (#147)."},
+    {"max_headings": 2},
+    {"xfail_without_ocr": "Without an OCR runner, the kept layer is not graded.", "review_has": ["ocr-words-omitted"], "why": "The kept layer's words are graded (#147)."},
+    {"unread_figures": {"min": 1}, "why": "Writing OCR cannot read is a labelled crop with a review error (#84), on a kept OCR layer too, once its words are graded (#147)."},
+    {"review_has": ["unread-handwriting"], "why": "The purple working under the kept layer is pen ink (#147)."},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["van't Hoff factor"]},
+    {"unread_over_text": ["Colligative Properties with Ionic Compounds"], "why": "No crop lies over typed text."},
+    {"xfail": "#291: the purple working is crops marked 'Not transcribed'; nothing reads it.", "contains": ["CuSO4", "NaC2H3O2", "1.497", "1.39", "103.13", "7.48", "102.06"], "why": "#291: the handwritten key, read (research/transcription-2026-11/truth/chem-math-p1.hand.txt)."},
+    {"no_text": ["DgCusoux", "Imal Cason", "NaCzMsOr", "Th = 103.13"], "why": "#291: the junk readings of the handwriting that the issue quotes stay out."},
+    {"xfail": "#291: 17 crops of the key say 'Not transcribed'.", "no_text": ["Not transcribed"], "why": "#291: 'Not transcribed' is the last resort."},
+    {"min_figures": 1},
+    {"xfail": "#291: an unread crop's alt says what it is, not why no reading replaced it.", "alt_not": ["^.*not transcribed\\.$"], "why": "#291: every crop that stays says why."}
+  ]
+}

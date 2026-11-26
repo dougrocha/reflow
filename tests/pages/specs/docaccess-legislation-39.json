@@ -1,0 +1,10 @@
+{
+  "doc": "docaccess-legislation",
+  "page": 39,
+  "description": "Legislation page 39: a section number line that holds the section's title is a heading; one that opens an amendment sentence stays a paragraph (#223).",
+  "assertions": [
+    {"heading": {"text": "Sec. 25A.021. ACTIONS COMMENCED BEFORE SEPTEMBER 1, 2024."}, "xfail_without_ocr": "Without an OCR runner, the page is not read.", "why": "The line holds the title of the section the bill adds (#223)."},
+    {"not_heading": ["SECTION 56. Chapter 25A, Government Code, is amended by adding Section 25A.021 to read as follows:"], "xfail_without_ocr": "Without an OCR runner, the page is not read.", "why": "The SECTION line opens an amendment sentence: no title, so no heading (#223)."},
+    {"max_headings": 1, "xfail_without_ocr": "Without an OCR runner, the page is not read."}
+  ]
+}

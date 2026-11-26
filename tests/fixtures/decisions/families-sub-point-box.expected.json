@@ -1,0 +1,18 @@
+{
+  "store": "00112233445566ff",
+  "bytes": 802,
+  "lines": 3,
+  "counts": {
+    "records": 2,
+    "torn": 0,
+    "unreadable": 0,
+    "duplicate": 0
+  },
+  "active": [
+    "m2k9x4q2-00000002"
+  ],
+  "invalid": [],
+  "unsupported": [],
+  "reattach": [],
+  "error": null
+}

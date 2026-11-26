@@ -1,0 +1,18 @@
+{
+  "doc": "docaccess-carmel",
+  "page": 4,
+  "description": "Carmel timelines page 4 (scanned): the Board of Directors label is recovered by OCR; the river photo is the one figure, and OCR's reading of the photo is not body text. OCR's 'Ge neral' carries the document's suggestion, General (#99).",
+  "assertions": [
+    {"xfail": "OCR reads the cover's coloured 'Carmel' at 72 (doubtful), and a doubtful word never makes the title (#83); the title falls back to 'Final Budget'.", "doc_title": "Carmel Area Wastewater District"},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["Board of Directors"]},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "figures": 1},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "max_figure_share": 0.6},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "no_block": ["d L >", "M E"]},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["Honorable President and Members of the Board of Directors", "Fall seven times, stand up eight"]},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "review_has": ["ocr-suggestion"]},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "heading": {"text": "Challenges in front of us"}, "why": "Underlined on the page image (#93)."},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "separate_blocks": [["Challenges in front of us", "We have multiple challenges"]]},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "alt_not": ["^Figure on page"], "why": "A figure with no description says where it is, not only its page (#87)."},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "alt_has": ["no description yet"]}
+  ]
+}

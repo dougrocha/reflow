@@ -1,0 +1,13 @@
+{
+  "doc": "az-ma-sob-classic-maricopa-en",
+  "page": 1,
+  "description": "Summary of Benefits cover (#160): a year over a two-line title.",
+  "assertions": [
+    {
+      "doc_title": "2026 Summary of Benefits"
+    },
+    {
+      "title_suspect": false
+    }
+  ]
+}

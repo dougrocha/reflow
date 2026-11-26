@@ -1,0 +1,87 @@
+#!/usr/bin/env python3
+"""ruff and mypy, held to a baseline: the code has never been clean, so a change may not add a
+problem, but it need not fix the ones already there.
+
+    scripts/lint              run both and compare with lint-baseline.json; exit 1 on a new problem
+    scripts/lint --update     write the current counts to lint-baseline.json
+
+The baseline counts the problems per file and rule (`src/reflow/cli.py E741`), not per line, so
+an edit that moves lines changes nothing. A count above its baseline fails and is listed with its
+lines. A count below it passes, and the output says to run --update so the baseline keeps up.
+Run it with the main checkout's venv (`.venv/bin/python scripts/lint`), which has the `lint`
+dependency group.
+"""
+from __future__ import annotations
+
+import json
+import subprocess
+import sys
+from collections import Counter
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parent.parent
+BASELINE = REPO / "lint-baseline.json"
+RUFF = ["-m", "ruff", "check", "src", "tests", "--output-format", "json", "--no-cache"]
+MYPY = ["-m", "mypy", "-O", "json", "--cache-dir", ".worktree/mypy-cache", "src/reflow"]
+
+Problem = tuple[str, str, int, str]   # tool, "path rule", line, message
+
+
+def problems() -> list[Problem]:
+    out: list[Problem] = []
+    ruff = subprocess.run([sys.executable, *RUFF], cwd=REPO, capture_output=True, text=True)
+    if ruff.returncode not in (0, 1):
+        sys.exit(f"lint: ruff failed:\n{ruff.stderr}")
+    for p in json.loads(ruff.stdout or "[]"):
+        path = Path(p["filename"]).resolve().relative_to(REPO)
+        out.append(("ruff", f"{path} {p['code']}", p["location"]["row"], p["message"]))
+    mypy = subprocess.run([sys.executable, *MYPY], cwd=REPO, capture_output=True, text=True)
+    if mypy.returncode not in (0, 1):
+        sys.exit(f"lint: mypy failed:\n{mypy.stderr}{mypy.stdout}")
+    for line in mypy.stdout.splitlines():
+        p = json.loads(line)
+        if p["severity"] == "error":
+            out.append(("mypy", f"{p['file']} {p['code']}", p["line"], p["message"]))
+    return out
+
+
+def counts(found: list[Problem]) -> dict[str, dict[str, int]]:
+    by: dict[str, Counter] = {"ruff": Counter(), "mypy": Counter()}
+    for tool, key, _, _ in found:
+        by[tool][key] += 1
+    return {tool: dict(sorted(c.items())) for tool, c in by.items()}
+
+
+def main(argv: list[str]) -> int:
+    if argv not in ([], ["--update"]):
+        print(__doc__, file=sys.stderr)
+        return 2
+    found = problems()
+    now = counts(found)
+    if argv == ["--update"]:
+        BASELINE.write_text(json.dumps(now, indent=1) + "\n")
+        print(f"lint: wrote {BASELINE.name}: ruff {sum(now['ruff'].values())}, "
+              f"mypy {sum(now['mypy'].values())}")
+        return 0
+    base = json.loads(BASELINE.read_text())
+    worse = {(tool, key) for tool in now for key, n in now[tool].items()
+             if n > base.get(tool, {}).get(key, 0)}
+    better = any(n > now.get(tool, {}).get(key, 0)
+                 for tool in base for key, n in base[tool].items())
+    for tool in now:
+        print(f"lint: {tool} {sum(now[tool].values())} problems, "
+              f"baseline {sum(base.get(tool, {}).values())}")
+    if worse:
+        print("lint: new problems (more than the baseline in these files and rules):")
+        for tool, key, line, message in found:
+            if (tool, key) in worse:
+                path, rule = key.split(" ")
+                print(f"  {path}:{line}: {rule} {message}")
+        return 1
+    if better:
+        print("lint: fewer problems than the baseline; run scripts/lint --update and commit it")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

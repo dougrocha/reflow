@@ -1,0 +1,15 @@
+{
+  "doc": "budget-appendix",
+  "page": 127,
+  "description": "Budget appendix page 127 (Department of Agriculture, Rural Housing Service): the budget authority and outlays totals, and the loan levels table with its subsidy rates.",
+  "assertions": [
+    {"min_recall": 97.0},
+    {"no_text": ["�"]},
+    {"heading": {"text": "Subsidy Budget Authority and Outlays by Program", "contains": true, "levels": [4, 5]}},
+    {"table": {"rows": 2, "cols": 4, "cells": ["Budget Authority", "755", "1,018", "1,855", "Outlays", "732", "1,024", "1,789"]}},
+    {"table": {"rows": 40, "cols": 5, "cells": ["115001", "Section 502 Single Family Housing", "1,697", "483", "1,250", "115999", "Total direct loan levels", "1,799", "563", "1,504", "132999", "Weighted average subsidy rate", "4.64", "12.75", "19.33"]}},
+    {"same_block": [["Budget Authority", "1,855"]]},
+    {"contains_in_order": ["Total:", "Loan Levels, Subsidy Budget Authority","Direct loan levels supportable by subsidy budget authority:", "Total direct loan levels", "Administrative expense data:", "Rural Housing Insurance Fund", "Object Classification"]},
+    {"no_text": ["ofLoan", "inmillionsof"]}
+  ]
+}

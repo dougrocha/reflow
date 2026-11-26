@@ -1,0 +1,11 @@
+{"v":1,"kind":"store","id":"00112233445566ff","slug":"demo","created":"2026-10-28T09:00:00Z"}
+{"v":1,"id":"m2k9x4q1-00000001","at":"2026-10-28T09:14:03Z","pdf":"a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1","kind":"correct","target":{"anchor":{"page":1,"bbox":[72.0,100.0,300.0,112.0],"text_sha":"0123456789abcdef","crop_sha":"","hint":"n-1"},"range":{"was":"8011O","before":"CO ","after":"","rule":"zip-digit"}},"now":"80110"}
+{"v":1,"id":"m2k9x4q2-00000002","at":"2026-10-28T09:14:03Z","pdf":"a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1","kind":"undo","of":"m2k9x4q1-00000001"}
+{"v":1,"id":"m2k9x4q3-00000003","at":"2026-10-28T09:14:03Z","pdf":"a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1","kind":"undo","of":"m2k9x4q2-00000002"}
+{"v":1,"id":"m2k9x4q4-00000004","at":"2026-10-28T09:14:03Z","pdf":"a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1","kind":"undo","of":"zzzz-zzzzzzzz"}
+{"v":1,"id":"m2k9x4q5-00000005","at":"2026-10-28T09:14:03Z","pdf":"a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1","kind":"undo","of":"m2k9x4q6-00000006"}
+{"v":1,"id":"m2k9x4q6-00000006","at":"2026-10-28T09:14:03Z","pdf":"a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1","kind":"correct","target":{"anchor":{"page":1,"bbox":[72.0,100.0,300.0,112.0],"text_sha":"3333333333333333","crop_sha":"","hint":"n-1"},"range":{"was":"9O","before":"Z ","after":"","rule":"zip-digit"}},"now":"80110"}
+{"v":1,"id":"m2k9x4q7-00000007","at":"2026-10-28T09:14:03Z","pdf":"a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1","kind":"reattach","from":"a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1","to":"b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2"}
+{"v":1,"id":"m2k9x4q8-00000008","at":"2026-10-28T09:14:03Z","pdf":"a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1","kind":"undo","of":"m2k9x4q7-00000007"}
+{"v":1,"id":"m2k9x4q9-00000009","at":"2026-10-28T09:14:03Z","pdf":"a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1","kind":"undo","of":"00112233445566ff"}
+{"v":1,"id":"m2k9x4qa-0000000a","at":"2026-10-28T09:14:03Z","pdf":"a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1","kind":"undo","of":"m2k9x4q1-00000001"}

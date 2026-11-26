@@ -1,0 +1,44 @@
+{
+  "doc": "az-psych-pa-form",
+  "page": 1,
+  "description": "Form labels on a row of fields are not headings (#159). The Y / N boxes printed after \"Other Health Insurance:\" are a pair of radios named by it, apart from the plan boxes on their row, and no fieldset has an empty legend (#281). Email and phone boxes are typed with their keyboards, but the ones printed after \"Attending Physician\" and the contacts are other people's, so they carry no autofill token; the DOB of the member, a date, keeps the numeric keypad (#281).",
+  "assertions": [
+    {
+      "not_heading": [
+        "Fax:",
+        "Other Health Insurance:",
+        "Other Agencies:"
+      ]
+    },
+    {
+      "toc_on_page": [
+        "Required Documentation for each request."
+      ]
+    },
+    {
+      "fieldsets_named": true
+    },
+    {
+      "field_group": {
+        "legend": "Other Health Insurance:",
+        "type": "radio",
+        "options": [
+          "Y",
+          "N"
+        ]
+      }
+    },
+    {
+      "input_attrs": [
+        {"label": "Cell Phone:", "type": "tel", "inputmode": "tel", "autocomplete": "off"},
+        {"label": "Email:", "nth": 0, "type": "email", "inputmode": "email", "autocomplete": "off"},
+        {"label": "Phone:", "nth": 0, "type": "tel", "inputmode": "tel", "autocomplete": "off"},
+        {"label": "Email:", "nth": 2, "type": "email", "autocomplete": "off"},
+        {"label": "NPI:", "type": "text", "inputmode": "numeric", "autocomplete": "off"},
+        {"label": "DOB:", "type": "text", "inputmode": null, "autocomplete": "off"},
+        {"label": "Date of Admission:", "type": "text", "inputmode": null, "autocomplete": "off"},
+        {"label": "Member ID/AHCCCS ID:", "type": "text", "inputmode": null, "autocomplete": "off"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "doc": "az-provider-portal-guide",
+  "page": 6,
+  "description": "The user-role table has two header rows: \"Areas of Access\" spans the six access columns over their names, and \"User Roles\" spans both rows and its two columns (#393). Seven rows of eight columns, with the spans counted.",
+  "assertions": [
+    {
+      "table": {
+        "rows": 7,
+        "cols": 8,
+        "exact": true,
+        "col_headers": [
+          "User Roles",
+          "Areas of Access"
+        ],
+        "cells": [
+          "Eligibility & Benefits",
+          "Education & Training",
+          "EFT Enrollment and Changes"
+        ]
+      }
+    }
+  ]
+}

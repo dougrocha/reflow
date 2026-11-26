@@ -1,0 +1,19 @@
+{
+  "doc": "p17",
+  "page": 25,
+  "description": "IRS Publication 17 page 25: Married Filing Separately, the Special Rules list (numbered items 8 and 9 have lettered sub-items), and the separate-return headings.",
+  "assertions": [
+    {"min_recall": 89.5},
+    {"no_text": ["�"]},
+    {"heading": {"text": "Married Filing Separately", "levels": [2, 4]}},
+    {"heading": {"text": "Special Rules", "levels": [2, 4]}},
+    {"heading": {"text": "Joint Return After Separate Returns", "levels": [2, 4]}},
+    {"heading": {"text": "Separate Returns After Joint Return", "levels": [2, 4]}},
+    {"tables": 0},
+    {"not_heading": ["TIP"]},
+    {"not_heading": ["You can choose married filing separately as your filing status if you are married."]},
+    {"contains_in_order": ["Married Filing Separately", "You can choose married filing separately", "Select this filing status by checking", "Special Rules", "Your tax rate is generally higher than on a joint return.", "Individual retirement arrangements (IRAs).", "Joint Return After Separate Returns", "Separate Returns After Joint Return"]},
+    {"nested_list": {"parent": "If you lived with your spouse at any time during the tax year:", "items": ["You can’t claim the credit for the elderly or the disabled, and", "You must include in income a greater percentage (up to 85%) of any social security or equivalent railroad retirement benefits you received."]}},
+    {"nested_list": {"parent": "The following credits and deductions are reduced at income levels half of those for a joint return", "items": ["The child tax credit and the credit for other dependents.", "The retirement savings contributions credit."]}}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "doc": "az-ma-vision-flyer-bilingual",
+  "page": 2,
+  "description": "The Spanish twin of the flyer's offer is a sentence, not a heading (#159).",
+  "assertions": [
+    {
+      "not_heading": [
+        "Compete un examen de la vista de rutina sin costo en uno de los 4,700 proveedores Davis Vision® preferidos en Arizona.*"
+      ]
+    },
+    {
+      "heading": {
+        "text": "Proteja su calidad de vida, proteja sus ojos."
+      }
+    }
+  ]
+}

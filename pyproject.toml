@@ -1,0 +1,68 @@
+[project]
+name = "reflow"
+version = "0.1.0"
+description = "Turn PDFs into accessible (WCAG 2.1 AA / Section 508) HTML, with optional PDF/UA export"
+readme = "README.md"
+authors = [
+    { name = "Douglas Rocha", email = "79188161+dougrocha@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "markupsafe>=3.0.2",
+    "numpy>=2.0.0",
+    "pdfplumber>=0.11.10",
+    "pikepdf>=10.16.0",
+    "pillow>=11.0.0",
+    "pypdfium2>=5.14.0",
+    "rich>=15.0.0",
+    "typer>=0.12.5",
+]
+
+[project.scripts]
+reflow = "reflow.cli:app"
+
+[project.optional-dependencies]
+docling = [
+    "docling>=2.134.0",
+]
+anthropic = [
+    "anthropic>=2.4.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "hypothesis>=6.170.5",
+    "jsonschema>=4.26.0",
+    "pytest>=9.1.1",
+    "pytest-xdist>=3.8.0",
+]
+lint = [
+    "ruff>=0.8",
+    "mypy>=1.13",
+]
+
+[tool.pytest.ini_options]
+markers = [
+    "pages: page-check regression tests on the sample PDFs (slow; run with -m pages)",
+]
+# The page-check suite converts the sample PDFs, which takes minutes, so it is opt-in.
+addopts = "-m 'not pages'"
+# verify/parallel-conversion has its own runner (mise run verify-parallel).
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+# E501 (line length) is ignored for now: the existing code has long lines. Remove when fixed.
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.12"
+warn_unused_ignores = true

@@ -1,0 +1,10 @@
+{
+  "doc": "docaccess-permit",
+  "page": 6,
+  "description": "Permit ledger page 6 (scanned, handwritten entries): the one word OCR read confidently in a line of scrawl is no heading (#83).",
+  "assertions": [
+    {"max_headings": 0, "why": "A handwritten ledger has no heading."},
+    {"toc_lacks": ["SHELL"], "why": "What OCR kept of a mostly unreadable line (a signature, a struck-out passage) is no heading (#83)."},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "review_lacks": ["unread-signature"], "why": "A ledger entry over a cluster of the table's rules is no signature (#85)."}
+  ]
+}

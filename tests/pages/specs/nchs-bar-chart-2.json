@@ -1,0 +1,15 @@
+{
+  "doc": "nchs-bar-chart",
+  "page": 2,
+  "description": "NCHS QuickStats (MMWR anniversary edition), page 2: the running head, the chart title, the bar chart of QuickStats counts by characteristic, the note, and the body paragraphs with the source and reporter lines.",
+  "assertions": [
+    {"min_recall": 100.0},
+    {"no_text": ["�"]},
+    {"heading": {"text": "QuickStats From NCHS", "levels": [2, 2]}},
+    {"figures": 1},
+    {"contains_in_order": ["NOTE: Subgroups defined by more than one characteristic", "QuickStats can show trends for the total population", "The subgroups most frequently shown in QuickStats include those defined by age (182 QuickStats)", "Geographic classifications, such as state and region, were used in 62 QuickStats", "Source: NCHS, QuickStats, 2005–2019", "Reported by: Alex Strashny"]},
+    {"heading": {"text": "QuickStats: Number of published QuickStats from NCHS, by population characteristics—2005–2019", "levels": [3, 3]}},
+    {"xfail": "The wrapped category labels of the bar chart are split into separate list items ('Race and' and 'ethnicity', 'Insurance' and 'coverage'), so each label is not one block.",
+     "same_block": [["Race and", "ethnicity"], ["Insurance", "coverage"]]}
+  ]
+}

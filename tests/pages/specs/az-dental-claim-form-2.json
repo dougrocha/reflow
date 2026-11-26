@@ -1,0 +1,12 @@
+{
+  "doc": "az-dental-claim-form",
+  "page": 2,
+  "description": "ADA dental claim form instructions: set at 9 pt on a form whose fields set the body at 6.2 pt. Only the section titles are Contents entries, not the lettered instructions. The one table is the list of specialty codes, two columns wide: the page has no form grid (#281).",
+  "assertions": [
+    {"max_table_cols": 3},
+    {"tables": 1},
+    {"table": {"rows": 13, "cols": 2, "exact": true}},
+    {"toc_on_page": ["GENERAL INSTRUCTIONS", "COORDINATION OF BENEFITS (COB)", "DIAGNOSIS CODING", "PLACE OF TREATMENT", "PROVIDER SPECIALTY"]},
+    {"not_heading": ["D. All dates must include the four-digit year."]}
+  ]
+}

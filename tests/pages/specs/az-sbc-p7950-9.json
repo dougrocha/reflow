@@ -1,0 +1,12 @@
+{
+  "doc": "az-sbc-p7950",
+  "page": 9,
+  "description": "The value at the end of a list item's row does not run into the lead-in under it (#159).",
+  "assertions": [
+    {
+      "not_heading": [
+        "20% This EXAMPLE event includes services like:"
+      ]
+    }
+  ]
+}

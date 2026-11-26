@@ -1,0 +1,18 @@
+{
+  "doc": "bluejourney-directory",
+  "page": 1000,
+  "description": "BlueJourney directory PDF page 1000 (printed page 998): Maricopa County Specialists, Gastroenterology (continued), Phoenix; three columns, providers with several addresses each (separated by a short rule in the PDF).",
+  "assertions": [
+    {"min_recall": 96.2},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Randolph, Adam C, MD (M) — Accepting New Patients"}},
+    {"heading": {"text": "Ratuapli, Shiva K, MD (M)", "contains": true}},
+    {"heading": {"text": "Sand, Bruce S, DO (M)", "contains": true}},
+    {"same_entry": [["Randolph, Adam C", "1441 N 12th St"], ["Ratuapli, Shiva K", "349 E Coronado Rd"], ["Rodriguez Luna, Hector", "9305 W Thomas Rd, Ste 478"], ["Sand, Bruce S", "250 E Dunlap Ave, Ste 408"], ["Sandhu, Dalbir S", "500 W Thomas Rd, Ste 100"]]},
+    {"same_block": [["349 E Coronado Rd", "Language: Hindi"], ["250 E Dunlap Ave, Ste 408", "(602) 943-2381"]]},
+    {"contains_in_order": ["Randolph, Adam C", "Ratuapli, Shiva K", "Reddy, Sudhakar A", "Reddymasu, Savio C", "Rodriguez Luna, Hector", "Sachdev, Mankanwal S", "Sand, Bruce S", "Sandhu, Dalbir S"]},
+    {"xfail": "'Reddymasu, Savio C, MD (M) — Accepting New Patients' is a paragraph, not a heading, although every other provider name on the page is: its first address and the following ones are loose paragraphs under the previous provider's entry.",
+     "heading": {"text": "Reddymasu, Savio C, MD (M)", "contains": true}}
+  ]
+}

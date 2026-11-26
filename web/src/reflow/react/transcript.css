@@ -1,0 +1,79 @@
+/* The transcript's markup is styled by the same stylesheet as the standalone HTML. This file sets
+   its tokens to the viewer's look and adds what only the viewer and inspector have. */
+@import "../../../../src/reflow/viewer/transcript.css" layer(utilities);
+
+@layer utilities {
+  .reflow-transcript {
+    --rt-fg: var(--foreground);
+    --rt-bg: var(--background);
+    --rt-muted: var(--muted-foreground);
+    --rt-rule: var(--border);
+    --rt-bar: var(--ring);
+    --rt-size: 1rem;
+    --rt-small: 0.92rem;
+    --rt-continued: 0.9rem;
+    --rt-radius: 0.25rem;
+    --rt-note-radius: var(--radius-md);
+    --rt-caption-pad: 0.375rem;
+    --rt-cell-pad: 0.375rem 0.625rem;
+    --rt-doubt-offset: 4px;
+    --rt-field-margin: 0.25rem;
+    --rt-cell-field-margin: 0.125rem;
+    --rt-label-size: 0.95rem;
+    --rt-label-gap: 0.125rem;
+    --rt-input-pad: 0.25rem 0.375rem;
+    --rt-fieldset-margin: 0.75rem;
+    --rt-fieldset-pad: 0.375rem 0.75rem 0.125rem;
+    --rt-legend-pad: 0 0.375rem;
+    --rt-legal-indent: 1.5rem;
+  }
+  /* A heading and its "Show on page" button (DocumentViewer.tsx), side by side. The row takes the
+     heading's size and margins, and the heading inside it none, so it spaces as the heading alone
+     did: its margins still collapse with the blocks around it. */
+  .reflow-transcript [data-heading-row] {
+    @apply flex items-start gap-2;
+    margin-block: var(--rt-heading-above) var(--rt-heading-below);
+  }
+  .reflow-transcript [data-heading-row]:has(> h2) { font-size: var(--rt-h2); }
+  .reflow-transcript [data-heading-row]:has(> h3) { font-size: var(--rt-h3); }
+  .reflow-transcript [data-heading-row]:has(> h4) { font-size: var(--rt-h4); }
+  .reflow-transcript [data-heading-row]:has(> h5) { font-size: var(--rt-h5); }
+  .reflow-transcript [data-heading-row]:has(> h6) { font-size: var(--rt-h6); }
+  .reflow-transcript [data-heading-row] > :is(h2, h3, h4, h5, h6) { @apply m-0 min-w-0; font-size: 1em; }
+  /* A form's section bar, a heading in its cell, stays set as the bar. */
+  .reflow-transcript :is(th, td) > [data-heading-row] { @apply m-0; font-size: 1em; }
+  /* A light icon, centred on the heading's first line, with a 24px target. */
+  .reflow-transcript [data-show-source] {
+    @apply inline-flex size-6 shrink-0 cursor-pointer items-center justify-center rounded-md text-muted-foreground;
+    margin-block-start: calc((var(--rt-heading-leading) * 1em - 1.5rem) / 2);
+  }
+  .reflow-transcript [data-show-source] svg { @apply size-4; }
+  .reflow-transcript [data-show-source]:hover { @apply bg-accent text-foreground; }
+  .reflow-transcript [data-show-source]:focus-visible { @apply outline-2 outline-offset-2 outline-ring; }
+  @media print {
+    .reflow-transcript [data-show-source] { @apply hidden; }
+  }
+  /* Nothing above the first block of a page: the page's divider gives the room. */
+  .reflow-transcript > :first-child,
+  .reflow-transcript > section:first-child > :first-child,
+  .reflow-transcript > section:first-child > section:first-child > :first-child,
+  /* nor above the block after decorative art left out of sight (data-figure="decorative") */
+  .reflow-transcript > [hidden]:first-child + *,
+  .reflow-transcript > section:first-child > [hidden]:first-child + *,
+  .reflow-transcript > section:first-child > section:first-child > [hidden]:first-child + * { @apply mt-0; }
+  /* The title the converter found on page 1 (render.html sets it as p.title): the viewer's header
+     shows the title small, so the transcript sets it at the size of a title. The standalone
+     and downloaded HTML have their own h1 above it and leave it plain. */
+  .reflow-transcript p.title {
+    font-size: var(--rt-h1); font-weight: 700; line-height: var(--rt-heading-leading);
+    margin-block: 0 var(--rt-heading-below); text-wrap: balance;
+  }
+  /* A note with no marker (role NOTE); the standalone HTML leaves it plain. */
+  .reflow-transcript .note { @apply text-[0.92rem] text-muted-foreground; }
+  .reflow-transcript .field-check label { @apply text-base; }
+  .reflow-transcript :is(.ocr-note, .review-note) { @apply print:text-foreground; }
+  .reflow-transcript details { @apply mt-2; }
+  .reflow-transcript .field :is(input,select,textarea):focus-visible { @apply outline-2 outline-offset-2 outline-ring; }
+  .reflow-transcript mark[data-find] { @apply rounded-sm bg-[#fde047] text-[#111827] outline-2 outline-[#111827]; }
+  .reflow-transcript [data-jump] { @apply rounded-sm bg-accent outline-3 outline-offset-4 outline-foreground; box-shadow: 0 0 0 4px var(--accent); }
+}

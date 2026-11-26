@@ -1,0 +1,327 @@
+#!/usr/bin/env python3
+"""Run a long job with its output in a file, and leave a short summary of its failures.
+
+    scripts/long-run <name> -- <cmd> [args...]
+    scripts/long-run --into <dir> <name> -- <cmd> [args...]
+    scripts/long-run status [<name>]
+
+A run writes .worktree/runs/<name>-<time>/ with
+  log      everything the command printed (stdout and stderr)
+  status   state (running, passed, failed or killed), exit code, wall time, commit, command
+  summary  the failures only: for pytest, one line per failing test from --junitxml; for any
+           other command, the lines that match an error pattern and the last lines of the log
+.worktree/runs/<name>-latest points at the newest run of that name. stdout gets the run folder
+at the start and the summary at the end, and the exit code is the command's (128+N for signal N).
+With --into, the run goes to <dir> itself, which must not exist yet, and no -latest link is made
+(scripts/nightly keeps its reports this way).
+
+A SIGINT, SIGTERM or SIGHUP stops the command's process group and writes status `killed`. A run
+whose runner died without writing status (SIGKILL) is marked killed by the next long-run call.
+"""
+import datetime
+import os
+import re
+import shlex
+import signal
+import subprocess
+import sys
+import time
+import xml.etree.ElementTree as ET
+from pathlib import Path
+
+TAIL = 15
+MAX_LINES = 40
+ERROR = re.compile(
+    r"\b(error|errors|failed|failure|fatal|panic|traceback|exception)\b|^E\s|assert", re.I
+)
+
+
+def top() -> Path:
+    out = subprocess.run(["git", "rev-parse", "--show-toplevel"], capture_output=True, text=True)
+    return Path(out.stdout.strip()) if out.returncode == 0 else Path.cwd()
+
+
+def commit() -> str:
+    head = subprocess.run(["git", "rev-parse", "--short=12", "HEAD"], capture_output=True, text=True)
+    if head.returncode != 0:
+        return "unknown"
+    dirty = subprocess.run(["git", "status", "--porcelain", "--untracked-files=no"],
+                           capture_output=True, text=True).stdout.strip()
+    return head.stdout.strip() + (" +uncommitted edits" if dirty else "")
+
+
+def started(pid: int) -> str:
+    """The start time of a PID, so a reused PID never passes for the runner."""
+    try:
+        return Path(f"/proc/{pid}/stat").read_text().rsplit(")", 1)[1].split()[19]
+    except (OSError, IndexError):
+        return ""
+
+
+def read_status(path: Path) -> dict:
+    fields = {}
+    for line in path.read_text().splitlines():
+        key, _, value = line.partition(": ")
+        fields[key] = value
+    return fields
+
+
+def write_status(path: Path, fields: dict) -> None:
+    tmp = path.with_suffix(".tmp")
+    tmp.write_text("".join(f"{k}: {v}\n" for k, v in fields.items() if v is not None))
+    tmp.replace(path)
+
+
+def wall(seconds: float) -> str:
+    m, s = divmod(int(round(seconds)), 60)
+    h, m = divmod(m, 60)
+    return f"{h}h{m:02d}m{s:02d}s" if h else f"{m}m{s:02d}s" if m else f"{s}s"
+
+
+def tagged(run: Path) -> list[int]:
+    """The PIDs whose environment carries this run's LONG_RUN tag: the job and all it started."""
+    tag = f"LONG_RUN={run}".encode()
+    pids = []
+    for proc in Path("/proc").iterdir():
+        if proc.name.isdigit() and int(proc.name) != os.getpid():
+            try:
+                if tag in (proc / "environ").read_bytes().split(b"\0"):
+                    pids.append(int(proc.name))
+            except OSError:
+                pass
+    return pids
+
+
+def reap(run: Path, grace: float = 10) -> None:
+    """Stop what is left of a run's job, so an interrupted run leaves no workers behind."""
+    sig, deadline = signal.SIGTERM, time.monotonic() + grace
+    while pids := tagged(run):
+        for pid in pids:
+            try:
+                os.kill(pid, sig)
+            except ProcessLookupError:
+                pass
+        if time.monotonic() > deadline:
+            sig = signal.SIGKILL
+        time.sleep(0.2)
+
+
+def sweep(runs: Path) -> None:
+    """Mark killed the runs whose runner is gone but whose status still says running."""
+    for status in runs.glob("*/status"):
+        if status.parent.is_symlink():  # <name>-latest; the tag names the real folder
+            continue
+        try:
+            fields = read_status(status)
+        except OSError:
+            continue
+        if fields.get("state") != "running":
+            continue
+        pid, since = fields.get("runner", " ").split(" ", 1)
+        if pid.isdigit() and started(int(pid)) == since:
+            continue
+        fields.update(state="killed", exit=None,
+                      note="the runner died without writing status (SIGKILL or a crash)")
+        reap(status.parent)
+        write_status(status, fields)
+        summary = status.with_name("summary")
+        if not summary.exists():
+            summary.write_text(f"killed: the runner died; see {status.with_name('log')}\n"
+                               + generic_summary(status.with_name("log"), None))
+
+
+def is_pytest(cmd: list[str]) -> bool:
+    names = [os.path.basename(a) for a in cmd]
+    return any(n in ("pytest", "py.test") for n in names) or any(
+        a == "-m" and b == "pytest" for a, b in zip(cmd, cmd[1:]))
+
+
+def pytest_summary(junit: Path, code: int) -> str | None:
+    try:
+        root = ET.parse(junit).getroot()
+    except (OSError, ET.ParseError):
+        return None
+    suites = [root] if root.tag == "testsuite" else root.findall("testsuite")
+    total = sum(int(s.get("tests", 0)) for s in suites)
+    skipped = sum(int(s.get("skipped", 0)) for s in suites)
+    lines = []
+    for case in root.iter("testcase"):
+        for kind in ("failure", "error"):
+            bad = case.find(kind)
+            if bad is None:
+                continue
+            where = case.get("file") or case.get("classname", "").replace(".", "/")
+            name = "::".join(p for p in (where, case.get("name", "")) if p)
+            message = (bad.get("message") or (bad.text or "").strip() or kind).splitlines()
+            lines.append(f"{kind.upper()} {name}: {message[0][:200] if message else kind}")
+    if not lines and code != 0:
+        return None  # a usage error, an interrupt or a crash outside the tests: the log says why
+    head = f"{len(lines)} failed of {total} tests" if lines else f"passed: {total} tests"
+    if skipped:
+        head += f" ({skipped} skipped)"
+    if len(lines) > MAX_LINES:
+        lines = lines[:MAX_LINES] + [f"... and {len(lines) - MAX_LINES} more in junit.xml"]
+    return "\n".join([head, *lines]) + "\n"
+
+
+def generic_summary(log: Path, code: int | None) -> str:
+    try:
+        text = log.read_text(errors="replace").splitlines()
+    except OSError:
+        return "no log\n"
+    if code == 0:
+        return "".join(f"{line}\n" for line in ["passed; last lines of the log:", *text[-3:]])
+    tail_from = max(0, len(text) - TAIL)
+    hits = [i for i in range(tail_from) if ERROR.search(text[i])]
+    budget = MAX_LINES - (len(text) - tail_from)
+    out = []
+    if len(hits) > budget:
+        out.append(f"{len(hits) - budget} earlier error lines omitted; rg -n in the log")
+        hits = hits[-budget:]
+    last = None
+    for i in hits + list(range(tail_from, len(text))):
+        if last is not None and i > last + 1:
+            out.append("...")
+        out.append(f"{i + 1}: {text[i][:300]}")
+        last = i
+    return "".join(f"{line}\n" for line in out)
+
+
+def status_command(runs: Path, name: str | None) -> int:
+    links = sorted(runs.glob(f"{name}-latest" if name else "*-latest"))
+    if not links:
+        print(f"no runs{' named ' + name if name else ''} in {runs}")
+        return 1
+    for link in links:
+        fields = read_status(link / "status")
+        print(f"{link.resolve().name}: {fields.get('state')}"
+              f" exit {fields.get('exit', '-')} after {fields.get('wall', '-')}")
+    return 0
+
+
+def main(argv: list[str]) -> int:
+    into = None
+    if argv[:1] == ["--into"] and len(argv) > 1:
+        into, argv = Path(argv[1]).absolute(), argv[2:]
+    runs = top() / ".worktree" / "runs"
+    if into is None:
+        runs.mkdir(parents=True, exist_ok=True)
+        sweep(runs)
+    if argv[:1] == ["status"] and "--" not in argv and into is None:
+        return status_command(runs, argv[1] if len(argv) > 1 else None)
+    if len(argv) < 3 or argv[1] != "--" or not re.fullmatch(r"[\w.-]+", argv[0]):
+        print(__doc__.strip().split("\n\n")[1], file=sys.stderr)
+        return 2
+    name, cmd = argv[0], argv[2:]
+
+    if into is not None:
+        run = into
+        try:
+            run.parent.mkdir(parents=True, exist_ok=True)
+            run.mkdir()
+        except FileExistsError:
+            print(f"long-run: {run} exists already", file=sys.stderr)
+            return 2
+    stamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+    for n in range(0 if into is not None else 1000):
+        run = runs / (f"{name}-{stamp}" + (f"-{n}" if n else ""))
+        try:
+            run.mkdir()
+            break
+        except FileExistsError:
+            continue
+    log, status, summary = run / "log", run / "status", run / "summary"
+    junit = run / "junit.xml"
+    pytest = is_pytest(cmd)
+    if pytest and not any(a.startswith("--junitxml") or a.startswith("--junit-xml") for a in cmd):
+        # xunit1 records each test's file, so a failure reads as its node id
+        cmd = [*cmd, f"--junitxml={junit}", "-o", "junit_family=xunit1"]
+
+    if into is None:
+        latest = runs / f"{name}-latest"
+        tmp_link = runs / f".{name}-latest.{os.getpid()}"
+        tmp_link.unlink(missing_ok=True)
+        tmp_link.symlink_to(run.name)
+        tmp_link.replace(latest)
+
+    begin = time.monotonic()
+    fields = {"state": "running", "exit": None, "wall": None, "commit": commit(),
+              "cmd": shlex.join(cmd), "cwd": os.getcwd(),
+              "started": datetime.datetime.now().isoformat(timespec="seconds"),
+              "ended": None, "runner": f"{os.getpid()} {started(os.getpid())}"}
+    write_status(status, fields)
+    print(f"long-run: {run}", flush=True)
+
+    caught: list[int] = []
+
+    def on_signal(sig, _frame):
+        caught.append(sig)
+        try:
+            os.killpg(child.pid, sig)
+        except (ProcessLookupError, NameError, AttributeError):
+            pass
+
+    for sig in (signal.SIGINT, signal.SIGTERM, signal.SIGHUP):
+        signal.signal(sig, on_signal)
+
+    def preexec():
+        # Own process group, so a signal reaches the whole job; and SIGTERM if the runner dies.
+        os.setpgid(0, 0)
+        try:
+            import ctypes
+            ctypes.CDLL("libc.so.6", use_errno=True).prctl(1, signal.SIGTERM)  # PR_SET_PDEATHSIG
+        except OSError:
+            pass
+
+    with open(log, "wb") as out:
+        try:
+            child = subprocess.Popen(cmd, stdin=subprocess.DEVNULL, stdout=out,
+                                     stderr=subprocess.STDOUT, preexec_fn=preexec,
+                                     env={**os.environ, "LONG_RUN": str(run)})
+        except OSError as e:
+            out.write(f"long-run: cannot start {cmd[0]}: {e}\n".encode())
+            child = None
+        if child is not None:
+            deadline = None
+            while True:
+                try:
+                    code = child.wait(timeout=1)
+                    break
+                except subprocess.TimeoutExpired:
+                    if caught and deadline is None:
+                        deadline = time.monotonic() + 15
+                    if deadline is not None and time.monotonic() > deadline:
+                        try:
+                            os.killpg(child.pid, signal.SIGKILL)
+                        except ProcessLookupError:
+                            pass
+        else:
+            code = 127
+
+    signal.signal(signal.SIGINT, signal.SIG_IGN)
+    signal.signal(signal.SIGTERM, signal.SIG_IGN)
+    if caught or code < 0:
+        reap(run)
+    exit_code = 128 - code if code < 0 else code
+    if caught or code < 0:
+        sig = signal.Signals(caught[0] if caught else -code).name
+        state, note = "killed", (f"long-run got {sig}" if caught else f"the command got {sig}")
+    else:
+        state, note = ("passed" if code == 0 else "failed"), None
+    fields.update(state=state, exit=exit_code, wall=wall(time.monotonic() - begin),
+                  ended=datetime.datetime.now().isoformat(timespec="seconds"), note=note)
+
+    text = pytest_summary(junit, code) if pytest else None
+    if text is None:
+        text = generic_summary(log, code)
+    if state == "killed":
+        text = f"killed ({note}) after {fields['wall']}\n" + text
+    summary.write_text(text)
+    write_status(status, fields)
+    print(f"long-run: {state}, exit {exit_code}, {fields['wall']}; summary {summary}")
+    sys.stdout.write(text)
+    return exit_code
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

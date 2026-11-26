@@ -1,0 +1,10 @@
+{
+  "doc": "docaccess-legislation",
+  "page": 30,
+  "description": "Legislation page 30: the title of an added section, which wraps onto a second line, is one heading; the SECTION line that adds it stays a paragraph (#223).",
+  "assertions": [
+    {"heading": {"text": "Sec. 25A.0041. RULES RELATED TO JURISDICTIONAL DETERMINATION."}, "xfail_without_ocr": "Without an OCR runner, the page is not read.", "why": "The line holds the title of the section the bill adds, wrapped onto the next line (#223)."},
+    {"not_heading": ["SECTION 46. Chapter 25A, Government Code, is amended by adding Section 25A.0041 to read as follows:"], "xfail_without_ocr": "Without an OCR runner, the page is not read.", "why": "The SECTION line opens an amendment sentence: no title, so no heading (#223)."},
+    {"max_headings": 1, "xfail_without_ocr": "Without an OCR runner, the page is not read."}
+  ]
+}

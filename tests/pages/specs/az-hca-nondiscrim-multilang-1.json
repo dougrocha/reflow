@@ -1,0 +1,10 @@
+{
+  "doc": "az-hca-nondiscrim-multilang",
+  "page": 1,
+  "description": "BCBSAZ Health Choice non-discrimination notice, multi-language insert, page 1: the English notice. Pages 3-4 carry about 30 language taglines (#122, #123, #124).",
+  "assertions": [
+    {"heading": {"text": "Notice of Non-Discrimination"}},
+    {"contains_in_order": ["BCBSAZ Health Choice complies with applicable Federal civil rights laws", "Qualified sign language interpreters", "If you believe that BCBSAZ Health Choice has failed to provide these services", "1-800-368-1019"]},
+    {"no_text": ["�"]}
+  ]
+}

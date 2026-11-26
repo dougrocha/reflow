@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Web data root: whole conversions (sidecars, traces, audits), not served
+web/.reflow/
+
+# Virtual environments
+.venv
+/research/
+/samples/azblue/
+/samples/arxiv.pdf
+/samples/resnet.pdf
+/samples/docaccess/
+/samples/robustness/fetched/
+/samples/heldout/files/
+
+# Local secrets and settings.
+.env
+.env.*
+
+# A worktree's ports, PIDs and logs, from scripts/worktree-setup and scripts/dev
+/.worktree/
+
+# Test caches
+.pytest_cache/

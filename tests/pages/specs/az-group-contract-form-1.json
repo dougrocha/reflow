@@ -1,0 +1,24 @@
+{
+  "doc": "az-group-contract-form",
+  "page": 1,
+  "description": "Group contract form, page 1: each row label (PERSON AUTHORIZED TO SIGN CONTRACT *, NAME *) spans the rows of its fields, so no field row has an empty cell where the label stands. A field whose tooltip joins the author's field-name parts with '_' ('..._Row', 'Phone_Best way to contact you:') is named by the caption printed in the cell over it; the tooltip stays its title (#164).",
+  "assertions": [
+    {"no_empty_field_cells": true},
+    {"fields": {"text": 29, "checkbox": 6}},
+    {"control_names": [
+      "Name and title of the legally valid representative authorized to sign the contract with AZ Blue",
+      "DBA (Doing Business As) Name - if different from above",
+      "Facility Business Email (contracts and correspondence must be sent to the facility, not to a billing company or a consultant)",
+      "Name of contact person for questions related to this request",
+      "Legal Name - as on file with the AZ Corporation Commission"
+    ]},
+    {"no_control_names": [
+      "Name and title of the legally valid representative authorized to sign the contract with AZ Blue_Row",
+      "Phone_Best way to contact you:",
+      "Email_Best way to contact you:",
+      "Phone_Contact information:",
+      "Email_Contact information:",
+      "DBA (Doing Business As) Name - if different from above_NAME *"
+    ]}
+  ]
+}

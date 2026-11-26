@@ -1,0 +1,24 @@
+{
+  "doc": "az-audit-compliance-and-risk-committee-charter",
+  "page": 1,
+  "description": "Committee charter (#160): the metadata title 'Audit Committee Charter 2015' names a year the charter of 2026 does not print; the line it names is the title. The first page keeps the charter's name (#159).",
+  "assertions": [
+    {
+      "doc_title": "AUDIT, COMPLIANCE, AND RISK COMMITTEE CHARTER"
+    },
+    {
+      "title_suspect": false
+    },
+    {
+      "contains": [
+        "AUDIT, COMPLIANCE, AND RISK COMMITTEE CHARTER",
+        "MARCH 2026"
+      ]
+    },
+    {
+      "heading": {
+        "text": "PURPOSE"
+      }
+    }
+  ]
+}

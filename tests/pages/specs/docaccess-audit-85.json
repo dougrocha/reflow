@@ -1,0 +1,17 @@
+{
+  "doc": "docaccess-audit",
+  "page": 85,
+  "description": "Audit page 85, ratios of outstanding debt by type: one table of seven columns (fiscal year, leases, private placement, total outstanding debt, percentage of personal income, population, debt per capita). A cell's \"N/A\" is drawn before the population figure on its left, so the stream is read cell by cell, not as \"N/A 759,155\" in one cell.",
+  "assertions": [
+    {"tables": 1},
+    {"table": {"rows": 12, "cols": 7, "exact": true,
+               "cells": ["Fiscal Year", "Leases", "Population (1)", "Debt per Capita", "2014", "758,581",
+                         "2015", "759,155", "19,194", "103,701", "3,825,000", "3,907,013", "3,617,831",
+                         "3,695,494", "0.02", "4.83"],
+               "cell_contains": [
+                 {"row": {"col": 0, "text": "2015"}, "cols": [5], "text": "759,155"},
+                 {"row": {"col": 0, "text": "2015"}, "cols": [6], "text": "N/A"},
+                 {"row": {"col": 0, "text": "2022"}, "cols": [2], "text": "3,825,000"},
+                 {"row": {"col": 0, "text": "2022"}, "cols": [6], "text": "5.20"}]}}
+  ]
+}

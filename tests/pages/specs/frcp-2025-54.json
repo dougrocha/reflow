@@ -1,0 +1,10 @@
+{
+  "doc": "frcp-2025",
+  "page": 54,
+  "description": "Federal Rules of Civil Procedure: Rule 23(g)(1)(A)(i), where an uppercase legal label contains a lowercase roman subitem.",
+  "assertions": [
+    {"nested_list": {"parent": "(A) must consider:", "items": [
+      "(i) the work counsel has done in identifying or investigating potential claims in the action;"
+    ]}}
+  ]
+}

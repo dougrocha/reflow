@@ -1,0 +1,6 @@
+[tools]
+java = "temurin-25.0.4+7.0.LTS"
+
+[tasks.verify-parallel]
+description = "Check that --jobs N converts as --jobs 1 does (TLA+ model + Hypothesis on the real code); see verify/parallel-conversion"
+run = "verify/parallel-conversion/run.sh"

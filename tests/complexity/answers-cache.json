@@ -1,0 +1,9050 @@
+{
+ "0abd7a7f4824cc9426129194742366e6d8cddaee905180e6ef39c2cf04fb4ddb": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "label"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "value"
+    },
+    {
+     "id": "b5",
+     "role": "value"
+    },
+    {
+     "id": "b6",
+     "role": "value"
+    },
+    {
+     "id": "b7",
+     "role": "label"
+    },
+    {
+     "id": "b8",
+     "role": "value"
+    },
+    {
+     "id": "b9",
+     "role": "list"
+    },
+    {
+     "id": "b10",
+     "role": "value"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "value"
+    },
+    {
+     "id": "b13",
+     "role": "label"
+    },
+    {
+     "id": "b14",
+     "role": "value"
+    },
+    {
+     "id": "b15",
+     "role": "value"
+    },
+    {
+     "id": "b16",
+     "role": "value"
+    },
+    {
+     "id": "b17",
+     "role": "label"
+    },
+    {
+     "id": "b18",
+     "role": "value"
+    },
+    {
+     "id": "b19",
+     "role": "value"
+    },
+    {
+     "id": "b20",
+     "role": "list"
+    },
+    {
+     "id": "b21",
+     "role": "value"
+    },
+    {
+     "id": "b22",
+     "role": "value"
+    },
+    {
+     "id": "b23",
+     "role": "value"
+    },
+    {
+     "id": "b24",
+     "role": "paragraph"
+    },
+    {
+     "id": "b25",
+     "role": "value"
+    },
+    {
+     "id": "b26",
+     "role": "list"
+    },
+    {
+     "id": "b27",
+     "role": "value"
+    },
+    {
+     "id": "b28",
+     "role": "list"
+    },
+    {
+     "id": "b29",
+     "role": "value"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": true,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "29c5b0b5a8a5dcee01b3cc313edf0872588e881f9d2bb103e73da9efaa692a8e": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "handwriting"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "label"
+    },
+    {
+     "id": "b4",
+     "role": "table"
+    },
+    {
+     "id": "b5",
+     "role": "table"
+    },
+    {
+     "id": "b6",
+     "role": "value"
+    },
+    {
+     "id": "b7",
+     "role": "value"
+    },
+    {
+     "id": "b8",
+     "role": "label"
+    },
+    {
+     "id": "b9",
+     "role": "label"
+    },
+    {
+     "id": "b10",
+     "role": "label"
+    },
+    {
+     "id": "b11",
+     "role": "noise"
+    },
+    {
+     "id": "b12",
+     "role": "label"
+    }
+   ],
+   "complexity": {
+    "dense_table": true,
+    "diagram": false,
+    "poor_scan": true,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "abf0757b0226148758cd2faf48ee93fdedfba0924b53c43011142eca6e8dc513": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "noise"
+    },
+    {
+     "id": "b2",
+     "role": "noise"
+    },
+    {
+     "id": "b3",
+     "role": "label"
+    },
+    {
+     "id": "b4",
+     "role": "table"
+    },
+    {
+     "id": "b5",
+     "role": "value"
+    },
+    {
+     "id": "b6",
+     "role": "table"
+    },
+    {
+     "id": "b7",
+     "role": "value"
+    },
+    {
+     "id": "b8",
+     "role": "value"
+    },
+    {
+     "id": "b9",
+     "role": "value"
+    },
+    {
+     "id": "b10",
+     "role": "value"
+    },
+    {
+     "id": "b11",
+     "role": "value"
+    },
+    {
+     "id": "b12",
+     "role": "heading"
+    },
+    {
+     "id": "b13",
+     "role": "label"
+    },
+    {
+     "id": "b14",
+     "role": "value"
+    },
+    {
+     "id": "b15",
+     "role": "label"
+    },
+    {
+     "id": "b16",
+     "role": "value"
+    },
+    {
+     "id": "b17",
+     "role": "label"
+    },
+    {
+     "id": "b18",
+     "role": "label"
+    },
+    {
+     "id": "b19",
+     "role": "value"
+    }
+   ],
+   "complexity": {
+    "dense_table": true,
+    "diagram": false,
+    "poor_scan": true,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 2
+ },
+ "2996897a3cc0eb34742e93c0f3dbc336b89caa14bb60983f8d0fac16d4ea68fc": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "table"
+    },
+    {
+     "id": "b2",
+     "role": "noise"
+    },
+    {
+     "id": "b3",
+     "role": "noise"
+    },
+    {
+     "id": "b4",
+     "role": "label"
+    },
+    {
+     "id": "b5",
+     "role": "value"
+    },
+    {
+     "id": "b6",
+     "role": "heading"
+    },
+    {
+     "id": "b7",
+     "role": "label"
+    },
+    {
+     "id": "b8",
+     "role": "value"
+    },
+    {
+     "id": "b9",
+     "role": "value"
+    },
+    {
+     "id": "b10",
+     "role": "value"
+    },
+    {
+     "id": "b11",
+     "role": "value"
+    },
+    {
+     "id": "b12",
+     "role": "value"
+    },
+    {
+     "id": "b13",
+     "role": "value"
+    },
+    {
+     "id": "b14",
+     "role": "value"
+    },
+    {
+     "id": "b15",
+     "role": "value"
+    },
+    {
+     "id": "b16",
+     "role": "value"
+    },
+    {
+     "id": "b17",
+     "role": "value"
+    },
+    {
+     "id": "b18",
+     "role": "value"
+    },
+    {
+     "id": "b19",
+     "role": "value"
+    },
+    {
+     "id": "b20",
+     "role": "value"
+    },
+    {
+     "id": "b21",
+     "role": "value"
+    },
+    {
+     "id": "b22",
+     "role": "value"
+    },
+    {
+     "id": "b23",
+     "role": "value"
+    },
+    {
+     "id": "b24",
+     "role": "value"
+    },
+    {
+     "id": "b25",
+     "role": "value"
+    },
+    {
+     "id": "b26",
+     "role": "value"
+    },
+    {
+     "id": "b27",
+     "role": "value"
+    },
+    {
+     "id": "b28",
+     "role": "table"
+    },
+    {
+     "id": "b29",
+     "role": "value"
+    },
+    {
+     "id": "b30",
+     "role": "value"
+    },
+    {
+     "id": "b31",
+     "role": "table"
+    },
+    {
+     "id": "b32",
+     "role": "value"
+    },
+    {
+     "id": "b33",
+     "role": "value"
+    },
+    {
+     "id": "b34",
+     "role": "value"
+    },
+    {
+     "id": "b35",
+     "role": "value"
+    },
+    {
+     "id": "b36",
+     "role": "value"
+    },
+    {
+     "id": "b37",
+     "role": "value"
+    },
+    {
+     "id": "b38",
+     "role": "value"
+    },
+    {
+     "id": "b39",
+     "role": "value"
+    },
+    {
+     "id": "b40",
+     "role": "value"
+    },
+    {
+     "id": "b41",
+     "role": "value"
+    },
+    {
+     "id": "b42",
+     "role": "value"
+    },
+    {
+     "id": "b43",
+     "role": "value"
+    },
+    {
+     "id": "b44",
+     "role": "value"
+    },
+    {
+     "id": "b45",
+     "role": "value"
+    },
+    {
+     "id": "b46",
+     "role": "value"
+    },
+    {
+     "id": "b47",
+     "role": "value"
+    },
+    {
+     "id": "b48",
+     "role": "value"
+    },
+    {
+     "id": "b49",
+     "role": "value"
+    },
+    {
+     "id": "b50",
+     "role": "value"
+    },
+    {
+     "id": "b51",
+     "role": "value"
+    },
+    {
+     "id": "b52",
+     "role": "value"
+    },
+    {
+     "id": "b53",
+     "role": "value"
+    },
+    {
+     "id": "b54",
+     "role": "value"
+    },
+    {
+     "id": "b55",
+     "role": "value"
+    },
+    {
+     "id": "b56",
+     "role": "value"
+    },
+    {
+     "id": "b57",
+     "role": "value"
+    },
+    {
+     "id": "b58",
+     "role": "value"
+    },
+    {
+     "id": "b59",
+     "role": "value"
+    },
+    {
+     "id": "b60",
+     "role": "value"
+    },
+    {
+     "id": "b61",
+     "role": "value"
+    },
+    {
+     "id": "b62",
+     "role": "value"
+    },
+    {
+     "id": "b63",
+     "role": "value"
+    },
+    {
+     "id": "b64",
+     "role": "value"
+    },
+    {
+     "id": "b65",
+     "role": "value"
+    },
+    {
+     "id": "b66",
+     "role": "value"
+    },
+    {
+     "id": "b67",
+     "role": "value"
+    },
+    {
+     "id": "b68",
+     "role": "value"
+    },
+    {
+     "id": "b69",
+     "role": "value"
+    },
+    {
+     "id": "b70",
+     "role": "value"
+    },
+    {
+     "id": "b71",
+     "role": "value"
+    },
+    {
+     "id": "b72",
+     "role": "value"
+    },
+    {
+     "id": "b73",
+     "role": "label"
+    },
+    {
+     "id": "b74",
+     "role": "value"
+    },
+    {
+     "id": "b75",
+     "role": "value"
+    },
+    {
+     "id": "b76",
+     "role": "value"
+    },
+    {
+     "id": "b77",
+     "role": "value"
+    },
+    {
+     "id": "b78",
+     "role": "value"
+    },
+    {
+     "id": "b79",
+     "role": "label"
+    },
+    {
+     "id": "b80",
+     "role": "value"
+    },
+    {
+     "id": "b81",
+     "role": "value"
+    },
+    {
+     "id": "b82",
+     "role": "value"
+    },
+    {
+     "id": "b83",
+     "role": "value"
+    },
+    {
+     "id": "b84",
+     "role": "value"
+    },
+    {
+     "id": "b85",
+     "role": "value"
+    },
+    {
+     "id": "b86",
+     "role": "value"
+    },
+    {
+     "id": "b87",
+     "role": "value"
+    }
+   ],
+   "complexity": {
+    "dense_table": true,
+    "diagram": false,
+    "poor_scan": true,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 3
+ },
+ "bd45a2863b9d2e699183ef22764d281941d3a42da587f8b354e172ae4d112c6e": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "figure"
+    },
+    {
+     "id": "b3",
+     "role": "figure"
+    },
+    {
+     "id": "b4",
+     "role": "label"
+    },
+    {
+     "id": "b5",
+     "role": "table"
+    },
+    {
+     "id": "b6",
+     "role": "handwriting"
+    },
+    {
+     "id": "b7",
+     "role": "handwriting"
+    },
+    {
+     "id": "b8",
+     "role": "handwriting"
+    },
+    {
+     "id": "b9",
+     "role": "handwriting"
+    },
+    {
+     "id": "b10",
+     "role": "handwriting"
+    },
+    {
+     "id": "b11",
+     "role": "handwriting"
+    },
+    {
+     "id": "b12",
+     "role": "handwriting"
+    },
+    {
+     "id": "b13",
+     "role": "handwriting"
+    },
+    {
+     "id": "b14",
+     "role": "handwriting"
+    },
+    {
+     "id": "b15",
+     "role": "handwriting"
+    },
+    {
+     "id": "b16",
+     "role": "handwriting"
+    },
+    {
+     "id": "b17",
+     "role": "handwriting"
+    },
+    {
+     "id": "b18",
+     "role": "handwriting"
+    },
+    {
+     "id": "b19",
+     "role": "table"
+    },
+    {
+     "id": "b20",
+     "role": "handwriting"
+    },
+    {
+     "id": "b21",
+     "role": "handwriting"
+    },
+    {
+     "id": "b22",
+     "role": "label"
+    },
+    {
+     "id": "b23",
+     "role": "handwriting"
+    },
+    {
+     "id": "b24",
+     "role": "figure"
+    },
+    {
+     "id": "b25",
+     "role": "table"
+    },
+    {
+     "id": "b26",
+     "role": "handwriting"
+    },
+    {
+     "id": "b27",
+     "role": "handwriting"
+    },
+    {
+     "id": "b28",
+     "role": "handwriting"
+    },
+    {
+     "id": "b29",
+     "role": "label"
+    },
+    {
+     "id": "b30",
+     "role": "handwriting"
+    },
+    {
+     "id": "b31",
+     "role": "handwriting"
+    },
+    {
+     "id": "b32",
+     "role": "handwriting"
+    },
+    {
+     "id": "b33",
+     "role": "handwriting"
+    },
+    {
+     "id": "b34",
+     "role": "label"
+    },
+    {
+     "id": "b35",
+     "role": "handwriting"
+    }
+   ],
+   "complexity": {
+    "dense_table": true,
+    "diagram": false,
+    "poor_scan": true,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 6
+ },
+ "72e0a9f35f812620bb156ade15656e8a8299d989a331cb69d7971cd41726d904": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "noise"
+    },
+    {
+     "id": "b2",
+     "role": "noise"
+    },
+    {
+     "id": "b3",
+     "role": "label"
+    },
+    {
+     "id": "b4",
+     "role": "label"
+    },
+    {
+     "id": "b5",
+     "role": "value"
+    },
+    {
+     "id": "b6",
+     "role": "value"
+    },
+    {
+     "id": "b7",
+     "role": "heading"
+    },
+    {
+     "id": "b8",
+     "role": "table"
+    },
+    {
+     "id": "b9",
+     "role": "label"
+    },
+    {
+     "id": "b10",
+     "role": "label"
+    },
+    {
+     "id": "b11",
+     "role": "label"
+    },
+    {
+     "id": "b12",
+     "role": "label"
+    },
+    {
+     "id": "b13",
+     "role": "value"
+    }
+   ],
+   "complexity": {
+    "dense_table": true,
+    "diagram": false,
+    "poor_scan": true,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 7
+ },
+ "08301c19a5ec7d6306be05b879640b9f1835ecc203dc3fd7035942fe6549523d": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure_label"
+    },
+    {
+     "id": "b2",
+     "role": "figure_label"
+    },
+    {
+     "id": "b3",
+     "role": "handwriting"
+    },
+    {
+     "id": "b4",
+     "role": "handwriting"
+    },
+    {
+     "id": "b5",
+     "role": "handwriting"
+    },
+    {
+     "id": "b6",
+     "role": "handwriting"
+    },
+    {
+     "id": "b7",
+     "role": "handwriting"
+    },
+    {
+     "id": "b8",
+     "role": "handwriting"
+    },
+    {
+     "id": "b9",
+     "role": "handwriting"
+    },
+    {
+     "id": "b10",
+     "role": "figure_label"
+    },
+    {
+     "id": "b11",
+     "role": "figure_label"
+    },
+    {
+     "id": "b12",
+     "role": "figure_label"
+    },
+    {
+     "id": "b13",
+     "role": "figure_label"
+    },
+    {
+     "id": "b14",
+     "role": "figure_label"
+    },
+    {
+     "id": "b15",
+     "role": "figure_label"
+    },
+    {
+     "id": "b16",
+     "role": "figure_label"
+    },
+    {
+     "id": "b17",
+     "role": "figure_label"
+    },
+    {
+     "id": "b18",
+     "role": "figure_label"
+    },
+    {
+     "id": "b19",
+     "role": "figure_label"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": true,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 8
+ },
+ "87f888bd8280fcccb7bcaa5d2fb5975554e4d2e5b1e98fc5eeefe26a0729ba71": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "noise"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "heading"
+    },
+    {
+     "id": "b9",
+     "role": "label"
+    },
+    {
+     "id": "b10",
+     "role": "heading"
+    },
+    {
+     "id": "b11",
+     "role": "handwriting"
+    },
+    {
+     "id": "b12",
+     "role": "table"
+    },
+    {
+     "id": "b13",
+     "role": "heading"
+    },
+    {
+     "id": "b14",
+     "role": "heading"
+    },
+    {
+     "id": "b15",
+     "role": "heading"
+    },
+    {
+     "id": "b16",
+     "role": "heading"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    },
+    {
+     "id": "b18",
+     "role": "label"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "label"
+    },
+    {
+     "id": "b21",
+     "role": "heading"
+    },
+    {
+     "id": "b22",
+     "role": "handwriting"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "91e99b47e2c28074535c96c93530e32107d474094db503717877ebd8700754f0": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "label"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "value"
+    },
+    {
+     "id": "b4",
+     "role": "label"
+    },
+    {
+     "id": "b5",
+     "role": "label"
+    },
+    {
+     "id": "b6",
+     "role": "label"
+    },
+    {
+     "id": "b7",
+     "role": "heading"
+    },
+    {
+     "id": "b8",
+     "role": "label"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "heading"
+    },
+    {
+     "id": "b11",
+     "role": "heading"
+    },
+    {
+     "id": "b12",
+     "role": "heading"
+    },
+    {
+     "id": "b13",
+     "role": "heading"
+    },
+    {
+     "id": "b14",
+     "role": "heading"
+    },
+    {
+     "id": "b15",
+     "role": "heading"
+    },
+    {
+     "id": "b16",
+     "role": "heading"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    },
+    {
+     "id": "b18",
+     "role": "label"
+    },
+    {
+     "id": "b19",
+     "role": "value"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 2
+ },
+ "0b43e7edbe21b04997cad5bfad000c9e5b7f55828c6eb9e22e7def98a21c6e78": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "figure"
+    },
+    {
+     "id": "b4",
+     "role": "table"
+    },
+    {
+     "id": "b5",
+     "role": "table"
+    },
+    {
+     "id": "b6",
+     "role": "table"
+    },
+    {
+     "id": "b7",
+     "role": "table"
+    },
+    {
+     "id": "b8",
+     "role": "table"
+    },
+    {
+     "id": "b9",
+     "role": "table"
+    },
+    {
+     "id": "b10",
+     "role": "table"
+    },
+    {
+     "id": "b11",
+     "role": "table"
+    },
+    {
+     "id": "b12",
+     "role": "table"
+    },
+    {
+     "id": "b13",
+     "role": "table"
+    },
+    {
+     "id": "b14",
+     "role": "table"
+    },
+    {
+     "id": "b15",
+     "role": "table"
+    },
+    {
+     "id": "b16",
+     "role": "heading"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    },
+    {
+     "id": "b18",
+     "role": "paragraph"
+    },
+    {
+     "id": "b19",
+     "role": "heading"
+    },
+    {
+     "id": "b20",
+     "role": "label"
+    },
+    {
+     "id": "b21",
+     "role": "label"
+    },
+    {
+     "id": "b22",
+     "role": "label"
+    },
+    {
+     "id": "b23",
+     "role": "label"
+    },
+    {
+     "id": "b24",
+     "role": "paragraph"
+    },
+    {
+     "id": "b25",
+     "role": "heading"
+    },
+    {
+     "id": "b26",
+     "role": "heading"
+    },
+    {
+     "id": "b27",
+     "role": "paragraph"
+    },
+    {
+     "id": "b28",
+     "role": "heading"
+    },
+    {
+     "id": "b29",
+     "role": "label"
+    },
+    {
+     "id": "b30",
+     "role": "paragraph"
+    },
+    {
+     "id": "b31",
+     "role": "heading"
+    },
+    {
+     "id": "b32",
+     "role": "label"
+    },
+    {
+     "id": "b33",
+     "role": "heading"
+    },
+    {
+     "id": "b34",
+     "role": "paragraph"
+    },
+    {
+     "id": "b35",
+     "role": "paragraph"
+    },
+    {
+     "id": "b36",
+     "role": "heading"
+    },
+    {
+     "id": "b37",
+     "role": "paragraph"
+    },
+    {
+     "id": "b38",
+     "role": "paragraph"
+    },
+    {
+     "id": "b39",
+     "role": "paragraph"
+    },
+    {
+     "id": "b40",
+     "role": "paragraph"
+    },
+    {
+     "id": "b41",
+     "role": "heading"
+    },
+    {
+     "id": "b42",
+     "role": "paragraph"
+    },
+    {
+     "id": "b43",
+     "role": "paragraph"
+    },
+    {
+     "id": "b44",
+     "role": "label"
+    },
+    {
+     "id": "b45",
+     "role": "label"
+    },
+    {
+     "id": "b46",
+     "role": "paragraph"
+    },
+    {
+     "id": "b47",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "4bce04127f99bb92733c79ef5c853d08399e5f71933251b8eaca9b1cceefd647": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "figure"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "figure"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "figure"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "figure"
+    },
+    {
+     "id": "b13",
+     "role": "handwriting"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "handwriting"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "cf010b2784b8da9bea6dc7a307aef70b8679fdf3fa51d42233be9510573086bb": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "heading"
+    },
+    {
+     "id": "b5",
+     "role": "heading"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "list"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "list"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    },
+    {
+     "id": "b18",
+     "role": "paragraph"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    },
+    {
+     "id": "b21",
+     "role": "paragraph"
+    },
+    {
+     "id": "b22",
+     "role": "paragraph"
+    },
+    {
+     "id": "b23",
+     "role": "paragraph"
+    },
+    {
+     "id": "b24",
+     "role": "paragraph"
+    },
+    {
+     "id": "b25",
+     "role": "paragraph"
+    },
+    {
+     "id": "b26",
+     "role": "paragraph"
+    },
+    {
+     "id": "b27",
+     "role": "paragraph"
+    },
+    {
+     "id": "b28",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 3
+ },
+ "b53f1711b3b027de51ecccdb357c40450ef74c3161aa67e5055ec20efaeb707b": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "paragraph"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "list"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "list"
+    },
+    {
+     "id": "b6",
+     "role": "figure"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 12
+ },
+ "b19eedd24784441a27908f47217dbd1290d47ef514c317f1a5b031b3f4a146fa": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "list"
+    },
+    {
+     "id": "b2",
+     "role": "figure"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "figure"
+    },
+    {
+     "id": "b6",
+     "role": "list"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "list"
+    },
+    {
+     "id": "b12",
+     "role": "figure"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "list"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    },
+    {
+     "id": "b16",
+     "role": "list"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 25
+ },
+ "d451bf6ae8b919546a9d92d364e3f9d0f86693ed0f5ede20f3ebce8dbcabc680": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "list"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "heading"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "list"
+    },
+    {
+     "id": "b10",
+     "role": "header_footer"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "8c352a88ba282a266831c54b03fd9b90fce70b8243deeee89b0bec1824478f8a": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "paragraph"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "heading"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "figure"
+    },
+    {
+     "id": "b7",
+     "role": "caption"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "list"
+    },
+    {
+     "id": "b10",
+     "role": "header_footer"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 2
+ },
+ "e7e7cbccf5b91986cb2f4b7e32506f3f7df90700c504c06757be6cc27a5302a8": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure_label"
+    },
+    {
+     "id": "b2",
+     "role": "caption"
+    },
+    {
+     "id": "b3",
+     "role": "header_footer"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 3
+ },
+ "646d5148e597a68ce96d5381a12db1ecb25d3bbfb724c8545ceb6f6ec446df4f": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "figure"
+    },
+    {
+     "id": "b4",
+     "role": "caption"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 4
+ },
+ "c526f979e1f8e013c0fe61757f4713618b652b18f1b0d54a94ee71af5d29f108": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "table"
+    }
+   ],
+   "complexity": {
+    "dense_table": true,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 6
+ },
+ "99e19864bbf90974449e26ccb304d9e3a174748a459ec75d331ac335bbbbd77c": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "figure"
+    },
+    {
+     "id": "b4",
+     "role": "caption"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 7
+ },
+ "021a045b822289683f40f5954d73db1603c24d9f87ec55dd769f80e1740e53a0": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure_label"
+    },
+    {
+     "id": "b2",
+     "role": "caption"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "figure"
+    },
+    {
+     "id": "b6",
+     "role": "heading"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 8
+ },
+ "31048c55d185588a7c000de402c2b5dba8599c43c7b3c1d488d2a4359a707ce4": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "paragraph"
+    },
+    {
+     "id": "b2",
+     "role": "table"
+    },
+    {
+     "id": "b3",
+     "role": "caption"
+    },
+    {
+     "id": "b4",
+     "role": "heading"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 9
+ },
+ "7ac6f72fcca914d64260743c8f9aab4d594c7a13249f469b15e994b30482fdac": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure_label"
+    },
+    {
+     "id": "b2",
+     "role": "caption"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 10
+ },
+ "990af1dd06d9d54c71823f6e2f0feb3c9ef1405f3220a1ecc271eb95ca22e2ce": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "list"
+    },
+    {
+     "id": "b5",
+     "role": "heading"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "figure"
+    },
+    {
+     "id": "b9",
+     "role": "caption"
+    },
+    {
+     "id": "b10",
+     "role": "header_footer"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 12
+ },
+ "bd2daf98a0725ff07739e0aba3f983062fdbcb706b57357d3f0a25040649dd41": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "figure"
+    },
+    {
+     "id": "b7",
+     "role": "figure"
+    },
+    {
+     "id": "b8",
+     "role": "figure"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "cca1412a7fb2336cb9a1fa89f4198ea96b9c17c8a3b1566f55f07acd6602b257": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "label"
+    },
+    {
+     "id": "b5",
+     "role": "value"
+    },
+    {
+     "id": "b6",
+     "role": "label"
+    },
+    {
+     "id": "b7",
+     "role": "value"
+    },
+    {
+     "id": "b8",
+     "role": "figure"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 2
+ },
+ "342b4fa4fecc1afff66c6194d06793852e5c49b3f0a32b88365cc7d18016dd78": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "figure"
+    },
+    {
+     "id": "b4",
+     "role": "noise"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 6
+ },
+ "5ea3490bb63c8747248c60702bcd4ae8a931fc0417d364c757a50254a556eeb0": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "figure_label"
+    },
+    {
+     "id": "b5",
+     "role": "label"
+    },
+    {
+     "id": "b6",
+     "role": "label"
+    },
+    {
+     "id": "b7",
+     "role": "label"
+    },
+    {
+     "id": "b8",
+     "role": "label"
+    },
+    {
+     "id": "b9",
+     "role": "label"
+    },
+    {
+     "id": "b10",
+     "role": "label"
+    },
+    {
+     "id": "b11",
+     "role": "label"
+    },
+    {
+     "id": "b12",
+     "role": "label"
+    },
+    {
+     "id": "b13",
+     "role": "label"
+    },
+    {
+     "id": "b14",
+     "role": "label"
+    },
+    {
+     "id": "b15",
+     "role": "label"
+    },
+    {
+     "id": "b16",
+     "role": "label"
+    },
+    {
+     "id": "b17",
+     "role": "label"
+    },
+    {
+     "id": "b18",
+     "role": "label"
+    },
+    {
+     "id": "b19",
+     "role": "label"
+    },
+    {
+     "id": "b20",
+     "role": "label"
+    },
+    {
+     "id": "b21",
+     "role": "label"
+    },
+    {
+     "id": "b22",
+     "role": "label"
+    },
+    {
+     "id": "b23",
+     "role": "noise"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 9
+ },
+ "6370bab3a2cdec3cabda4e83659d8bbc6e2c9f0136431ad907825d2cfa50134e": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "paragraph"
+    },
+    {
+     "id": "b2",
+     "role": "list"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "label"
+    },
+    {
+     "id": "b7",
+     "role": "value"
+    },
+    {
+     "id": "b8",
+     "role": "label"
+    },
+    {
+     "id": "b9",
+     "role": "label"
+    },
+    {
+     "id": "b10",
+     "role": "value"
+    },
+    {
+     "id": "b11",
+     "role": "label"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 12
+ },
+ "d63f1fb03e44ef07a828a3163484d64c81508608dd24d81435b8e1c29ca44918": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure_label"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "list"
+    },
+    {
+     "id": "b5",
+     "role": "list"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 14
+ },
+ "78fad7c7b8faa198935e2b7dcf5b2a96f9b078add805ba607b8abdd4c22ed19d": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "heading"
+    },
+    {
+     "id": "b5",
+     "role": "heading"
+    },
+    {
+     "id": "b6",
+     "role": "heading"
+    },
+    {
+     "id": "b7",
+     "role": "heading"
+    },
+    {
+     "id": "b8",
+     "role": "heading"
+    },
+    {
+     "id": "b9",
+     "role": "heading"
+    },
+    {
+     "id": "b10",
+     "role": "figure"
+    },
+    {
+     "id": "b11",
+     "role": "label"
+    },
+    {
+     "id": "b12",
+     "role": "handwriting"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 15
+ },
+ "d9c32c4e9990554c47b63f69ee6a84fde54bba2004fb2146214fea8e887ba0f9": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "header_footer"
+    },
+    {
+     "id": "b4",
+     "role": "heading"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "heading"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "figure"
+    },
+    {
+     "id": "b10",
+     "role": "label"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 18
+ },
+ "303484eca182eebc0696c81351fea4e52449134b60ae6582570711eb72860176": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 19
+ },
+ "9a0d9671f9cdc174585a80beba44ee44b34b75dea797df7b4285a44d6172811e": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "table"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 21
+ },
+ "77f7fe6428576d3969afa3674363f83a91d727f9ed63aa392bff56c146ac55c7": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "table"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "table"
+    },
+    {
+     "id": "b4",
+     "role": "heading"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 23
+ },
+ "445b3707bc744203a440d2951fdefad37c8416c8c1bec4f13ad94e49709065fb": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "paragraph"
+    },
+    {
+     "id": "b2",
+     "role": "figure"
+    },
+    {
+     "id": "b3",
+     "role": "figure"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 25
+ },
+ "5a4ad525d04e25cf8ef18e5b1aacea64f83dd3eb3fc317ee76af9beb197b9d0a": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "table"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "heading"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    },
+    {
+     "id": "b18",
+     "role": "paragraph"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    },
+    {
+     "id": "b21",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 27
+ },
+ "c78527b063b25269678ad4742f6e7e9db7a284312dff23a5541318d5f8bf327e": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "table"
+    },
+    {
+     "id": "b2",
+     "role": "table"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "table"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 29
+ },
+ "997e35091a0079f006728fdfbab0ebf19d2e2c0b450c076bc064c3353c963a2e": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "paragraph"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "figure"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "heading"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "figure"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "e5b82133722079ec55c8678b9ca8fb372485352f3c17a950fba5a4bd94b273fd": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "figure"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "heading"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 2
+ },
+ "17234a926e4ff543ced3bcb2bc9214bd62e6345c374275eb83f81d38a6191d31": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "figure"
+    },
+    {
+     "id": "b3",
+     "role": "noise"
+    },
+    {
+     "id": "b4",
+     "role": "heading"
+    },
+    {
+     "id": "b5",
+     "role": "heading"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": true,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 3
+ },
+ "9ada27cf34754a8398643bf17427321eede2560764fa510ed5af27d0a45833ad": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "c4684d4e9d7de893d49d5c3938e31b1689ec71b53dae9f540e6cd5664ac3a923": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "handwriting"
+    },
+    {
+     "id": "b2",
+     "role": "handwriting"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "handwriting"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "heading"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "handwriting"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "list"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 2
+ },
+ "498989d5ce1653bda34c4a11727c0dade953206c5d9ae267673164e91b6483b7": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "noise"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "handwriting"
+    },
+    {
+     "id": "b5",
+     "role": "figure"
+    },
+    {
+     "id": "b6",
+     "role": "label"
+    },
+    {
+     "id": "b7",
+     "role": "heading"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 4
+ },
+ "cd440abc14480cb1bf35128e298f9e5932bc86b4f574897df4fd3f3c8812352e": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "paragraph"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "handwriting"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "label"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "value"
+    },
+    {
+     "id": "b12",
+     "role": "label"
+    },
+    {
+     "id": "b13",
+     "role": "figure"
+    },
+    {
+     "id": "b14",
+     "role": "label"
+    },
+    {
+     "id": "b15",
+     "role": "value"
+    },
+    {
+     "id": "b16",
+     "role": "value"
+    },
+    {
+     "id": "b17",
+     "role": "label"
+    },
+    {
+     "id": "b18",
+     "role": "heading"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    },
+    {
+     "id": "b21",
+     "role": "label"
+    },
+    {
+     "id": "b22",
+     "role": "value"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 5
+ },
+ "de968ccecfa6e1ff1cbafbb28fcad949af547d44e329b1b0efdcebc93f3b0b27": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "table"
+    },
+    {
+     "id": "b5",
+     "role": "heading"
+    },
+    {
+     "id": "b6",
+     "role": "value"
+    },
+    {
+     "id": "b7",
+     "role": "heading"
+    },
+    {
+     "id": "b8",
+     "role": "value"
+    },
+    {
+     "id": "b9",
+     "role": "value"
+    },
+    {
+     "id": "b10",
+     "role": "value"
+    },
+    {
+     "id": "b11",
+     "role": "value"
+    },
+    {
+     "id": "b12",
+     "role": "value"
+    },
+    {
+     "id": "b13",
+     "role": "value"
+    },
+    {
+     "id": "b14",
+     "role": "value"
+    },
+    {
+     "id": "b15",
+     "role": "value"
+    },
+    {
+     "id": "b16",
+     "role": "value"
+    },
+    {
+     "id": "b17",
+     "role": "value"
+    },
+    {
+     "id": "b18",
+     "role": "value"
+    },
+    {
+     "id": "b19",
+     "role": "value"
+    },
+    {
+     "id": "b20",
+     "role": "value"
+    },
+    {
+     "id": "b21",
+     "role": "value"
+    },
+    {
+     "id": "b22",
+     "role": "value"
+    },
+    {
+     "id": "b23",
+     "role": "value"
+    },
+    {
+     "id": "b24",
+     "role": "value"
+    },
+    {
+     "id": "b25",
+     "role": "value"
+    },
+    {
+     "id": "b26",
+     "role": "value"
+    },
+    {
+     "id": "b27",
+     "role": "value"
+    },
+    {
+     "id": "b28",
+     "role": "value"
+    },
+    {
+     "id": "b29",
+     "role": "value"
+    },
+    {
+     "id": "b30",
+     "role": "value"
+    },
+    {
+     "id": "b31",
+     "role": "value"
+    },
+    {
+     "id": "b32",
+     "role": "value"
+    }
+   ],
+   "complexity": {
+    "dense_table": true,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 8
+ },
+ "f69d21ec9f405391c0c48001b41d3c9f26891fd15efa8c35b9a4a1e461228441": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "header_footer"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "label"
+    },
+    {
+     "id": "b6",
+     "role": "label"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "value"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "value"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "value"
+    },
+    {
+     "id": "b15",
+     "role": "label"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "value"
+    },
+    {
+     "id": "b18",
+     "role": "label"
+    },
+    {
+     "id": "b19",
+     "role": "label"
+    },
+    {
+     "id": "b20",
+     "role": "label"
+    },
+    {
+     "id": "b21",
+     "role": "list"
+    },
+    {
+     "id": "b22",
+     "role": "value"
+    },
+    {
+     "id": "b23",
+     "role": "value"
+    },
+    {
+     "id": "b24",
+     "role": "list"
+    },
+    {
+     "id": "b25",
+     "role": "paragraph"
+    },
+    {
+     "id": "b26",
+     "role": "value"
+    },
+    {
+     "id": "b27",
+     "role": "value"
+    },
+    {
+     "id": "b28",
+     "role": "value"
+    },
+    {
+     "id": "b29",
+     "role": "heading"
+    },
+    {
+     "id": "b30",
+     "role": "list"
+    },
+    {
+     "id": "b31",
+     "role": "value"
+    },
+    {
+     "id": "b32",
+     "role": "value"
+    },
+    {
+     "id": "b33",
+     "role": "value"
+    },
+    {
+     "id": "b34",
+     "role": "list"
+    },
+    {
+     "id": "b35",
+     "role": "value"
+    },
+    {
+     "id": "b36",
+     "role": "list"
+    },
+    {
+     "id": "b37",
+     "role": "value"
+    },
+    {
+     "id": "b38",
+     "role": "list"
+    },
+    {
+     "id": "b39",
+     "role": "value"
+    },
+    {
+     "id": "b40",
+     "role": "value"
+    },
+    {
+     "id": "b41",
+     "role": "heading"
+    },
+    {
+     "id": "b42",
+     "role": "value"
+    },
+    {
+     "id": "b43",
+     "role": "label"
+    },
+    {
+     "id": "b44",
+     "role": "paragraph"
+    },
+    {
+     "id": "b45",
+     "role": "value"
+    },
+    {
+     "id": "b46",
+     "role": "label"
+    },
+    {
+     "id": "b47",
+     "role": "value"
+    },
+    {
+     "id": "b48",
+     "role": "label"
+    },
+    {
+     "id": "b49",
+     "role": "value"
+    },
+    {
+     "id": "b50",
+     "role": "paragraph"
+    },
+    {
+     "id": "b51",
+     "role": "paragraph"
+    },
+    {
+     "id": "b52",
+     "role": "label"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 11
+ },
+ "425c2e15073dcbe25a27c0c3cb4971aa47704983ad7088bc50467df4b1f9f3ae": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "heading"
+    },
+    {
+     "id": "b5",
+     "role": "heading"
+    },
+    {
+     "id": "b6",
+     "role": "list"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "value"
+    },
+    {
+     "id": "b9",
+     "role": "list"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "value"
+    },
+    {
+     "id": "b14",
+     "role": "heading"
+    },
+    {
+     "id": "b15",
+     "role": "list"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "list"
+    },
+    {
+     "id": "b18",
+     "role": "paragraph"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 12
+ },
+ "1f926774d79e7116303635098a0017e730a4d7f63939ec5180709ff3ff2068b1": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "heading"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "heading"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "heading"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    },
+    {
+     "id": "b18",
+     "role": "heading"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    },
+    {
+     "id": "b21",
+     "role": "paragraph"
+    },
+    {
+     "id": "b22",
+     "role": "heading"
+    },
+    {
+     "id": "b23",
+     "role": "heading"
+    },
+    {
+     "id": "b24",
+     "role": "paragraph"
+    },
+    {
+     "id": "b25",
+     "role": "paragraph"
+    },
+    {
+     "id": "b26",
+     "role": "paragraph"
+    },
+    {
+     "id": "b27",
+     "role": "heading"
+    },
+    {
+     "id": "b28",
+     "role": "paragraph"
+    },
+    {
+     "id": "b29",
+     "role": "paragraph"
+    },
+    {
+     "id": "b30",
+     "role": "paragraph"
+    },
+    {
+     "id": "b31",
+     "role": "heading"
+    },
+    {
+     "id": "b32",
+     "role": "heading"
+    },
+    {
+     "id": "b33",
+     "role": "paragraph"
+    },
+    {
+     "id": "b34",
+     "role": "paragraph"
+    },
+    {
+     "id": "b35",
+     "role": "paragraph"
+    },
+    {
+     "id": "b36",
+     "role": "heading"
+    },
+    {
+     "id": "b37",
+     "role": "heading"
+    },
+    {
+     "id": "b38",
+     "role": "paragraph"
+    },
+    {
+     "id": "b39",
+     "role": "paragraph"
+    },
+    {
+     "id": "b40",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "25de78fb53342481da84e5877551797beabd2543f1e8fb4163ecb9369e6b6188": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "heading"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "heading"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "heading"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "heading"
+    },
+    {
+     "id": "b18",
+     "role": "paragraph"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    },
+    {
+     "id": "b21",
+     "role": "heading"
+    },
+    {
+     "id": "b22",
+     "role": "heading"
+    },
+    {
+     "id": "b23",
+     "role": "paragraph"
+    },
+    {
+     "id": "b24",
+     "role": "paragraph"
+    },
+    {
+     "id": "b25",
+     "role": "paragraph"
+    },
+    {
+     "id": "b26",
+     "role": "heading"
+    },
+    {
+     "id": "b27",
+     "role": "paragraph"
+    },
+    {
+     "id": "b28",
+     "role": "paragraph"
+    },
+    {
+     "id": "b29",
+     "role": "paragraph"
+    },
+    {
+     "id": "b30",
+     "role": "heading"
+    },
+    {
+     "id": "b31",
+     "role": "heading"
+    },
+    {
+     "id": "b32",
+     "role": "paragraph"
+    },
+    {
+     "id": "b33",
+     "role": "paragraph"
+    },
+    {
+     "id": "b34",
+     "role": "paragraph"
+    },
+    {
+     "id": "b35",
+     "role": "heading"
+    },
+    {
+     "id": "b36",
+     "role": "paragraph"
+    },
+    {
+     "id": "b37",
+     "role": "paragraph"
+    },
+    {
+     "id": "b38",
+     "role": "paragraph"
+    },
+    {
+     "id": "b39",
+     "role": "heading"
+    },
+    {
+     "id": "b40",
+     "role": "paragraph"
+    },
+    {
+     "id": "b41",
+     "role": "paragraph"
+    },
+    {
+     "id": "b42",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 10
+ },
+ "c6d0272f0642320a3f95d166ef591e72cd5d99664c3ec3951daf1dff2a74dc23": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "figure"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "bde2da1dab6b4e7e17f196ea4b0c3ba5399e2be9327333f49ba7367d71439140": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "heading"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "table"
+    },
+    {
+     "id": "b8",
+     "role": "table"
+    },
+    {
+     "id": "b9",
+     "role": "table"
+    },
+    {
+     "id": "b10",
+     "role": "table"
+    },
+    {
+     "id": "b11",
+     "role": "table"
+    },
+    {
+     "id": "b12",
+     "role": "table"
+    },
+    {
+     "id": "b13",
+     "role": "table"
+    },
+    {
+     "id": "b14",
+     "role": "table"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 3
+ },
+ "aeefd2d5844ecd6b638424c32d290fbed6bce3b3817451a08faadae2ba4b7a1b": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "list"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "figure"
+    },
+    {
+     "id": "b5",
+     "role": "figure"
+    },
+    {
+     "id": "b6",
+     "role": "heading"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 8
+ },
+ "540404d5282e31ef799e8ac09d9b271b877a5b1aad4549834133f0e876ceb995": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "figure"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    },
+    {
+     "id": "b18",
+     "role": "paragraph"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    },
+    {
+     "id": "b21",
+     "role": "paragraph"
+    },
+    {
+     "id": "b22",
+     "role": "paragraph"
+    },
+    {
+     "id": "b23",
+     "role": "paragraph"
+    },
+    {
+     "id": "b24",
+     "role": "paragraph"
+    },
+    {
+     "id": "b25",
+     "role": "paragraph"
+    },
+    {
+     "id": "b26",
+     "role": "paragraph"
+    },
+    {
+     "id": "b27",
+     "role": "paragraph"
+    },
+    {
+     "id": "b28",
+     "role": "paragraph"
+    },
+    {
+     "id": "b29",
+     "role": "paragraph"
+    },
+    {
+     "id": "b30",
+     "role": "figure"
+    },
+    {
+     "id": "b31",
+     "role": "figure"
+    },
+    {
+     "id": "b32",
+     "role": "paragraph"
+    },
+    {
+     "id": "b33",
+     "role": "figure"
+    },
+    {
+     "id": "b34",
+     "role": "paragraph"
+    },
+    {
+     "id": "b35",
+     "role": "paragraph"
+    },
+    {
+     "id": "b36",
+     "role": "figure"
+    },
+    {
+     "id": "b37",
+     "role": "paragraph"
+    },
+    {
+     "id": "b38",
+     "role": "paragraph"
+    },
+    {
+     "id": "b39",
+     "role": "paragraph"
+    },
+    {
+     "id": "b40",
+     "role": "paragraph"
+    },
+    {
+     "id": "b41",
+     "role": "figure"
+    },
+    {
+     "id": "b42",
+     "role": "paragraph"
+    },
+    {
+     "id": "b43",
+     "role": "paragraph"
+    },
+    {
+     "id": "b44",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 10
+ },
+ "f3465dedab0c9c30a9b257d260392f410cb360dd48b3898a4179ad661433aeb0": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure_label"
+    },
+    {
+     "id": "b2",
+     "role": "figure_label"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": true,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 11
+ },
+ "f32c309e9cf222518a898e477b4aa7c0f1a80fdb9a1da74329ee854dc4bc9907": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "figure"
+    },
+    {
+     "id": "b3",
+     "role": "table"
+    },
+    {
+     "id": "b4",
+     "role": "table"
+    },
+    {
+     "id": "b5",
+     "role": "label"
+    },
+    {
+     "id": "b6",
+     "role": "label"
+    },
+    {
+     "id": "b7",
+     "role": "value"
+    },
+    {
+     "id": "b8",
+     "role": "noise"
+    },
+    {
+     "id": "b9",
+     "role": "label"
+    },
+    {
+     "id": "b10",
+     "role": "value"
+    }
+   ],
+   "complexity": {
+    "dense_table": true,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 12
+ },
+ "ba717221153b4a21d07db0dd053218f53b487505701e3657cd9332c8401b0754": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "table"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    },
+    {
+     "id": "b18",
+     "role": "paragraph"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    },
+    {
+     "id": "b21",
+     "role": "paragraph"
+    },
+    {
+     "id": "b22",
+     "role": "paragraph"
+    },
+    {
+     "id": "b23",
+     "role": "paragraph"
+    },
+    {
+     "id": "b24",
+     "role": "paragraph"
+    },
+    {
+     "id": "b25",
+     "role": "paragraph"
+    },
+    {
+     "id": "b26",
+     "role": "paragraph"
+    },
+    {
+     "id": "b27",
+     "role": "paragraph"
+    },
+    {
+     "id": "b28",
+     "role": "paragraph"
+    },
+    {
+     "id": "b29",
+     "role": "paragraph"
+    },
+    {
+     "id": "b30",
+     "role": "paragraph"
+    },
+    {
+     "id": "b31",
+     "role": "paragraph"
+    },
+    {
+     "id": "b32",
+     "role": "paragraph"
+    },
+    {
+     "id": "b33",
+     "role": "paragraph"
+    },
+    {
+     "id": "b34",
+     "role": "paragraph"
+    },
+    {
+     "id": "b35",
+     "role": "paragraph"
+    },
+    {
+     "id": "b36",
+     "role": "paragraph"
+    },
+    {
+     "id": "b37",
+     "role": "paragraph"
+    },
+    {
+     "id": "b38",
+     "role": "paragraph"
+    },
+    {
+     "id": "b39",
+     "role": "paragraph"
+    },
+    {
+     "id": "b40",
+     "role": "paragraph"
+    },
+    {
+     "id": "b41",
+     "role": "paragraph"
+    },
+    {
+     "id": "b42",
+     "role": "paragraph"
+    },
+    {
+     "id": "b43",
+     "role": "paragraph"
+    },
+    {
+     "id": "b44",
+     "role": "paragraph"
+    },
+    {
+     "id": "b45",
+     "role": "paragraph"
+    },
+    {
+     "id": "b46",
+     "role": "paragraph"
+    },
+    {
+     "id": "b47",
+     "role": "paragraph"
+    },
+    {
+     "id": "b48",
+     "role": "paragraph"
+    },
+    {
+     "id": "b49",
+     "role": "paragraph"
+    },
+    {
+     "id": "b50",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "8aacca757f279d7c8925aa0f94422eee88d8b61e29a7df695650399c539273b7": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "noise"
+    },
+    {
+     "id": "b2",
+     "role": "label"
+    },
+    {
+     "id": "b3",
+     "role": "label"
+    },
+    {
+     "id": "b4",
+     "role": "value"
+    },
+    {
+     "id": "b5",
+     "role": "value"
+    },
+    {
+     "id": "b6",
+     "role": "noise"
+    },
+    {
+     "id": "b7",
+     "role": "heading"
+    },
+    {
+     "id": "b8",
+     "role": "label"
+    },
+    {
+     "id": "b9",
+     "role": "value"
+    },
+    {
+     "id": "b10",
+     "role": "value"
+    },
+    {
+     "id": "b11",
+     "role": "value"
+    },
+    {
+     "id": "b12",
+     "role": "value"
+    },
+    {
+     "id": "b13",
+     "role": "value"
+    },
+    {
+     "id": "b14",
+     "role": "table"
+    },
+    {
+     "id": "b15",
+     "role": "value"
+    },
+    {
+     "id": "b16",
+     "role": "value"
+    },
+    {
+     "id": "b17",
+     "role": "header_footer"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 2
+ },
+ "83da5b1978a50348a2df5481dd8fb229d50d7438cc199ec29acc47d0ec4ea24e": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "header_footer"
+    },
+    {
+     "id": "b2",
+     "role": "table"
+    },
+    {
+     "id": "b3",
+     "role": "noise"
+    },
+    {
+     "id": "b4",
+     "role": "label"
+    },
+    {
+     "id": "b5",
+     "role": "list"
+    },
+    {
+     "id": "b6",
+     "role": "value"
+    },
+    {
+     "id": "b7",
+     "role": "label"
+    },
+    {
+     "id": "b8",
+     "role": "list"
+    },
+    {
+     "id": "b9",
+     "role": "figure_label"
+    },
+    {
+     "id": "b10",
+     "role": "value"
+    },
+    {
+     "id": "b11",
+     "role": "label"
+    },
+    {
+     "id": "b12",
+     "role": "handwriting"
+    },
+    {
+     "id": "b13",
+     "role": "handwriting"
+    },
+    {
+     "id": "b14",
+     "role": "value"
+    },
+    {
+     "id": "b15",
+     "role": "label"
+    },
+    {
+     "id": "b16",
+     "role": "value"
+    },
+    {
+     "id": "b17",
+     "role": "list"
+    },
+    {
+     "id": "b18",
+     "role": "value"
+    },
+    {
+     "id": "b19",
+     "role": "value"
+    },
+    {
+     "id": "b20",
+     "role": "figure"
+    },
+    {
+     "id": "b21",
+     "role": "value"
+    },
+    {
+     "id": "b22",
+     "role": "label"
+    },
+    {
+     "id": "b23",
+     "role": "list"
+    },
+    {
+     "id": "b24",
+     "role": "caption"
+    },
+    {
+     "id": "b25",
+     "role": "paragraph"
+    },
+    {
+     "id": "b26",
+     "role": "label"
+    },
+    {
+     "id": "b27",
+     "role": "paragraph"
+    },
+    {
+     "id": "b28",
+     "role": "label"
+    },
+    {
+     "id": "b29",
+     "role": "paragraph"
+    },
+    {
+     "id": "b30",
+     "role": "noise"
+    }
+   ],
+   "complexity": {
+    "dense_table": true,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "46d0651a9b5a85729a06e3f5226ff73223a0613d96b3ecb8e928e6dc09e43df0": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "header_footer"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "table"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 2
+ },
+ "314ec912f2f66d104a03ff9daa53dde3938d0ace3d690b604a8a7f9757a34d5a": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "label"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "handwriting"
+    },
+    {
+     "id": "b5",
+     "role": "noise"
+    },
+    {
+     "id": "b6",
+     "role": "noise"
+    },
+    {
+     "id": "b7",
+     "role": "heading"
+    },
+    {
+     "id": "b8",
+     "role": "heading"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "figure"
+    },
+    {
+     "id": "b12",
+     "role": "value"
+    },
+    {
+     "id": "b13",
+     "role": "figure"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    },
+    {
+     "id": "b16",
+     "role": "noise"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": true,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "4e3382b05ea515c26688a4fb7e8f03acfd056c7aaaeca206ac10f23a085743d1": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "table"
+    },
+    {
+     "id": "b4",
+     "role": "heading"
+    },
+    {
+     "id": "b5",
+     "role": "noise"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "noise"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "heading"
+    },
+    {
+     "id": "b15",
+     "role": "noise"
+    },
+    {
+     "id": "b16",
+     "role": "noise"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    },
+    {
+     "id": "b18",
+     "role": "paragraph"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    },
+    {
+     "id": "b21",
+     "role": "paragraph"
+    },
+    {
+     "id": "b22",
+     "role": "paragraph"
+    },
+    {
+     "id": "b23",
+     "role": "paragraph"
+    },
+    {
+     "id": "b24",
+     "role": "paragraph"
+    },
+    {
+     "id": "b25",
+     "role": "paragraph"
+    },
+    {
+     "id": "b26",
+     "role": "paragraph"
+    },
+    {
+     "id": "b27",
+     "role": "paragraph"
+    },
+    {
+     "id": "b28",
+     "role": "paragraph"
+    },
+    {
+     "id": "b29",
+     "role": "paragraph"
+    },
+    {
+     "id": "b30",
+     "role": "paragraph"
+    },
+    {
+     "id": "b31",
+     "role": "noise"
+    },
+    {
+     "id": "b32",
+     "role": "paragraph"
+    },
+    {
+     "id": "b33",
+     "role": "paragraph"
+    },
+    {
+     "id": "b34",
+     "role": "paragraph"
+    },
+    {
+     "id": "b35",
+     "role": "paragraph"
+    },
+    {
+     "id": "b36",
+     "role": "noise"
+    },
+    {
+     "id": "b37",
+     "role": "noise"
+    },
+    {
+     "id": "b38",
+     "role": "paragraph"
+    },
+    {
+     "id": "b39",
+     "role": "figure"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": true,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 2
+ },
+ "dd5587ef7b568239e78b15146e305f8ba3f0421ef65d5159bc3d385368bf9f2d": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "noise"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 3
+ },
+ "1edb44add9c5c8e17095f937506a56feb61d7a78935a65c16ca2f2d8c77fbae5": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "heading"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "heading"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "heading"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 5
+ },
+ "d2e2d5a90a66488d258148d248d34ddbe6133188abb762acd89dcc6647b3996c": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "noise"
+    },
+    {
+     "id": "b4",
+     "role": "noise"
+    },
+    {
+     "id": "b5",
+     "role": "label"
+    },
+    {
+     "id": "b6",
+     "role": "noise"
+    },
+    {
+     "id": "b7",
+     "role": "noise"
+    },
+    {
+     "id": "b8",
+     "role": "noise"
+    },
+    {
+     "id": "b9",
+     "role": "label"
+    },
+    {
+     "id": "b10",
+     "role": "noise"
+    },
+    {
+     "id": "b11",
+     "role": "table"
+    },
+    {
+     "id": "b12",
+     "role": "table"
+    },
+    {
+     "id": "b13",
+     "role": "table"
+    },
+    {
+     "id": "b14",
+     "role": "table"
+    },
+    {
+     "id": "b15",
+     "role": "table"
+    },
+    {
+     "id": "b16",
+     "role": "caption"
+    },
+    {
+     "id": "b17",
+     "role": "table"
+    },
+    {
+     "id": "b18",
+     "role": "paragraph"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    },
+    {
+     "id": "b21",
+     "role": "label"
+    },
+    {
+     "id": "b22",
+     "role": "figure"
+    },
+    {
+     "id": "b23",
+     "role": "figure_label"
+    },
+    {
+     "id": "b24",
+     "role": "figure_label"
+    },
+    {
+     "id": "b25",
+     "role": "figure_label"
+    },
+    {
+     "id": "b26",
+     "role": "figure"
+    },
+    {
+     "id": "b27",
+     "role": "figure_label"
+    },
+    {
+     "id": "b28",
+     "role": "figure_label"
+    },
+    {
+     "id": "b29",
+     "role": "figure_label"
+    },
+    {
+     "id": "b30",
+     "role": "caption"
+    },
+    {
+     "id": "b31",
+     "role": "figure_label"
+    },
+    {
+     "id": "b32",
+     "role": "heading"
+    },
+    {
+     "id": "b33",
+     "role": "paragraph"
+    },
+    {
+     "id": "b34",
+     "role": "figure"
+    },
+    {
+     "id": "b35",
+     "role": "paragraph"
+    },
+    {
+     "id": "b36",
+     "role": "paragraph"
+    },
+    {
+     "id": "b37",
+     "role": "caption"
+    },
+    {
+     "id": "b38",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": true,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 6
+ },
+ "53f9f0c824d9bbbe2911b8685041ef23c6a20fc89c1f4fc95399b0d0c099f5f5": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "noise"
+    },
+    {
+     "id": "b5",
+     "role": "noise"
+    },
+    {
+     "id": "b6",
+     "role": "noise"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "figure"
+    },
+    {
+     "id": "b10",
+     "role": "figure"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "list"
+    },
+    {
+     "id": "b13",
+     "role": "caption"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    },
+    {
+     "id": "b16",
+     "role": "noise"
+    },
+    {
+     "id": "b17",
+     "role": "figure_label"
+    },
+    {
+     "id": "b18",
+     "role": "paragraph"
+    },
+    {
+     "id": "b19",
+     "role": "noise"
+    },
+    {
+     "id": "b20",
+     "role": "noise"
+    },
+    {
+     "id": "b21",
+     "role": "noise"
+    },
+    {
+     "id": "b22",
+     "role": "figure"
+    },
+    {
+     "id": "b23",
+     "role": "noise"
+    },
+    {
+     "id": "b24",
+     "role": "noise"
+    },
+    {
+     "id": "b25",
+     "role": "noise"
+    },
+    {
+     "id": "b26",
+     "role": "noise"
+    },
+    {
+     "id": "b27",
+     "role": "noise"
+    },
+    {
+     "id": "b28",
+     "role": "noise"
+    },
+    {
+     "id": "b29",
+     "role": "noise"
+    },
+    {
+     "id": "b30",
+     "role": "noise"
+    },
+    {
+     "id": "b31",
+     "role": "noise"
+    },
+    {
+     "id": "b32",
+     "role": "noise"
+    },
+    {
+     "id": "b33",
+     "role": "figure_label"
+    },
+    {
+     "id": "b34",
+     "role": "figure_label"
+    },
+    {
+     "id": "b35",
+     "role": "figure_label"
+    },
+    {
+     "id": "b36",
+     "role": "figure_label"
+    },
+    {
+     "id": "b37",
+     "role": "figure_label"
+    },
+    {
+     "id": "b38",
+     "role": "figure_label"
+    },
+    {
+     "id": "b39",
+     "role": "figure_label"
+    },
+    {
+     "id": "b40",
+     "role": "figure_label"
+    },
+    {
+     "id": "b41",
+     "role": "figure_label"
+    },
+    {
+     "id": "b42",
+     "role": "figure_label"
+    },
+    {
+     "id": "b43",
+     "role": "figure_label"
+    },
+    {
+     "id": "b44",
+     "role": "figure_label"
+    },
+    {
+     "id": "b45",
+     "role": "figure_label"
+    },
+    {
+     "id": "b46",
+     "role": "figure_label"
+    },
+    {
+     "id": "b47",
+     "role": "figure_label"
+    },
+    {
+     "id": "b48",
+     "role": "figure_label"
+    },
+    {
+     "id": "b49",
+     "role": "figure_label"
+    },
+    {
+     "id": "b50",
+     "role": "figure_label"
+    },
+    {
+     "id": "b51",
+     "role": "figure_label"
+    },
+    {
+     "id": "b52",
+     "role": "figure_label"
+    },
+    {
+     "id": "b53",
+     "role": "caption"
+    },
+    {
+     "id": "b54",
+     "role": "paragraph"
+    },
+    {
+     "id": "b55",
+     "role": "paragraph"
+    },
+    {
+     "id": "b56",
+     "role": "paragraph"
+    },
+    {
+     "id": "b57",
+     "role": "paragraph"
+    },
+    {
+     "id": "b58",
+     "role": "figure_label"
+    },
+    {
+     "id": "b59",
+     "role": "figure_label"
+    },
+    {
+     "id": "b60",
+     "role": "figure_label"
+    },
+    {
+     "id": "b61",
+     "role": "figure_label"
+    },
+    {
+     "id": "b62",
+     "role": "figure_label"
+    },
+    {
+     "id": "b63",
+     "role": "figure_label"
+    },
+    {
+     "id": "b64",
+     "role": "figure_label"
+    },
+    {
+     "id": "b65",
+     "role": "figure_label"
+    },
+    {
+     "id": "b66",
+     "role": "figure_label"
+    },
+    {
+     "id": "b67",
+     "role": "figure"
+    },
+    {
+     "id": "b68",
+     "role": "paragraph"
+    },
+    {
+     "id": "b69",
+     "role": "list"
+    },
+    {
+     "id": "b70",
+     "role": "caption"
+    },
+    {
+     "id": "b71",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": true,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 9
+ },
+ "9f46b3c9ababe2f071efe948c2f3a3877511e660f05e7aa7858ddc69c8d0b8f6": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure"
+    },
+    {
+     "id": "b2",
+     "role": "label"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "table"
+    },
+    {
+     "id": "b5",
+     "role": "table"
+    },
+    {
+     "id": "b6",
+     "role": "table"
+    },
+    {
+     "id": "b7",
+     "role": "table"
+    },
+    {
+     "id": "b8",
+     "role": "table"
+    },
+    {
+     "id": "b9",
+     "role": "table"
+    },
+    {
+     "id": "b10",
+     "role": "table"
+    },
+    {
+     "id": "b11",
+     "role": "table"
+    },
+    {
+     "id": "b12",
+     "role": "table"
+    },
+    {
+     "id": "b13",
+     "role": "table"
+    },
+    {
+     "id": "b14",
+     "role": "table"
+    },
+    {
+     "id": "b15",
+     "role": "table"
+    },
+    {
+     "id": "b16",
+     "role": "table"
+    },
+    {
+     "id": "b17",
+     "role": "table"
+    },
+    {
+     "id": "b18",
+     "role": "table"
+    },
+    {
+     "id": "b19",
+     "role": "table"
+    },
+    {
+     "id": "b20",
+     "role": "table"
+    },
+    {
+     "id": "b21",
+     "role": "paragraph"
+    },
+    {
+     "id": "b22",
+     "role": "paragraph"
+    },
+    {
+     "id": "b23",
+     "role": "list"
+    },
+    {
+     "id": "b24",
+     "role": "value"
+    },
+    {
+     "id": "b25",
+     "role": "list"
+    },
+    {
+     "id": "b26",
+     "role": "heading"
+    },
+    {
+     "id": "b27",
+     "role": "list"
+    },
+    {
+     "id": "b28",
+     "role": "list"
+    },
+    {
+     "id": "b29",
+     "role": "value"
+    },
+    {
+     "id": "b30",
+     "role": "list"
+    },
+    {
+     "id": "b31",
+     "role": "list"
+    },
+    {
+     "id": "b32",
+     "role": "list"
+    },
+    {
+     "id": "b33",
+     "role": "paragraph"
+    },
+    {
+     "id": "b34",
+     "role": "heading"
+    },
+    {
+     "id": "b35",
+     "role": "paragraph"
+    },
+    {
+     "id": "b36",
+     "role": "caption"
+    },
+    {
+     "id": "b37",
+     "role": "figure"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": true,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 12
+ },
+ "a27727b7e3861f41bfc4daac9e879ece6b90164e5fe648357a1760269598e8da": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "handwriting"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "figure"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "label"
+    },
+    {
+     "id": "b9",
+     "role": "handwriting"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "list"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    },
+    {
+     "id": "b18",
+     "role": "paragraph"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    },
+    {
+     "id": "b21",
+     "role": "label"
+    },
+    {
+     "id": "b22",
+     "role": "label"
+    },
+    {
+     "id": "b23",
+     "role": "paragraph"
+    },
+    {
+     "id": "b24",
+     "role": "paragraph"
+    },
+    {
+     "id": "b25",
+     "role": "label"
+    },
+    {
+     "id": "b26",
+     "role": "paragraph"
+    },
+    {
+     "id": "b27",
+     "role": "paragraph"
+    },
+    {
+     "id": "b28",
+     "role": "heading"
+    },
+    {
+     "id": "b29",
+     "role": "table"
+    },
+    {
+     "id": "b30",
+     "role": "paragraph"
+    },
+    {
+     "id": "b31",
+     "role": "paragraph"
+    },
+    {
+     "id": "b32",
+     "role": "heading"
+    },
+    {
+     "id": "b33",
+     "role": "paragraph"
+    },
+    {
+     "id": "b34",
+     "role": "paragraph"
+    },
+    {
+     "id": "b35",
+     "role": "paragraph"
+    },
+    {
+     "id": "b36",
+     "role": "paragraph"
+    },
+    {
+     "id": "b37",
+     "role": "paragraph"
+    },
+    {
+     "id": "b38",
+     "role": "paragraph"
+    },
+    {
+     "id": "b39",
+     "role": "paragraph"
+    },
+    {
+     "id": "b40",
+     "role": "label"
+    },
+    {
+     "id": "b41",
+     "role": "heading"
+    },
+    {
+     "id": "b42",
+     "role": "handwriting"
+    },
+    {
+     "id": "b43",
+     "role": "paragraph"
+    },
+    {
+     "id": "b44",
+     "role": "paragraph"
+    },
+    {
+     "id": "b45",
+     "role": "paragraph"
+    },
+    {
+     "id": "b46",
+     "role": "paragraph"
+    },
+    {
+     "id": "b47",
+     "role": "figure"
+    },
+    {
+     "id": "b48",
+     "role": "handwriting"
+    },
+    {
+     "id": "b49",
+     "role": "figure"
+    },
+    {
+     "id": "b50",
+     "role": "paragraph"
+    },
+    {
+     "id": "b51",
+     "role": "paragraph"
+    },
+    {
+     "id": "b52",
+     "role": "paragraph"
+    },
+    {
+     "id": "b53",
+     "role": "paragraph"
+    },
+    {
+     "id": "b54",
+     "role": "paragraph"
+    },
+    {
+     "id": "b55",
+     "role": "paragraph"
+    },
+    {
+     "id": "b56",
+     "role": "paragraph"
+    },
+    {
+     "id": "b57",
+     "role": "paragraph"
+    },
+    {
+     "id": "b58",
+     "role": "heading"
+    },
+    {
+     "id": "b59",
+     "role": "paragraph"
+    },
+    {
+     "id": "b60",
+     "role": "paragraph"
+    },
+    {
+     "id": "b61",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "2198203047aee70c3a6c8bd3b274f06ea2e7da68f409de8ca060369fd1893c90": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "paragraph"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "list"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    },
+    {
+     "id": "b18",
+     "role": "paragraph"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    },
+    {
+     "id": "b21",
+     "role": "paragraph"
+    },
+    {
+     "id": "b22",
+     "role": "paragraph"
+    },
+    {
+     "id": "b23",
+     "role": "paragraph"
+    },
+    {
+     "id": "b24",
+     "role": "paragraph"
+    },
+    {
+     "id": "b25",
+     "role": "paragraph"
+    },
+    {
+     "id": "b26",
+     "role": "paragraph"
+    },
+    {
+     "id": "b27",
+     "role": "paragraph"
+    },
+    {
+     "id": "b28",
+     "role": "paragraph"
+    },
+    {
+     "id": "b29",
+     "role": "paragraph"
+    },
+    {
+     "id": "b30",
+     "role": "paragraph"
+    },
+    {
+     "id": "b31",
+     "role": "paragraph"
+    },
+    {
+     "id": "b32",
+     "role": "list"
+    },
+    {
+     "id": "b33",
+     "role": "paragraph"
+    },
+    {
+     "id": "b34",
+     "role": "paragraph"
+    },
+    {
+     "id": "b35",
+     "role": "heading"
+    },
+    {
+     "id": "b36",
+     "role": "paragraph"
+    },
+    {
+     "id": "b37",
+     "role": "paragraph"
+    },
+    {
+     "id": "b38",
+     "role": "paragraph"
+    },
+    {
+     "id": "b39",
+     "role": "list"
+    },
+    {
+     "id": "b40",
+     "role": "paragraph"
+    },
+    {
+     "id": "b41",
+     "role": "list"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 2
+ },
+ "3d2873cb279a99bb99050f32e80ca967d4524679fd85bfa30cf239927d9dd666": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "heading"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "figure"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "heading"
+    },
+    {
+     "id": "b14",
+     "role": "table"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    },
+    {
+     "id": "b18",
+     "role": "label"
+    },
+    {
+     "id": "b19",
+     "role": "label"
+    },
+    {
+     "id": "b20",
+     "role": "value"
+    },
+    {
+     "id": "b21",
+     "role": "value"
+    },
+    {
+     "id": "b22",
+     "role": "value"
+    },
+    {
+     "id": "b23",
+     "role": "value"
+    },
+    {
+     "id": "b24",
+     "role": "label"
+    },
+    {
+     "id": "b25",
+     "role": "value"
+    },
+    {
+     "id": "b26",
+     "role": "paragraph"
+    },
+    {
+     "id": "b27",
+     "role": "heading"
+    },
+    {
+     "id": "b28",
+     "role": "label"
+    },
+    {
+     "id": "b29",
+     "role": "table"
+    },
+    {
+     "id": "b30",
+     "role": "paragraph"
+    },
+    {
+     "id": "b31",
+     "role": "label"
+    },
+    {
+     "id": "b32",
+     "role": "label"
+    },
+    {
+     "id": "b33",
+     "role": "label"
+    },
+    {
+     "id": "b34",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "118782bfd449e5ff749ace982ec57e71505f491a784aeafbd4d5e445f966f147": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "heading"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "heading"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "list"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "list"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "table"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "bf819e8b40b4f02b848b92f7754d8f6184b27d7db549e02b01774a273620268e": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "noise"
+    },
+    {
+     "id": "b4",
+     "role": "noise"
+    },
+    {
+     "id": "b5",
+     "role": "label"
+    },
+    {
+     "id": "b6",
+     "role": "heading"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "heading"
+    },
+    {
+     "id": "b10",
+     "role": "figure"
+    },
+    {
+     "id": "b11",
+     "role": "caption"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "label"
+    },
+    {
+     "id": "b14",
+     "role": "value"
+    },
+    {
+     "id": "b15",
+     "role": "header_footer"
+    },
+    {
+     "id": "b16",
+     "role": "header_footer"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "7b3e8f85a6c190632d1b413d415ad5ffb3af009ff235930844a5935d66335332": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "noise"
+    },
+    {
+     "id": "b4",
+     "role": "noise"
+    },
+    {
+     "id": "b5",
+     "role": "label"
+    },
+    {
+     "id": "b6",
+     "role": "heading"
+    },
+    {
+     "id": "b7",
+     "role": "heading"
+    },
+    {
+     "id": "b8",
+     "role": "figure"
+    },
+    {
+     "id": "b9",
+     "role": "caption"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "label"
+    },
+    {
+     "id": "b12",
+     "role": "label"
+    },
+    {
+     "id": "b13",
+     "role": "header_footer"
+    },
+    {
+     "id": "b14",
+     "role": "header_footer"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 2
+ },
+ "435836ae81c1ed1c3c1fc82378c3c0f05469430cd686375a9f6725ff576697a7": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "figure"
+    },
+    {
+     "id": "b6",
+     "role": "figure"
+    },
+    {
+     "id": "b7",
+     "role": "figure"
+    },
+    {
+     "id": "b8",
+     "role": "figure"
+    },
+    {
+     "id": "b9",
+     "role": "figure"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "60bfd820255f5510ef10b770ce94b5db64849e25b3de11f5216b2b8f3c7c3009": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "caption"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "header_footer"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 11
+ },
+ "649cbebe24aa1b94649947e9a22ed647b1de50a618bde005127e339e434c80d8": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "paragraph"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "heading"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "heading"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "figure"
+    },
+    {
+     "id": "b12",
+     "role": "heading"
+    },
+    {
+     "id": "b13",
+     "role": "caption"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "caption"
+    },
+    {
+     "id": "b16",
+     "role": "label"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 13
+ },
+ "c895d6fefd5fb5a346bc7ed2ea7edd622a115898294a66f2c99e80279100090e": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure_label"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "caption"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "caption"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "list"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "label"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "heading"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "label"
+    },
+    {
+     "id": "b16",
+     "role": "header_footer"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 22
+ },
+ "3ff6d656bb15edcfddba4bc5c82326411551f686573ec7ab5ab45909d6c5297c": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "list"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "table"
+    },
+    {
+     "id": "b7",
+     "role": "caption"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "heading"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "label"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 33
+ },
+ "45f9c97c927160728baf8fdc1d7b85ed0cd086bbdf427ba29a4e3e86048826b2": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "caption"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "table"
+    },
+    {
+     "id": "b5",
+     "role": "label"
+    },
+    {
+     "id": "b6",
+     "role": "label"
+    },
+    {
+     "id": "b7",
+     "role": "label"
+    },
+    {
+     "id": "b8",
+     "role": "heading"
+    },
+    {
+     "id": "b9",
+     "role": "table"
+    },
+    {
+     "id": "b10",
+     "role": "caption"
+    }
+   ],
+   "complexity": {
+    "dense_table": true,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 36
+ },
+ "646c32cd9cb9db98d22571e02c82eec31daf6a76ce1fe2625d1962f468630325": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "caption"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "table"
+    },
+    {
+     "id": "b5",
+     "role": "label"
+    },
+    {
+     "id": "b6",
+     "role": "label"
+    },
+    {
+     "id": "b7",
+     "role": "table"
+    },
+    {
+     "id": "b8",
+     "role": "heading"
+    },
+    {
+     "id": "b9",
+     "role": "table"
+    },
+    {
+     "id": "b10",
+     "role": "caption"
+    }
+   ],
+   "complexity": {
+    "dense_table": true,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 37
+ },
+ "4943fae09e963a42701325df3450b5cdec6a28b84e42211e5505c9e5f96ffba8": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure_label"
+    },
+    {
+     "id": "b2",
+     "role": "handwriting"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": true
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "5717c5ea443278f4e74b08320c0223096bd5b60f14744d2d2d43f912e4fbc3db": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "list"
+    },
+    {
+     "id": "b3",
+     "role": "list"
+    },
+    {
+     "id": "b4",
+     "role": "list"
+    },
+    {
+     "id": "b5",
+     "role": "list"
+    },
+    {
+     "id": "b6",
+     "role": "list"
+    },
+    {
+     "id": "b7",
+     "role": "list"
+    },
+    {
+     "id": "b8",
+     "role": "list"
+    },
+    {
+     "id": "b9",
+     "role": "list"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 6
+ },
+ "ac1c5f5f500ca12258cb025422870e467c0fd77f5cfbe1caaf4289af3e07a131": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "list"
+    },
+    {
+     "id": "b4",
+     "role": "heading"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "list"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "list"
+    },
+    {
+     "id": "b9",
+     "role": "heading"
+    },
+    {
+     "id": "b10",
+     "role": "list"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "list"
+    },
+    {
+     "id": "b14",
+     "role": "heading"
+    },
+    {
+     "id": "b15",
+     "role": "list"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "list"
+    },
+    {
+     "id": "b18",
+     "role": "figure"
+    },
+    {
+     "id": "b19",
+     "role": "heading"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    },
+    {
+     "id": "b21",
+     "role": "list"
+    },
+    {
+     "id": "b22",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 18
+ },
+ "2f1af2b4018083ec528d850a23731f36ace2a09ef0d7421952d1e9a200b4aa3d": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "paragraph"
+    },
+    {
+     "id": "b2",
+     "role": "label"
+    },
+    {
+     "id": "b3",
+     "role": "label"
+    },
+    {
+     "id": "b4",
+     "role": "label"
+    },
+    {
+     "id": "b5",
+     "role": "label"
+    },
+    {
+     "id": "b6",
+     "role": "label"
+    },
+    {
+     "id": "b7",
+     "role": "label"
+    },
+    {
+     "id": "b8",
+     "role": "label"
+    },
+    {
+     "id": "b9",
+     "role": "label"
+    },
+    {
+     "id": "b10",
+     "role": "list"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "list"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "list"
+    },
+    {
+     "id": "b18",
+     "role": "paragraph"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "label"
+    },
+    {
+     "id": "b21",
+     "role": "list"
+    },
+    {
+     "id": "b22",
+     "role": "paragraph"
+    },
+    {
+     "id": "b23",
+     "role": "paragraph"
+    },
+    {
+     "id": "b24",
+     "role": "list"
+    },
+    {
+     "id": "b25",
+     "role": "paragraph"
+    },
+    {
+     "id": "b26",
+     "role": "list"
+    },
+    {
+     "id": "b27",
+     "role": "paragraph"
+    },
+    {
+     "id": "b28",
+     "role": "paragraph"
+    },
+    {
+     "id": "b29",
+     "role": "paragraph"
+    },
+    {
+     "id": "b30",
+     "role": "paragraph"
+    },
+    {
+     "id": "b31",
+     "role": "paragraph"
+    },
+    {
+     "id": "b32",
+     "role": "label"
+    },
+    {
+     "id": "b33",
+     "role": "paragraph"
+    },
+    {
+     "id": "b34",
+     "role": "paragraph"
+    },
+    {
+     "id": "b35",
+     "role": "paragraph"
+    },
+    {
+     "id": "b36",
+     "role": "paragraph"
+    },
+    {
+     "id": "b37",
+     "role": "paragraph"
+    },
+    {
+     "id": "b38",
+     "role": "paragraph"
+    },
+    {
+     "id": "b39",
+     "role": "paragraph"
+    },
+    {
+     "id": "b40",
+     "role": "label"
+    },
+    {
+     "id": "b41",
+     "role": "label"
+    },
+    {
+     "id": "b42",
+     "role": "paragraph"
+    },
+    {
+     "id": "b43",
+     "role": "paragraph"
+    },
+    {
+     "id": "b44",
+     "role": "label"
+    },
+    {
+     "id": "b45",
+     "role": "paragraph"
+    },
+    {
+     "id": "b46",
+     "role": "paragraph"
+    },
+    {
+     "id": "b47",
+     "role": "caption"
+    },
+    {
+     "id": "b48",
+     "role": "list"
+    },
+    {
+     "id": "b49",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 19
+ },
+ "fd9031c60acaf5646631f8bf8e42703e1bd4e09d912ea6071c7c94e422f6f409": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "table"
+    },
+    {
+     "id": "b2",
+     "role": "label"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 21
+ },
+ "14cdf48ea05607aa2102957bcb44b03c9e7a42d29df5705e1beb421acf994541": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure_label"
+    },
+    {
+     "id": "b2",
+     "role": "label"
+    },
+    {
+     "id": "b3",
+     "role": "label"
+    },
+    {
+     "id": "b4",
+     "role": "label"
+    },
+    {
+     "id": "b5",
+     "role": "label"
+    },
+    {
+     "id": "b6",
+     "role": "label"
+    },
+    {
+     "id": "b7",
+     "role": "label"
+    },
+    {
+     "id": "b8",
+     "role": "figure"
+    },
+    {
+     "id": "b9",
+     "role": "label"
+    },
+    {
+     "id": "b10",
+     "role": "table"
+    },
+    {
+     "id": "b11",
+     "role": "value"
+    },
+    {
+     "id": "b12",
+     "role": "caption"
+    },
+    {
+     "id": "b13",
+     "role": "value"
+    },
+    {
+     "id": "b14",
+     "role": "value"
+    },
+    {
+     "id": "b15",
+     "role": "caption"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "header_footer"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 27
+ },
+ "a0f8565466fd9adcbf912b4fef854bbb163aa237d0d5e9f0f7b24a72aaa67ac2": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "table"
+    },
+    {
+     "id": "b2",
+     "role": "table"
+    },
+    {
+     "id": "b3",
+     "role": "header_footer"
+    }
+   ],
+   "complexity": {
+    "dense_table": true,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 29
+ },
+ "3d1c2fc7db807418ea056706999dfce0cd4bb4b506af1f254f58e26f2e61940b": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure_label"
+    },
+    {
+     "id": "b2",
+     "role": "caption"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": true,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 34
+ },
+ "5328362f0e7a6ab2927b2e1f286fc0cec4389d3daa5788c2b634880db93e3fc7": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "list"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "heading"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "heading"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "list"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "list"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "heading"
+    },
+    {
+     "id": "b16",
+     "role": "figure"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "bf96ee56dcd1c8bd64a895cd72c905da36482eb606d117ea9a1022d42be68fdd": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "figure"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "heading"
+    },
+    {
+     "id": "b6",
+     "role": "heading"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "heading"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "heading"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "list"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "figure"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 2
+ },
+ "27944edc5de3adeb5508d4108ba831f416213ef533e578428a9395744e6d8e26": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "heading"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "table"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "4fae82ed539314bb62539a7d302027b19a13752793aea03c584a71e6b5870282": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "header_footer"
+    },
+    {
+     "id": "b5",
+     "role": "heading"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "heading"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "figure"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "c35fdf29de0a877b1bf1cbe034a954acaccfcd9060e2c3aca3bfe9b4cbd1bc0a": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "table"
+    },
+    {
+     "id": "b2",
+     "role": "table"
+    },
+    {
+     "id": "b3",
+     "role": "table"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "heading"
+    },
+    {
+     "id": "b7",
+     "role": "figure"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "heading"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "label"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 6
+ },
+ "603dc727c5754646bda247527ae08d65905881967145e42936851a58457b5c41": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "heading"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "heading"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "label"
+    },
+    {
+     "id": "b9",
+     "role": "label"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "label"
+    },
+    {
+     "id": "b13",
+     "role": "label"
+    },
+    {
+     "id": "b14",
+     "role": "label"
+    },
+    {
+     "id": "b15",
+     "role": "label"
+    },
+    {
+     "id": "b16",
+     "role": "label"
+    },
+    {
+     "id": "b17",
+     "role": "label"
+    },
+    {
+     "id": "b18",
+     "role": "heading"
+    },
+    {
+     "id": "b19",
+     "role": "value"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    },
+    {
+     "id": "b21",
+     "role": "label"
+    },
+    {
+     "id": "b22",
+     "role": "paragraph"
+    },
+    {
+     "id": "b23",
+     "role": "heading"
+    },
+    {
+     "id": "b24",
+     "role": "label"
+    },
+    {
+     "id": "b25",
+     "role": "list"
+    },
+    {
+     "id": "b26",
+     "role": "paragraph"
+    },
+    {
+     "id": "b27",
+     "role": "label"
+    },
+    {
+     "id": "b28",
+     "role": "label"
+    },
+    {
+     "id": "b29",
+     "role": "label"
+    },
+    {
+     "id": "b30",
+     "role": "label"
+    },
+    {
+     "id": "b31",
+     "role": "heading"
+    },
+    {
+     "id": "b32",
+     "role": "paragraph"
+    },
+    {
+     "id": "b33",
+     "role": "paragraph"
+    },
+    {
+     "id": "b34",
+     "role": "heading"
+    },
+    {
+     "id": "b35",
+     "role": "paragraph"
+    },
+    {
+     "id": "b36",
+     "role": "label"
+    },
+    {
+     "id": "b37",
+     "role": "paragraph"
+    },
+    {
+     "id": "b38",
+     "role": "heading"
+    },
+    {
+     "id": "b39",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "ac8d16c115be7d3295576d260e794de44c401e3c94fe774877b3cab7cfadb80d": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "table"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    },
+    {
+     "id": "b18",
+     "role": "paragraph"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    },
+    {
+     "id": "b21",
+     "role": "paragraph"
+    },
+    {
+     "id": "b22",
+     "role": "paragraph"
+    },
+    {
+     "id": "b23",
+     "role": "paragraph"
+    },
+    {
+     "id": "b24",
+     "role": "paragraph"
+    },
+    {
+     "id": "b25",
+     "role": "paragraph"
+    },
+    {
+     "id": "b26",
+     "role": "paragraph"
+    },
+    {
+     "id": "b27",
+     "role": "paragraph"
+    },
+    {
+     "id": "b28",
+     "role": "paragraph"
+    },
+    {
+     "id": "b29",
+     "role": "paragraph"
+    },
+    {
+     "id": "b30",
+     "role": "paragraph"
+    },
+    {
+     "id": "b31",
+     "role": "paragraph"
+    },
+    {
+     "id": "b32",
+     "role": "paragraph"
+    },
+    {
+     "id": "b33",
+     "role": "paragraph"
+    },
+    {
+     "id": "b34",
+     "role": "paragraph"
+    },
+    {
+     "id": "b35",
+     "role": "paragraph"
+    },
+    {
+     "id": "b36",
+     "role": "paragraph"
+    },
+    {
+     "id": "b37",
+     "role": "paragraph"
+    },
+    {
+     "id": "b38",
+     "role": "paragraph"
+    },
+    {
+     "id": "b39",
+     "role": "paragraph"
+    },
+    {
+     "id": "b40",
+     "role": "paragraph"
+    },
+    {
+     "id": "b41",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "0e31157a2ff04b273fb7fd828e8f6f3ae42f90cb40971c984b538a079f92b761": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "label"
+    },
+    {
+     "id": "b2",
+     "role": "value"
+    },
+    {
+     "id": "b3",
+     "role": "label"
+    },
+    {
+     "id": "b4",
+     "role": "value"
+    },
+    {
+     "id": "b5",
+     "role": "value"
+    },
+    {
+     "id": "b6",
+     "role": "label"
+    },
+    {
+     "id": "b7",
+     "role": "heading"
+    },
+    {
+     "id": "b8",
+     "role": "label"
+    },
+    {
+     "id": "b9",
+     "role": "value"
+    },
+    {
+     "id": "b10",
+     "role": "value"
+    },
+    {
+     "id": "b11",
+     "role": "value"
+    },
+    {
+     "id": "b12",
+     "role": "value"
+    },
+    {
+     "id": "b13",
+     "role": "table"
+    },
+    {
+     "id": "b14",
+     "role": "label"
+    },
+    {
+     "id": "b15",
+     "role": "value"
+    },
+    {
+     "id": "b16",
+     "role": "label"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 2
+ },
+ "d3ca2c1ee8e398eea791b8c9fbb83dd80cfc7f210323197b664f02b771a63765": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "table"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    },
+    {
+     "id": "b18",
+     "role": "paragraph"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    },
+    {
+     "id": "b21",
+     "role": "paragraph"
+    },
+    {
+     "id": "b22",
+     "role": "paragraph"
+    },
+    {
+     "id": "b23",
+     "role": "paragraph"
+    },
+    {
+     "id": "b24",
+     "role": "paragraph"
+    },
+    {
+     "id": "b25",
+     "role": "paragraph"
+    },
+    {
+     "id": "b26",
+     "role": "paragraph"
+    },
+    {
+     "id": "b27",
+     "role": "paragraph"
+    },
+    {
+     "id": "b28",
+     "role": "paragraph"
+    },
+    {
+     "id": "b29",
+     "role": "paragraph"
+    },
+    {
+     "id": "b30",
+     "role": "paragraph"
+    },
+    {
+     "id": "b31",
+     "role": "paragraph"
+    },
+    {
+     "id": "b32",
+     "role": "paragraph"
+    },
+    {
+     "id": "b33",
+     "role": "paragraph"
+    },
+    {
+     "id": "b34",
+     "role": "paragraph"
+    },
+    {
+     "id": "b35",
+     "role": "paragraph"
+    },
+    {
+     "id": "b36",
+     "role": "paragraph"
+    },
+    {
+     "id": "b37",
+     "role": "paragraph"
+    },
+    {
+     "id": "b38",
+     "role": "paragraph"
+    },
+    {
+     "id": "b39",
+     "role": "paragraph"
+    },
+    {
+     "id": "b40",
+     "role": "paragraph"
+    },
+    {
+     "id": "b41",
+     "role": "paragraph"
+    },
+    {
+     "id": "b42",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ },
+ "8ef49f109752b8213b1fe40569b480dfc0af60e8ab1346a3db5447c7e787f2c5": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "label"
+    },
+    {
+     "id": "b2",
+     "role": "value"
+    },
+    {
+     "id": "b3",
+     "role": "label"
+    },
+    {
+     "id": "b4",
+     "role": "value"
+    },
+    {
+     "id": "b5",
+     "role": "value"
+    },
+    {
+     "id": "b6",
+     "role": "label"
+    },
+    {
+     "id": "b7",
+     "role": "heading"
+    },
+    {
+     "id": "b8",
+     "role": "label"
+    },
+    {
+     "id": "b9",
+     "role": "value"
+    },
+    {
+     "id": "b10",
+     "role": "value"
+    },
+    {
+     "id": "b11",
+     "role": "value"
+    },
+    {
+     "id": "b12",
+     "role": "value"
+    },
+    {
+     "id": "b13",
+     "role": "table"
+    },
+    {
+     "id": "b14",
+     "role": "label"
+    },
+    {
+     "id": "b15",
+     "role": "label"
+    },
+    {
+     "id": "b16",
+     "role": "value"
+    },
+    {
+     "id": "b17",
+     "role": "label"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 2
+ },
+ "22123bfee071723fce66f0eb75d36fef579159035b3a61a469d216e9d765c375": {
+  "kind": "page-vision",
+  "reply": {
+   "blocks": [
+    {
+     "id": "b1",
+     "role": "table"
+    },
+    {
+     "id": "b2",
+     "role": "paragraph"
+    },
+    {
+     "id": "b3",
+     "role": "paragraph"
+    },
+    {
+     "id": "b4",
+     "role": "paragraph"
+    },
+    {
+     "id": "b5",
+     "role": "paragraph"
+    },
+    {
+     "id": "b6",
+     "role": "paragraph"
+    },
+    {
+     "id": "b7",
+     "role": "paragraph"
+    },
+    {
+     "id": "b8",
+     "role": "paragraph"
+    },
+    {
+     "id": "b9",
+     "role": "paragraph"
+    },
+    {
+     "id": "b10",
+     "role": "paragraph"
+    },
+    {
+     "id": "b11",
+     "role": "paragraph"
+    },
+    {
+     "id": "b12",
+     "role": "paragraph"
+    },
+    {
+     "id": "b13",
+     "role": "paragraph"
+    },
+    {
+     "id": "b14",
+     "role": "paragraph"
+    },
+    {
+     "id": "b15",
+     "role": "paragraph"
+    },
+    {
+     "id": "b16",
+     "role": "paragraph"
+    },
+    {
+     "id": "b17",
+     "role": "paragraph"
+    },
+    {
+     "id": "b18",
+     "role": "paragraph"
+    },
+    {
+     "id": "b19",
+     "role": "paragraph"
+    },
+    {
+     "id": "b20",
+     "role": "paragraph"
+    },
+    {
+     "id": "b21",
+     "role": "paragraph"
+    },
+    {
+     "id": "b22",
+     "role": "paragraph"
+    },
+    {
+     "id": "b23",
+     "role": "paragraph"
+    },
+    {
+     "id": "b24",
+     "role": "paragraph"
+    },
+    {
+     "id": "b25",
+     "role": "paragraph"
+    },
+    {
+     "id": "b26",
+     "role": "paragraph"
+    },
+    {
+     "id": "b27",
+     "role": "paragraph"
+    },
+    {
+     "id": "b28",
+     "role": "paragraph"
+    },
+    {
+     "id": "b29",
+     "role": "paragraph"
+    },
+    {
+     "id": "b30",
+     "role": "paragraph"
+    },
+    {
+     "id": "b31",
+     "role": "paragraph"
+    },
+    {
+     "id": "b32",
+     "role": "paragraph"
+    },
+    {
+     "id": "b33",
+     "role": "paragraph"
+    },
+    {
+     "id": "b34",
+     "role": "paragraph"
+    },
+    {
+     "id": "b35",
+     "role": "paragraph"
+    },
+    {
+     "id": "b36",
+     "role": "paragraph"
+    },
+    {
+     "id": "b37",
+     "role": "paragraph"
+    },
+    {
+     "id": "b38",
+     "role": "paragraph"
+    },
+    {
+     "id": "b39",
+     "role": "paragraph"
+    },
+    {
+     "id": "b40",
+     "role": "paragraph"
+    },
+    {
+     "id": "b41",
+     "role": "paragraph"
+    },
+    {
+     "id": "b42",
+     "role": "paragraph"
+    },
+    {
+     "id": "b43",
+     "role": "paragraph"
+    },
+    {
+     "id": "b44",
+     "role": "paragraph"
+    }
+   ],
+   "complexity": {
+    "dense_table": false,
+    "diagram": false,
+    "poor_scan": false,
+    "handwriting": false
+   }
+  },
+  "model": "qwen3-vl:8b",
+  "prompt_version": 2,
+  "page": 1
+ }
+}

@@ -1,0 +1,96 @@
+{
+  "doc": "docaccess-audit",
+  "page": 75,
+  "description": "Audit page 75, Net Position by Component, last 10 fiscal years: one table of 11 columns (the label and FY 2023 to FY 2014). The gap between the 2021 and 2020 columns lies at the middle of the landscape page and the columns to its right hold only figures, so it is the table's own, not a gutter between two layout columns: the table kept 3 of its 10 years, the other 7 fell into the text. A spreadsheet export draws the figures of a row out of order (the second before the first, a figure's last digit after the next cell's), which swapped the first two years of each row and split a figure (\"2,966,949. 0\", \"$ 14,215,31 9\"). Each year keeps its own figure whole.",
+  "assertions": [
+    {
+      "min_recall": 90
+    },
+    {
+      "tables": 1
+    },
+    {
+      "table": {
+        "rows": 12,
+        "cols": 11,
+        "exact": true,
+        "cells": [
+          "2023",
+          "2014",
+          "$ 6,854,060.0",
+          "$ 6,634,958.0",
+          "$ 2,519,614.0",
+          "$ 4,398,159.0",
+          "$ 16,933,782",
+          "$ 15,531,912",
+          "$ 14,215,319",
+          "$ 10,486,196",
+          "9,964,843",
+          "6,088,037"
+        ],
+        "cell_contains": [
+          {
+            "row": {
+              "col": 0,
+              "text": "Total Governmental Actiities Net Position"
+            },
+            "cols": [
+              1
+            ],
+            "text": "$ 16,933,782"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Total Governmental Actiities Net Position"
+            },
+            "cols": [
+              2
+            ],
+            "text": "$ 15,531,912"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Total Governmental Actiities Net Position"
+            },
+            "cols": [
+              3
+            ],
+            "text": "$ 14,215,319"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Total Governmental Actiities Net Position"
+            },
+            "cols": [
+              10
+            ],
+            "text": "$ 10,486,196"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Unrestricted"
+            },
+            "cols": [
+              4
+            ],
+            "text": "10,675,431"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Unrestricted"
+            },
+            "cols": [
+              10
+            ],
+            "text": "6,088,037"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "doc": "scotus-mahmoud-v-taylor",
+  "page": 5,
+  "description": "Mahmoud v. Taylor, 606 U.S. 522, printed page 525: the running head, the Syllabus, and syllabus paragraphs (c) and (1) to (4) with their case citations and page references.",
+  "assertions": [
+    {"min_recall": 96.5},
+    {"no_text": ["�"]},
+    {"contains": ["Cite as: 606 U. S. 522 (2025)", "Pp. 555–563."]},
+    {"contains_in_order": ["Syllabus", "(c) None of the counterarguments raised by the Board", "(1) The Court does not accept the Board", "(2) The Board", "(3) The courts below erred by dismissing", "(4) The Fourth Circuit"]},
+    {"xfail": "Paragraph (c) is a list item that also holds paragraphs (1) to (4) as nested list items; (1) is a separate paragraph in the image, not part of (c).",
+     "separate_blocks": [["(c) None of the counterarguments", "(1) The Court does not accept"]]},
+    {"xfail": "The 'fi' ligature is dropped from the text layer: 'specifcally' for 'specifically' and 'fling cabinets' for 'filing cabinets'.",
+     "contains": ["has specifically encouraged teachers", "filing cabinets"]}
+  ]
+}

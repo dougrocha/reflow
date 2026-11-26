@@ -1,0 +1,8 @@
+{
+  "doc": "docaccess-legislation",
+  "page": 19,
+  "description": "Legislation with tracked changes page 19: the word before a struck-out passage OCR could not read is no heading (#83).",
+  "assertions": [
+    {"toc_lacks": ["appropriations.", "appropriations"], "why": "What OCR kept of a mostly unreadable line (a signature, a struck-out passage) is no heading (#83)."}
+  ]
+}

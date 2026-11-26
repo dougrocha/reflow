@@ -1,0 +1,49 @@
+{
+  "doc": "az-bluedental-manual",
+  "page": 15,
+  "description": "Two tables of two columns, one under the other, each under a yellow bar. A bar is neither a row nor narrow columns, and each table has its own header row. The bold text of a cell is not a heading.",
+  "assertions": [
+    {
+      "table": {
+        "rows": 2,
+        "cols": 2,
+        "exact": true,
+        "col_headers": [
+          "Procedures",
+          "Documentation Requirements"
+        ],
+        "cells": [
+          "Procedures",
+          "Documentation Requirements",
+          "Radiographs and charting"
+        ]
+      }
+    },
+    {
+      "table": {
+        "rows": 3,
+        "cols": 2,
+        "exact": true,
+        "col_headers": [
+          "Periodontal Procedures",
+          "Documentation Requirements"
+        ],
+        "cells": [
+          "Periodontal Procedures",
+          "Documentation Requirements",
+          "Radiographs and periodontal charting",
+          "Periodontal charting"
+        ]
+      }
+    },
+    {
+      "not_heading": [
+        "Radiographs and charting",
+        "Radiographs and periodontal charting",
+        "Periodontal charting",
+        "Procedures",
+        "Periodontal Procedures"
+      ]
+    }
+  ]
+}

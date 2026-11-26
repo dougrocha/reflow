@@ -1,0 +1,74 @@
+{
+  "doc": "docaccess-assessment-appeal",
+  "page": 3,
+  "description": "Assessment appeal application page 3: the instructions are a top-level section with Section 1-8 under it, and are not nested under page 1's footer.",
+  "assertions": [
+    {
+      "min_recall": 90
+    },
+    {
+      "heading": {
+        "text": "INFORMATION AND INSTRUCTIONS FOR ASSESSMENT APPEAL APPLICATION",
+        "levels": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "heading": {
+        "text": "SECTION 1. APPLICANT INFORMATION",
+        "levels": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "heading": {
+        "text": "SECTION 2. CONTACT INFORMATION",
+        "contains": true,
+        "levels": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "heading": {
+        "text": "AUTHORIZATION OF AGENT",
+        "levels": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "heading": {
+        "text": "SECTION 3. PROPERTY IDENTIFICATION INFORMATION",
+        "levels": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "heading": {
+        "text": "SECTION 4. VALUE",
+        "levels": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "heading": {
+        "text": "SECTION 5. TYPE OF ASSESSMENT BEING APPEALED",
+        "levels": [
+          3,
+          3
+        ]
+      }
+    }
+  ]
+}

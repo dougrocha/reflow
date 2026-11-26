@@ -1,0 +1,19 @@
+{
+  "doc": "docaccess-audit",
+  "page": 24,
+  "description": "Audit page 24, the General Fund balance sheet: one table of five columns (the label, June 30 2023, June 30 2022, Change, % Change). The spreadsheet export draws each cell's \"$\" as a text object of its own, after the figure on its left, so the page's gap between the labels and the figures is the table's own column gap, and every figure keeps its currency sign in front, in its own cell: no cell holds two figures, none ends in a stray \"$\".",
+  "assertions": [
+    {"tables": 1},
+    {"table": {"rows": 23, "cols": 5, "exact": true,
+               "cells": ["Cash and Investments", "$ 8,426,474", "$ 7,346,459", "$ 1,080,015", "14.7%",
+                         "$ 192,443", "$ 202,674", "$ (10,231)", "$ 4,084,670", "$ 2,784,670",
+                         "$ 1,300,000", "$ (229,478)", "$ 9,242,763"],
+               "cell_contains": [
+                 {"row": {"col": 0, "text": "Nonspendable"}, "cols": [1], "text": "$ 192,443"},
+                 {"row": {"col": 0, "text": "Nonspendable"}, "cols": [2], "text": "$ 202,674"},
+                 {"row": {"col": 0, "text": "Nonspendable"}, "cols": [3], "text": "$ (10,231)"},
+                 {"row": {"col": 0, "text": "Assigned"}, "cols": [2], "text": "$ 2,784,670"},
+                 {"row": {"col": 0, "text": "Assigned"}, "cols": [3], "text": "$ 1,300,000"},
+                 {"row": {"col": 0, "text": "Accrued Salaries and Benefits"}, "cols": [2], "text": "$ 106,865"}]}}
+  ]
+}

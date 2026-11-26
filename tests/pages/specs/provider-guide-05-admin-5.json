@@ -1,0 +1,17 @@
+{
+  "doc": "provider-guide-05-admin",
+  "page": 5,
+  "description": "Provider guide page 5-4 (Use of the AZ Blue Name or Logo): six bold sub-headings with paragraphs, then a box of one column under a yellow bar, 'Correct examples' over 'Incorrect examples', each with a bullet list. One column is no table (the bar is neither a row nor two narrow columns), so the box reads as its lists.",
+  "assertions": [
+    {"min_recall": 94},
+    {"no_text": ["�"]},
+    {"heading": {"text": "Use of the AZ Blue Name or Logo (Brands)", "levels": [1, 2]}},
+    {"heading": {"text": "Joint communications"}},
+    {"heading": {"text": "Narrative text"}},
+    {"heading": {"text": "Examples of narrative text"}},
+    {"contains_in_order": ["Permission to use the AZ Blue name or logo (Brands)", "Signs and communications within Arizona", "Website", "Joint communications", "Blue symbols (cross and shield)", "Narrative text", "Examples of narrative text", "Correct examples:", "Incorrect examples:"]},
+    {"tables": 0},
+    {"list_items": {"items": ["Contracted with Blue Cross® Blue Shield® of Arizona, an Independent Licensee of the Blue Cross Blue Shield Association."]}},
+    {"list_items": {"items": ["Contracted with Blue Cross/Blue Shield.", "Contracted with BC/BS or BCBS.", "We accept Blue.", "We accept Blue Cross."]}}
+  ]
+}

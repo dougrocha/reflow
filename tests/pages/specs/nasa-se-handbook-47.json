@@ -1,0 +1,19 @@
+{
+  "doc": "nasa-se-handbook",
+  "page": 47,
+  "description": "NASA Systems Engineering Handbook, page 47: the Space Flight Phase D box with its Purpose paragraph, the Typical Activities list with nested sub-bullets, and the Reviews list.",
+  "assertions": [
+    {"min_recall": 98.0},
+    {"no_text": ["�"]},
+    {"heading": {"text": "Space Flight Phase D: System Assembly, Integration and Test, Launch"}},
+    {"contains_in_order": ["Purpose", "Typical Activities and Their Products", "Perform verification and validation on assemblies", "Reviews", "Test Readiness Reviews (TRRs)", "Safety review", "Rev 2"]},
+    {"list_items": {"ordered": false, "items": [
+      "Update documents developed and baselined in previous phases",
+      "Monitor project progress against plans",
+      "Identify and update risks",
+      "Integrate/assemble components according to the integration plans"
+    ]}},
+    {"nested_list": {"parent": "Prepare and baseline", "items": ["Operator's manuals", "Maintenance manuals", "Operations handbook"]}},
+    {"list_items": {"ordered": false, "items": ["Test Readiness Reviews (TRRs)", "ORR", "FRR", "Safety review"]}}
+  ]
+}

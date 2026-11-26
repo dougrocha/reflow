@@ -1,0 +1,117 @@
+{
+  "doc": "docaccess-assessment-appeal",
+  "page": 2,
+  "description": "Assessment appeal application page 2: sections 5-8 and Certification are headings at the level of sections 1-4. In section 5 each DATE OF NOTICE and ROLL YEAR box is a field labelled by the caption printed before its blank line, and the blank line is not left beside it as underscores (#281). The check-box groups with exclusive choices are radios: section 5 (\"Check only one\") is one group of six, across its two printed rows, sections 7 and 8 are pairs. Each radio is still its own PDF field, and no fieldset has an empty legend (#281).",
+  "assertions": [
+    {
+      "min_recall": 90
+    },
+    {
+      "heading": {
+        "text": "5. TYPE OF ASSESSMENT BEING APPEALED",
+        "levels": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "heading": {
+        "text": "6. REASON FOR FILING APPEAL (FACTS)",
+        "levels": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "heading": {
+        "text": "7. WRITTEN FINDINGS OF FACTS",
+        "contains": true,
+        "levels": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "heading": {
+        "text": "8. THIS APPLICATION IS DESIGNATED AS A CLAIM FOR REFUND",
+        "contains": true,
+        "levels": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "heading": {
+        "text": "CERTIFICATION",
+        "levels": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "not_heading": [
+        "*Must attach copy of notice or bill, where applicable"
+      ]
+    },
+    {
+      "field_labels": {
+        "*DATE OF NOTICE:": 2,
+        "**ROLL YEAR:": 2
+      }
+    },
+    {
+      "control_names": [
+        "DATE OF NOTICE",
+        "ROLL YEAR"
+      ]
+    },
+    {
+      "no_text": [
+        "NOTICE: ____",
+        "YEAR: ____"
+      ]
+    },
+    {
+      "fieldsets_named": true
+    },
+    {
+      "field_group": {
+        "legend": "5. TYPE OF ASSESSMENT BEING APPEALED",
+        "type": "radio",
+        "options": [
+          "REGULAR ASSESSMENT – VALUE AS OF JANUARY 1 OF THE CURRENT YEAR",
+          "SUPPLEMENTAL ASSESSMENT",
+          "ROLL CHANGE",
+          "ESCAPE ASSESSMENT",
+          "CALAMITY REASSESSMENT",
+          "PENALTY ASSESSMENT"
+        ]
+      }
+    },
+    {
+      "field_group": {
+        "legend": "7. WRITTEN FINDINGS OF FACTS ( $255 for the first hour / each additional hour $237.00 )",
+        "type": "radio",
+        "options": [
+          "Are requested.",
+          "Are not requested."
+        ]
+      }
+    },
+    {
+      "field_group": {
+        "legend": "8. THIS APPLICATION IS DESIGNATED AS A CLAIM FOR REFUND See instructions.",
+        "type": "radio",
+        "options": [
+          "Yes",
+          "No"
+        ]
+      }
+    }
+  ]
+}

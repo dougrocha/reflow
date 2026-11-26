@@ -1,0 +1,18 @@
+{
+  "doc": "naca",
+  "page": 2,
+  "description": "NACA Report page 2 (scanned symbols table): section titles in order. Its unit table is a known limit.",
+  "assertions": [
+    {"min_recall": 97.0, "why": "The reference is the file's own OCR layer. #147 grades it, and its readings of the stacked fractions and their symbols ('q~', 'ODO=~', 'w') stand taller than a line, so they are unread crops sent to review, not text: about 1.2 points of the layer's words."},
+    {"no_text": ["�"]},
+    {"contains_in_order": ["AERONAUTIC SYMBOLS", "1. FUNDAMENTAL AND DERIVED UNITS", "2. GENERAL SYMBOLS", "Standard acceleration of gravity=9.80665", "3. AERODYNAMIC SYMBOLS"]},
+    {"contains": ["Weight=mg", "Mass=", "Kinematic viscosity", "Aspect ratio"]},
+    {"heading": {"text": "AERONAUTIC SYMBOLS", "levels": [1, 3]}},
+    {"heading": {"text": "1. FUNDAMENTAL AND DERIVED UNITS", "levels": [2, 4]}},
+    {"table": {"rows": 3, "cols": 4, "cells": ["Metric", "English", "Symbol", "Length"]}},
+    {"unread_over_text": ["AERONAUTIC SYMBOLS", "1. FUNDAMENTAL AND DERIVED UNITS", "Metric", "English", "Symbol", "Length", "2. GENERAL SYMBOLS", "Weight=mg", "3. AERODYNAMIC SYMBOLS"], "why": "No crop lies over typed text: the table's scanned grid is no writing (#84)."},
+    {"min_figures": 1},
+    {"alt_not": ["^Handwriting"], "why": "#258: ink is called handwriting only on a sign of writing."},
+    {"alt_has": ["^Writing that OCR could not read"], "review_has": ["unread-text"], "review_lacks": ["unread-handwriting"], "why": "#258: the crop of the stacked fractions and its review item stay, labelled as writing OCR could not read."}
+  ]
+}

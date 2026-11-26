@@ -1,0 +1,34 @@
+{
+  "doc": "az-tsmc-hsa-mandarin",
+  "page": 9,
+  "description": "Three side-by-side Chinese coverage examples. Cost totals below each example must survive table and figure classification.",
+  "assertions": [
+    {
+      "doc_lang": "zh-Hant"
+    },
+    {
+      "min_recall": 65.5
+    },
+    {
+      "contains_in_order": [
+        "Peg 要生小孩了",
+        "管理 Joe 的第 2 型糖尿病",
+        "Mia 的輕微骨折"
+      ]
+    },
+    {
+      "contains": [
+        "$12,700",
+        "$5,600",
+        "$2,800"
+      ]
+    },
+    {
+      "contains": [
+        "$1,660",
+        "$2,000",
+        "$1,610"
+      ]
+    }
+  ]
+}

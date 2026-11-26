@@ -1,0 +1,40 @@
+{
+  "doc": "fw9",
+  "page": 1,
+  "description": "Form W-9 page 1: form fields, Part I/II headings, the certification list and the signature row. The SSN boxes take a digit keypad and no autofill token (#281); a box that asks for city, state and ZIP at once, and a payee code, get neither.",
+  "assertions": [
+    {"min_recall": 96.5},
+    {"no_text": ["�"]},
+    {"fields": {"text": 15, "checkbox": 1, "radio": 7}},
+    {"field_group": {"legend": "3a Check the appropriate box for federal tax classification of the entity/individual whose name is entered on line 1. Check only one of the following seven boxes.", "type": "radio", "options": [
+      "Individual/sole proprietor", "C corporation", "S corporation", "Partnership", "Trust/estate",
+      "LLC. Enter the tax classification (C = C corporation, S = S corporation, P = Partnership)", "Other (see instructions)"
+    ]}},
+    {"heading": {"text": "Request for Taxpayer Identification Number and Certification", "levels": [2, 2]}},
+    {"heading": {"text": "Part I Taxpayer Identification Number (TIN)", "levels": [3, 3]}},
+    {"heading": {"text": "Part II Certification", "levels": [3, 3]}},
+    {"heading": {"text": "General Instructions", "levels": [2, 2]}},
+    {"heading": {"text": "What’s New", "levels": [3, 3]}},
+    {"not_heading": ["Social security number", "Employer identification number", "Signature of", "Requester’s name and address (optional)"]},
+    {"list_items": {"ordered": true, "items": [
+      "The number shown on this form is my correct taxpayer identification number (or I am waiting for a number to be issued to me); and",
+      "I am not subject to backup withholding because (a) I am exempt from backup withholding, or (b) I have not been notified by the Internal Revenue Service (IRS) that I am subject to backup withholding as a result of a failure to report all interest or dividends, or (c) the IRS has notified me that I am no longer subject to backup withholding; and",
+      "I am a U.S. citizen or other U.S. person (defined below); and",
+      "The FATCA code(s) entered on this form (if any) indicating that I am exempt from FATCA reporting is correct."
+    ]}},
+    {"contains_in_order": ["Name of entity/individual.", "Business name/disregarded entity name", "Individual/sole proprietor", "Address (number, street, and apt. or suite no.)", "City, state, and ZIP code", "Signature of", "U.S. person", "General Instructions"]},
+    {"same_block": [["Certification instructions.", "You must cross out item 2 above"]]},
+    {"contains_in_order": ["Signature of", "U.S. person", "Date", "General Instructions"]},
+    {"not_heading": ["Here", "or", "Sign"]},
+    {"input_attrs": [
+      {"label": "Social security number", "type": "text", "inputmode": "numeric", "autocomplete": "off"},
+      {"label": "6 City, state, and ZIP code", "type": "text", "inputmode": null, "autocomplete": "off"},
+      {"label": "Exempt payee code (if any)", "inputmode": null, "autocomplete": "off"}
+    ]},
+    {"contains_in_order": ["This document has fillable fields. They", "Form (Rev. March 2024) Department of", "Give form to the requester. Do", "Request for Taxpayer Identification Number and", "Go to www.irs.gov/FormW9 for instructions and", "Before you begin. For guidance related", "1 Name of entity/individual. An entry", "See Specific Instructions on page 3.", "Note: Check the \"LLC\" box above", "3b If on line 3a you", "and you are providing this form", "4 Exemptions (codes apply only to", "certain entities, not individuals; see instructions", "Exemption from Foreign Account Tax Compliance", "(Applies to accounts maintained", "outside the United States.)", "Part I Taxpayer Identification Number (TIN)", "Enter your TIN in the appropriate", "Note: If the account is in", "Under penalties of perjury, I certify", "The number shown on this form", "I am not subject to backup", "I am a U.S. citizen or", "The FATCA code(s) entered on this", "Certification instructions. You must cross out", "Section references are to the Internal", "Future developments. For the latest information", "Line 3a has been modified to", "New line 3b has been added", "An individual or entity (Form W-9"], "why": "The opening words of each paragraph, list item and heading, in reading order: catches swapped or moved paragraphs (#330)."},
+    {"contains_in_order": ["W-9", "March 2024) Department", "to www.irs.gov/FormW9 for", "Form W-9, see", "1 Name", "line 1, and", "page 3.", "3b If", "line 3a you", "4 Exemptions", "page 3):", "line 1 to", "line 1. See", "item 2 above", "item 2 does", "Form W-9 and", "to www.irs.gov/FormW9.", "Line 3a has", "No. 10231X", "line 3b has", "Form W-9 to", "Schedules K-2 and K-3. See", "Schedules K-2 and K-3 (Form 1065).", "(Form W-9 requester)"], "why": "Every number with a word either side, in reading order: catches a changed digit (#330)."},
+    {"heading": {"text": "W-9", "levels": [2, 2]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"heading": {"text": "What's New", "levels": [3, 3]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"heading": {"text": "Purpose of Form", "levels": [3, 3]}, "why": "A section heading of the page: catches a demoted heading (#330)."}
+  ]
+}

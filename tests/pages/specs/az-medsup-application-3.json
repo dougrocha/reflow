@@ -1,0 +1,75 @@
+{
+  "doc": "az-medsup-application",
+  "page": 3,
+  "description": "Coverage application: plan choices, effective-month options, and applicant fields. Printed boxes become controls, and the A option must not consume the A in Available.",
+  "assertions": [
+    {
+      "min_recall": 97.5
+    },
+    {
+      "no_text": [
+        "■",
+        "�"
+      ]
+    },
+    {
+      "contains": [
+        "Available throughout Arizona",
+        "Medicare Number and Effective Dates."
+      ]
+    },
+    {
+      "field_group": {
+        "legend": "Are you an Arizona resident?",
+        "options": [
+          "Yes",
+          "No"
+        ]
+      }
+    },
+    {
+      "field_group": {
+        "legend": "Do you currently have Blue Cross Blue Shield of Arizona coverage?",
+        "options": [
+          "Yes",
+          "No"
+        ]
+      }
+    },
+    {
+      "field_group": {
+        "legend": "Gender",
+        "options": [
+          "M",
+          "F"
+        ]
+      }
+    },
+    {
+      "field_labels": {
+        "Physical Address": 1,
+        "State": 2,
+        "ZIP": 2
+      }
+    },
+    {
+      "field_group": {
+        "legend": "1st day of (month)",
+        "options": [
+          "Jan",
+          "Mar",
+          "May",
+          "July",
+          "Sept",
+          "Nov",
+          "Feb",
+          "April",
+          "June",
+          "Aug",
+          "Oct",
+          "Dec"
+        ]
+      }
+    }
+  ]
+}

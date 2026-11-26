@@ -1,0 +1,16 @@
+{
+  "doc": "pima-directory",
+  "page": 429,
+  "description": "Pima County provider directory page 429 (Neurology, Tucson, continued): provider headings with their addresses, one with a Hindi language line.",
+  "assertions": [
+    {"min_recall": 96.0},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Gokhale, Sankalp S, MD (M)", "contains": true, "levels": [5, 5]}},
+    {"heading": {"text": "Hishaw, Georg A, MD (M)", "contains": true, "levels": [5, 5]}},
+    {"heading": {"text": "Hoffman, Donald", "contains": true, "levels": [5, 5]}},
+    {"same_entry": [["Gokhale, Sankalp S", "1501 N Campbell Ave"], ["Hishaw, Georg A", "2626 E River Rd"]]},
+    {"same_block": [["1501 N Campbell Ave", "Language: Hindi"]]},
+    {"contains_in_order": ["Continued: Neurology › Tucson (continued from the previous page)", "3501 E Speedway Blvd, Ste 377", "Gokhale, Sankalp S", "1501 N Campbell Ave", "Hishaw, Georg A", "2626 E River Rd", "Hoffman, Donald"]}
+  ]
+}

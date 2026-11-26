@@ -1,0 +1,15 @@
+{
+  "doc": "pima-directory",
+  "page": 93,
+  "description": "Pima County provider directory page 93 (Non-Physicians, Family Nurse Practitioner, Tucson, continued): provider headings with their addresses, one of them in Spanish.",
+  "assertions": [
+    {"min_recall": 93.5},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Aiello, Yoaneidis", "contains": true, "levels": [5, 5]}},
+    {"heading": {"text": "Akers, Kerri A, FNP (F) — Accepting New Patients", "levels": [5, 5]}},
+    {"same_entry": [["Aiello, Yoaneidis", "3770 S 16th Ave"], ["Akers, Kerri A", "1919 W Medical St"]]},
+    {"same_block": [["3770 S 16th Ave", "Language: Spanish"]]},
+    {"contains_in_order": ["Continued: Non-Physicians › Family Nurse Practitioner › Tucson", "Aiello, Yoaneidis", "3770 S 16th Ave", "Ajl, Jenny A", "Akalu, Masresha G", "Akers, Kerri A", "1919 W Medical St", "2611 N Warren Ave"]}
+  ]
+}

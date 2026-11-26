@@ -1,0 +1,38 @@
+{
+  "doc": "az-bluedental-manual",
+  "page": 5,
+  "description": "The network overview's subheads are in the Contents, though the bookmarks name only the chapters (#157). The directory table is 3 × 3: the yellow bar drawn above it is neither a row nor two narrow columns.",
+  "assertions": [
+    {
+      "heading": {
+        "text": "BlueDental PPO Network"
+      }
+    },
+    {
+      "toc_on_page": [
+        "BlueDental Networks – Overview",
+        "BlueDental PPO Network",
+        "BlueDental Prime Network",
+        "BlueDental DHMO Network"
+      ]
+    },
+    {
+      "table": {
+        "rows": 3,
+        "cols": 3,
+        "exact": true,
+        "col_headers": [
+          "Directory for:",
+          "Type of Provider",
+          "Network"
+        ],
+        "cells": [
+          "Directory for:",
+          "Type of Provider",
+          "Network",
+          "Select “BlueDental Prime”"
+        ]
+      }
+    }
+  ]
+}

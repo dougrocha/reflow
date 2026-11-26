@@ -1,0 +1,13 @@
+{
+  "doc": "budget-appendix",
+  "page": 458,
+  "description": "Budget appendix page 458 (Medicare Hearings and Appeals; Public Health and Social Services Emergency Fund): the Object Classification table, and the Employment Summary table (a year heading over one row of figures, with the identification code as the row label).",
+  "assertions": [
+    {"min_recall": 97.0},
+    {"no_text": ["�"]},
+    {"heading": {"text": "Employment Summary", "levels": [3, 4]}},
+    {"table": {"rows": 15, "cols": 4, "cells": ["11.1", "Full-time permanent", "107", "99", "98", "99.9", "Total new obligations, unexpired accounts", "203", "199", "201"]}},
+    {"table": {"rows": 2, "cols": 4, "cells": ["2023 actual", "2024 est.", "2025 est.", "1,012", "982", "879"]}},
+    {"contains_in_order": ["MEDICARE HEARINGS AND APPEALS", "This appropriation funds the operations of the Office of Medicare Hearings", "Object Classification", "Employment Summary", "PUBLIC HEALTH AND SOCIAL SERVICES EMERGENCY FUND", "Program and Financing"]}
+  ]
+}

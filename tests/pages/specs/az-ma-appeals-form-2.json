@@ -1,0 +1,9 @@
+{
+  "doc": "az-ma-appeals-form",
+  "page": 2,
+  "description": "No box carries the caption of the box over or under it: a control's printed label is in its accessible name (#281).",
+  "assertions": [
+    {"labels_in_names": true},
+    {"control_order": ["First Name", "Last Name", "Phone Number", "Address", "City", "State", "ZIP Code"]}
+  ]
+}

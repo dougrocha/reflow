@@ -1,0 +1,9 @@
+{
+  "doc": "docaccess-permit",
+  "page": 8,
+  "description": "Permit ledger page 8 (scanned, a handwritten ledger turned on its side): no whole-page figure, and the handwriting is flagged for review.",
+  "assertions": [
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "max_figure_share": 0.6},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "review_has": ["unread-text"], "why": "The page is handwriting only, turned 90 degrees, on a grey scan; OCR reads no word of it, so the positive check is the unread figures error."}
+  ]
+}

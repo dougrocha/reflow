@@ -1,0 +1,11 @@
+{
+  "doc": "docaccess-audit",
+  "page": 2,
+  "description": "Title page behind the picture cover (#281): the report's title, the district and the fiscal year are set again in plain capitals, with the two officers who sign. They are the cover's lines, not sections: no heading, none in the Contents, so the outline lists the title once. The words stay on the page.",
+  "assertions": [
+    {"contains": ["SAN MATEO COUNTY MOSQUITO AND VECTOR CONTROL DISTRICT", "ANNUAL COMPREHENSIVE FINANCIAL REPORT", "FOR FISCAL YEAR ENDED JUNE 30, 2023", "RICHARD S. ARROW, CPA", "FINANCE DIRECTOR", "BRIAN WEBER", "DISTRICT MANAGER"]},
+    {"not_heading": ["SAN MATEO COUNTY MOSQUITO AND VECTOR CONTROL DISTRICT", "ANNUAL COMPREHENSIVE FINANCIAL REPORT", "FOR FISCAL YEAR ENDED JUNE 30, 2023"]},
+    {"toc_lacks": ["SAN MATEO COUNTY MOSQUITO AND VECTOR CONTROL DISTRICT", "ANNUAL COMPREHENSIVE FINANCIAL REPORT", "FOR FISCAL YEAR ENDED JUNE 30, 2023"]},
+    {"max_headings": 0}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "doc": "docaccess-directory",
+  "page": 20,
+  "description": "Provider directory page 20: the running title and revision date are page furniture, not headings or text.",
+  "assertions": [
+    {"not_heading": ["CICP Provider Directory"]},
+    {"no_text": ["Revised:"]}
+  ]
+}

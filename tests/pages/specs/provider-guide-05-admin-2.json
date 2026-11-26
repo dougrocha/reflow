@@ -1,0 +1,20 @@
+{
+  "doc": "provider-guide-05-admin",
+  "page": 2,
+  "description": "Provider guide page 5-1 (Provider Monitoring - Reviews and Audits): a centered page title, bold run-in sub-headings, two bullet lists, and a dash sub-list under 'Claim Payment accuracy reviews'.",
+  "assertions": [
+    {"min_recall": 95},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Provider Monitoring – Reviews and Audits", "levels": [1, 2]}},
+    {"heading": {"text": "Ongoing monitoring of participating providers"}},
+    {"heading": {"text": "Types of audits"}},
+    {"heading": {"text": "Audit process"}},
+    {"contains_in_order": ["Provider Monitoring – Reviews and Audits", "Ongoing monitoring of participating providers", "Types of audits", "Audit process"]},
+    {"list_items": {"items": ["Site visits performed by provider relations and credentialing staff, usually related to questions or concerns", "Audits to ensure compliance with use and disclosure of confidential information", "Claim audits as necessary to resolve questions or disputes that arise related to billing", "Standard claim audits on behalf of self-funded employer groups"]}},
+    {"xfail": "The page title and the bold sub-headings are all h2: 'Types of audits' sits at the same level as the page title it belongs under.",
+     "heading": {"text": "Types of audits", "levels": [3, 3]}},
+    {"xfail": "The dash sub-list under 'Claim Payment accuracy reviews, including:' is flattened into that bullet's text instead of a nested list.",
+     "nested_list": {"parent": "Claim Payment accuracy reviews, including:", "items": ["Claim reviews related to high-dollar services and medications", "Pre- and post-payment coding compliance audits", "Credit balance reviews for account overpayments and incorrect reimbursement"]}}
+  ]
+}

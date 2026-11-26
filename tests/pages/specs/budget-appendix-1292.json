@@ -1,0 +1,12 @@
+{
+  "doc": "budget-appendix",
+  "page": 1292,
+  "description": "Budget appendix index page 1292 (INDEX, S to T and Tr, two columns with dot leaders). The wrapped entries are the known open defect, as on page 1285.",
+  "assertions": [
+    {"min_recall": 97.0},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"contains_in_order": ["Surface Transportation Board:", "Telecommunications Relay Services Fund", "Temporary Student Loan Purchase Authority", "Tennessee Valley Authority:", "Title 17 Innovative Technology", "Trade and Development Agency", "Transfers from the Patient-Centered Outcomes", "Transportation, Department of:"]},
+    {"not_heading": ["Telecommunications Relay Services Fund, Federal Communications", "Temporary Student Loan Purchase Authority Conduit Financing", "Title 17 Innovative Technology Guaranteed Loan Financing", "Transfers from the Patient-Centered Outcomes Research Trust", "Capital and Debt Service Grants to the National Railroad Passenger"]}
+  ]
+}

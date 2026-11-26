@@ -1,0 +1,38 @@
+{
+  "doc": "az-advance-directive-bilingual",
+  "page": 3,
+  "description": "Spanish advance-directives notice. Spanish language tags must reach the paragraph text even in a bilingual document.",
+  "assertions": [
+    {
+      "min_recall": 98.5
+    },
+    {
+      "contains_in_order": [
+        "Aviso sobre Instrucciones Anticipadas",
+        "Todos los estados tienen leyes",
+        "Blue Cross",
+        "La siguiente información",
+        "Los documentos legales",
+        "Lléne el formulario"
+      ]
+    },
+    {
+      "block_lang": [
+        {
+          "text": "Todos los estados tienen leyes que permiten que las personas",
+          "lang": "es"
+        },
+        {
+          "text": "Los documentos legales que puede usar para dar sus instrucciones",
+          "lang": "es"
+        }
+      ]
+    },
+    {
+      "figures": 0
+    },
+    {
+      "tables": 0
+    }
+  ]
+}

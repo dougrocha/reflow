@@ -1,0 +1,10 @@
+{
+  "doc": "az-maternal-risk-assessment",
+  "page": 1,
+  "description": "Maternal health risk assessment form, page 1 (#291): the clinical information rows keep their reading order across the check boxes.",
+  "assertions": [
+    {"contains": ["Maternal Health Risk Assessment", "CLINICAL INFORMATION"]},
+    {"contains_in_order": ["CLINICAL INFORMATION", "LMP:", "not known) EDD:", "(From", "U/S)"]},
+    {"contains_in_order": ["LMP:", "not known) EDD:", "(From LMP", "U/S)", "HIV Screening Complete"], "why": "The row reads left to right, and each box keeps its own label: the one printed after '(From', and the last box's 'HIV Screening Complete'."}
+  ]
+}

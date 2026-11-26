@@ -1,0 +1,2362 @@
+{
+ "f3740ea09929b091191616692273a723b0510eeab4487d5ded3acb962d6cdc60": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:6584c93b61c2"
+ },
+ "6b8b2478a527dfa40484d2f1f9f424fd9b11ff416f4b27dbe02c3f7c7b02bddb": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:0f9e39c94a46"
+ },
+ "c74620900bc5521c4d1cda98b391628349d475910f5b080e83c08fb2ec7a0bc5": {
+  "kind": "label",
+  "answer": "c1",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:071270c7b479"
+ },
+ "c9a592bfe4072267a23d6d22cc7f822774d9e6255f4b94d124fc59febf59ebc6": {
+  "kind": "label",
+  "answer": "c5",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:5b3a974628f4"
+ },
+ "d1b72552a8a094c3d39bbf076ca99b027dddbf74a801cba361f853c8dbd3ffa4": {
+  "kind": "label",
+  "answer": "c5",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:96a96f3d4174"
+ },
+ "2cd3c10223ef187a264d7573b6668a22ffde44e4367fb381a62b0f9d381705c6": {
+  "kind": "label",
+  "answer": "c6",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:ec0a0a7e4e22"
+ },
+ "4496a0b5b213e1237f8b7cfe31062d69ed07961a9370f54e71b1e6121f48bd4c": {
+  "kind": "label",
+  "answer": "c6",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:a9f3d8a3f731"
+ },
+ "be031f2481762eff8688078c09bd1b8650ef018fdcc0b87e3ec68f063ba7c417": {
+  "kind": "scan-field",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-0"
+ },
+ "6cf63a5b75496bfe3a2938f470d58ff8984a744a79e57712041ac947e808cbd5": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-1"
+ },
+ "1263f064a3e07bba5e5711728f5e79e7a2820273d3e4faf57773e74dcbd074ff": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-2"
+ },
+ "9f4c4e98b4e7056666512d012bc5951f21a492945c8d86c080eab9a207e0429e": {
+  "kind": "scan-field",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-3"
+ },
+ "d04e78dd21d7c5cb0716ade015200208b5cc681fca232240eb6045babe78799d": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-4"
+ },
+ "844cf40d54d42414833ee2b155f9dbec32f2ab3e2ea30a0eea9c1c92eb58e103": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-5"
+ },
+ "9be723134dfdd19f8c4cf75055ccfaa9f4f19ddf4434ebce55816dadbfe8895c": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-6"
+ },
+ "1581d46172be55be4bb3f07fa9bdd29646f149f52a27ec394a251b548f4ea050": {
+  "kind": "scan-field",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-7"
+ },
+ "fb0ebb9b349ea6fc80f7c36b9f3270635f13d29053f2058b279351b8548abcf6": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-8"
+ },
+ "3ca74da3855be036e297b454812597685a9cf8b7348b683c952167c3b8b0c156": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-9"
+ },
+ "8fff80a51ca130e004fe32fba29c992972ef6ce0a3648625f9970ee8cbe990fd": {
+  "kind": "scan-field",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-10"
+ },
+ "96d97ea205aad9deb24276baec4c3fb35e9f27745ca5f0de0eadc88590144bf0": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-11"
+ },
+ "c7bce2b98bdbe5711f3d111debc4f5829694e9716b69fd31f7803c04355f8f60": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-12"
+ },
+ "ea68f9fbd9fb48a24c1c8ebf29c2463e61f2acd291803a507dd45be6ab29ea18": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-13"
+ },
+ "1ee9b4af88f7ed8dc8ce9411d25bb5010621896e2e155114da446d997d02b866": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 3,
+  "node": "s3-14"
+ },
+ "649cbc8dac1bcedebd581ccda0f240961d55b6bd8aff5c0a5660ea13d901d033": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 3,
+  "node": "s3-15"
+ },
+ "bda6dc265728ff3b893ba2ac778e9cb6bb797194fcc6d8f76a6be64ac623fd8c": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 3,
+  "node": "s3-16"
+ },
+ "27e14a49bf23892f74797e2a3b5929ef0d27262c1ce8b787da8c33cce56bb4ed": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:0d44623c37ae"
+ },
+ "7559e8030847f07ed50357de4ebcc8831c9ea3e0fdee827c9870ed17c1ea569d": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:021a848c514b"
+ },
+ "4cac630a62ac104ff9e404682091776f56cb861d34d3ade03c41d1ff62bf6637": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:ef7971ef9154"
+ },
+ "b7799d2942a25d78ad638dbb85352e02e0ec7b018fe618af4f721322a926593c": {
+  "kind": "label",
+  "answer": "c5",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:0e50ebfa1ab7"
+ },
+ "6a250b445e2815d43b5fc8c63bc264d04f9ffbff07431ee67c5103b4e914fe11": {
+  "kind": "label",
+  "answer": "c3",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:32361dea95b1"
+ },
+ "4162bc959dd107e96c1064bd75e19cdac279bab116857f0ceddf28b4c036febd": {
+  "kind": "label",
+  "answer": "c3",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:fd01b75def01"
+ },
+ "67775bfbb166d277d5094deac42b30c5196aa645b8c931d74c6906724bebf2a2": {
+  "kind": "label",
+  "answer": "c3",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:77a8d5b2756a"
+ },
+ "8731229009bb574c1c1d97dbe051ed69659878688d967fc14d3907771eda6fdf": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:df5cc621fdfe"
+ },
+ "51ffbf01594707e01bebe2dfae4f728ac7170c75038ffd6f228ba976365bbf24": {
+  "kind": "label",
+  "answer": "c2",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:3c0de5889406"
+ },
+ "1a413abd74b8d3079c5bbfb35159490d43ec63508e81ab58d4ad8e55e3b6e261": {
+  "kind": "label",
+  "answer": "c2",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:61a20446533b"
+ },
+ "b516c3b355ad3b20e373a54e68349f1dc8be267227109000adea661ac313d92f": {
+  "kind": "label",
+  "answer": "c1",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:430722127332"
+ },
+ "804efb6233bf61cec70d7512bafab2c43bb149e0759d91b3147124d14b6b7ab5": {
+  "kind": "label",
+  "answer": "c6",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 3,
+  "node": "3:67589a515116"
+ },
+ "553a95e2aeaa326bc28dead2f43aafff3ce9b08f796448bfbe31b8a7f0cc813d": {
+  "kind": "label",
+  "answer": "c6",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 3,
+  "node": "3:cfd5245dc8dc"
+ },
+ "c76507ad79bd852c74aa5b6b6a3254d75dbc1842240e26761b4ce40f43c904a4": {
+  "kind": "scan-field",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-0"
+ },
+ "b7ee2e19b1fc48188141adfe2546cdb8edda941edb0a7556241e62fe381b4a3d": {
+  "kind": "scan-field",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-1"
+ },
+ "3652c3b441793dfaa849acb2af09939a24c9cdb11a0a41bfa6cf3e31ce77a65f": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-2"
+ },
+ "7e67c799c181260abd08497b60b27a94f9cbdd7aaa7709c7c3cc0aa6ceff47da": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-3"
+ },
+ "ddfc3ac4b534ce9fcdd0fb9a1ad7e2f73c7c90221a363654714bf3ea6d4bed7a": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-4"
+ },
+ "dbb42c4c5eaaa966ff251f811142605d9926bcc6ec2f4999ba4e70dfb1a2ff17": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-5"
+ },
+ "9d464781c68099d19a8c9c773b39716931608016aeb0686467c6d31cfb4a9e7c": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 3,
+  "node": "s3-6"
+ },
+ "bfe968097c23e5fec957a4dc8ab738507b65b3be0915b3546c2c8271f770a5e0": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 3,
+  "node": "s3-7"
+ },
+ "9427398d46f2ed91ac71656879eea773fce0782074d71c182cc899787e55ebbf": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:f524a182e648"
+ },
+ "79a701e56bd6d780899b04ee99e0fda4ce0dcdeabb8d8ad874636d0ddcb79322": {
+  "kind": "label",
+  "answer": "c3",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:88e1404b983d"
+ },
+ "197f2cbb57cdecc180b7d3562753aec45b6325def5bdd28a460cf2fce0b6421b": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:67bae387c60b"
+ },
+ "251db450a755cdda444f7859250d5a1126be275f1103072a3affe3a4baa07e72": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:62e995012db1"
+ },
+ "077d3822e7be6dc172780652dc6d23ccde75dec75548c021124d890d9aab1561": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:585a77218830"
+ },
+ "12ecdc1f99572341cd9abca99fbae94b6491cbf94e89def251575e76d1b0ead5": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:a9f0a5916a09"
+ },
+ "d7e47daa9daca813475e4070d0c2727a576f517a3d1867607ffce3ae84da9d2f": {
+  "kind": "label",
+  "answer": "c1",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:f79f4544ad7b"
+ },
+ "b04e2b1095b9d8ecace1f607ec113b32bfc6cba14f33cccb7dba2bae5ecba19e": {
+  "kind": "label",
+  "answer": "c8",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:3a13b5f3ae74"
+ },
+ "855ea2540a71220621b21c600d3b9467e19646fcb2ced20895b31326993e4271": {
+  "kind": "label",
+  "answer": "c7",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:96113a9f4b5a"
+ },
+ "5d20be6b9ac6af3a84111e808363d5bbae2c0acfc9d62d073a9b6502625e6e3e": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 3,
+  "node": "3:c52a5771f5f3"
+ },
+ "7b4575a8d2be1d8522a6464deb399606c4f5a852be2ad8d913b593abc57e661a": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 3,
+  "node": "3:4a69ecfde1ed"
+ },
+ "4bda5bb92b38384e56991876d82f1dfc51e4f0f347430be22433602e706bba07": {
+  "kind": "label",
+  "answer": "c8",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 3,
+  "node": "3:585c6edd316d"
+ },
+ "d00f6fa45c3d2ca1a50bfc552e32af9dfd34ff56b6f4fc70dc49bc843979460b": {
+  "kind": "label",
+  "answer": "c8",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 3,
+  "node": "3:05c53a16bc3e"
+ },
+ "0631a6ff1360fa46f8f8fb0690a365489ef5fe172d967ce8bc265b4fc14724fe": {
+  "kind": "label",
+  "answer": "c7",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 3,
+  "node": "3:de1f6a91a7b8"
+ },
+ "0ef2d4b2d3ca1bbd39ceca05653a9344c4b3cc89bf2d2eab2ae60bbf39aefe2d": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 3,
+  "node": "3:ed812dc8c065"
+ },
+ "cfa4b546542a6ff23bebcec2c87b40cfa25f0cb695b9c0570a78f7cf3659d801": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-0"
+ },
+ "2d7f53fcee37c1f9b270aa3c53bde3410382fa139a2078fd12a688564a0b29b2": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-1"
+ },
+ "e2dbbb935a39b8ab396bffe0b6a0b0b942e47a37042928b5a63ea56767887f17": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-2"
+ },
+ "d57665ce7c9e57e7f807d104f19cf0fc28cc5478909f59f6e50a5988ac9684db": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-3"
+ },
+ "7780a3ec2cd4890b685241bcda24941986be0625bc171de91914c603a50fc62c": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-4"
+ },
+ "a71c86fda7c0993a1114ec9a682bbd7c735b55468b427fdf8d3b9086b076edc8": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-5"
+ },
+ "480a5a71897beea928698f4dfc0272d6722eb5a1796a1d375af6fdb9d9ccc1c1": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-6"
+ },
+ "dc92f330ae1147551b29180d572868feaffda9e895a9eb6c1ea04d6778411ec1": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-7"
+ },
+ "8c01089bc30a7d8ccfa0d549104c5b44079a8eec321738b0ba9691b8955578cb": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-8"
+ },
+ "2f9be10233fd69f0dbc449695fd1cfce2788cb5505c6a06971dc5dbc10795819": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-9"
+ },
+ "ca51b2af97b870c688cf03a5828806686594d78218d55157c9c32f36a7b32165": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-10"
+ },
+ "a2d2b83c7e12557ee5cbbfb89cac3946a387ec16f672192ae9c8ce8c68cd1c72": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-11"
+ },
+ "b45f039f929cfec9a5d4fd8b643b4b3a16c51fef9cc21e89d5cb7f8e5f48121f": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-12"
+ },
+ "e0a641421d427c6ccea0a84ea09d75316fb3122ff0f59891c368a9a38f2a744f": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-13"
+ },
+ "98aebe24907f3e10db94c59af2b109f2931201adf7220e82187b2c179fbb0b0a": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-14"
+ },
+ "e4c6427b0ec79b7dc884f8f5092227ac9518f592f53f83bbf51d10c284fc956b": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-15"
+ },
+ "b978d3c418b66b56636d3981cbe5ade0f5e89d7840f82f36ba8ebb70efd7d45c": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-16"
+ },
+ "989cdedf08b4ef0ca3ac1877ae1979172d4697ba153c71edfc859215d4f70da9": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-17"
+ },
+ "72cb49d61de01302af3ba9ce5a1076205917d5f34cc9fb4f402e4ee1f18fd831": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-18"
+ },
+ "45ded6284fe1b197ebfec6bed828726dcf9e1c4a9c7fae1d9b0f28b88cb33078": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-19"
+ },
+ "8ee91f83f556f4417095cae18c869877989d11f3ffe815ed30019a59672aeccb": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-20"
+ },
+ "252a39c580333dd330b85e52d32f70b1470ecb40b027418541051cea860c6751": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-21"
+ },
+ "68f0da9059f104ee59db98079b2a7ca893dfce48781f691123f21ba99532487e": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-22"
+ },
+ "f349c5e94d7e9df5e5999aa78b2a264304caad450d1e925b4fff3cdc5b6c46f7": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-23"
+ },
+ "a50032d33e4a7102266948706da7ba0dd3ca7dbd467504f6cb0348f6e07e4900": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-24"
+ },
+ "a489441f5d148857c5959f582ef4f0220b83e4c879dacceeda68b365fe80e729": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-25"
+ },
+ "48277c11e19a4e59dc96c312261fee5953f71adaa3eb943a2a242f14c0c40ec6": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-26"
+ },
+ "507283cf2dcfdfb8bceb1399bfa39f19d96972669c4eac0ce875213580fcf40d": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-27"
+ },
+ "5670268332c99f96dcefef28692fe877be0d9192e64c13c7532e23f659cf2df2": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-28"
+ },
+ "369632db9d68ad86ce8c1f16aea8282d031b85ef92401795160f5f177359879c": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-29"
+ },
+ "89bc56191d9bf62455ab4bab2816447d7a8c5519a67139e370ddc4ddfd827576": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-30"
+ },
+ "1d2751724f4e55ed80d427d7268b05c5811a1c069990b736230e508417f61a54": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-31"
+ },
+ "25f7b189b8999a21764c81c7672f003064c785b6e7941273468140128c3652a7": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-32"
+ },
+ "612ae75a00ee43ab983ccbb6e7f97aadb1d1b660184dcc33dc6dabee13f8133e": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-33"
+ },
+ "1abd359ca35d0ee14756db603acf5b58d3a9eef7e67f2f7e073fc2bab052b27f": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-34"
+ },
+ "f88310b048403f29a0a172a3abfbb4ca9875017da49915cccc08f7eec35a08a8": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-35"
+ },
+ "2a9f5cf5839e3015d9402e7340e7cc5a79a2042a07c99880a9b94881bdc4728a": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-36"
+ },
+ "47a26ae166ea8368a4102af3f706857ed2bc4e6b2a313a8bc3a11f855a1659ff": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-37"
+ },
+ "851fa42f355e15bc5f520ae866967a86abf0426ca3abb164b45d23f82c06c602": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-38"
+ },
+ "5478904af4e268b50684abc81c5d5f856bd60c5259e152697f42c78e291717c1": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-39"
+ },
+ "cf43f82704c3edf4020930b1c13a3442c59e34bea9aa2b81b0700f7e7249da4e": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-40"
+ },
+ "bff0ddc5b178231019d6e429293a58d96d567a69128574278121105c5f948057": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-41"
+ },
+ "b37e37a5eeaf265fc7ef9e5f4059b5140a7b593185f0f118b3a3abfb02784f57": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-42"
+ },
+ "ff286948c8e4be3d7e8451a3f6e4490a8d83a968171c8158d7dbbef4abe68a7f": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-43"
+ },
+ "6259f00a129b83823b542d0e5ca6151d8221428d67d75c1eb2c28a303e08f9b9": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-44"
+ },
+ "143e50a012c50e55e20312170c8f9bee5c2eb24c3ff336ee0f258197e7e33b1e": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-45"
+ },
+ "d3c781435b6d33acbccbfc40b8a1d821c0f006ace98ed5cc63d80ae458ba9509": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-46"
+ },
+ "7fc48d7d7bfbdfed067d418d4ceae2d8f45d0c58ba398c8ff851b3a122af98c0": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-47"
+ },
+ "7478605e7c105723df549a55b861dfdb041d9538646af69974155d44af30c5e5": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-48"
+ },
+ "3f3e28f8c807242a58a474ae14f74bf6ae6b104bdd05178cb8e7d759655e9d27": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-49"
+ },
+ "e49ed363bf36bc2119e4f83871314e74e561b866da977141260875f6a6f8f3d5": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-50"
+ },
+ "bfb2d26fc7227d4a82d0944d71fad671e6eae7fcf09952239e75c98543485715": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-51"
+ },
+ "68e72d97a6840855d948d4feb91a296107cb5e0c71e53ede612f05d39bca6535": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-52"
+ },
+ "9a47472dd5da15824bfe9f41d76785dfdcb3aa8bbf8174d97438a35e5d86822b": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-53"
+ },
+ "2da00068153ddb1d7f1a2464d0c4b673b9dab442160bad9bb042cb61d2d0bda0": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-54"
+ },
+ "c800dbe2574feaa9989758eddcbf0849adb10b4071e28a4ddfd305ce14bde028": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-55"
+ },
+ "8977b72fef42c502a06ff91cec1935f0386d996944d2cb13b39e76fc3d1a3dd6": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-56"
+ },
+ "188b7128a271e36088ca9d3fddd0d8feff96edeec676ad340323576a1ac85ca7": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-57"
+ },
+ "bb7319032a00a3a09353091a6fd0bf099c25695a73b74cb816fc95196d1c8192": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-58"
+ },
+ "a049cf0fc0f22ad77c7229c389a892cdae5f527972717419cad1ee5b05c0c0f6": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-59"
+ },
+ "818d1b6a53edbc05dadc2c432841a29de52853d6fce3613e9cd116df3e2fd574": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-60"
+ },
+ "db2812227c17f83788e2f67048b874fdcea536ba1fb0c96c4a7165d24781f40b": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-61"
+ },
+ "2864f276b6fe151f4ad1a776940d656c9a76fd349e4e0eec037bf4d4c469e0ea": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-62"
+ },
+ "26738517185ad8768a3ee9d6271accf329bec8ef51c4a098e453927e5a0ed9cf": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-63"
+ },
+ "ff0c499f12b7b3d6b6a8bc4d1fe49ab5e9bc951df78595faa5c99dcdc08d7bb7": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-64"
+ },
+ "55a0f4e099db8110eaeba8e4fa0a0c513e7d8f8538b076acb2aa8c43019926cb": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-65"
+ },
+ "34a816be31a8a2a777d12a80456d0056a00059fbee04c0a163815580effa9355": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-66"
+ },
+ "71e9faa3041731a37e404400957e299d6e1bb88cf97eac4f6b38378609be212b": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-67"
+ },
+ "aa31fa72cab8376d4cc032d801e6ee86819553c7e9a5c51467cc0fd0e5118971": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-68"
+ },
+ "0d44155c09742ac950b7bf2db38a036918270c3d33d51b7a8f4b345a1e6ca285": {
+  "kind": "scan-field",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-69"
+ },
+ "cf1d593624318f5907bbd81bfb7e881962fefa5446108b0807eff5bd6227eb7f": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-70"
+ },
+ "c2a76118f083c98e03e10e6d55e25efdf8e2f8d608f484b742a3fcf6632f7f24": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-71"
+ },
+ "18f307892ca0447ced5b45843ffbbd9327e7ff37baac9ba8aa406c6cb1ae64c2": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-72"
+ },
+ "0d3c8416bc1edc6855b779abff7f7bf6c10ee278c66ff9583176facd3c857195": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-73"
+ },
+ "99c8110171707fcfa6bf183b152e8debe44cdfc4d3a0be6e6cc7efc1099c6c3b": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-74"
+ },
+ "2051f2e70b58500415939d697a3b1dfb0612e38b88d1e440638b45590b449005": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-75"
+ },
+ "03235ca618eb4e882d2d7ab1de9ff8e355e2a456eb1fe81adbaa833efa5732dc": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-76"
+ },
+ "c7f157536ac528a75de3658c897a128785c23351942c736e3d8a2a25513c6eb2": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-77"
+ },
+ "ca6978a179d3a5cac82bc93aec98f8d4265517da857cd50d1b22636dac7ec0cf": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-78"
+ },
+ "12d5bf1a131077963bc237811069554f0b6df051e39b345fb7f132495091a4ec": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-79"
+ },
+ "7831821916dacb48028fd4d9108454beace2b32d6611275357f759dc78b1421b": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-80"
+ },
+ "f48da91a3611dbabbef0faf39737ef406388901f3900bff2a17291be5d736e4a": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-81"
+ },
+ "b5c559fe9f8a05b85abab6edf5033406e6f5b81b8d40149ab7cd032e4907034a": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-82"
+ },
+ "24bddb5f9689cae9ea6533def528032f4e849c5406285ec175ea72defdab6d9d": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-83"
+ },
+ "493a169ca4f87263e8154d37ab4ddaf07a85ab6d2b2846844cd428a6ecae8d6e": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-84"
+ },
+ "a8a97c764035599adb88faa2a7c5e87da927a6fc708c5a1fe4a26c7ff4e4ca16": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-85"
+ },
+ "4fd4308756c50e9d1e6d364beee6ca98b5ba038e15cf07cbc2089d88e27e062f": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-86"
+ },
+ "30fbe7c67d24c2ac2dc9b9bf6b8e986f6dc3bcd8aef6950fe2bab28b79455a42": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-87"
+ },
+ "ff671b93851331b046061343f8010284c89bcbe1e2c62777d6826dec910096f6": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-88"
+ },
+ "3a0477feed9708c284febd73787ce37f6e48344ea6a4c189603dfdae6591c867": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-89"
+ },
+ "21cd2e96a8df03439f615d1acf5bfcc9fb729f6584e0805444adcc17fc1a5f64": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-90"
+ },
+ "3f48ad1a0143fcb80e8dc6687cbce401c3ec13db5dab8d4bb1c8c00554493bd7": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-91"
+ },
+ "01855cd6869d8e8b64da80d47a6e374bbb9c1b90e175402d9d1fba739495d3a0": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-92"
+ },
+ "e7dd69bf3e24461775e12156d9cde6cbece28079e59c7f07beb9c9195c38d12c": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-93"
+ },
+ "b5305a94ef33eb3a02fe0e198b1d176c0c9fbd245e4c1559685bbaa9b62e08f9": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-94"
+ },
+ "8f483594ab2882ad820cea05665c4e65f155a24a50f32d746be5da04abc4ad51": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-95"
+ },
+ "b18f605f5e033c2aad346036c73bf4c7cb2ef8f8437a19ba23d24bf57cdab23e": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-96"
+ },
+ "dc760f2acafd5641caa78e98a469a1987af77ed075b78add8a77fa427b59e297": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-97"
+ },
+ "1186ef047b76a733b1e8ad1b0850c5f3108c8e4650ff45684b5ff7d06cb51f96": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-98"
+ },
+ "4f31b5f25859bab8313ac18994420762343f3bd1ff7ff03f5a48a496c688e35f": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-99"
+ },
+ "627c9c59aa07601a1b151511dfd783265d6fdddbe11aef21f8e56e1d97ebc0c8": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-100"
+ },
+ "ed67cf7009259359c0ea8a6b097ff03843a082314422c9e08ebab77dda89f3e7": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-101"
+ },
+ "6dd1b97f861e89977293efe1dd3d1477bc2d915b985c77210afd574ff299379d": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-102"
+ },
+ "5519151e2e3d4dfe0ba6443620ae0bd4491eac8b1b1a8540e49e1d4e95c0c57b": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-103"
+ },
+ "b6f9cf298b2eb8d439bd0ae2ecd5e208625611bd1ec1bd082679a5059032761c": {
+  "kind": "label",
+  "answer": "c1",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:bb118d9802d0"
+ },
+ "ac9fa83627000b51af953e5972f6798332829c8a82cdeb73b6e523f5a10b5b4d": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:8f7fdc4b25fd"
+ },
+ "1cd4e6364fd9cb520b1af953cc9b637722aa7f1ac22af31075a9d73a4af27816": {
+  "kind": "label",
+  "answer": "c1",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:8c4703c87a73"
+ },
+ "8714413839cbd880c23851b839bf973444305d91d59cca56efa5bb4607161450": {
+  "kind": "label",
+  "answer": "c5",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:55202825f2c2"
+ },
+ "e53ea75b0e155757c0b8c76cabfc1dfc85759abd1fcebf7b4fafda2b91c2ec66": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:d096750ea873"
+ },
+ "eb396925add4e1244aa2be29fb405dc5ebac2d89d82984d744378c2edaa97133": {
+  "kind": "label",
+  "answer": "c1",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:45a7b5181e9d"
+ },
+ "41762fffb6e7a502db09202defc04878c09b097f29ac2b9f30fc980d80e7e607": {
+  "kind": "label",
+  "answer": "c7",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:f3fd6326f7b8"
+ },
+ "062e00a36971f8d04a2f84eeab73d5f367232b603e8b71762f56a62efe539b75": {
+  "kind": "label",
+  "answer": "c1",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:7117d43289ba"
+ },
+ "87c4782cf4437e183270e73786898e6fa45b7e7d982d1aa332e1ff0151a7e6ce": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:9ad4c585472a"
+ },
+ "d00ecc2eaaa27bb97cc3050dcfc2fd5ff182c6dfd4fd0bf83e131318118b5321": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:1529222dc700"
+ },
+ "2d421c26f0a0b9047fd5df4513526e323b328ecf89ce26c18fb7b8bc694d0733": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:708b1a77bed2"
+ },
+ "64a7093250deb31faed8afa4d7930fc4460a44d5b4c0d9d47b5ebe8fb6a753aa": {
+  "kind": "label",
+  "answer": "c1",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:abf2af5f2c18"
+ },
+ "8851b1ccc94402b5e9e73647e9144403e8d71314fb5ea56c7601e374348b4700": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:b49bf33c61fa"
+ },
+ "a9d5816f369fc9957310efd7bcfda21aecdaf1aa23253fbda7557013313c8fe3": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:e754f59edd9c"
+ },
+ "aae86367f5ddd6d8dbfb07a2f41d909063002e67a5a801aaeca698080caaebe4": {
+  "kind": "label",
+  "answer": "c1",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:86f104481bb7"
+ },
+ "05a839d83f1a912312c207f2c9818f6ac46e5885c6a8f765e5f7691f5e3f6e54": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:e4cc7688eb9e"
+ },
+ "15835548329f1d97dc0402f5cb589c58b0ffec4af1f30844d98d35f4e2729942": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:8cb1b2869a17"
+ },
+ "3880be56166d7f881fe64c4b3403f607e2d6085a181778ff4fb8660cd9e1f10f": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:a9a5beccec7a"
+ },
+ "146b35f8bebdb9043d05d83fd8c87509b747adb87f039c4104881f3c01612e7c": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:fd32f4d26702"
+ },
+ "f12b1e8d951cfdea62e3585a2435a8ad3b4c7f92595dee481e3e6169176eef73": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:ae9200a578a6"
+ },
+ "e2ad6450eb4cd4c03e610d7716d4829808764ea537f36f032462a33aa20fffed": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:5fdebbf889f5"
+ },
+ "5a017432c36045f3568b5d3f417b8cf07acd4f379a2af9fa319f17c955702683": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:035f093d4a97"
+ },
+ "4516e094e20d8a3204f7599e7f5ac0100c45f1db5f1e881128851c3544ea9d87": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:075b71b8d19e"
+ },
+ "46676a5aaf12afd37f8af90e56aa8183b79f0bedc18348b726d161e5ed95ef36": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:6746834a3a63"
+ },
+ "71456608bdb79ba24fa6873b60702f86011a9c1decbe595897717b0651d5e006": {
+  "kind": "label",
+  "answer": "c9",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:1fdf6f081a47"
+ },
+ "ebec2866e2f797ed91c59adc29a6a735ea562a3a62e539069d0b9918763fda13": {
+  "kind": "scan-field",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-0"
+ },
+ "baf62bccd6223d4507d0a1579f12f6f58e139c722fac42184ec744f353ce0d20": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-1"
+ },
+ "b9a0c84ad691de25a7ad8dedc45a38d2b1bf4ac0c38f8d966b6fa41d8c7557ca": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-2"
+ },
+ "bf1eb54358d168994f25e6be14e2ba2acf7eb5f1328aa66cbc94b9580c839fb3": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-3"
+ },
+ "e1c0b4f197508da0400a757829d8c2f7e9ac1edbb7bd65a0afcbd3f64aadf825": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-4"
+ },
+ "994d947e41b2aca338c66561d87ef826e7f3ed6a2a375f4b47b0939d5ba0f958": {
+  "kind": "scan-field",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-5"
+ },
+ "baf056698715444b7e0e52043e20f16e476b37771fdd39b46f09e8c5e026a986": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-6"
+ },
+ "5e9bd790f79012c7144efe0c8248b82920f5ce540febfce51231609daaf30256": {
+  "kind": "scan-field",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-7"
+ },
+ "c02c614c29a65cab672cf81c4b72b3e49d74df88aab993b184ba9302863f8012": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-8"
+ },
+ "422b79eacec50432fbc13058c325838468d16b03a3dcc24c1fb67e92f28fa8bf": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-9"
+ },
+ "e04348eaaf5d6d3f20e3615212195eed8198d096f8a3f3897365fd7b35000798": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-10"
+ },
+ "c8ce439c84b2f99fcc8e08dfa353808b9374d1c72a8d9323649f0762f0d2fc5c": {
+  "kind": "scan-field",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-11"
+ },
+ "a0ca8e93bdc1912d2a802c9fc7e65c46087e534511dc34d1f3dc083801da3050": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-12"
+ },
+ "276e17d02ca4b273f49b8ebeb174bd9561ebbdd56073c006c66dfec41dca0b08": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-13"
+ },
+ "edfad98d73d64cd94294193cf39c2b8f0b5607bce4ba6fdbed5e36422e90a42e": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-14"
+ },
+ "a537caadea1bac0929c1b217aeaccf431b2a354d9bc3a6ae39c4c822642e928a": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-15"
+ },
+ "c35b5c92052c9124cdcfc692a8eeaea70a86405d52c6cab3a04ef7f1c3430a07": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-16"
+ },
+ "5208ace93c958b11b5b494e5272ab21b7d15d9927d29b99328211a0c37e03552": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-17"
+ },
+ "4615870238cb5f9caf52ef54328d839a2faeb6a8866cb1c05e5ebe6e51073754": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-18"
+ },
+ "3bf6e4420567b6198b4b2ee54de8a5d7b39316c9976a00c8e871e0f7a207ba90": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-19"
+ },
+ "a8be04bd02c46e0c1a6bb92ac3bf29bb330a67155f32ea58423e3e084e5399cf": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-20"
+ },
+ "5cb13e136b0010d547fc4a7dfc61c2d914bd67960bc7bb36148dfd6241bb25ce": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-21"
+ },
+ "b7afe4f4884818ec015bc39ad505b87df1858c517e34a1005fd1cf33398705e3": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-22"
+ },
+ "5f00263dd86272491c5dce939c5edcd042d7a672524266d2401d8c6290b314da": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-23"
+ },
+ "d829e3ec18333a00e73e44ec130dad97823eb9d99c93f15a0514c74cb55da06d": {
+  "kind": "scan-field",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-24"
+ },
+ "31879d415da85dd82c3231d7ec64ac3ace84ba2cd80907f949a5eeef52eb4c9c": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-25"
+ },
+ "517983058adc1c7fc7b1f9620c64f5d1941d5c041a47be06c77d22c3d9a6c6d2": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-26"
+ },
+ "56fb8cc34fe20e9c2d80daeb07cfec50a408c97a737a8ee41032a02dbcd7d8b4": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-27"
+ },
+ "d380b2468fbcc7815fa6254c577aefa86037b8d94e5bb17c72fe339c13177f52": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-28"
+ },
+ "3a8f75a869461eed1e85e2dfbdb46174f6a057043db31c3b20e44d56c4656c3c": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-29"
+ },
+ "353f070b5043f584c66ad689bdda283303aac41068d7741a7aa3dc0ad7edd577": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-30"
+ },
+ "32f0db15dbe26c66d816095a5bf9cc786d852d445fd9114aca2ba9871557177c": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-31"
+ },
+ "6da413d244bb2a170cf1621604da168b0b209ce4422b3f351c818b9d812c4c9d": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-32"
+ },
+ "c0288e0b8e77461a68d41f9558b36319918972f2ab79ddd5c9f4027541ee3a47": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-33"
+ },
+ "49e25ebfd8f265089caa0004da16d18c0b364170e3a20ec67bf895d7a58d64b9": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-34"
+ },
+ "39bcb2a8c29f99fcbd503db3feb9e065182a39ef37efa4cd1fe194c716539c67": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-35"
+ },
+ "6ca5bc4da01af52ef956a171b311481cfa2e6683d12fb8b5e829c4544f6734b4": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-36"
+ },
+ "77b9bf06f52fa1f074cde40ced1f39a2d245867d30c013b45fb4cb9fefefeab1": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-37"
+ },
+ "c95e3b987468cca5047cfad793869725fcf38f69e5242b2c507302a659791b1c": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-38"
+ },
+ "69d985a8f4329faeb1741d5a9f91f63f134672cd55b86a2b38fad1bd7fae3bc2": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-39"
+ },
+ "4aab0b08ed1b6c36f0a86b1be8ad443b0c34b5065d3e52f6bd84f33643cb260d": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-40"
+ },
+ "2626bd748a460f3654ce7280be4235894277244faede5c6bb50fd939c748a9f7": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-41"
+ },
+ "5efe77a7fe52a9c315fd4013ed8995c52a740145bccdfe5db9ddb0cc3d5b610b": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-42"
+ },
+ "05f0f856249019fc8edb66a7e54f8f46659f97e885e4611bf3850d50d8679eb4": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-43"
+ },
+ "88ce00cd5f06b6f60b978caa766200a6ab2d4fd2fab582feae62d36202560220": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-44"
+ },
+ "cf658da97d24476918b73167840103db96394caf25b275384dcbb0105e933f68": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-45"
+ },
+ "d0c7daaddba6b2f887cfc6f6056f0966523df677e06e1c77d1f50715417eaeae": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-46"
+ },
+ "a368d72fdf8b81e29eaef8b995170de710299f8d1f2832e49ec94ce31a3ea4dd": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-47"
+ },
+ "516b067eb3ea51ec9ac13c076163d82fa41afd3b26047bebb29b4cfc03882f55": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-48"
+ },
+ "7bf1b1d4e893c1fbbc159ee1288d34cbb2332866c40e2b3a9533d60c7e0fd580": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-49"
+ },
+ "de4d679258aa66bdba7560833f8abf895ac6750e41c202e7c7ac58984b95c1ca": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "s1-50"
+ },
+ "a59e443ee3914048ee15e50c54ae0686342c5a25aa3aeff0a7548fbe75294b62": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-51"
+ },
+ "147015915b34c58090487d02665b8496c42e3e4ee0a2c4142ff1543a1cb398d6": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-52"
+ },
+ "b215a3487ac0c22810b30146e9a7f6a7c5d1dbae166a40a44da2648e03ab60ad": {
+  "kind": "scan-field",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-53"
+ },
+ "55e8833c53fde09fa27afbd5bea73d401787c24cc1d4b4489aa23c7cd641a828": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-54"
+ },
+ "0773f5951f947c1da1a55cffb543e803995d2c1e3fcd446abd7c7e64a1394212": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-55"
+ },
+ "b11fe2c6c5bc31bd078c150c17b81a0cc1e2f2c2e434a82ef8f3891422802386": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-56"
+ },
+ "5965bfb71dac1d8edb548665c31d2155e1bb7d5443544b39b814f908a5a28213": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-57"
+ },
+ "5796de769acd67212dba722287644be060a10474b90e7ad0465323d5f99f68cf": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-58"
+ },
+ "01ad7957561381f277ba9cebef53b4d8aadaec2f43f4120e77105a3f1f90930c": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-59"
+ },
+ "8d454ab58895a4eb07a1a1c0f62e654ce62cf1d894e8304b0e0db7f89547fc6d": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-60"
+ },
+ "3bea6d74de1c5e57f1981abe1fa7e548fe4658980d274909c3d88e279fc57345": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-61"
+ },
+ "105b068ad59dd1ca6120f029110330dda201eb392ef79cecf31f096b2ef69281": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-62"
+ },
+ "74712fc5496cc63e9686d144c560d0e499b1a24cc587d6119957afcecaa47b75": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-63"
+ },
+ "bf41cd07473742b509ecad6933fdabf77646c51da523c6ad0ab6bbfaff92520a": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-64"
+ },
+ "922b6f75281a0cc069fd0f55afbccada5235e41862b9d5cdeee904bb94145f6a": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-65"
+ },
+ "e1e3a56e1e578f5fba56034bbe227362005003485f99f4d49c775a7c107090c3": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-66"
+ },
+ "6a463a6b7addf574ccb3e0f5768eda1f76982162478cdfa8d825a80afa487813": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-67"
+ },
+ "af4a02bb761e0a62180e83fc7a3c8f9da3fd7671f352fa794504364f0ddd372f": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-68"
+ },
+ "a3548ccbfc9c4aaf3aaacee6538dd13fdfcc42bbea39c151c077130502695f0a": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-69"
+ },
+ "1aca896647c1dfdb9501fbf74570f1285938c49e8206fd368a96fcd48f55e0d0": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-70"
+ },
+ "0d0dadd2f35c849ace189a55a38307e39e4842ecad7e11dd96ddb849e3b917c8": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-71"
+ },
+ "5e0f335614625e7b67063275abb75a29a29465fb4ed9e9a797f932d511e84929": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-72"
+ },
+ "8655f9b6498684b20613f9d65e4ff88336ffc02d500e3e3ac9081ea97cc6a581": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-73"
+ },
+ "87885da3b38b92841d578c3871bef2fff334f824d6b58d95fa305eff83623ba8": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-74"
+ },
+ "b13078febedbb05d994e4898e24d7c7aab20d808ccac16828a00ddc1b721669c": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-75"
+ },
+ "4c7ecf4780e9d5abf76aef023eb968d466ee749a3d5d455a1673f8a281854d0d": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-76"
+ },
+ "5e3d1040797605691a3c7d1ea791dcc0df511f810c59ac2dfa8eb5fde637d053": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-77"
+ },
+ "9164710506aad39e3c06708e022c60fae46b1da65163911f709d38d347bfe1d6": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-78"
+ },
+ "f5888e22ec0a276456b7c38793da905180165258c5f5c94fcd111bc4f5bab7ab": {
+  "kind": "scan-field",
+  "answer": "checkbox",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-79"
+ },
+ "3007182d3a2c162dc043bf444a4f3c87986f4e1e3abf9d633fbdfd2a51b12e18": {
+  "kind": "scan-field",
+  "answer": "field",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 2,
+  "node": "s2-80"
+ },
+ "d4005a0508188d938d4e0f840ee4de9f3bfdd487a8ba6b21d12958baec9de46d": {
+  "kind": "label",
+  "answer": "c1",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:952a9db02e3c"
+ },
+ "00d9cddc8787b0325c105ac1677a1eed50669ef3c8dcdade51e0fdd886628d23": {
+  "kind": "label",
+  "answer": "c1",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:2d4e60418d9d"
+ },
+ "581c4d5fb068c92d5e290e38273b3e97ca52b6c8b58c039ef2dc7fe8514547ac": {
+  "kind": "label",
+  "answer": "c8",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:da522d0adf60"
+ },
+ "3a52649a701a2c6c6b911657940ca18d8262da57c401edcb90e74ac9ab279de5": {
+  "kind": "label",
+  "answer": "c1",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:e15566de7d75"
+ },
+ "eb3213075d927c2c3a1edfead230cf9d10d831f9c56918ee189e0542348f41d8": {
+  "kind": "label",
+  "answer": "c2",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:71eccc295ea1"
+ },
+ "afeb5a960f86037617cb4eece147724bb508f11b8c9735fd2b0e3c84ab841b8b": {
+  "kind": "label",
+  "answer": "c2",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:2a1cfff61768"
+ },
+ "b9fb37079b7887140dd253c0299b58062911d90969104163f0802eaae15aacbd": {
+  "kind": "label",
+  "answer": "c1",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:416e333d1d0d"
+ },
+ "9548aacaad312bed6647691b6509ad403105b476da058eef32dc96906ca1ed5c": {
+  "kind": "label",
+  "answer": "c2",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:6c9d071ce64b"
+ },
+ "eb98fb3ebdbed06c6ab9e6f23f860f394cd81e4507dafce7cd7efff0445e0df9": {
+  "kind": "label",
+  "answer": "c4",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:227809ae105b"
+ },
+ "85423c78314b1b41417fa1f1b6912a670d790416b7b1098ba421ba146ccb69a1": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:76f85ae3032c"
+ },
+ "2a5a9e2cd34ff356d96d6f2d53469a07e1eb1f29fe1c6a2ab502e5014cd1c48d": {
+  "kind": "label",
+  "answer": "c5",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:7baf74430973"
+ },
+ "9c9ae55b5f42bc2b4d7f1a039c65debba62af56035f951ab02a0d609b83fe462": {
+  "kind": "label",
+  "answer": "c4",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:e36ad60875f9"
+ },
+ "879944c0fbf7559a6e3014ec1ddf6100d89ffe5366f7bf430aa4119219fc5e34": {
+  "kind": "label",
+  "answer": "c4",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:1154a213b0d9"
+ },
+ "e0356c9aad7b66c61c6df8b37b590aa52bd0d3db959f50b728bb6994fb2932ef": {
+  "kind": "label",
+  "answer": "c4",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:d96b41fcebad"
+ },
+ "143326f183336c1a27454a2a7a4b5878cf52aabf5b79c886462df558cb80e107": {
+  "kind": "label",
+  "answer": "c3",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:0b2dfc98cfb4"
+ },
+ "cb0af593a11dcf309d5eca058a49dbc546796ec597af1f90b147af218abfa660": {
+  "kind": "label",
+  "answer": "c7",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:07e95c11ffcd"
+ },
+ "a28ca56fa1a3e4b95126a7bc0192c99dae066e07b32ced7999cdedc0a874d881": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:370a8dea85fe"
+ },
+ "5e14ce8b0690edb13703c7da4028c0a02f556aecc20154c7226143dcedcf4c76": {
+  "kind": "label",
+  "answer": "c6",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:c2932e2de49a"
+ },
+ "e03f4fd826da623220f1088cfaa5f9726bc616ff37c539921d253ffe305fc9e6": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:87839ceda986"
+ },
+ "8e6c44e4c9251b4d1b063ce5caf43a76fa041f61fd5b46f2de01f34c4d8bb0f3": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:7b5579d2d694"
+ },
+ "15636674a228d3392e9352df32487fdbc594e1fc53fab538b573c5839ea46811": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:6cd130945c93"
+ },
+ "0f02be6100dcb3e3203389d6d53b396ad65d09c2959806b84e4b6211f52eeeaa": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:61e683532a7f"
+ },
+ "4960a06090f2bd0d6b6392c1c47fe872c3edf35bda3daa0e6681b742af035304": {
+  "kind": "label",
+  "answer": "c3",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:95a6791b4f31"
+ },
+ "ec5b2274c45604790cf4f256770f1e3f22dd128ef8d56e61de118dc133b98e23": {
+  "kind": "label",
+  "answer": "c1",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:3005eda7ebc9"
+ },
+ "ed3b1c3d53d8a1b6bca16f1edefb08c772e90a5c4dde9e2705a056b96d895384": {
+  "kind": "label",
+  "answer": "none",
+  "model": "gemma4:e4b",
+  "prompt_version": 2,
+  "page": 1,
+  "node": "1:623ed0353091"
+ }
+}

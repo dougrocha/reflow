@@ -1,0 +1,14 @@
+{
+  "doc": "budget-appendix",
+  "page": 1285,
+  "description": "Budget appendix index page 1285 (INDEX, N to O, two columns with dot leaders). Index entries that wrap onto a second line are the known open defect.",
+  "assertions": [
+    {"min_recall": 98.0},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"contains_in_order": ["National Telecommunications and Information Administration", "National Transportation Safety Board:", "Nonproliferation, Antiterrorism, Demining, and Related", "Nuclear Waste Technical Review Board:", "Office of Financial Stability", "Office of Government Ethics:", "National Aeronautics and Space Administration"]},
+    {"contains": ["Nonrecurring Expenses Fund", "North American Wetlands Conservation Fund"]},
+    {"not_heading": ["Native Hawaiian Housing Loan Guarantee Fund Financing", "Natural Gas Distribution Infrastructure Safety and Modernization", "Nonproliferation, Antiterrorism, Demining, and Related", "North Atlantic Treaty Organization Security Investment", "Northeast Corridor Grants to the National Railroad Passenger"]},
+    {"same_block": [["Nonproliferation, Antiterrorism, Demining, and Related", "Programs"]]}
+  ]
+}

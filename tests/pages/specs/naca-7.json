@@ -1,0 +1,9 @@
+{
+  "doc": "naca",
+  "page": 7,
+  "description": "NACA Report 914, experimental results (scanned; the file's own OCR layer garbles its bold section head and running head).",
+  "assertions": [
+    {"not_heading": ["EXPERIMENTAL RE ULTS", "EFFECT OF E TRIF GAL FORCE ON THE ELASTIC CUR\\ \"E OF A VIBRATI JG CANTILEVER BEAM"], "why": "The layer's garbled readings, which a confident Tesseract reading contradicts, are not navigation (#154)."},
+    {"review_has": ["ocr-doubtful", "heading-from-ink"], "why": "The contradicted words are doubtful, marked and reviewed, and the bold head still goes to review as a heading its ink shows (#154)."}
+  ]
+}

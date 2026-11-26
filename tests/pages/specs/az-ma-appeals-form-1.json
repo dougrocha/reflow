@@ -1,0 +1,32 @@
+{
+  "doc": "az-ma-appeals-form",
+  "page": 1,
+  "description": "Member Information prints each caption under its box's rule (box, caption, box, caption), so a caption sits right over the next row's box. Each box is named by its own caption, not its neighbour's: First Name and Last Name, not Member ID and Date of Birth. The section heading \"Member Information\" is a heading, not the label of the first box under it. The month, day and year boxes of the date of birth carry a wrong tooltip (\"Member ID\", the first box's); the printed caption \"Date of Birth\" names them, with their place in the row (#281).",
+  "assertions": [
+    {
+      "labels_in_names": true
+    },
+    {
+      "control_order": [
+        "Member ID",
+        "Date of Birth",
+        "Date of Birth 2/3",
+        "Date of Birth 3/3",
+        "First Name",
+        "Last Name",
+        "Address",
+        "City",
+        "State",
+        "ZIP Code",
+        "Home Phone Number",
+        "Cell Phone Number",
+        "Email Address"
+      ]
+    },
+    {
+      "heading": {
+        "text": "Member Information"
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "doc": "docaccess-legislation",
+  "page": 24,
+  "description": "Legislation page 24: the struck sentences and the struck [$36] are deletions, never headings or Contents entries; the underlined words are insertions (#86).",
+  "assertions": [
+    {
+      "contains": [
+        "at least $5 [] million"
+      ],
+      "xfail_without_ocr": "Without an OCR runner, the page is not read.",
+      "why": "The struck $36 OCR could not read is a placeholder between its brackets (#86)."
+    },
+    {
+      "ins_texts": {
+        "includes": [
+          "$5",
+          "excluding Montgomery County,"
+        ]
+      },
+      "xfail_without_ocr": "Without an OCR runner, the page is not read."
+    },
+    {
+      "review_has": [
+        "struck-word-unread"
+      ],
+      "xfail_without_ocr": "Without an OCR runner, the page is not read.",
+      "why": "The struck words OCR could not read are not transcribed: their boxes are review targets."
+    },
+    {
+      "review_lacks": [
+        "tracked-change-unplaced"
+      ],
+      "xfail_without_ocr": "Without an OCR runner, the page is not read.",
+      "why": "A struck line OCR could not read belongs to the passage its bracket opens: one deletion at the bracket (#150)."
+    },
+    {
+      "no_text": [
+        "legiclati"
+      ],
+      "xfail_without_ocr": "Without an OCR runner, the page is not read.",
+      "why": "What OCR kept of a struck line it could not read is no text (#150)."
+    },
+    {
+      "no_block": [
+        "1",
+        "1,",
+        "R"
+      ],
+      "xfail_without_ocr": "Without an OCR runner, the page is not read.",
+      "why": "What OCR kept of a struck passage it could not read is no text of its own (#150)."
+    },
+    {
+      "toc_lacks": [
+        "[The—-division—is—aboliched on September—1, 2026"
+      ],
+      "xfail_without_ocr": "Without an OCR runner, the page is not read.",
+      "why": "Struck text is never navigation (#86)."
+    },
+    {
+      "toc_on_page": [],
+      "xfail_without_ocr": "Without an OCR runner, the page is not read.",
+      "why": "The page has no heading: it continues a section and amends subsections, and its SECTION line opens an amendment sentence, so it holds no title (#223)."
+    },
+    {
+      "not_heading": [
+        "SECTION 44. Sections 25A.003(d), (g), (h), (i), (k), (1), and (m), Government Code, are amended to read as follows:"
+      ],
+      "xfail_without_ocr": "Without an OCR runner, the page is not read.",
+      "why": "A SECTION line that opens an amendment sentence holds no title, so it is no heading (#223)."
+    },
+    {
+      "max_headings": 0,
+      "xfail_without_ocr": "Without an OCR runner, the page is not read."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "doc": "docaccess-legislation",
+  "page": 1,
+  "description": "Legislation with tracked changes page 1: the report title survives conversion, and the page is no whole-page figure.",
+  "assertions": [
+    {"doc_title": "CONFERENCE COMMITTEE REPORT"},
+    {"contains": ["CONFERENCE COMMITTEE REPORT"]},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "max_figure_share": 0.6},
+    {"heading": {"text": "CONFERENCE COMMITTEE REPORT FORM"}},
+    {"toc_lacks": ["el", "B o frrr", "King", "rker"], "why": "The signatures OCR reads as words."},
+    {"toc_lacks": ["—JohnSon", "JohnSon"], "why": "What OCR kept of a mostly unreadable line (a signature, a struck-out passage) is no heading (#83)."},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "unread_figures": {"min": 1}},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not read.", "why": "Each signature sits on its own ruling, so the page scan splits the overlapping pen along them (#152).", "signature_items": 9},
+    {"xfail": "#291: OCR misreads the printed sentence and leaves out the handwritten bill number.", "contains": ["appointed to adjust the differences", "HB 40", "report it back with the recommendation"]},
+    {"xfail": "#291: OCR's misreadings of the printed sentence are kept.", "no_text": ["ap ted", "w1th"]},
+    {"xfail": "#291: the handwritten date is a crop that says 'Not transcribed'.", "contains": ["5/30/25"]},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not read.", "alt_has": ["^Signature\\.$"], "why": "A signature reads as 'Signature', never as letter fragments or 'not transcribed' (#345). The names under the lines are handwritten, not printed."},
+    {"xfail": "#291: the handwritten date, bill number and names under the signature lines are crops that say 'Not transcribed' (#343, #344). The signatures no longer do (#345).", "no_text": ["Not transcribed"]}
+  ]
+}

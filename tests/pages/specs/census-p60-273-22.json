@@ -1,0 +1,17 @@
+{
+  "doc": "census-p60-273",
+  "page": 22,
+  "description": "Census P60-273, printed page 14: Figure 8 (number in poverty and poverty rate, 1959 to 2020) with its notes and source, the bulleted list of 2019 to 2020 changes, the Overall Poverty section in three columns, and footnotes 45 and 46.",
+  "assertions": [
+    {"min_recall": 96.0},
+    {"no_text": ["�"]},
+    {"figures": 1},
+    {"heading": {"text": "Overall Poverty"}},
+    {"contains_in_order": ["Overall Poverty", "The official poverty rate in 2020 was 11.4 percent with 37.2 million people in poverty", "The poverty rate in 2020 was not statistically different from the poverty rate in 2018, which was 11.8 percent.", "The increase in poverty coincided with the 2020 recession associated with the COVID-19 pandemic."]},
+    {"not_heading": ["different from 2019 (Figure 9 and Table B-1).", "not statistically different from 2019 (Figure 12 and Table B-2)."]},
+    {"xfail": "The bulleted item that starts 'Between 2019 and 2020' is split: its continuation 'For families with a female householder' is a paragraph outside the list item.",
+     "same_block": [["Between 2019 and 2020, poverty rates increased", "For families with a female householder, the poverty rate increased"]]},
+    {"xfail": "The figure title 'Number in Poverty and Poverty Rate: 1959 to 2020' is a paragraph outside the figcaption, which holds only 'Figure 8.'",
+     "same_block": [["Figure 8.", "Number in Poverty and Poverty Rate: 1959 to 2020"]]}
+  ]
+}

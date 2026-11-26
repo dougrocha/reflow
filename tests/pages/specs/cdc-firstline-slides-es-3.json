@@ -1,0 +1,18 @@
+{
+  "doc": "cdc-firstline-slides-es",
+  "page": 3,
+  "description": "CDC Project FirstLine slide 3 (Spanish): the learning objectives heading and its four bulleted objectives, with accented text.",
+  "assertions": [
+    {"min_recall": 100.0},
+    {"no_text": ["�"]},
+    {"heading": {"text": "Objetivos de aprendizaje:", "levels": [3, 3]}},
+    {"list_items": {"ordered": false, "items": [
+      "Encontrar una (1) diferencia central entre el SARS-CoV-2 y el COVID-19.",
+      "Identificar y explicar a los demás las tres (3) partes principales de un virus.",
+      "Describir tres (3) pasos que muestren cómo los virus usan las células de los seres vivos para hacer más copias de sí mismos.",
+      "Explicar un (1) motivo por el cual las medidas de control de infecciones se centran en mantener las gotitas respiratorias fuera del aire y lejos de otras personas."
+    ]}},
+    {"contains": ["Objetivos de aprendizaje:", "Describir tres (3) pasos que muestren cómo los virus usan las células de los seres vivos"]},
+    {"contains_in_order": ["Objetivos de aprendizaje:", "Encontrar una (1) diferencia central", "Identificar y explicar a los demás", "Describir tres (3) pasos", "Explicar un (1) motivo"]}
+  ]
+}

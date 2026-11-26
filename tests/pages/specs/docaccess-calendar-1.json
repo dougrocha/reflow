@@ -1,0 +1,25 @@
+{
+  "doc": "docaccess-calendar",
+  "page": 1,
+  "description": "School district calendar: each printed month is its own captioned table, the holiday names survive, and each coloured day carries the colour key's label and the dated list's note, copied with the boxes they are printed in.",
+  "assertions": [
+    {"doc_title": "KILLEEN INDEPENDENT SCHOOL DISTRICT 2024-2025 DISTRICT CALENDAR"},
+    {"contains": ["Labor Day", "Juneteenth"]},
+    {"tables": 12},
+    {"table": {"rows": 6, "cols": 7, "cells": ["S", "M", "01", "31"]}},
+    {"review_lacks": ["table-giant-cell", "calendar-grid-mismatch", "calendar-colour-unmapped", "calendar-list-mismatch"]},
+    {"review_has": ["calendar-list-unparsed"]},
+    {"calendar_month": {"caption": "JULY 2024", "year": 2024, "month": 7, "status": {"1": ["Closed / Holiday"], "2": ["Closed / Holiday"], "3": ["Closed / Holiday"], "4": ["Closed / Holiday"], "5": ["Closed / Holiday"]}, "notes": {"1": ["Staff Holiday"], "2": ["Staff Holiday"], "3": ["Staff Holiday"], "4": ["Staff Holiday"], "5": ["Staff Holiday"]}, "plain": [6]}},
+    {"calendar_month": {"caption": "AUGUST 2024", "year": 2024, "month": 8, "status": {"14": ["First / Last Day of School", "Reporting Period Begins / Ends"]}, "plain": [15]}},
+    {"calendar_month": {"caption": "SEPTEMBER 2024", "year": 2024, "month": 9, "status": {"2": ["Closed / Holiday"]}, "notes": {"2": ["Labor Day"]}, "plain": [1, 3]}},
+    {"calendar_month": {"caption": "OCTOBER 2024", "year": 2024, "month": 10, "status": {"10": ["Reporting Period Begins / Ends"]}}},
+    {"calendar_month": {"caption": "NOVEMBER 2024", "year": 2024, "month": 11}},
+    {"calendar_month": {"caption": "DECEMBER 2024", "year": 2024, "month": 12, "status": {"20": ["Reporting Period Begins / Ends", "Student Early Release*"]}}},
+    {"calendar_month": {"caption": "JANUARY 2025", "year": 2025, "month": 1}},
+    {"calendar_month": {"caption": "FEBRUARY 2025", "year": 2025, "month": 2}},
+    {"calendar_month": {"caption": "MARCH 2025", "year": 2025, "month": 3}},
+    {"calendar_month": {"caption": "APRIL 2025", "year": 2025, "month": 4, "status": {"18": ["Closed / Holiday"]}, "notes": {"18": ["District Holiday"]}}},
+    {"calendar_month": {"caption": "MAY 2025", "year": 2025, "month": 5, "status": {"22": ["First / Last Day of School", "Reporting Period Begins / Ends", "Student Early Release*"], "23": ["Teacher PD or Work Day/ Student Holiday"]}}},
+    {"calendar_month": {"caption": "JUNE 2025", "year": 2025, "month": 6}}
+  ]
+}

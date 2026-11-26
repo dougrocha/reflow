@@ -1,0 +1,50 @@
+{
+  "name": "reflow-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "bun scripts/build-loader.ts",
+    "dev": "next dev -H 127.0.0.1",
+    "prebuild": "bun scripts/build-loader.ts",
+    "build": "next build --webpack",
+    "loader:build": "bun scripts/build-loader.ts",
+    "start": "next start",
+    "lint": "oxlint",
+    "docs:build": "bun scripts/build-docs.ts",
+    "docs:check": "bun scripts/build-docs.ts --check",
+    "schema:gen": "bun scripts/schema-gen.ts",
+    "a11y": "bun scripts/a11y-check.ts",
+    "capture": "bun scripts/capture.ts",
+    "ask:e2e": "bun scripts/ask-e2e.ts",
+    "ask:eval": "bun scripts/ask-eval.ts",
+    "ask:fake": "bun scripts/fake-ollama.ts",
+    "ask:ollama": "bun scripts/ask-ollama-real.ts",
+    "check:crossing": "bun scripts/crossing/crossing-mark.ts",
+    "test": "bun test src",
+    "typecheck": "next typegen && tsc --noEmit"
+  },
+  "dependencies": {
+    "@base-ui/react": "^1.9.0",
+    "cn": "^0.5.2",
+    "dockview-react": "^8.9.0",
+    "lucide-react": "^1.73.0",
+    "next": "16.4.6",
+    "pdf-lib": "^1.17.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@happy-dom/global-registrator": "^21.0.4",
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/bun": "^1.4.4",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "oxlint": "^1.93.0",
+    "playwright": "^1.65.1",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^7.0.2"
+  }
+}

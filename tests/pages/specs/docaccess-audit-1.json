@@ -1,0 +1,10 @@
+{
+  "doc": "docaccess-audit",
+  "page": 1,
+  "description": "Financial audit cover page: the report title survives conversion.",
+  "assertions": [
+    {"doc_title": "Annual Comprehensive Financial Report"},
+    {"contains": ["Annual Comprehensive Financial Report"]},
+    {"toc_lacks": ["Annual Comprehensive Financial Report"], "why": "The title is the document's h1, which the Contents does not list (#281)."}
+  ]
+}

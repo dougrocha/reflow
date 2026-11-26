@@ -1,0 +1,25 @@
+{
+  "doc": "p17",
+  "page": 15,
+  "description": "IRS Publication 17 page 15: constructive receipt, the SSN section with its CAUTION boxes, and the adoption and ITIN bullet lists.",
+  "assertions": [
+    {"min_recall": 90.5},
+    {"no_text": ["�"]},
+    {"heading": {"text": "Social Security Number (SSN)", "levels": [2, 4]}},
+    {"not_heading": ["Nonresident alien spouse.", "Exception.", "No SSN."]},
+    {"not_heading": ["Adoption taxpayer identification number", "Individual taxpayer identification number"]},
+    {"list_items": {"ordered": false, "items": [
+      "You have a child living with you who was placed in your home for legal adoption.",
+      "You can’t get the child’s existing SSN even though you have made a reasonable attempt to get it from the birth parents, the placement agency, and other persons.",
+      "You can’t get an SSN for the child from the SSA because, for example, the adoption isn’t final.",
+      "You are eligible to claim the child as a dependent on your tax return."
+    ]}},
+    {"list_items": {"ordered": false, "items": ["You file a joint return, or", "Your spouse is filing a separate return."]}},
+    {"contains_in_order": ["it available to you.", "Garnished wages.", "Check received or available.", "No constructive receipt.", "Income paid in advance.", "A limited deferral until the next tax year", "Social Security Number (SSN)", "No SSN.", "Adoption taxpayer identification number", "Individual taxpayer identification number"]},
+    {"same_block": [["Exception. If your child was born and died in 2025", "DIED"]]},
+    {"links": [
+      {"text": "Individual taxpayer identification number", "internal": true},
+      {"text": "(ITIN),", "internal": true}
+    ]}
+  ]
+}

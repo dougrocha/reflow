@@ -1,0 +1,38 @@
+{
+  "doc": "az-standardappealpacket",
+  "page": 13,
+  "description": "Expedited appeal certification form with no AcroForm: ruled underscore lines under a question are one multiline input named by it (\"patient:\" names the second, the line that wraps the sentence), and the provider’s signature line is an input named \"Provider’s Signature:\" (#281, F7). Its question \"Is the appeal for a service that the patient has not yet received?\" has two drawn boxes, Yes and No: a pair of radios in a group named by the question (#281).",
+  "assertions": [
+    {
+      "min_recall": 90
+    },
+    {
+      "no_blank_runs": true
+    },
+    {
+      "fields": {
+        "text": 5,
+        "radio": 2
+      }
+    },
+    {
+      "field_labels": {
+        "What service denial is the patient appealing?": 1,
+        "patient:": 1,
+        "Provider’s Signature:": 1,
+        "Date": 1,
+        "Printed Name:": 1
+      }
+    },
+    {
+      "field_group": {
+        "legend": "Is the appeal for a service that the patient has not yet received?",
+        "type": "radio",
+        "options": [
+          "Yes",
+          "No"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "doc": "az-pediatric-nicu-case-management-referral-form",
+  "page": 1,
+  "description": "NICU referral form with an AcroForm box on each blank: a line with two or three blanks (\"Member Name: ____ Date of Birth: ____\") is cut into one caption per box, so each box is labelled by the caption on its left and the 17 underscore runs leave the text. Before, only the last box of a line was labelled, with the whole line, underscores and all (#281, F7). The criteria check boxes are one group under their question, \"Please check any of the following criteria:\" (not the paragraph above it), and the two \"Other:\" text boxes drawn over their option's label are named \"Other:\", each right after its check box (#281).",
+  "assertions": [
+    {
+      "min_recall": 90
+    },
+    {
+      "no_blank_runs": true
+    },
+    {
+      "fields": {
+        "text": 22,
+        "checkbox": 22,
+        "radio": 2
+      }
+    },
+    {
+      "field_labels": {
+        "Member Name:": 1,
+        "Date of Birth:": 1,
+        "ID Number:": 1,
+        "Phone:": 3,
+        "Address:": 1,
+        "City:": 2,
+        "Zip:": 2,
+        "PCP:": 1,
+        "PCP Phone:": 1,
+        "PCP Address:": 1,
+        "(HC) Person Referring:": 1,
+        "Date:": 1,
+        "Who called HC about this referral?": 1
+      }
+    },
+    {
+      "field_group": {
+        "legend": "Please check any of the following criteria:",
+        "options": ["NICU - In-patient", "ER visits or admits (2+ a month)", "Cardiac Defects", "Apnea", "Chronic diagnosis or", "RDS", "Congenital defects", "Behavioral / mental health", "Failure to thrive", "Other:", "< 34 Weeks", "Non-compliance with treatment / medications", "NICU - Graduate", "ADL / financial or social problems", "Education need", "Cardiac Defects", "Apnea", "RDS", "Congenital defects", "Failure to thrive", "Other:", "< 34 Weeks"]
+      }
+    },
+    {
+      "control_order": ["Other:", "Other:", "< 34 Weeks", "Non-compliance with treatment / medications", "NICU - Graduate"]
+    },
+    {
+      "labels_in_names": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "store": null,
+  "bytes": 691,
+  "lines": 2,
+  "counts": {
+    "records": 0,
+    "torn": 0,
+    "unreadable": 0,
+    "duplicate": 0
+  },
+  "active": [],
+  "invalid": [],
+  "unsupported": [],
+  "reattach": [],
+  "error": "no-header"
+}

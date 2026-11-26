@@ -1,0 +1,18 @@
+{
+  "doc": "uscis-i9",
+  "page": 4,
+  "description": "Form I-9 page 4 (Supplement B): three reverification blocks of text fields and the alternative-procedure checkbox.",
+  "assertions": [
+    {"min_recall": 98.0},
+    {"fields": {"text": 36, "checkbox": 3}},
+    {"labelled_once": ["Last Name (Family Name) from Section 1.", "First Name (Given Name) from Section 1."]},
+    {"contains_in_order": ["Supplement B", "Reverification and Rehire", "Date of Rehire"]},
+    {"contains_in_order": ["Supplement B, Reverification and Rehire (formerly", "Department of Homeland Security", "U.S. Citizenship and Immigration Services", "USCIS Form I-9 Supplement B", "OMB No. 1615-0047 Expires 05/31/2027", "Instructions: This supplement replaces Section 3", "Form I-9 Edition 01/20/25"], "why": "The opening words of each paragraph, list item and heading, in reading order: catches swapped or moved paragraphs (#330)."},
+    {"contains_in_order": ["Section 3)", "Form I-9 Supplement", "No. 1615-0047 Expires 05/31/2027", "Section 3 on", "Form I-9. Only", "Form I-9 was", "Form I-9 instructions", "Form I-9 record.", "Form I-9 (M-274)", "Form I-9 Edition 01/20/25"], "why": "Every number with a word either side, in reading order: catches a changed digit (#330)."},
+    {"heading": {"text": "Supplement B, Reverification and Rehire (formerly Section 3)", "levels": [2, 2]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"heading": {"text": "Department of Homeland Security", "levels": [3, 3]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"heading": {"text": "U.S. Citizenship and Immigration Services", "levels": [4, 4]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"heading": {"text": "USCIS Form I-9 Supplement B", "levels": [3, 3]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"table": {"rows": 14, "cells": ["Date of Rehire (if applicable)", "Last Name (Family Name)", "Reverification: If the employee requires reverification, your employee can choose to present any acceptable List A or List C documentation to show continued employment authorization. Enter the document information in the spaces below.", "Expiration Date (if any) (mm/dd/yyyy)", "I attest, under penalty of perjury, that to the best of my knowledge, this employee is authorized to work in the United States, and if the employee presented documentation, the documentation I examined appears to be genuine and to relate to the individual who presented it.", "Signature of Employer or Authorized Representative", "Check here if you used an alternative procedure authorized by DHS to examine documents. Additional Information (Initial and date each notation.)"]}, "why": "Its rows, and the longest cell of each: catches a dropped row (#330)."}
+  ]
+}

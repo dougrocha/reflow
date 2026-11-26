@@ -1,0 +1,10 @@
+{
+  "doc": "naca",
+  "page": 6,
+  "description": "NACA Report 914, apparatus section (scanned; the file's own OCR layer garbles its bold section head and running head, which Tesseract reads confidently otherwise).",
+  "assertions": [
+    {"not_heading": ["APPARATU A D PROCEDUR E", "REPORT O. 914- N\"'-TIONAL ADVISORY COMMITTEE FOR AEHONAUTICS"], "why": "The layer's garbled readings, which a confident Tesseract reading contradicts, are not navigation (#154)."},
+    {"contains": ["APPARATU A D PROCEDUR E"], "why": "Printed as the layer reads it: never corrected."},
+    {"review_has": ["ocr-doubtful", "heading-from-ink"], "why": "The contradicted words are doubtful, marked and reviewed, and the bold head still goes to review as a heading its ink shows (#154)."}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "doc": "az-group-contract-form",
+  "page": 2,
+  "description": "Group contract form, page 2: the instruction 'Read, sign, and date...' is a sentence set a little large, not a Contents entry.",
+  "assertions": [
+    {"not_heading": ["Read, sign, and date the Release and Attestation on the next page. *"]},
+    {"toc_on_page": []}
+  ]
+}

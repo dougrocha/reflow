@@ -1,0 +1,13 @@
+{
+  "doc": "az-bluecard-provider-guide",
+  "page": 1,
+  "description": "Provider guide cover (#160): the first bookmark is 'Table of Contents', a part of the document; the title is what the cover prints.",
+  "assertions": [
+    {
+      "doc_title": "The BlueCard® Program Provider Guide"
+    },
+    {
+      "title_suspect": false
+    }
+  ]
+}

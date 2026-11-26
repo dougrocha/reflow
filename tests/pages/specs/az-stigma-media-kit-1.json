@@ -1,0 +1,14 @@
+{
+  "doc": "az-stigma-media-kit",
+  "page": 1,
+  "description": "Section labels that end in a colon with their text under them stay headings, as in DocAccess (#159).",
+  "assertions": [
+    {
+      "toc_on_page": [
+        "Messaging:",
+        "Fast stats:",
+        "How is stigma harmful?"
+      ]
+    }
+  ]
+}

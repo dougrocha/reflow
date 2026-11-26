@@ -1,0 +1,35 @@
+{
+  "doc": "az-medical-claim-es",
+  "page": 1,
+  "description": "Spanish claim form: fields are named by their printed Spanish captions. The ruled grid of the whole page is a form layout, not one table twenty columns wide and clipped on the right (#281). Each box is named by the caption printed with it: the sex boxes (M, F) and the relationship row (\"La misma persona\") print their label before the box, and the seven programme boxes of item 1 each take their caption and the hint under it (#281). Only the record of services stays a table: its header row over six lines, each followed by its shaded NPI subrow.",
+  "assertions": [
+    {"max_table_cols": 12},
+    {"tables": 1},
+    {"table": {"rows": 13, "cols": 10, "cells": ["B. LUGAR DEL SERVICIO", "C. EMG", "E. INDICADOR DE DIAGNÓSTICO", "F. CARGOS $", "G. DÍAS O UNIDADES", "H. PLAN FAMILIAR EPSDT", "I. CALIF. DE ID."]}},
+    {
+      "labelled_once": [
+        "2. NOMBRE DEL PACIENTE (apellido, primer nombre, inicial del segundo nombre)"
+      ]
+    },
+    {
+      "no_control_names": [
+        "2. Patient's Name (last, first, middle)"
+      ]
+    },
+    {
+      "field_group": {"legend": "6. RELACIÓN DEL PACIENTE CON EL ASEGURADO", "options": ["La misma persona", "Cónyuge", "Hijo", "Otro"], "type": "checkbox"}
+    },
+    {
+      "field_group": {"legend": "3. FECHA DE NACIMIENTO DEL PACIENTE SEXO", "options": ["M", "F"], "type": "checkbox"}
+    },
+    {
+      "field_group": {"legend": "SEXO", "options": ["M", "F"], "type": "checkbox"}
+    },
+    {
+      "control_order": [
+        "1. MEDICARE (N.º de Medicare)", "MEDICAID (N.º de Medicaid)", "TRICARE (N.º ID./N.º DoD)",
+        "CHAMPVA (N.º ID. de miembro)", "PLAN DE SALUD GRUPAL (N.º ID.)", "FECA BLK LUNG (N.º ID.)", "OTHER (N.º ID.)"
+      ]
+    }
+  ]
+}

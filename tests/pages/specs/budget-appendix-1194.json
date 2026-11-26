@@ -1,0 +1,12 @@
+{
+  "doc": "budget-appendix",
+  "page": 1194,
+  "description": "Budget appendix page 1194 (National Archives and Records Administration, Operating Expenses): the activity paragraphs, the Object Classification and Employment Summary tables, and the Office of Inspector General block.",
+  "assertions": [
+    {"min_recall": 97.0},
+    {"no_text": ["�"]},
+    {"heading": {"text": "Employment Summary", "levels": [3, 4]}},
+    {"same_block": [["Electronic Records Initiative.", "enhance the Federal Government's"]]},
+    {"contains_in_order": ["National Archives and Records Administration—Continued", "OPERATING EXPENSES—Continued", "Program and Financing—Continued", "Legislative Archives, Presidential Libraries, and Museum Services.", "Electronic Records Initiative.", "Object Classification (in millions of dollars)", "Employment Summary", "OFFICE OF INSPECTOR GENERAL", "Note.—A full-year 2024 appropriation for this account was not enacted"]}
+  ]
+}

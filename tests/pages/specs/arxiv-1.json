@@ -1,0 +1,14 @@
+{
+  "doc": "arxiv",
+  "page": 1,
+  "description": "arXiv 1706.03762 (Attention Is All You Need) page 1: the author block with affiliations, the Google reproduction notice, the abstract and the NIPS footnotes. The title is only in the document shell.",
+  "assertions": [
+    {"min_recall": 98.0},
+    {"shell_contains": ["Attention Is All You Need"]},
+    {"contains_in_order": ["Abstract", "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder."]},
+    {"same_block": [["Aidan N. Gomez∗ † University of Toronto", "aidan@cs.toronto.edu"]]},
+    {"xfail": "Each author name is emitted as an h2 heading, so the names read as section titles instead of the author block.",
+     "not_heading": ["Ashish Vaswani∗", "Noam Shazeer∗", "Llion Jones∗", "Łukasz Kaiser∗"]},
+    {"not_heading": ["Provided proper attribution is provided, Google hereby grants permission to reproduce the tables and figures in this paper solely for use in journalistic or scholarly works."]}
+  ]
+}

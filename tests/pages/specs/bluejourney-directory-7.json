@@ -1,0 +1,16 @@
+{
+  "doc": "bluejourney-directory",
+  "page": 7,
+  "description": "BlueJourney directory, table of contents (PDF page 7, printed page 5): Section 1 and Section 2 entries, county headings in bold capitals and indented topic lines, each with a dot leader and a page number.",
+  "assertions": [
+    {"min_recall": 96.5},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Table of Contents"}},
+    {"contains_in_order": ["Table of Contents", "PROVIDER DIRECTORY", "Section 1 – Introduction", "What is the service area for BlueJourney?", "How do you find BlueJourney providers that serve your area?", "Section 2 – List of Network Providers and Pharmacies", "APACHE COUNTY", "Primary Care Providers (PCPs)", "Specialists", "COCHISE COUNTY", "COCONINO COUNTY", "GILA COUNTY"]},
+    {"xfail": "The contents lines are merged: 'Section 1 – Introduction ... 10' and its two sub-entries are one list item, and each county's four topic lines are one paragraph; no entry is its own item.",
+     "separate_blocks": [["Section 1 – Introduction", "What is the service area for BlueJourney?"], ["Section 1 – Introduction", "Section 2 – List of Network Providers and Pharmacies"], ["Primary Care Providers (PCPs)", "Specialists"]]},
+    {"xfail": "The dot leaders are kept as text: runs of '.' sit between each entry and its page number.",
+     "no_text": ["......"]}
+  ]
+}

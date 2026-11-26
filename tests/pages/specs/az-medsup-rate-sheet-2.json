@@ -1,0 +1,14 @@
+{
+  "doc": "az-medsup-rate-sheet",
+  "page": 2,
+  "description": "Medicare Supplement monthly rates: two ruled tables, BlueValue rates above Standard rates, each under a banner row and a row of plan names. Text alignment once ran them together with the page title into one 23-row table.",
+  "assertions": [
+    {"min_recall": 98.0},
+    {"tables": 2},
+    {"table": {"rows": 11, "cols": 7, "exact": true,
+               "cells": ["BLUEVALUESM RATES", "AGE", "Plan F*", "$289.56", "73+", "$381.65"]}},
+    {"table": {"rows": 11, "cols": 7, "exact": true,
+               "cells": ["STANDARD RATES", "AGE", "$359.63", "$851.66"]}},
+    {"separate_blocks": [["Monthly Rates at a Glance", "AGE"]]}
+  ]
+}

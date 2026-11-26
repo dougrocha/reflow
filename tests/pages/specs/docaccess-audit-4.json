@@ -1,0 +1,12 @@
+{
+  "doc": "docaccess-audit",
+  "page": 4,
+  "description": "Printed table of contents, page ii (#281): the list goes on from page i. The sections (SUPPLEMENTARY INFORMATION, STATISTICAL SECTION) and the group labels hold their entries, wrapped entries are one item with their page label, and no dot leader is left in the text.",
+  "assertions": [
+    {"not_heading": ["Page", "SUPPLEMENTARY INFORMATION", "STATISTICAL SECTION (Unaudited)"]},
+    {"toc_lacks": ["SUPPLEMENTARY INFORMATION", "STATISTICAL SECTION (Unaudited)"]},
+    {"no_text": ["......"]},
+    {"nested_list": {"parent": "Defined Benefit Pension Plan Schedule of the District’s Proportionate Share of the Net Pension Liability-Last 10 Years", "items": ["Schedule of Contributions - Last 10 Years 61"]}},
+    {"nested_list": {"parent": "Financial Statistical Section (Unaudited):", "items": ["Net Position by Component 70", "Changes in Net Position 71", "Direct and Overlapping Debt 81", "Assessed Value of Taxable Property 83"]}}
+  ]
+}

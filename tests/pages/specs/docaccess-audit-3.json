@@ -1,0 +1,16 @@
+{
+  "doc": "docaccess-audit",
+  "page": 3,
+  "description": "Printed table of contents, page i (#281). One list nested by the printed sections: each section heading (INTRODUCTORY SECTION, FINANCIAL SECTION) holds its entries, a group label (\"Fund Financial Statements:\") holds the entries indented under it, and an entry that wraps onto a second line is one item. Each entry keeps its words and its page label, and the dot leaders, which are not words, are gone. The column label \"Page\" is not glued onto the first section, and no section is a heading of the outline.",
+  "assertions": [
+    {"min_recall": 70},
+    {"not_heading": ["Page", "Page INTRODUCTORY SECTION", "INTRODUCTORY SECTION", "FINANCIAL SECTION", "Basic Financial Statements:", "Fund Financial Statements:"]},
+    {"toc_lacks": ["Page INTRODUCTORY SECTION", "INTRODUCTORY SECTION", "FINANCIAL SECTION"]},
+    {"no_text": ["......"]},
+    {"nested_list": {"parent": "INTRODUCTORY SECTION", "items": ["Table of Contents i", "Transmittal Letter iii", "Board of Trustees xi", "Executive Staff xii", "Organization Chart xiii", "GFOA Certificate xiv"]}},
+    {"nested_list": {"parent": "FINANCIAL SECTION", "items": ["Independent Auditors’ Report 1", "Management’s Discussion and Analysis – Required Supplementary Information (Unaudited) 5"]}},
+    {"nested_list": {"parent": "Government-Wide Financial Statements:", "items": ["Statement of Net Position 21", "Statement of Activities 22"]}},
+    {"nested_list": {"parent": "Governmental Fund Financial Statements", "items": ["Balance Sheet 26", "Reconciliation of the Governmental Funds Balance Sheet to the Government-Wide Statement of Net Position 27", "Statement of Revenues, Expenditures and Changes in Fund Balances 28", "Reconciliation of the Governmental Funds Statement of Revenues, Expenditures, and Changes in Fund Balances to the Government-Wide Statement of Activities 29"]}},
+    {"nested_list": {"parent": "Basic Financial Statements:", "items": ["Notes to Basic Financial Statements 33"]}}
+  ]
+}

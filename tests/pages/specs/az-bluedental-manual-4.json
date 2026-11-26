@@ -1,0 +1,47 @@
+{
+  "doc": "az-bluedental-manual",
+  "page": 4,
+  "description": "Dental quick-reference table: each product retains its ID prefix, network, and administrator. A header cell's shading (the cell and the text area inside its padding, in one colour) does not cut its wrapped name into two rows.",
+  "assertions": [
+    {
+      "min_recall": 95.5
+    },
+    {
+      "heading": {
+        "text": "AZ Blue Dental Products and Networks – Quick Guide"
+      }
+    },
+    {
+      "table": {
+        "rows": 9,
+        "cols": 5,
+        "cells": [
+          "BlueDental PPO",
+          "99D",
+          "IAZ",
+          "FEP Stand-Alone Dental Plans"
+        ]
+      }
+    },
+    {
+      "table": {
+        "cells": [
+          "MEMBER ID PREFIX",
+          "NETWORK AND CONTRACTING"
+        ]
+      }
+    },
+    {
+      "same_block": [
+        [
+          "BlueDental PPO",
+          "99D"
+        ],
+        [
+          "FEP Stand-Alone Dental Plans",
+          "F"
+        ]
+      ]
+    }
+  ]
+}

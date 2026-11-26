@@ -1,0 +1,20 @@
+{
+  "doc": "az-checkup-checklist",
+  "page": 1,
+  "description": "Men's checkup checklist: a grid of services by age, with a ZapfDingbats dot (the letter 'l' in the text layer) under each age a service applies to. Two-line labels have their dots centred between the lines. Recall is low by design: the 134 dots are \"l\" in the text layer and \"●\" in the transcript.",
+  "assertions": [
+    {"min_recall": 73.0},
+    {"no_text": ["l l l", "�"]},
+    {"table": {"rows": 28, "cols": 8, "exact": true,
+               "cells": ["18", "80", "●", "Influenza (annually)",
+                         "Aspirin for the Prevention of Cardiovascular Disease: Preventive Medication",
+                         "Falls Prevention in Older Adults: Counseling and Preventive Medication",
+                         "Tobacco Use: Counseling and Interventions"],
+               "cell_contains": [
+                 {"row": {"col": 0, "text": "Human papillomavirus (HPV)"}, "cols": [1], "text": "●"},
+                 {"row": {"col": 0, "text": "Lung cancer screening"}, "cols": [5], "text": "●"},
+                 {"row": {"col": 0, "text": "Aspirin for the Prevention of Cardiovascular Disease: Preventive Medication"}, "cols": [4], "text": "●"}
+               ]}},
+    {"separate_blocks": [["Diabetes Mellitus: Screening", "Falls Prevention in Older Adults"]]}
+  ]
+}

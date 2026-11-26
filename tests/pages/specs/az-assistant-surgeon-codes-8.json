@@ -1,0 +1,14 @@
+{
+  "doc": "az-assistant-surgeon-codes",
+  "page": 8,
+  "description": "Copyright statements under the code table (#158).",
+  "assertions": [
+    {
+      "xfail": "The statement titles are set in the size and weight of the text under them, so no rule makes them headings.",
+      "toc_on_page": [
+        "American Medical Association CPT Copyright Statement",
+        "American Dental Association CDT Copyright Statement"
+      ]
+    }
+  ]
+}

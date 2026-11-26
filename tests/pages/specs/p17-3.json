@@ -1,0 +1,24 @@
+{
+  "doc": "p17",
+  "page": 3,
+  "description": "Publication 17 (2025) 'What's New' page: three-column run-in headings, the standard deduction and no-tax-on-tips bullets, and the car loan interest bullet whose body sits outside the list.",
+  "assertions": [
+    {"min_recall": 90.5},
+    {"heading": {"text": "What’s New", "levels": [1, 6]}},
+    {"list_items": {"ordered": false, "items": [
+      "Single or Married filing separately—$15,750;",
+      "Married filing jointly or Qualifying surviving spouse—$31,500; and",
+      "Head of household—$23,625."
+    ]}},
+    {"same_block": [["No tax on tips.", "You may be eligible to take a deduction for qualified tips paid to you in 2025"]]},
+    {"not_heading": ["Trump account and new Form", "Main home was in the United"]},
+    {"contains": ["Standard deduction amount increased.", "Enhanced deduction for seniors."]},
+    {"same_block": [["No tax on car loan interest.", "If you paid or accrued qualified passenger vehicle loan interest"]]},
+    {"links": [
+      {"text": "Direct Pay,", "href": "https://www.irs.gov/directpay"},
+      {"text": "IRS.gov/Payments", "href": "https://www.irs.gov/payments"},
+      {"text": "ModernPayments.", "href": "https://www.irs.gov/modernpayments"},
+      {"text": "chapter 1,", "internal": true}
+    ]}
+  ]
+}

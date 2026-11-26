@@ -1,0 +1,18 @@
+{
+  "doc": "az-bluecard-provider-guide",
+  "page": 27,
+  "description": "The table of where to file by provider type has a thin bar drawn over it that its grid cuts into four cells. The bar is no row: the header row is the column names (#393).",
+  "assertions": [
+    {
+      "table": {
+        "cols": 4,
+        "col_headers": [
+          "Provider type",
+          "How to file (required fields)",
+          "Where to file",
+          "Example"
+        ]
+      }
+    }
+  ]
+}

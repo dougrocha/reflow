@@ -1,0 +1,13 @@
+{
+  "doc": "az-appt-representative-bilingual",
+  "page": 1,
+  "description": "Instructions (#160): a capitals kicker over a smaller title that wraps; the line 'Appointment of' runs on, so all three lines are the title.",
+  "assertions": [
+    {
+      "doc_title": "MEDICARE ADVANTAGE Appointment of Representative Instructions"
+    },
+    {
+      "title_suspect": false
+    }
+  ]
+}

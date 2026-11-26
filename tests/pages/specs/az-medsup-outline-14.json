@@ -1,0 +1,81 @@
+{
+  "doc": "az-medsup-outline",
+  "page": 14,
+  "description": "Plan A/C home-healthcare and foreign-travel tables with two levels of column headers. The printed page number is 13.",
+  "assertions": [
+    {
+      "min_recall": 98
+    },
+    {
+      "tables": 2
+    },
+    {
+      "table": {
+        "rows": 6,
+        "cols": 6,
+        "exact": true,
+        "cells": [
+          "Medicare Pays",
+          "Plan A",
+          "Plan C†",
+          "Plan Pays",
+          "You Pay"
+        ],
+        "cell_contains": [
+          {
+            "row": {
+              "col": 0,
+              "text": "• Medically necessary skilled care services and medical supplies"
+            },
+            "cols": [
+              1
+            ],
+            "text": "100%"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "• Medically necessary skilled care services and medical supplies"
+            },
+            "cols": [
+              2
+            ],
+            "text": "$0"
+          }
+        ]
+      }
+    },
+    {
+      "table": {
+        "rows": 5,
+        "cols": 6,
+        "exact": true,
+        "cells": [
+          "First $250 each calendar year"
+        ],
+        "cell_contains": [
+          {
+            "row": {
+              "col": 0,
+              "text": "First $250 each calendar year"
+            },
+            "cols": [
+              3
+            ],
+            "text": "All costs"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "First $250 each calendar year"
+            },
+            "cols": [
+              5
+            ],
+            "text": "$250"
+          }
+        ]
+      }
+    }
+  ]
+}

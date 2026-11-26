@@ -1,0 +1,21 @@
+{
+  "doc": "docaccess-budget",
+  "page": 4,
+  "description": "Scanned budget page 4, a signature page: the district name is recovered by OCR, and each signature is a crop placed directly before the printed role it signs, never a guessed name (#85).",
+  "assertions": [
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["DEER CREEK VILLAS METROPOLITAN DISTRICT"]},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["ATTEST:", "Signature Page to 2025 Budget Resolution"]},
+    {"xfail": "The page keeps the file's own OCR layer (#82: a fresh reading of the replaced layers on naca, chem-math and the permit was worse), which has no 'Signed by:'.", "contains": ["Signed by:"]},
+    {"xfail_without_ocr": "Without an OCR runner, the kept layer is not graded.", "no_text": ["UtaScore", "Diwiw", "Sara"], "why": "#82 keeps the file's own OCR layer; its reading of the Secretary signature, 'UtaScore 40', is graded unread and left out (#147)."},
+    {"xfail": "reflow does not OCR this page: #82 keeps the file's own OCR layer, which has no word grades.", "review_has": ["ocr-doubtful", "ocr-words-omitted"]},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "alt_has": ["^Signature\\.$"], "why": "A signature reads as 'Signature', never as letter fragments or 'not transcribed' (#345)."},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "review_has": ["unread-signature"]},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "review_lacks": ["alt-missing", "unread-handwriting", "handwriting-like-ink"]},
+    {"review_lacks": ["unread-text"]},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "figure_order": ["DEER CREEK VILLAS METROPOLITAN DISTRICT", "<figure kind=signature>", "President", "Signature Page to 2025 Budget Resolution"]},
+    {"unread_figures": 2},
+    {"xfail_without_ocr": "Without an OCR runner, the kept layer is not graded.", "signature_items": 2, "why": "The Secretary signature is no longer masked by the kept layer's 'UtaScore 40' (#147)."},
+    {"xfail": "The page keeps the file's own OCR layer (#82, #147): no 'Signed by:', and no Secretary signature.", "figure_order": ["Signed by:", "<figure kind=signature>", "President", "ATTEST:", "<figure kind=signature>"]},
+    {"xfail": "#345: the page prints no name, only 'President' and 'Secretary'. A model's reading (--assist local) is taken only when it matches a printed name, never on its certainty alone, so no name is drafted here, with or without a model.", "contains": ["Dieringer", "Elliott"], "why": "A signature reads as 'Signature', with the name if it is legible (research/transcription-2026-11/truth/budget-p4.hand.txt)."}
+  ]
+}

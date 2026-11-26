@@ -1,0 +1,42 @@
+{
+  "doc": "az-tsmc-hsa-mandarin",
+  "page": 2,
+  "description": "Traditional-Chinese SBC. The two source tables have 3 and 5 logical columns; wrapped text belongs to its source row rather than separate line-height rows.",
+  "assertions": [
+    {
+      "doc_lang": "zh-Hant"
+    },
+    {
+      "min_recall": 93
+    },
+    {
+      "contains": [
+        "重要問題",
+        "您無需轉介即可向自己選擇的專科醫生求診。",
+        "診斷檢查（X 光、驗血）"
+      ]
+    },
+    {
+      "tables": 2
+    },
+    {
+      "table": {
+        "rows": 3,
+        "cols": 3,
+        "exact": true,
+        "cells": [
+          "重要問題",
+          "答案",
+          "此事的重要性："
+        ]
+      }
+    },
+    {
+      "xfail": "Wrapped Chinese table text is promoted to stray headings outside its cell.",
+      "not_heading": [
+        "較低費用？",
+        "診所"
+      ]
+    }
+  ]
+}

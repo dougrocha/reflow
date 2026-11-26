@@ -1,0 +1,24 @@
+{
+  "doc": "az-group-ppo-sob",
+  "page": 1,
+  "description": "The SBC table's column headers are header cells, printed once, not a heading after the table (#159).",
+  "assertions": [
+    {
+      "not_heading": [
+        "Important Questions Answers Why This Matters:"
+      ]
+    },
+    {
+      "toc_on_page": []
+    },
+    {
+      "table": {
+        "cells": [
+          "Important Questions",
+          "Answers",
+          "Why This Matters:"
+        ]
+      }
+    }
+  ]
+}

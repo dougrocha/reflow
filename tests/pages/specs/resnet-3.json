@@ -1,0 +1,24 @@
+{
+  "doc": "resnet",
+  "page": 3,
+  "description": "ResNet paper page 3: section 3 headings and body text in two columns; no tables or figures.",
+  "assertions": [
+    {"min_recall": 93.0},
+    {"no_text": ["�"]},
+    {"heading": {"text": "3. Deep Residual Learning", "levels": [2, 2]}},
+    {"heading": {"text": "3.1. Residual Learning", "levels": [3, 3]}},
+    {"heading": {"text": "3.2. Identity Mapping by Shortcuts", "levels": [3, 3]}},
+    {"heading": {"text": "3.3. Network Architectures", "levels": [3, 3]}},
+    {"max_headings": 4},
+    {"tables": 0},
+    {"figures": 0},
+    {"not_heading": ["Plain Network.", "Here x and y are the input and output vectors of the layers considered."]},
+    {"contains_in_order": ["way networks have not demonstrated accuracy gains", "3. Deep Residual Learning", "3.2. Identity Mapping by Shortcuts", "3.3. Network Architectures", "Plain Network.", "The total number of weighted layers is 34"]},
+    {"same_block": [["Here x and y are the input and output vectors", "The function F(x, {Wi}) represents the"]]},
+    {"footnotes": 1},
+    {"noterefs": 1},
+    {"contains": ["This hypothesis, however, is still an open question. See [28]."]},
+    {"contains_in_order": ["way networks have not demonstrated accuracy", "3. Deep Residual Learning", "Let us consider H(x) as an", "This reformulation is motivated by the", "In real cases, it is unlikely", "3.2. Identity Mapping by Shortcuts", "We adopt residual learning to every", "y = F(x, {Wi}) + x.", "Here x and y are the", "ReLU [29] and the biases are", "The shortcut connections in Eqn.(1) introduce", "The dimensions of x and F", "y = F(x, {Wi}) + Wsx.", "We can also use a square", "The form of the residual function", "We also note that although the", "We have tested various plain/residual nets,", "Plain Network. Our plain baselines (Fig.", "It is worth noticing that our"], "why": "The opening words of each paragraph, list item and heading, in reading order: catches swapped or moved paragraphs (#330)."},
+    {"contains_in_order": ["over 100 layers).", "3. Deep", "3.1. Residual", "complicated functions2,", "(Fig. 1, left).", "(Fig. 7) that", "3.2. Identity", "Fig. 2. Formally,", "x. (1)", "Fig. 2 that", "= W2σ(W1x) in", "ReLU [29] and", "Fig. 2).", "in Eqn.(1) introduce", "in Eqn.(1). If", "Wsx. (2)", "in Eqn.(1). But", "(Fig. 5), while", "layer, Eqn.(1) is", "= W1x +", "3.3. Network", "(Fig. 3, middle)", "nets [41] (Fig. 3, left).", "have 3×3 filters", "of 2. The", "a 1000-way fully-connected", "is 34 in Fig. 3 (middle).", "nets [41] (Fig. 3, left). Our 34layer baseline has 3.6 billion", "only 18% of VGG-19 (19.6 billion"], "why": "Every number with a word either side, in reading order: catches a changed digit (#330)."}
+  ]
+}

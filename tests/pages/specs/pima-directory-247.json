@@ -1,0 +1,16 @@
+{
+  "doc": "pima-directory",
+  "page": 247,
+  "description": "Pima County provider directory page 247 (Physician Assistant, Marana and Oro Valley): location sub-headings (h4) between provider headings.",
+  "assertions": [
+    {"min_recall": 94.5},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Oro Valley", "levels": [4, 4]}},
+    {"heading": {"text": "Abrams, Madison G, PA (F)", "contains": true, "levels": [5, 5]}},
+    {"heading": {"text": "Thompson, Hannah", "contains": true, "levels": [5, 5]}},
+    {"same_entry": [["Abrams, Madison G", "12480 N Rancho Vistoso Blvd, Ste 180"], ["Thompson, Hannah", "3630 W Tangerine Rd, Ste 100"]]},
+    {"same_block": [["12480 N Rancho Vistoso Blvd, Ste 180", "(520) 742-4008"]]},
+    {"contains_in_order": ["Continued: Non-Physicians › Physician Assistant › Marana", "Thompson, Hannah", "3630 W Tangerine Rd, Ste 100", "Oro Valley", "Abrams, Madison G", "12480 N Rancho Vistoso Blvd, Ste 180", "Aguilar, Carlos"]}
+  ]
+}

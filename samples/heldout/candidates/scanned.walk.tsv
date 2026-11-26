@@ -1,0 +1,12 @@
+pos	url	outcome	pages	bytes	sha256	id
+0	https://www.govinfo.gov/content/pkg/FR-1958-06-05/pdf/FR-1958-06-05.pdf	kept	56	10466498	ff9d9e1350cb5ef1a0fa1ecd38a90c92231d390cf97aa1571fd32633aa776ccd	scanned-1
+1	https://www.govinfo.gov/content/pkg/FR-1975-06-18/pdf/FR-1975-06-18.pdf	kept	128	22333278	767b141a2652addd37f0b7a309496ee6fdafaffa0716668e455c53be16fcd99d	scanned-2
+2	https://www.govinfo.gov/content/pkg/FR-1953-06-09/pdf/FR-1953-06-09.pdf	kept	16	4245206	128b35e402b5446545cee6ae32bb315da8b4913788a5aa826fcf8d939c0fc04f	scanned-3
+3	https://www.govinfo.gov/content/pkg/FR-1936-11-14/pdf/FR-1936-11-14.pdf	kept	66	13503440	f55d7a982729f6b13ab6708622d27374343e6a16e02b2a328d8775313871778b	scanned-4
+4	https://www.govinfo.gov/content/pkg/FR-1952-07-01/pdf/FR-1952-07-01.pdf	kept	80	15919880	ff3d920378a0c517d7d624c0868a4e79b43f4ab4fdc2adab17235de833007609	scanned-5
+5	https://www.govinfo.gov/content/pkg/FR-1977-09-23/pdf/FR-1977-09-23.pdf	too-big	0	0	-	-
+6	https://www.govinfo.gov/content/pkg/FR-1937-01-22/pdf/FR-1937-01-22.pdf	kept	16	4867317	992467e8ccedac35f0587bc1068aa0443afd5542d24f0b5d1f95e301df4d8604	scanned-6
+7	https://www.govinfo.gov/content/pkg/FR-1993-03-01/pdf/FR-1993-03-01.pdf	too-big	0	0	-	-
+8	https://www.govinfo.gov/content/pkg/FR-1986-08-20/pdf/FR-1986-08-20.pdf	too-big	0	0	-	-
+9	https://www.govinfo.gov/content/pkg/FR-1980-02-20/pdf/FR-1980-02-20.pdf	too-big	0	0	-	-
+10	https://www.govinfo.gov/content/pkg/FR-1941-02-06/pdf/FR-1941-02-06.pdf	kept	24	6970536	c1077cce54481d6a41985daced8101c5ea647de458f91a0652671b56aae01cb9	scanned-7

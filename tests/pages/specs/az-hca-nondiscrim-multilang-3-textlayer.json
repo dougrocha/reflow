@@ -1,0 +1,9 @@
+{
+  "doc": "az-hca-nondiscrim-multilang",
+  "page": 3,
+  "description": "Multi-language insert, page 3 (#124): the Navajo tagline is set in a legacy Navajo font (its letters sit on digits and brackets), and the Hindi, Gujarati, Nepali and Khmer taglines lost their vowel signs (pdfium reads U+FFFD there). The text layer cannot be trusted, so the page needs a review item.",
+  "assertions": [
+    {"review_has": ["unicode-errors"]},
+    {"no_text": ["�"]}
+  ]
+}

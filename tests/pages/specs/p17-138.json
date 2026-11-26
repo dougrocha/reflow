@@ -1,0 +1,15 @@
+{
+  "doc": "p17",
+  "page": 138,
+  "description": "IRS Publication 17 page 138 (index, letters P to R): four columns of entries read top to bottom, column by column.",
+  "assertions": [
+    {"min_recall": 94.5},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"contains_in_order": ["Pass-through entities", "Payroll taxes", "Peace Corps allowances", "Decedent’s unrecovered", "Prepaid:", "Qualifying child", "Relief fund contributions", "Retirement savings"]},
+    {"same_block": [["Payment of estimated tax", "43"]]},
+    {"separate_blocks": [["Losses 23", "Patents:"]]},
+    {"heading": {"text": "R", "levels": [2, 3]}},
+    {"heading": {"text": "Q", "levels": [2, 3]}}
+  ]
+}

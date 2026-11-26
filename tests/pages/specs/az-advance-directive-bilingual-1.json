@@ -1,0 +1,27 @@
+{
+  "doc": "az-advance-directive-bilingual",
+  "page": 1,
+  "description": "English advance-directives notice, paired with the Spanish notice on PDF page 3.",
+  "assertions": [
+    {
+      "min_recall": 98.5
+    },
+    {
+      "contains_in_order": [
+        "Notice of Advance Directives",
+        "All states have laws",
+        "The following information about advance directives",
+        "Fill out a written form",
+        "Give your doctors written instructions",
+        "Complete the Five Wishes booklet",
+        "Give copies to appropriate people."
+      ]
+    },
+    {
+      "figures": 0
+    },
+    {
+      "tables": 0
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+ "about": "Hand-labelled form lines, read from the rendered pages (not from the converter). Each line is a heading the rules produced that the structure assist would be asked about; 'kind' is what a person reading the page says it is: heading (a title with content under it), label (the caption of something to fill in or of the item that follows) or value (content: data or a sentence). 'at' is the line's [x0, top] in points; a line is found by page, 'at' within 3 points and the start of its text.",
+ "forms": {
+  "docaccess-assessment-appeal": {
+   "pdf": "samples/docaccess/03-assessment-appeal-application.pdf",
+   "lines": [
+    {
+     "page": 1,
+     "at": [
+      36,
+      141
+     ],
+     "text": "1. APPLICANT INFORMATION - PLEASE PRINT",
+     "kind": "heading"
+    },
+    {
+     "page": 1,
+     "at": [
+      36,
+      213
+     ],
+     "text": "2. CONTACT INFORMATION - AGENT, ATTORNEY, OR RELATIVE OF APP",
+     "kind": "heading"
+    },
+    {
+     "page": 1,
+     "at": [
+      36,
+      422
+     ],
+     "text": "3. PROPERTY IDENTIFICATION INFORMATION",
+     "kind": "heading"
+    },
+    {
+     "page": 1,
+     "at": [
+      36,
+      454
+     ],
+     "text": "ENTER APPLICABLE NUMBER FROM YOUR NOTICE/TAX BILL",
+     "kind": "label"
+    },
+    {
+     "page": 1,
+     "at": [
+      36,
+      535
+     ],
+     "text": "PROPERTY TYPE",
+     "kind": "label"
+    },
+    {
+     "page": 1,
+     "at": [
+      34,
+      615
+     ],
+     "text": "4. VALUE",
+     "kind": "heading"
+    },
+    {
+     "page": 2,
+     "at": [
+      36,
+      38
+     ],
+     "text": "5. TYPE OF ASSESSMENT BEING APPEALED",
+     "kind": "heading"
+    },
+    {
+     "page": 2,
+     "at": [
+      36,
+      140
+     ],
+     "text": "6. REASON FOR FILING APPEAL (FACTS)",
+     "kind": "heading"
+    },
+    {
+     "page": 2,
+     "at": [
+      36,
+      494
+     ],
+     "text": "7. WRITTEN FINDINGS OF FACTS ( $255 for the first hour / eac",
+     "kind": "heading"
+    },
+    {
+     "page": 2,
+     "at": [
+      36,
+      523
+     ],
+     "text": "8. THIS APPLICATION IS DESIGNATED AS A CLAIM FOR REFUND See ",
+     "kind": "heading"
+    }
+   ]
+  },
+  "az-ms-restrict-records-form": {
+   "pdf": "samples/azblue/site/ms-restrict-records-form.pdf",
+   "lines": [
+    {
+     "page": 1,
+     "at": [
+      27,
+      463
+     ],
+     "text": "Signature",
+     "kind": "heading"
+    },
+    {
+     "page": 1,
+     "at": [
+      27,
+      531
+     ],
+     "text": "If you are the personal representative of the Member, comple",
+     "kind": "heading"
+    }
+   ]
+  },
+  "az-deceased-member-affidavit": {
+   "pdf": "samples/azblue/site/deceased-member-affidavit.pdf",
+   "lines": [
+    {
+     "page": 2,
+     "at": [
+      27,
+      208
+     ],
+     "text": "Personal Representative Information:",
+     "kind": "heading"
+    }
+   ]
+  },
+  "az-group-contract-form": {
+   "pdf": "samples/azblue/site/group-contract-form.pdf",
+   "lines": [
+    {
+     "page": 3,
+     "at": [
+      36,
+      293
+     ],
+     "text": "The Entity also authorizes the release of this information t",
+     "kind": "value"
+    },
+    {
+     "page": 3,
+     "at": [
+      36,
+      398
+     ],
+     "text": "The completion of this request form does not guarantee netwo",
+     "kind": "value"
+    },
+    {
+     "page": 3,
+     "at": [
+      36,
+      458
+     ],
+     "text": "Authorized Electronic Signature *",
+     "kind": "heading"
+    },
+    {
+     "page": 3,
+     "at": [
+      36,
+      554
+     ],
+     "text": "/s/_________________________________________________________",
+     "kind": "label"
+    },
+    {
+     "page": 3,
+     "at": [
+      36,
+      605
+     ],
+     "text": "Authorized representative of: ______________________________",
+     "kind": "label"
+    },
+    {
+     "page": 3,
+     "at": [
+      179,
+      654
+     ],
+     "text": "Sign, save, and email this form to Cred@azblue.com.",
+     "kind": "value"
+    },
+    {
+     "page": 3,
+     "at": [
+      75,
+      691
+     ],
+     "text": "For more information about contracting with AZ Blue, please ",
+     "kind": "value"
+    }
+   ]
+  },
+  "az-ma-appeals-form-2026": {
+   "pdf": "samples/azblue/site/ma-appeals-form-2026.pdf",
+   "lines": [
+    {
+     "page": 1,
+     "at": [
+      36,
+      409
+     ],
+     "text": "What you can do if your 65-calendar-day deadline has passed.",
+     "kind": "heading"
+    },
+    {
+     "page": 2,
+     "at": [
+      36,
+      387
+     ],
+     "text": "Information about your request",
+     "kind": "heading"
+    },
+    {
+     "page": 2,
+     "at": [
+      36,
+      675
+     ],
+     "text": "Sign Here Date",
+     "kind": "label"
+    },
+    {
+     "page": 3,
+     "at": [
+      36,
+      36
+     ],
+     "text": "Checklist",
+     "kind": "heading"
+    },
+    {
+     "page": 3,
+     "at": [
+      36,
+      193
+     ],
+     "text": "Mail:",
+     "kind": "label"
+    },
+    {
+     "page": 3,
+     "at": [
+      36,
+      259
+     ],
+     "text": "Fax:",
+     "kind": "label"
+    },
+    {
+     "page": 3,
+     "at": [
+      36,
+      299
+     ],
+     "text": "Email:",
+     "kind": "label"
+    }
+   ]
+  },
+  "az-privacy-release-spanish": {
+   "pdf": "samples/azblue/site/privacy-release-spanish.pdf",
+   "lines": [
+    {
+     "page": 2,
+     "at": [
+      20,
+      153
+     ],
+     "text": "Persona cuya información compartimos:",
+     "kind": "heading"
+    },
+    {
+     "page": 2,
+     "at": [
+      20,
+      232
+     ],
+     "text": "Persona/entidad que recibe su información:",
+     "kind": "heading"
+    },
+    {
+     "page": 2,
+     "at": [
+      20,
+      474
+     ],
+     "text": "Indíquenos cuándo dejar de compartir su información:",
+     "kind": "heading"
+    }
+   ]
+  },
+  "uscis-i9": {
+   "pdf": "samples/corpus/uscis-i9.pdf",
+   "lines": [
+    {
+     "page": 1,
+     "at": [
+      199,
+      22
+     ],
+     "text": "Employment Eligibility Verification Department of Homeland S",
+     "kind": "heading"
+    },
+    {
+     "page": 2,
+     "at": [
+      152,
+      74
+     ],
+     "text": "All documents containing an expiration date must be unexpire",
+     "kind": "value"
+    },
+    {
+     "page": 2,
+     "at": [
+      135,
+      101
+     ],
+     "text": "Employees may present one selection from List A or a combina",
+     "kind": "value"
+    },
+    {
+     "page": 2,
+     "at": [
+      80,
+      128
+     ],
+     "text": "Examples of many of these documents appear in the Handbook f",
+     "kind": "value"
+    },
+    {
+     "page": 3,
+     "at": [
+      212,
+      70
+     ],
+     "text": "U.S. Citizenship and Immigration Services",
+     "kind": "value"
+    },
+    {
+     "page": 4,
+     "at": [
+      212,
+      72
+     ],
+     "text": "U.S. Citizenship and Immigration Services",
+     "kind": "value"
+    }
+   ]
+  }
+ }
+}

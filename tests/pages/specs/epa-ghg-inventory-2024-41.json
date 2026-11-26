@@ -1,0 +1,15 @@
+{
+  "doc": "epa-ghg-inventory-2024",
+  "page": 41,
+  "description": "EPA Inventory of U.S. GHG Emissions and Sinks 2024, Executive Summary ES-5: Figure ES-1 with its caption, the footnote, and Table ES-2 (a 9-column trend table with a two-line 'Percent Change Since 1990' header and footnote markers on row labels).",
+  "assertions": [
+    {"min_recall": 98.5},
+    {"figures": 1},
+    {"contains_in_order": ["Table ES-2: Recent Trends", "Net Emissions (Sources and Sinks)", "Gross emissions totals do not include CH4 and N2O emissions from LULUCF."]},
+    {"table": {"rows": 15, "cols": 9, "exact": true, "cells": ["CO2", "5,131.6", "-1.5%", "HFCs", "282.9%", "Net Emissions (Sources and Sinks)", "5,560.2"]}},
+    {"xfail": "The two-line header 'Percent Change Since 1990' is split: 'Percent Change' and 'Since' become paragraphs before the table, and the table's last header cell reads '1990'.",
+     "table": {"rows": 15, "cols": 9, "exact": true, "cells": ["Percent Change Since 1990"]}},
+    {"xfail": "The footnote letter 'a' on the CH4 row label runs into the text as 'sources)a' instead of staying a separate superscript marker.",
+     "table": {"rows": 15, "cols": 9, "exact": true, "cells": ["CH4 (excludes LULUCF sources)"]}}
+  ]
+}

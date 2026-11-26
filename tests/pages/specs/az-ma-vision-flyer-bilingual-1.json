@@ -1,0 +1,19 @@
+{
+  "doc": "az-ma-vision-flyer-bilingual",
+  "page": 1,
+  "description": "Flyer (#160): a four-line title set with a tight leading. The flyer's offers are sentences, not headings, even where the tag tree calls one /H3 (#159).",
+  "assertions": [
+    {
+      "doc_title": "Protect your quality of life by protecting your eyes."
+    },
+    {
+      "title_suspect": false
+    },
+    {
+      "not_heading": [
+        "You pay nothing for a routine eye exam from one of 4,700 preferred Davis Vision® providers in Arizona.*",
+        "Your Blue Best Life HMO plan includes a $200 allowance (this includes frames or contacts lens single-purchase per year through Davis Vision Providers)."
+      ]
+    }
+  ]
+}

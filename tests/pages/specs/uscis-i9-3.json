@@ -1,0 +1,18 @@
+{
+  "doc": "uscis-i9",
+  "page": 3,
+  "description": "Form I-9 page 3 (Supplement A): the four repeated preparer/translator blocks, each with text fields and a State drop-down.",
+  "assertions": [
+    {"min_recall": 97.5},
+    {"fields": {"text": 35, "select": 4}},
+    {"labelled_once": ["Last Name (Family Name) from Section 1.", "First Name (Given Name) from Section 1."]},
+    {"contains_in_order": ["Supplement A", "Preparer and/or Translator Certification", "Signature of Preparer or Translator"]},
+    {"contains_in_order": ["Supplement A, Preparer and/or Translator Certification", "Department of Homeland Security", "U.S. Citizenship and Immigration Services", "USCIS Form I-9 Supplement A", "OMB No. 1615-0047 Expires 05/31/2027", "Instructions: This supplement must be completed", "I attest, under penalty of perjury,", "I attest, under penalty of perjury,", "I attest, under penalty of perjury,", "I attest, under penalty of perjury,", "Form I-9 Edition 01/20/25"], "why": "The opening words of each paragraph, list item and heading, in reading order: catches swapped or moved paragraphs (#330)."},
+    {"contains_in_order": ["Section 1", "Form I-9 Supplement", "No. 1615-0047 Expires 05/31/2027", "Section 1 of Form I-9. The", "Form I-9.", "Section 1 of", "Section 1 of", "Section 1 of", "Section 1 of", "Form I-9 Edition 01/20/25"], "why": "Every number with a word either side, in reading order: catches a changed digit (#330)."},
+    {"heading": {"text": "Supplement A, Preparer and/or Translator Certification for Section 1", "levels": [2, 2]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"heading": {"text": "Department of Homeland Security", "levels": [3, 3]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"heading": {"text": "U.S. Citizenship and Immigration Services", "levels": [4, 4]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"heading": {"text": "USCIS Form I-9 Supplement A", "levels": [3, 3]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"table": {"rows": 3, "cells": ["Signature of Preparer or Translator", "Last Name (Family Name)", "State AK AL AR AS AZ CA CO CT DC DE FL GA GU HI IA ID IL IN KS KY LA MA MD ME MI MN MO MP MS MT NC ND NE NH NJ NM NV NY OH OK OR PA PR RI SC SD TN TX UT VA VI VT WA WI WV WY CAN MEX"]}, "why": "Its rows, and the longest cell of each: catches a dropped row (#330)."}
+  ]
+}

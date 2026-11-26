@@ -1,0 +1,17 @@
+{
+  "doc": "bluejourney-directory",
+  "page": 2500,
+  "description": "BlueJourney directory PDF page 2500 (printed page 2498): Retail Pharmacies, Gila County: Claypool, Globe, Miami and Payson, each pharmacy with address, phone, website and MDP / eRX flags, and a legend footnote.",
+  "assertions": [
+    {"min_recall": 96.2},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "GILA COUNTY"}},
+    {"heading": {"text": "Globe"}},
+    {"heading": {"text": "Payson"}},
+    {"heading": {"text": "Walmart Pharmacy 10-1334*"}},
+    {"same_entry": [["Walmart Pharmacy 10-1334*", "100 South Ragus Rd"], ["Cobre Valley Pharmacy*", "5880 S Hospital Drive"], ["Kearny Pharmacy*", "100 S Tilbury Dr"], ["Bashas' 54*", "142 E Highway 260"], ["Walgreens 6533*", "100 S Beeline Hwy"]]},
+    {"same_block": [["5880 S Hospital Drive", "CVPHARMACY.ORG"], ["142 E Highway 260", "(928) 474-7039"]]},
+    {"contains_in_order": ["GILA COUNTY", "Claypool", "Walmart Pharmacy 10-1334*", "Globe", "Cobre Valley Pharmacy*", "CVS Pharmacy 11144*", "Kearny Pharmacy*", "Miami", "Frys Food And Drug*", "Payson", "Bashas' 54*", "Genoa Healthcare LLC*", "Safeway Pharmacy 1536*", "Walgreens 6533*", "Walmart Pharmacy 10-1369*", "Hearing-impaired members should use the Telecommunications Relay Service (TRS) 711"]}
+  ]
+}

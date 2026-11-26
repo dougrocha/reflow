@@ -1,0 +1,35 @@
+{
+  "doc": "irs-w4-2026",
+  "page": 1,
+  "description": "IRS Form W-4 (2026) page 1: the Step 1 personal information fields and checkboxes, Steps 2 to 4 with their lettered lists, and the employer section.",
+  "assertions": [
+    {"min_recall": 100.0},
+    {"no_text": ["�"]},
+    {"fields": {"text": 14, "checkbox": 5}},
+    {"heading": {"text": "Step 2: Multiple Jobs or Spouse Works", "levels": [2, 2]}},
+    {"contains_in_order": ["Step 1: Enter Personal Information", "(a) First name and middle initial", "Last name", "Step 2: Multiple Jobs or Spouse Works", "(a) Use the estimator at www.irs.gov/W4App", "(b) Use the Multiple Jobs Worksheet on page 3", "(c) If there are only two jobs total", "Step 4: Other Adjustments", "(a) Other income (not from jobs).", "(c) Extra withholding."]},
+    {"list_items": {"ordered": true, "items": [
+      "(b) Deductions. Use the Deductions Worksheet on page 4 to determine the amount of deductions you may claim, which will reduce your withholding. (If you skip this line, your withholding will be based on the standard deduction.) Enter the result here . .",
+      "(c) Extra withholding. Enter any additional tax you want withheld each pay period . ."
+    ]}},
+    {"list_items": {"ordered": true, "items": [
+       "(a) Use the estimator at www.irs.gov/W4App for the most accurate withholding for this step (and Steps 3–4). If you or your spouse have self-employment income, use this option; or",
+       "(b) Use the Multiple Jobs Worksheet on page 3 and enter the result in Step 4(c) below; or"
+     ]}},
+    {"xfail": "The Step 4(a) continuation 'This may include interest, dividends, and retirement income' is a paragraph outside list item (a).",
+     "same_block": [["(a) Other income (not from jobs).", "This may include interest, dividends, and retirement income"]]},
+    {"xfail": "The header cell 'First date of employment' and the cell 'Employer identification number (EIN)' are merged into one paragraph, 'First date of Employer identification'.",
+     "separate_blocks": [["First date of", "Employer identification"]]},
+    {"contains_in_order": ["This document has fillable fields. They", "Department of the Treasury Internal Revenue", "Step 1: Enter Personal Information", "Complete Form W-4 so that your", "Give Form W-4 to your employer.", "Does your name match the name", "Caution: To claim certain credits or", "TIP: Consider using the estimator at", "Complete Steps 2–4 ONLY if they", "Step 2: Multiple Jobs or Spouse", "Complete this step if you (1)", "Do only one of the following.", "(a) Use the estimator at www.irs.gov/W4App", "(b) Use the Multiple Jobs Worksheet", "(c) If there are only two", "Step 3: Claim Dependent and Other", "Step 4: Other Adjustments", "If your total income will be", "(a) Multiply the number of qualifying", "(b) Multiply the number of other", "(a) Other income (not from jobs).", "This may include interest, dividends, and", "(b) Deductions. Use the Deductions Worksheet", "(c) Extra withholding. Enter any additional", "Step 5: Sign Here", "I claim exemption from withholding for", "Under penalties of perjury, I declare", "Employee's signature (This form is not", "First date of Employer identification", "For Privacy Act and Paperwork Reduction", "Form W-4 (2026) Created 12/8/25"], "why": "The opening words of each paragraph, list item and heading, in reading order: catches swapped or moved paragraphs (#330)."},
+    {"contains_in_order": ["W-4 Form", "Step 1: Enter", "Form W-4 so", "Form W-4 to", "No. 1545-0074", "2026", "at 800-772-1213 or", "page 2 for", "at www.irs.gov/W4App to", "Steps 2–4 ONLY", "Step 5. See page 2 for", "at www.irs.gov/W4App.", "Step 2: Multiple", "you (1) hold", "or (2) are", "at www.irs.gov/W4App for", "Steps 3–4). If", "page 3 and", "Step 4(c) below;", "Form W-4 for", "Step 2(b) if", "Step 2(b) is", "Steps 3–4(b) on Form W-4 for", "Steps 3–4(b) on", "Form W-4 for", "Step 3: Claim", "Step 4: Other", "be $200,000 or less ($400,000 or", "age 17 by $2,200 .", "by $500 .", "3(a) $", "3(b) $", "3", "4(a)", "4(b)", "4(c)", "page 4 to", "3 $", "Step 5: Sign", "for 2026, and", "for 2026. See", "page 2. I", "Form W-4 for 2027 .", "page 4.", "No. 10220Q", "Form W-4 (2026) Created 12/8/25"], "why": "Every number with a word either side, in reading order: catches a changed digit (#330)."},
+    {"heading": {"text": "W-4 Form", "levels": [2, 2]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"heading": {"text": "Step 1: Enter Personal Information", "levels": [3, 3]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"heading": {"text": "Step 3: Claim Dependent and Other Credits", "levels": [2, 2]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"heading": {"text": "Step 4: Other Adjustments", "levels": [2, 2]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"heading": {"text": "Exempt from withholding", "levels": [2, 2]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"heading": {"text": "Step 5: Sign Here", "levels": [2, 2]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"heading": {"text": "Employers Only", "levels": [2, 2]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"table": {"rows": 3, "cells": ["(a) First name and middle initial", "Address", "City or town, state, and ZIP code"]}, "why": "Its rows, and the longest cell of each: catches a dropped row (#330)."},
+    {"table": {"rows": 6, "cells": ["3(a)", "3(b)", "3", "4(a)", "4(b)", "4(c)"]}, "why": "Its rows, and the longest cell of each: catches a dropped row (#330)."}
+  ]
+}

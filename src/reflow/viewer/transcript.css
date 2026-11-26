@@ -1,0 +1,282 @@
+/* The transcript's markup (render.html), styled once for every place that shows it: the
+   standalone HTML (render.html concatenates this file before viewer.css into assets/viewer.css)
+   and the web viewer and inspector (web/src/reflow/react/transcript.css imports it). Rules are
+   scoped to .reflow-transcript, the class of the element that holds the pages.
+
+   Each place keeps its own look through the tokens below. The defaults are the standalone HTML's;
+   the web sets its own values in transcript.css. */
+.reflow-transcript {
+  --rt-fg: var(--fg);
+  --rt-bg: var(--bg);
+  --rt-muted: var(--muted);
+  --rt-rule: var(--rule);
+  --rt-bar: var(--focus);            /* the bar at the start of a form note */
+  /* Type and rhythm: body text, then each heading as a size relative to it. Spacing is
+     in em, so it follows the size of the text it spaces. */
+  --rt-size: 1.0625rem;
+  --rt-leading: 1.55;
+  --rt-measure: 70ch;                /* the longest line of running text */
+  --rt-h1: 1.875em;
+  --rt-h2: 1.5em;
+  --rt-h3: 1.25em;
+  --rt-h4: 1.125em;
+  --rt-h5: 1em;
+  --rt-h6: .9375em;
+  --rt-heading-leading: 1.25;
+  --rt-heading-above: 1.5em;         /* in the heading's own size */
+  --rt-heading-below: .45em;
+  --rt-flow: .85em;                  /* below a paragraph or a list */
+  --rt-item: .3em;                   /* between list items: well below --rt-flow */
+  --rt-lead: .25em;                  /* below a bold lead-in, so it sits on what it introduces */
+  --rt-tracking: .04em;              /* a heading printed in capitals */
+  --rt-small: .95rem;                /* captions, tables, notes about the page */
+  --rt-continued: .95rem;
+  --rt-gap: 1.5em;                   /* above and below a figure or a table */
+  --rt-radius: 0;                    /* figures */
+  --rt-caption-leading: 1.4;         /* captions and notes about a figure, in --rt-small */
+  --rt-chip-pad: .2em .6em;          /* a logo or icon chip, and a missing image's note */
+  --rt-chip-radius: .375em;
+  --rt-chip-mark: 1.75em;            /* the height of the mark in a chip */
+  --rt-note-radius: 0;               /* the form note */
+  --rt-caption-pad: .4rem;
+  --rt-cell-pad: .3rem .6rem;
+  /* A table's header cells: a light band of the text colour, so it holds in either theme. */
+  --rt-head-bg: color-mix(in srgb, var(--rt-fg) 8%, var(--rt-bg));
+  --rt-doubt-offset: .25em;
+  --rt-doubt-thickness: 2px;
+  --rt-field-margin: .25rem .6rem;
+  --rt-cell-field-margin: .15rem;
+  --rt-label-size: .9rem;
+  --rt-label-gap: .15rem;
+  --rt-input-pad: .25rem .4rem;
+  --rt-fieldset-margin: .5rem .9rem;
+  --rt-fieldset-pad: .4rem .75rem .2rem;
+  --rt-legend-pad: 0 .35rem;
+  --rt-legal-indent: 1.6rem;
+  --rt-box-border: 1px solid var(--rt-muted);  /* a ruled box of text */
+  --rt-box-pad: .75em 1em;
+  /* A callout the page tints: a light band of the text colour, so the text keeps its
+     contrast in either theme. The PDF's own colour is never set behind text. */
+  --rt-fill-bg: color-mix(in srgb, var(--rt-fg) 6%, var(--rt-bg));
+  /* The accents a run printed in a colour is shown in (analyze.marks): each at least 4.5:1 on
+     the page and on the tints above, in the light theme and in the dark one. Colour is never the
+     only signal; the run keeps any bold it has. */
+  --rt-ink-red: #b42318;
+  --rt-ink-green: #067647;
+}
+@media (prefers-color-scheme: dark) {
+  .reflow-transcript {
+    --rt-ink-red: #f97066;
+    --rt-ink-green: #47cd89;
+  }
+}
+
+.reflow-transcript { font-size: var(--rt-size); line-height: var(--rt-leading); }
+
+/* Element rules sit in :where() so the classes below and each place's own rules (the page
+   label, the form controls) override them without a fight over specificity. */
+.reflow-transcript :where(h1, h2, h3, h4, h5, h6) {
+  line-height: var(--rt-heading-leading); margin-block: var(--rt-heading-above) var(--rt-heading-below);
+  margin-inline: 0; text-wrap: balance;
+}
+.reflow-transcript :where(h1) { font-size: var(--rt-h1); font-weight: 700; margin-block-start: .75em; }
+.reflow-transcript :where(h2) { font-size: var(--rt-h2); font-weight: 700; }
+.reflow-transcript :where(h3) { font-size: var(--rt-h3); font-weight: 600; }
+.reflow-transcript :where(h4) { font-size: var(--rt-h4); font-weight: 600; }
+.reflow-transcript :where(h5) { font-size: var(--rt-h5); font-weight: 600; }
+.reflow-transcript :where(h6) { font-size: var(--rt-h6); font-weight: 600; }
+/* A heading printed in capitals (render.html._in_capitals): spaced a little. */
+.reflow-transcript .caps { letter-spacing: var(--rt-tracking); }
+/* A run printed in capitals, shown in sentence case (render.casing, docs/display-case.md): the
+   printed words stay in the DOM at no size, for screen readers, copying and the download, and
+   the sentence-case form in data-sc is drawn in their place with an empty alternative, so a
+   screen reader does not read it as well. A browser without that syntax shows the capitals. A
+   find hit or a jump inside the run shows the printed words, which is what it matched. */
+@supports (content: "x" / "") {
+  .reflow-transcript .sc > span { font-size: 0; }
+  .reflow-transcript .sc::before { content: attr(data-sc) / ""; }
+  .reflow-transcript .caps:has(.sc) { letter-spacing: normal; }
+  .reflow-transcript .sc:has(mark, [data-jump])::before { content: none; }
+  .reflow-transcript .sc:has(mark, [data-jump]) > span { font-size: inherit; }
+}
+
+.reflow-transcript :where(p, ul, ol) { margin-block: 0 var(--rt-flow); margin-inline: 0; }
+.reflow-transcript :where(p, li, h1, h2, h3, h4, h5, h6, figcaption) { max-inline-size: var(--rt-measure); }
+.reflow-transcript :where(p) { text-wrap: pretty; }
+/* A paragraph wholly in bold (render.html._bold_lead_in) belongs to what follows it. */
+.reflow-transcript .lead { margin-block-end: var(--rt-lead); }
+
+.reflow-transcript :where(ul, ol) { padding-inline-start: 1.5em; }
+.reflow-transcript :where(ul) { list-style-type: disc; }
+.reflow-transcript :where(ul ul) { list-style-type: circle; }
+.reflow-transcript :where(ol) { list-style-type: decimal; }
+.reflow-transcript :where(ol[type="a" s]) { list-style-type: lower-alpha; }
+.reflow-transcript :where(ol[type="A" s]) { list-style-type: upper-alpha; }
+.reflow-transcript :where(ol[type="i" s]) { list-style-type: lower-roman; }
+.reflow-transcript :where(ol[type="I" s]) { list-style-type: upper-roman; }
+.reflow-transcript :where(li) { margin-block: 0; }
+.reflow-transcript :where(li + li) { margin-block-start: var(--rt-item); }
+.reflow-transcript :where(li > ul, li > ol) { margin-block: var(--rt-item) 0; }
+.reflow-transcript :where(li)::marker { color: var(--rt-muted); }
+
+.reflow-transcript a { color: var(--link); text-decoration: underline; }
+.reflow-transcript .i { font-style: italic; }
+.reflow-transcript .caption, .reflow-transcript figcaption { color: var(--rt-muted); font-size: var(--rt-small); }
+.reflow-transcript .continued { color: var(--rt-muted); font-size: var(--rt-continued); font-style: italic; }
+.reflow-transcript :is(h2, h3, h4, h5, h6) { scroll-margin-top: 1rem; }
+
+/* A footnote: a note with its marker and backlinks (render.html._footnote). */
+.reflow-transcript .footnote { font-size: .9rem; color: var(--rt-muted); margin: .25rem 0; }
+.reflow-transcript .footnote a[role="doc-backlink"] { margin-inline-end: .35em; }
+/* A raised marker, a note reference's or one no note claims: raised without opening
+   the gap above its line. */
+.reflow-transcript sup { line-height: 0; }
+
+/* A calendar day's key label or list note, copied from elsewhere on the page (render.annotations). */
+.reflow-transcript :is(.day-status, .day-note) { font-size: .9em; color: var(--rt-muted); }
+
+/* A word OCR may have misread: a dotted underline, so it is not colour alone. */
+.reflow-transcript .ocr-doubt {
+  text-decoration: underline dotted var(--rt-doubt-thickness);
+  text-underline-offset: var(--rt-doubt-offset); cursor: help;
+}
+/* A word a reviewer corrected: the same dotted underline, so the page shows it was changed. It
+   stays in print, where the tooltip does not. */
+.reflow-transcript .reviewed-fix {
+  text-decoration: underline dotted var(--rt-doubt-thickness);
+  text-underline-offset: var(--rt-doubt-offset); cursor: help;
+}
+/* A tracked change on a scanned bill: inserted words underlined, deleted ones struck, and a
+   struck word OCR could not read a struck ellipsis that holds no text (render.html._UNREAD). */
+.reflow-transcript ins { text-decoration: underline; }
+.reflow-transcript del { text-decoration: line-through; }
+.reflow-transcript .unread-word > span::before { content: "\22EF"; }
+
+/* A figure is shown as its role in the model says (render.html._figure, data-figure). */
+.reflow-transcript figure { margin-block: var(--rt-gap); margin-inline: 0; }
+.reflow-transcript figcaption { margin-block-start: .5em; line-height: var(--rt-caption-leading); }
+.reflow-transcript figure img { max-width: 100%; height: auto; background: #fff; border-radius: var(--rt-radius); }
+/* A picture at the size it is printed (--w, in points), never wider than the column. */
+.reflow-transcript figure[data-figure="content"] img { inline-size: var(--w, auto); }
+/* A logo or an icon: a compact chip, the mark at the height of a line, its description beside it. */
+.reflow-transcript figure:is([data-figure="logo"], [data-figure="icon"]) {
+  display: flex; flex-wrap: wrap; align-items: center; gap: .25em .5em;
+  inline-size: fit-content; max-inline-size: 100%; box-sizing: border-box;
+  margin-block: 0 var(--rt-flow); padding: var(--rt-chip-pad);
+  border: 1px solid var(--rt-rule); border-radius: var(--rt-chip-radius);
+  color: var(--rt-muted); font-size: var(--rt-small); line-height: var(--rt-caption-leading);
+}
+.reflow-transcript figure:is([data-figure="logo"], [data-figure="icon"]) img {
+  inline-size: auto; block-size: var(--rt-chip-mark); max-inline-size: 8em; object-fit: contain;
+}
+.reflow-transcript figure:is([data-figure="logo"], [data-figure="icon"]) > :is(figcaption, details) {
+  flex-basis: 100%; margin: 0;
+}
+/* Writing no text transcribes: the crop at its size in a dashed frame that fits it, with
+   reflow's note under it. */
+.reflow-transcript figure.unread {
+  inline-size: fit-content; max-inline-size: 100%; box-sizing: border-box;
+  border: 1px dashed var(--rt-muted); border-radius: var(--rt-radius); padding: .5em .75em;
+}
+.reflow-transcript .unread-note {
+  color: var(--rt-muted); font-size: var(--rt-small); line-height: var(--rt-caption-leading);
+  margin-block: .35em 0;
+}
+/* A figure with no image file: a quiet note in a dashed frame, with the alt it would have. */
+.reflow-transcript .figure-alt {
+  inline-size: fit-content; max-inline-size: 100%; box-sizing: border-box;
+  border: 1px dashed var(--rt-muted); border-radius: var(--rt-radius); padding: var(--rt-chip-pad); margin: 0;
+  font-size: var(--rt-small); line-height: var(--rt-caption-leading);
+}
+.reflow-transcript .figure-alt-label { color: var(--rt-muted); }
+/* What a model drafted (render.html NodeRenderer.render): a bar at its start and a badge that
+   says so, on screen and in print. */
+.reflow-transcript .ai-draft { border-inline-start: 3px solid var(--rt-muted); padding-inline-start: .6rem; }
+.reflow-transcript .ai-badge { display: inline-block; color: var(--rt-muted); font-size: var(--rt-small); font-style: italic; }
+@media print { .reflow-transcript .ai-draft { border-inline-start-color: #000; } .reflow-transcript .ai-badge { color: #000; } }
+
+.reflow-transcript .table-wrap { overflow-x: auto; margin-block: var(--rt-gap); margin-inline: 0; }
+.reflow-transcript table { border-collapse: collapse; font-size: var(--rt-small); }
+.reflow-transcript caption { text-align: start; color: var(--rt-muted); padding-bottom: var(--rt-caption-pad); }
+.reflow-transcript :is(th, td) {
+  border: 1px solid var(--rt-rule); padding: var(--rt-cell-pad); text-align: start; vertical-align: top;
+}
+.reflow-transcript th { font-weight: 600; }
+/* Header cells sit on a band, with a heavier rule under the header row; a row's own header stays
+   bold on the page's background. */
+.reflow-transcript :is(thead th, th[scope="col"], th[scope="colgroup"]) { background: var(--rt-head-bg); }
+.reflow-transcript thead { border-block-end: 2px solid var(--rt-fg); }
+/* A form's section bar is a heading in its cell: set as the bar, not as a page heading. */
+.reflow-transcript :is(th, td) > :is(h2, h3, h4, h5, h6) { font-size: 1em; margin: 0; }
+
+/* A legal list shows each printed label ("(a)", "(ii)") as text; nested runs indent under it. */
+.reflow-transcript ol.legal { list-style: none; padding-inline-start: 0; }
+.reflow-transcript li > ol.legal { padding-inline-start: var(--rt-legal-indent); }
+.reflow-transcript ol.legal > li { padding-inline-start: 0; }
+.reflow-transcript ol.legal .marker { display: inline-block; min-width: 2.2em; }
+
+.reflow-transcript .form-note {
+  border: 1px solid var(--rt-rule); border-inline-start: 4px solid var(--rt-bar);
+  border-radius: var(--rt-note-radius); padding: .5rem .75rem; font-size: var(--rt-small);
+}
+/* A ruled box of text (render.html._box): its blocks framed together, as the page rules them. */
+.reflow-transcript .ruled-box {
+  border: var(--rt-box-border); padding: var(--rt-box-pad); margin-block: var(--rt-gap);
+  max-inline-size: var(--rt-measure);
+}
+.reflow-transcript .ruled-box > :last-child { margin-block-end: 0; }
+/* A box the page tints (render.html._box): its blocks on a light band, no frame. */
+.reflow-transcript .filled-box {
+  background: var(--rt-fill-bg); border-radius: var(--rt-note-radius); padding: var(--rt-box-pad);
+  margin-block: var(--rt-gap); max-inline-size: var(--rt-measure);
+}
+.reflow-transcript .filled-box > :first-child { margin-block-start: 0; }
+.reflow-transcript .filled-box > :last-child { margin-block-end: 0; }
+.reflow-transcript .ink-red { color: var(--rt-ink-red); }
+.reflow-transcript .ink-green { color: var(--rt-ink-green); }
+/* That OCR read the page (render.html.ocr_note), and that a reviewer corrected words on it
+   (render.html.review_note). */
+.reflow-transcript :is(.ocr-note, .review-note) {
+  color: var(--rt-muted); font-size: var(--rt-small);
+  border-inline-start: 4px solid var(--rt-rule); padding-inline-start: .75rem;
+}
+
+/* Form fields (fillable PDF forms): real controls, for reading and typing along. Nothing is
+   submitted. The width follows the printed box (--w, in points), never wider than its cell. A
+   field's label is set in the text colour and weight, so it reads before its box. */
+.reflow-transcript .field { margin-block: var(--rt-field-margin); margin-inline: 0; }
+.reflow-transcript .field label {
+  display: block; font-size: var(--rt-label-size); font-weight: 600; color: var(--rt-fg);
+  margin-block-end: var(--rt-label-gap);
+}
+.reflow-transcript .field-check { display: flex; align-items: baseline; gap: .5rem; }
+.reflow-transcript .field-check label {
+  display: inline; font-size: 1rem; font-weight: 400; color: var(--rt-fg); margin: 0; overflow-wrap: anywhere;
+}
+.reflow-transcript .field input:is([type="text"], [type="email"], [type="tel"]), .reflow-transcript .field select,
+.reflow-transcript .field textarea {
+  box-sizing: border-box; width: min(100%, max(var(--w, 12rem), 6rem)); max-width: 100%;
+  min-height: 2rem; padding: var(--rt-input-pad); font: inherit; color: var(--rt-fg);
+  background: var(--rt-bg); border: 1px solid var(--rt-muted); border-radius: 3px;
+}
+.reflow-transcript .field textarea { min-height: 4rem; resize: vertical; }
+.reflow-transcript .field :is(input[type="checkbox"], input[type="radio"]) { width: 1.1rem; height: 1.1rem; flex: none; }
+.reflow-transcript fieldset.fields {
+  border: 1px solid var(--rt-rule); border-radius: 3px;
+  margin-block: var(--rt-fieldset-margin); margin-inline: 0; padding: var(--rt-fieldset-pad);
+}
+.reflow-transcript fieldset.fields > legend { padding: var(--rt-legend-pad); font-weight: 600; }
+/* The text boxes under a section heading, grouped for assistive technology and named by that
+   heading (its legend is sr-only): no frame, so the section reads as it is printed. */
+.reflow-transcript fieldset.field-section { border: 0; border-radius: 0; margin: 0; padding: 0; min-width: 0; }
+.reflow-transcript td:is(:has(.field), :has(fieldset.fields)) { min-width: 7rem; }
+.reflow-transcript .field-row { display: flex; flex-wrap: wrap; align-items: flex-end; gap: .25rem .5rem; }
+.reflow-transcript .field-row > .field { min-width: 0; max-width: 100%; flex: 0 1 auto; }
+.reflow-transcript .field-row .field label { overflow-wrap: break-word; }
+.reflow-transcript .field-row .field input:is([type="text"], [type="email"], [type="tel"]) { width: max(var(--w, 5rem), 2.5rem); min-width: 2.5rem; }
+.reflow-transcript td :is(.field, fieldset.fields) { margin-block: var(--rt-cell-field-margin); }
+
+@media print {
+  .reflow-transcript :where(h1, h2, h3, h4, h5, h6, .lead) { break-after: avoid; }
+  .reflow-transcript :where(p, li) { orphans: 2; widows: 2; }
+}

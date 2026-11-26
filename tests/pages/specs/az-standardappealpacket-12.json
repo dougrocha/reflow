@@ -1,0 +1,53 @@
+{
+  "doc": "az-standardappealpacket",
+  "page": 12,
+  "description": "Appeal request form with no AcroForm: its blanks, printed as long underscore runs, are inputs named by their captions, and the three ruled lines under \"Explain why you believe ...\" are one multiline input named by that sentence. The signature line is an input named \"Signature of member or authorized representative\" (the PDF has no signature field to use). No underscores stay (#281, F7). The boxes the form draws are check boxes with their own words as labels: \"Type of Appeal/Grievance\" is a group of Denied Claim, Denied Service Not Yet Received and Cost Share Dispute (each box is labelled by the words right of it, not by the question left of the first), and the two boxes under \"including:\" are Medical Records and Supporting Documentation.",
+  "assertions": [
+    {
+      "min_recall": 90
+    },
+    {
+      "no_blank_runs": true
+    },
+    {
+      "fields": {
+        "text": 14,
+        "checkbox": 5
+      }
+    },
+    {
+      "field_labels": {
+        "Member Name": 1,
+        "Member ID #": 1,
+        "Name of representative pursuing appeal, if different than above": 1,
+        "Phone #": 1,
+        "Mailing Address": 1,
+        "City": 1,
+        "State": 1,
+        "ZIP Code": 1,
+        "Claim # (if applicable)": 1,
+        "Date of Service": 1,
+        "What action or decision are you disputing?": 1,
+        "Explain why you believe the decision or action was wrong and what you would like BCBSAZ to do differently:": 1,
+        "Signature of member or authorized representative": 1,
+        "Date": 1
+      }
+    },
+    {
+      "field_group": {
+        "legend": "Type of Appeal/Grievance",
+        "type": "checkbox",
+        "options": [
+          "Denied Claim",
+          "Denied Service Not Yet Received",
+          "Cost Share Dispute"
+        ]
+      }
+    },
+    {
+      "labelled_once": [
+        "Medical Records"
+      ]
+    }
+  ]
+}

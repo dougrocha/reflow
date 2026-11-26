@@ -1,0 +1,2333 @@
+{
+ "321ea905ce635bf89e58efee01fa4c39e6c21d8e46bf7b83e6387f1c30977d94": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:ea414259fab8"
+ },
+ "d1c57ea8fb3d2bec08226942492e9da4695a9f725a0a3b236da92bf807170eed": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:1242ed6ef8b5"
+ },
+ "68f2235a47f038454728cefb31218d28f8c58fc9880e248ec5eb6500ffa7ba67": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:c79a7a20bad0"
+ },
+ "3a4dc09abbc1ad45fa2629b4dc611579cb2bd94be377d9a2e58e70aec6a8c210": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:5adc25c6eed5"
+ },
+ "63e5d0fea8adf6d67700bdf2f6cc35f1110d279a84188844729ba8ae141fa798": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:e28e78baa717"
+ },
+ "ab3ecaee62065b874b3ecf67818d09389fb12fceae2b6e782d4e541a55a315a8": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:617853608a52"
+ },
+ "20b002630a1b046b11d62370e1ba631f8dfc7dbbe06263a98bd25376c0e909d9": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:f1cce5884a95"
+ },
+ "64e023d5aa80b3baa865f16b6a03ea52cf2d88b7d5428979ac50d011d0bb8cd2": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:6b626abbdaae"
+ },
+ "e91ceaf2bcae073fd29773e9bb93a620bc478aa9e8e5b21aa9f0f79bea5d1e3f": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:377dc55dddcb"
+ },
+ "6b6bd1650c95513591bcc1f7ab8b5270000416b1e074044f6c7b2196cf85f8bf": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:9ffeb2384fd3"
+ },
+ "75321f449c53e49e250e1cfe1e91e517f28c0e9dc183fe96f5c3afb05736fe10": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:e6b50cda0647"
+ },
+ "f22596526fce72418a668f0e8c19e08aee71780e1f781a29cb94bcd736c79978": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:2131e044b599"
+ },
+ "d874bb2fe172da15c99b8bd60671178e555ed4713e57a1e55f2800eb9ef1b5d8": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:c09654357283"
+ },
+ "d58fe363f420ecdcdcfcbbfd47c97442352d7320cea4753dfa1079263edb9dba": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:aa036b236699"
+ },
+ "b69ca3bc6c51cd27d6639a2ae7abd40c1e6e845e0eb95bb3788a6af40740301f": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:f104ae130e41"
+ },
+ "3a7a6a4563fa1a8fe10797f6b8c6e986a48b7b9ad2a5051f812c0d675d82daa4": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:82e3310c2be7"
+ },
+ "463dbbf0e7377f14bd5a2ec7472b8c1fe7d24bdc3ca4882fe40f4194cec82ecc": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:a884d30c184f"
+ },
+ "43d9ead89915a2ab420ee6693a81d969ede43fe945e36e7dc62344186d516868": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:f45d95f59e63"
+ },
+ "c6df6adb5d1b37c04e50e77f80037cb948bff846f0091df0a8cbf7df55caf975": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:5d9f3136ab18"
+ },
+ "055f5086b3a95601cb6a71ed51624396d0af1ef91c85e53e1890c5f8ca9f5e5a": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:ed9b0f65b7c1"
+ },
+ "1ca2042689e505ef25a0e5346797905f1fa79416b89bb129674afe248e11df29": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:18aece13f4cd"
+ },
+ "ac3e07ad66d3238e98803f4d918765e6333c6c1299c88e6b84bf25838710aa74": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:405e462d43ba"
+ },
+ "ae7f18cd34397aee5aaa7dbd3d5f0937ad82f66b6ade23a7a5ecf9f7020c7d02": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:79df71c8e49f"
+ },
+ "23c38e2369a4028022eae5b86aa8c5a8e222bb1b4a36aa70a5e5cca98ba2b898": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:8c78bcbaf508"
+ },
+ "78e786ea888f6d21aa2385ff142e42bdf643a1f0302e70e717e680b7b6fe1ddf": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:36edef933361"
+ },
+ "12824a9607be02175a5d23b2289a80613b6d5f97acf9582dd01b00ef8278398f": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:b33c797515d2"
+ },
+ "00691bbd9edacee10999fe473161af044e5c91fb2cc4394920357339cc3e6f75": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:47c42054fb80"
+ },
+ "3858535124ec8c82407bd9bc65dd6e2def63154b8bb85c59a9dc0fac2dce3d5a": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:12b9b8048413"
+ },
+ "4d1042da32cb0b2b863eb7142837cd6cd6b8c0405d5d94183baddde99b5d5ea2": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:b4d1d3beb0f3"
+ },
+ "b44d903caf8353e5c56a8194660ce709b05ea9c1f2bbf8375b5d6e7eda2e948d": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:03c9d46b3d01"
+ },
+ "b24c1db8281cb8f473ef8f58e7532de6982c47d2ebb54975e301c7e2de9201fc": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:bd589870b919"
+ },
+ "a4c748a25eb63921d248453444a83c6097818885cef85bf0e9c022f46e870221": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:409e44eae1ae"
+ },
+ "1d569849c6013539e926ec646db9a50ddcb3fa15fe5e90f6c04ef1973bb3f278": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:060c6609084d"
+ },
+ "7cb074caea8d322b6ce094ffd3f08ed18dde6b40bc4a03835d4e55741b2de9a2": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:b1527d009335"
+ },
+ "ad6eb69b3ef9a73b8a920820279604b51e2ee4af68cc50dec1feac21c6734fad": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:ce17967b5629"
+ },
+ "31d175372570c9242e2ef049a2f97ec642a11b6e7f50fdad56704d72c72fdebc": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "claude-haiku-5-5",
+  "prompt_version": 1,
+  "page": 4,
+  "node": "4:688f479ff223"
+ },
+ "9d8b3d5e251cc39e358cbb6482c06c3f3bb521ceec8980652e0a26c34c7b0e52": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:ea414259fab8"
+ },
+ "935a90e489137c23fda8686e3da3c21d2c5bd12a46ef1d7d0641e9d3d5d5eb28": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:1242ed6ef8b5"
+ },
+ "a2c894bbae96d642f7923ba0ec468b81aa16e9f160913fe030abfec639b562de": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:c79a7a20bad0"
+ },
+ "4d51e2e9792f79aed6e5cdf0b271d3697a97f0f19d9c7b74381c73e252deb1a4": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:5adc25c6eed5"
+ },
+ "abca3b64941c1e6d1314c4dd646e0ca1d249762abe421cd9f42af009f0a66c7d": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:e28e78baa717"
+ },
+ "42c7754920ca5cdb446e56cf665729f8075dd5dec43d4186ef6401abe7cff3e1": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:617853608a52"
+ },
+ "beb53407b33e1200310e4eb119d815795e2da6fd7426d4ee54e43710e5305f02": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:f1cce5884a95"
+ },
+ "ae89f136a2fcd4c4b92b796d47d216db3705d10552db6c259ba93b44a605f28a": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:6b626abbdaae"
+ },
+ "f8bc993a55e79a9b01779bc1aac596f481d7bd77054c81afbd5aab09e67ddc76": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:377dc55dddcb"
+ },
+ "167e69d6586b29dafb588aa4d4de77244004e40644b5f5be28d2f5aaa0d36d5c": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:9ffeb2384fd3"
+ },
+ "ab92e0286050447ad9f097c0f848bb8d05ac1ce492d88051783d4ce7ceb9ef40": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:e6b50cda0647"
+ },
+ "7adde0339698fa643dd62ba36eae4b1b4b3f01d80ce2a3d92f94737b90a351d7": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:2131e044b599"
+ },
+ "fb61d8499ecc21667286f35fd39076d60877029e66a1587ce7abe7ede5cc3658": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:c09654357283"
+ },
+ "214b40547f282aa749945c49a37bed6b9499046de0399edf7e9050fed351c462": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:aa036b236699"
+ },
+ "e2c05fde30b7f693b7e10301b6c499ba684fd1b49d28d4d027cf026bdeae9642": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:f104ae130e41"
+ },
+ "63cdcff57161988a8cd97dc0eab97797a0a84c0d76e462bd2bcdbdaefaaabb48": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:82e3310c2be7"
+ },
+ "58843b9dac5f0d1af17709b6fed40642c82bef9b1e80cf95bbdd00edf6950e81": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:a884d30c184f"
+ },
+ "cdb17a46958a6fb3e978be7b429a4fe5f577cffd8d33715cf555853c3505bc44": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:f45d95f59e63"
+ },
+ "eace6faf5ff0feed6f3a3debc7877679044e9c4f3663b52c3e7e7c90871c9cc3": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:5d9f3136ab18"
+ },
+ "bec2862624f02c349cc5d43bf5f38d386e88ff21b293b48b8e5d3477628eb7f4": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:ed9b0f65b7c1"
+ },
+ "d62e69ff8f7a7c8d82a6c0ad783ad77a63ab42e005f08d40012add2a350b7eac": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:18aece13f4cd"
+ },
+ "2f86e6d65e68ec9e453b11429d1fe6a8c4c5b6c9132ec333cbd8ccdfe2ed7b28": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:405e462d43ba"
+ },
+ "52d22294978f42da50d26480d918d5d3e0aaf9babd4c18e4905b7cc4d8b52f20": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:79df71c8e49f"
+ },
+ "4cdb1560bea9e9e47ca789aaad70bb97952cd30b53e7bc7a658e89ef1ea57df2": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:8c78bcbaf508"
+ },
+ "f1d0d65f4ddbcdb00a4c128e4f27423c702941c8c4effcd214e6c39fdc9d1c6e": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:36edef933361"
+ },
+ "514cd906c93b571f3e5c61baace8f5ccc7c3e9d31734e3aa1fe8eeeffbc06e67": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:b33c797515d2"
+ },
+ "3d756556af11f3523b0088760fc79ec1bb2a246344685f5c25037c1b06637c40": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:47c42054fb80"
+ },
+ "6d2b6672ce2917d9cea5d9be5cf1d990da4c87020da9666cc8543ac0d85780d8": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:12b9b8048413"
+ },
+ "92549dfd8ea5cc7acc8452aa6852e5b079aafe11b300614859f197deb3947ad1": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:b4d1d3beb0f3"
+ },
+ "458a5edcb8c77deae5107e310d173efa706782a4c9fe3b5ef3142ea0316fcf05": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:03c9d46b3d01"
+ },
+ "c484b10e6c5a6bfc6ec7d9154b79a98d0ad036e36e572604ad2b901d4a7d62b4": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:bd589870b919"
+ },
+ "7c0506a6297fcab3fe6ba82cf0385bec79fbb8dd41429b50aee1afad3c830cd0": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:409e44eae1ae"
+ },
+ "ed51a5752303c64f06aa3868774541fd744922d72cbd533c1a20084e501f6dcb": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:060c6609084d"
+ },
+ "551139f38b88744edbf983a809fd63dce72b1e245fa4b918b4d83f16c742b94b": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:b1527d009335"
+ },
+ "048d82a5f0df4e209c331a82103b6781c0663bacd58224bf4f0ec3e4819db1ff": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:ce17967b5629"
+ },
+ "c805c4a7c3db05678eedd0c3cb7156a33da8c6830e538613256c5e87135079a2": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "qwen3-vl:8b",
+  "prompt_version": 1,
+  "page": 4,
+  "node": "4:688f479ff223"
+ },
+ "0713bc025137c8e603c5cb59d6c1e1e1bfcd5024e301008d640213639363ab08": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:ea414259fab8"
+ },
+ "b35accac4e08dc7269cc86c49afef2a14b338f4aa838050d6f2be6e89042e8ca": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:1242ed6ef8b5"
+ },
+ "79377c375cd7062b02c6f3c08c68593e7571cf2578b5957bd9ead14603ac2ded": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:c79a7a20bad0"
+ },
+ "fec8fcd42efbcc26113bf3f1f1d7a74dceac0db7e625190ab9f3d2ccb3a3306c": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:5adc25c6eed5"
+ },
+ "0f60f1c56504b3f31e79700940be0c503176518b43f655457229171e8ab220d8": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:e28e78baa717"
+ },
+ "6baa1a56573a217430af9c0e27faabf1db1c8b6e47ed41ea16a82c8c298f2bfe": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:617853608a52"
+ },
+ "5a3ed4602e070b307162f62500454017ebd2b7821cef25a6c2bc1a1b6f6eec88": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:f1cce5884a95"
+ },
+ "533b3ff78fcbac418e15d4fd18c643213427aa688a1d5ca5df2e6cc30c52fe65": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:6b626abbdaae"
+ },
+ "537755c29eea9db8f096de5005eb7cad8f25503f13b0236fa24204a1ee0354b9": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:377dc55dddcb"
+ },
+ "8fd7cd58fbd1569ef94a4fb89ed5fd5aae0d9f986df863edc4c3710ed8489756": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:9ffeb2384fd3"
+ },
+ "4bad5814d57aeaa24f2aef0571b38886fad13a8d0f70058abc224ada937129fa": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:e6b50cda0647"
+ },
+ "464e9471d8884d7304a5d8c25db36aae63e81c62faf7f29f173a8727b11845e5": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:2131e044b599"
+ },
+ "91fb075f924b275a09d019114f44310dc96a3a447bc5b0ef9c10c35e5447efb7": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:c09654357283"
+ },
+ "b2a8998d2b17be2c19734df292f47d9189eb4c455d1696a2768f335cebcd939b": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:aa036b236699"
+ },
+ "f568b15b9c0893eb28cdc4d28d999b04b597291cacca8c23c737adec66d9492b": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:f104ae130e41"
+ },
+ "a4099890e241ed1f653b06cb85c577c377071742c56b3a199a2e61a46748dfc7": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:82e3310c2be7"
+ },
+ "04c529e2c48e75428735afed3e4c7910eaf3726668645cedb0f53369189dea9d": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:a884d30c184f"
+ },
+ "3cb6f7f56e5c25c9fcdb2155fd99699ea09d613cb1e3720973dc35be4a42b38e": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:f45d95f59e63"
+ },
+ "da19e4a9dc2b70c7f70b5123f125ae311a8c8cb67918fbf96124308766e5f3cb": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:5d9f3136ab18"
+ },
+ "280a468a3f3f9a3c69e9965b59c008253a34441e52590254c8c44319a9ff63f1": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:ed9b0f65b7c1"
+ },
+ "ab36e6d06fb882f6adf9ceb1fd1a5bc17922fe433d35577cf33f93bdcd0d660f": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:18aece13f4cd"
+ },
+ "985c1e5a581131960fa98c12af728bcdc2dcb219d1746a11255500aed62133a9": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:405e462d43ba"
+ },
+ "51476f2dd4b5b8a2825a7afd22c865d57774a0b6545852e854d87a14fe4b84fd": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:79df71c8e49f"
+ },
+ "67b0ddb6437cd80d24c3fe133f257a2a722c6f9f24ca0d9e13130b218f999e33": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:8c78bcbaf508"
+ },
+ "99cf1d11b65fd8d09bd20f6e82dcc153fac8463211e52f3b73a2b82e4ae9e3dd": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:36edef933361"
+ },
+ "0d69ff1b8458dea4c90e78f94c33f389f87d2b2fb2a979352667821790e2183c": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:b33c797515d2"
+ },
+ "3b7ce0c91105685203e0e64a45911c78d652d53f550fca5d0663d24b0d9c1250": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:47c42054fb80"
+ },
+ "3d273d47bf78cc657a54181c21c6ee037e8f76fbd704b833e216e5072e635e78": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:12b9b8048413"
+ },
+ "4a2b2063b5eb10d681ae50fbd0726078825b348cdb3b0ecc8a8f555b797d55c5": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:b4d1d3beb0f3"
+ },
+ "037fe14643581ce2f1f906aebfa01e378039ab7363db5cd452bfd74cf4107023": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:03c9d46b3d01"
+ },
+ "2c16813dd728b63cf9922e161e6838fee433256ca77f4fd3bbf0b1dc3f5e9e28": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:bd589870b919"
+ },
+ "30a0012210294cb542a57e346dbdd15c47ff7400dd5d4d9de8c805c510787cca": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:409e44eae1ae"
+ },
+ "02f38261727df6c5e311fd9e3d377e1fcb501610ec4e7c3009725d83520eeb2c": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:060c6609084d"
+ },
+ "7e1eda69d0173b1a92577459f9ac52d913ccdf672fbdc7f0c3c3ae0cb29df19c": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:b1527d009335"
+ },
+ "58f7aab83e9019629af96b4b8f872e0541bebdbfd3e0cf39d18a5bd82544b384": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:ce17967b5629"
+ },
+ "3266c92c31974c68fb083e82e9a09494b535191aa12212eb20547696069bf930": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:12b",
+  "prompt_version": 1,
+  "page": 4,
+  "node": "4:688f479ff223"
+ },
+ "96fe45f9420fa5a07cbb222ef6a797961387584d29669c66c99401e832ce1ada": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:ea414259fab8"
+ },
+ "77637eff8ff8dba73244de7728c45a955b8eaec981297c23f90ba98634986ac6": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:1242ed6ef8b5"
+ },
+ "b9ab69c4b917bb0801e75e83c9aef2ae7fedc0b0df8d8f37e00367653f154f8f": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:c79a7a20bad0"
+ },
+ "bc82c4870611c5a56ed0fae8546022603edcc2fce10dc10fcaff4b8367b80488": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:5adc25c6eed5"
+ },
+ "fc0dd6fc969725f19d58e48018c335926fb230a74a9220c465c1fd55f2942448": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:e28e78baa717"
+ },
+ "360a35f7f0276f05567d711a433f316c0edf0d2d75c4023e70001ef04a5c6127": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:617853608a52"
+ },
+ "5498fb5d455346729cee47a201894ee1ff11bc860ac7723032069eeecfce47cd": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:f1cce5884a95"
+ },
+ "8514db59006924ecd8b9251c02f4c3de6bb2f787b29fe219b5c12a07b01650d3": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:6b626abbdaae"
+ },
+ "c2de3b819053b35515675433fcd20e488441e5d3e79c6f2d593b5fa771cbc063": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:377dc55dddcb"
+ },
+ "e592e2a5ef835d68bfeedf1e57a46982423968da1e10652750e3ed2b737fdd8f": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:9ffeb2384fd3"
+ },
+ "b83ff5bee7db4f8450407d46e66424f7cde7245d2ac9e829a22645659576b679": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:e6b50cda0647"
+ },
+ "98965fd47b03bede49c3821e422b2802d59129b4975a7cadae3ec62549534b9a": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:2131e044b599"
+ },
+ "27a138973c3ddd2c34d0b9d67a7d01bacdebba349e9045922c483d977754c17b": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:c09654357283"
+ },
+ "a46355c1c3d35ae90595b6df05fa5307591317cf41c952f944d57815b68cc257": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:aa036b236699"
+ },
+ "ea1ebdecc5abb07840bd25e7031b43821fb94ccfe9089e1ea81ffb79433bde2b": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:f104ae130e41"
+ },
+ "3f333f746eac3bde931b520aa551e53719398699c1d0d4b7db372f34b1d9d7f3": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:82e3310c2be7"
+ },
+ "e49ed03db225acdd92b805b9d6041c206cbaf0444e8fc04dbdc7fbbda9df4712": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:a884d30c184f"
+ },
+ "497d6909941779dd26531e6386b7e290690bd09e5d4837c7b00dd5eedda6b144": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:f45d95f59e63"
+ },
+ "573a2f50fedbaadb4735bc876f166e1fb72f83367ed4a2261695990ec17722da": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:5d9f3136ab18"
+ },
+ "0ff1fb6aeab7b6ac53aa61a4599367f5a4852dedf2369362e55720c0ac2e96d9": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:ed9b0f65b7c1"
+ },
+ "19fba9086dc91864af03b91b972df6bd80308c9c4623de110aee8afd495ff5f9": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:18aece13f4cd"
+ },
+ "1f4bdbfe39c78e90a28916bb60a7661b2024a19182b45169792db39371c2ae74": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:405e462d43ba"
+ },
+ "6ade2fda7e3245f16b8a2dc42749ab24f882200db44092a9bb28532b787792aa": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:79df71c8e49f"
+ },
+ "2c42ce4898245bd701f44ce55040f43f2eb4041228030ce451076ddf27df32ad": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:8c78bcbaf508"
+ },
+ "e0ea96490255bce904c8fe7fb0a115e2edbe42be9685fed70bbeab8bdb3be98e": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:36edef933361"
+ },
+ "681dbce7e44469d46bc6dc6e72d532a16ab4794dde18df7aba3d8e9b9951ead8": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:b33c797515d2"
+ },
+ "8910a099fcb9debcbeba81b4661e737aa7770ecf2c0b54bfcf6f483ffc321867": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:47c42054fb80"
+ },
+ "eae9695581f7c8910b6b794a066da25b434c44e303ee1fd3f7d19977b1efcd0e": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:12b9b8048413"
+ },
+ "fc5ceb9adb0fea2f21e3ed32f4317cd1eb38514041b6ac526a0c4306e239c0ad": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:b4d1d3beb0f3"
+ },
+ "e387f205bca556075d724f8ac21a35c06d4582f9c52d9dba8ac355262bb54385": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:03c9d46b3d01"
+ },
+ "dfb67b03d93e7b96ae53199863d9b70c190f4f8a1736393184ec46e2254f902e": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:bd589870b919"
+ },
+ "c73a7118d43cebcb6fd53edccc2917278ffd228134ef3bfd6e77f9a5384980aa": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:409e44eae1ae"
+ },
+ "b8318b0d2818f1598adb799f6f9d08eaa01a7600f464996cd2df7660ba12032d": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:060c6609084d"
+ },
+ "cee4c4ba6839159c3eb3ab5a50893a197d81188bbe030bf1a30413cbfd7b5d74": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:b1527d009335"
+ },
+ "31ea611064a88e5a50354837e6725d0881e6233279010d6b082939e11ddc09f3": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:ce17967b5629"
+ },
+ "dc56e53c53c6aa94e0e3465a9edbaa5dcf6475ae6d4569e77df288a639436f2c": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "gemma4:e4b",
+  "prompt_version": 1,
+  "page": 4,
+  "node": "4:688f479ff223"
+ },
+ "294b46393a115f20a33161499f85d7b6eacb9ab04f515796576386675daa9601": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:ea414259fab8"
+ },
+ "d7a993f5e486bee825d8bcdb284210bf9289350217c2c93ea48c0056ef51b15d": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:1242ed6ef8b5"
+ },
+ "8d395d349d37538b595a7d48cd3a0f08d44841031235b218f4c1123603ce8da0": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:c79a7a20bad0"
+ },
+ "f5fadaa4c392bbf2ab609f510ce9f5ee6952b6aa280aefaa4590f45486af9603": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:5adc25c6eed5"
+ },
+ "15d2f2f82e0d4d84164d452a9ea0cb57f20f39a7c789d062224c5bb89c0692e6": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:e28e78baa717"
+ },
+ "3a9dbae1aff977a8311b0bbc5efaa97f099e797dfb0031f9afb7d2e01214311d": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:617853608a52"
+ },
+ "21291875a00c955ad5e6ab92fa3691a02eeda396c62ef20ca1825bdee932d6b1": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:f1cce5884a95"
+ },
+ "161b5bb7230870cfa607bfb939d193571190339bc9549a1d8872e4375ca62dea": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:6b626abbdaae"
+ },
+ "b05b31c37fface694062547ab1703adcf1c4efbde7d916d0c5ea0a9196506378": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:377dc55dddcb"
+ },
+ "9d90d63b8712e39ff51b9ec27cef06cffc1b440d3c2d5c75534e9c0ce1aab0e5": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:9ffeb2384fd3"
+ },
+ "2cbbf149229f598fb7c9432afbbc193799542e444f7bb786db4f0b5fcb1741cf": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:e6b50cda0647"
+ },
+ "55aaa7b8fa43a1da39e7aa357f6411a3548e2d6ea01e72f5738de8b198e0d417": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:2131e044b599"
+ },
+ "7f116375919d09a4ac93a01e89c58b7874701bfb464a1d8344e14b0ee42c8a39": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:c09654357283"
+ },
+ "62217da4320a67f75474ba241dda264e1e4d013468a4055303eb3dd68175702f": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:aa036b236699"
+ },
+ "f2c19ee79fd487fc13c674cb59901e824d48f720d23b11a2aa2a9ef1945601d1": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:f104ae130e41"
+ },
+ "c5fd4eada66b37b22a141b4ab3dc6615e6b10027c8be8f31c064e4316392d066": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:82e3310c2be7"
+ },
+ "cb989eeca40d898dd4b9df412413e49b7a817df21e7c250717cd5d7bab3a23b1": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:a884d30c184f"
+ },
+ "ed8fd8921a04fd8ad5e77023b1014e83ac8bd3fefca012d21e48f468bb4d40ac": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:f45d95f59e63"
+ },
+ "ff01c820b96b4330ef792228f01e770dc83e261f7ef07bc7412deb5b05266dc5": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:5d9f3136ab18"
+ },
+ "c300b81ea53af00e7c0b04cd6e98c1e255c3ff17cd2e8b65ffed3610c9981e26": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:ed9b0f65b7c1"
+ },
+ "4d79fe886e9c5e8481b056f730da5d1e1571d845f6e934ea01bec84e0ebb3598": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:18aece13f4cd"
+ },
+ "a9518abc170ccccad59c868523514317273043d8613d89cb490b0f52de44621f": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:405e462d43ba"
+ },
+ "401c2ac2dafa8a4c22822da33b97d93474433d73a78a7e3f472bb8c7a0f56fc7": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:79df71c8e49f"
+ },
+ "5309ca82f43215a0c2a321befdeeecfcc927720ca82d021528605fe1db7cfa9a": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:8c78bcbaf508"
+ },
+ "e44faebf5e26d52755ff0844b3a0ebfa231a5484c899a11b9cf89a2597cceb6f": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:36edef933361"
+ },
+ "c6e078f7ae898fe0dc935f2e52a21dd34d32f9519a601bb8b4a6c95d8635e142": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:b33c797515d2"
+ },
+ "43fb4275710267843df5f728aafcaba8de8816eea1f4c2f8de8fee075951ca72": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:47c42054fb80"
+ },
+ "ad7c30d0f901f3252d5f9e01542c62cbd212ef969808ece35ffff59652782eb4": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:12b9b8048413"
+ },
+ "a613686183e7f713b2b732b5cb3a69c6392c9b730539b82513ab48a305eb7857": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:b4d1d3beb0f3"
+ },
+ "2d4bddb70324733721c14f6d5a4c86a9492fdf17c8c898ecd8415d6e82773be7": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:03c9d46b3d01"
+ },
+ "2192ebe83ea61b205a0b9732aad6218b2ac6e99e61de39e25812fc431cab77df": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:bd589870b919"
+ },
+ "11caf3e7e401452e02493f9aad3ca96589636f27607bf4a1bf3c8e3814a402e0": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:409e44eae1ae"
+ },
+ "ad45958f698ae402181939c0499e2d41a919927227e7681642a08ceab26bbf4e": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:060c6609084d"
+ },
+ "c72e72db45a6d491e6406863989a28450553cc6b58f061fae2f8bc0839ba668a": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:b1527d009335"
+ },
+ "a1810571e70295a4da1231fc87e4b57de09f0ebae3f2c763b3fd920820b3509e": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:ce17967b5629"
+ },
+ "409757efd407dc43c289176cb4a8bdaa71ef8def85eb5f403a6004901a9c7296": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "ornith-1.5:9b",
+  "prompt_version": 1,
+  "page": 4,
+  "node": "4:688f479ff223"
+ },
+ "c89eee5ff288581870f29f49323ae3bf9eae4a4a161ee7c62309de74e46192ea": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:ea414259fab8"
+ },
+ "160e0c4be3d954071a2a860ff70f02c64fd519629b04e83c0bb04e068b1451a9": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:1242ed6ef8b5"
+ },
+ "a0a2073178c0175f488e9f2cbd6a17cd0bc4356064718876664462b1c46d0e82": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:c79a7a20bad0"
+ },
+ "d61352843dcf274aa57845d92eb821cfd651b1408692b7972a9c33b017c4db43": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:5adc25c6eed5"
+ },
+ "2b99391e3c3730e7e677625e8278fbb1cd69b50ea714936558af5bd1a743696f": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:e28e78baa717"
+ },
+ "a256caaa20f4a0c0079876775dce997a3c83e0da34b6387bac0910fd6adafd11": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:617853608a52"
+ },
+ "1863ea103b9ee0c5b6954e463e8d13511e5471506d146f135191ead7ddf2e192": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:f1cce5884a95"
+ },
+ "815d2c1c8ecf92173ab08c6a91a0ea22260944f8df62bee9db8caaada6113bd3": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:6b626abbdaae"
+ },
+ "fa5a67802ba3298892bc4453268b0259b9ef16040570fc42cd0f750e60223dd6": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:377dc55dddcb"
+ },
+ "8be27e6898c9876d897d3fba83c5b3d260ce1fb56ba7a387889738bc51c86e29": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:9ffeb2384fd3"
+ },
+ "6931fd6ea4463c676ada01ba00522fec475eade3845231361026d47c653f8c9c": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:e6b50cda0647"
+ },
+ "abb7ca99cc45be7d46457e277b501f42c8eba16f2c765c5f17ccc458829fc6fd": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:2131e044b599"
+ },
+ "376021a0d415d624cb0588a1e92d6a266aed29f0e03f6bd69fbe1a51fe7d1135": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:c09654357283"
+ },
+ "bef3155c3a14d59a11a9532617a46240e5afc46783fe9dc261040d9cc51481db": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:aa036b236699"
+ },
+ "2c47d4b658bd11cc37ee5cc85d9b478ded92ab1e7b83408237ba2cb2744e7b73": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:f104ae130e41"
+ },
+ "f05884a83e37ba9e68cd5e184bde6e225e6bfafd99a48b7c85fd2caebee08116": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:82e3310c2be7"
+ },
+ "0a0f75113feb90c3b7e8955d95c5d4fa70ed524c314b72addfeb4728c67f6017": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:a884d30c184f"
+ },
+ "e796cc918a0d01afda5b6b5e42476401617617f89707d52211e7d3dc71ec7ac6": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:f45d95f59e63"
+ },
+ "b11bf71891d082e63763f83df7381d8484f058ea46c83329f44d70030b1f16c0": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:5d9f3136ab18"
+ },
+ "9a7ece61a8fb60b497051bbf299f678e6350d96b646c8cb74856177b1a44ab24": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:ed9b0f65b7c1"
+ },
+ "eae8f928010be4467b6ae7c359500332f5a23e6cb8d45b86717486963c07e834": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:18aece13f4cd"
+ },
+ "aff70fda32bff38f3a393b38e104852205b1ce1c9350bbead0377626c3051965": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:405e462d43ba"
+ },
+ "fc5cd08f004a538ad1e3bb1093b0ad4e38c141ef6b9cc40d15e8a5187577006d": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:79df71c8e49f"
+ },
+ "d70b6e923059b93977e580e6fa4b41da152f63d1c50f5d6504d3ae5fff68b5d5": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:8c78bcbaf508"
+ },
+ "9d7c0d65cfe170fef433df42d11d859c7e03bb041f4ae8303c647284fc3bf2ab": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:36edef933361"
+ },
+ "f6726ac92c08892d8777538e473cd8118d761c1e15fbd89c3ed071b724a06cf6": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:b33c797515d2"
+ },
+ "89029688c5471e0e03f693e25f17e98b45abdaa35da8489d660cfbb6f0971fda": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:47c42054fb80"
+ },
+ "95ad7319a9da2d7ffe7aa1051702f5106b8937b95ad6b066b035978ffe7ec166": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:12b9b8048413"
+ },
+ "f3e0eabcd4e7006df0b36d334d2a11064bb8e63ab6d170224cccd4d6d70c51b2": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:b4d1d3beb0f3"
+ },
+ "f7b1f6e288ddc90a0696258d32f1e4d83b9fad4671df6cd8936d642e34009faf": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:03c9d46b3d01"
+ },
+ "436b93579155aa07221270bc3d1933d299526a34878762caff32b39a59f0ee8b": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:bd589870b919"
+ },
+ "d281ac463c79ec0716484e5520bdd8459b2c110f0525a0e1718f26f2ea9bd768": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:409e44eae1ae"
+ },
+ "5682b8ddff2a5f172bce58ce36e555555663c841d8d0677ca7e0ceb9643e44b8": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:060c6609084d"
+ },
+ "e4832ca382ef82d0f9d5a3b3cadeb378a08a542e39f3ba98fd81f519fa1016a6": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:b1527d009335"
+ },
+ "aad41feb2f6ed21897979b5f809e33a14c392e7bccea19ef7d3310bf74b79ae7": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:ce17967b5629"
+ },
+ "19a1cd5830930da012e983c63ac9b317a18a920758486664776f92b2b0e9079b": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "bonsai-2:9b",
+  "prompt_version": 1,
+  "page": 4,
+  "node": "4:688f479ff223"
+ },
+ "795700e0dd66e2d0f3b97315e20e441e2f9e50b8150a4a29ba337b1d1594c7e9": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:ea414259fab8",
+  "confidence": 0.762
+ },
+ "cb5ad438c9f8e33e053ed648b11e8e1636e4a557481d5eeebcab58f73ba7d5ec": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:1242ed6ef8b5",
+  "confidence": 0.81
+ },
+ "61ae0b605be7c916e50eed77a828d7d7df0395ba24be6ef35cd0345099964ae8": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:c79a7a20bad0",
+  "confidence": 0.881
+ },
+ "33eee6dee4156be20956da1340600bd8dbadfe58d18acb0a6d0424f8ce13bf2d": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:5adc25c6eed5",
+  "confidence": 0.815
+ },
+ "abba583e7fca0f1940e0ce030f7246208e6be127633834c38bf47d43527c1211": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:e28e78baa717",
+  "confidence": 0.43
+ },
+ "49cd4bdaf16967934f824e7083ba76d20ffd90e483c8487535111c469c81ee4a": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:617853608a52",
+  "confidence": 0.813
+ },
+ "b29728483e3e23aa6911fe93b79f57fb2c3622bb2cb269027c6b93a5ef0bd0bd": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:f1cce5884a95",
+  "confidence": 0.653
+ },
+ "4f0ff6a564b3f7eb07df7a49850b8fa9002328ff7e769328a6bd3311cee0e133": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:6b626abbdaae",
+  "confidence": 0.626
+ },
+ "47c26f0a25582377b08b7bdb833e9f895680ae6899dcf459b74b5036a88d8912": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:377dc55dddcb",
+  "confidence": 0.452
+ },
+ "e02ec03c450dbc6cfce739b37cd10c4d71da3361a46039f25c203f2c1589c631": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:9ffeb2384fd3",
+  "confidence": 0.632
+ },
+ "9e48662631c4c01e8e848c9e3ab3ba9a34334793c35f4a8cc52ad53649953c3e": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:e6b50cda0647",
+  "confidence": 0.641
+ },
+ "e33c746dabdbd1131e676bb59ea1a95e37b831f6513c8af73b5dc3a1d3035dec": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:2131e044b599",
+  "confidence": 0.402
+ },
+ "f2cbdbf4866481e6d5d2c033b42242ddc2d237b6e87bda56df5301a123bedcf3": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:c09654357283",
+  "confidence": 0.807
+ },
+ "fb9aa141f643754f65e491d35b8f62b70e47074d6b3517fdc978cd66f99239f3": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:aa036b236699",
+  "confidence": 0.869
+ },
+ "f0386850183c53c799488b1f224433c6dcc34102533ba2613b08e2c6547bcae1": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:f104ae130e41",
+  "confidence": 0.741
+ },
+ "549864af5ac4e5e6d39f1379ba2f71c253247df5069a438ad51be55a4688a626": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:82e3310c2be7",
+  "confidence": 0.301
+ },
+ "c7b98b734184a872c87c317e5d01971663a8d2a0b7cc0da15e0e3386cba317a8": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:a884d30c184f",
+  "confidence": 0.522
+ },
+ "5d4af70652ff8b26069b8a145b4823a93e5e9880693c5cd47ab6495d911023ea": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:f45d95f59e63",
+  "confidence": 0.887
+ },
+ "63a89ba6b126945ed7940e460dc9d854039d561845ec84c34efbbe6f6e429037": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:5d9f3136ab18",
+  "confidence": 0.643
+ },
+ "6ac78d6cedee8fbb606ae51e38511047c767ac4ed7d671fa3c7437532b533cb3": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:ed9b0f65b7c1",
+  "confidence": 0.794
+ },
+ "7d3ffd43030d015dd7ed27d009eef87648b607bdf275843f00ec39ebdeaf0a2c": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:18aece13f4cd",
+  "confidence": 0.481
+ },
+ "05652aaeb82ccde7f29d034778b2736aa057680d1aab3e847c09982a3be9c312": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:405e462d43ba",
+  "confidence": 0.904
+ },
+ "48c253f5a0a05e493408d278c05634fc32ca719e0e955000710b696866a9e07f": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:79df71c8e49f",
+  "confidence": 0.63
+ },
+ "e52daa5932ba8794da08f83b76e641d76e7394174d34f606d80dd59b9c7f0662": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:8c78bcbaf508",
+  "confidence": 0.828
+ },
+ "f34913984dbb81f5249e5e16e56b4c5a464ed4486039a27b2148c351d187cbe5": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:36edef933361",
+  "confidence": 0.746
+ },
+ "fe7580b2eb8ba404dfe41f8726d857345e9287f9ad249452eeddaae6dc7ce384": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:b33c797515d2",
+  "confidence": 0.792
+ },
+ "acf27399fcfc3b77ba7ede54b40b081ddc019f11bd7a37fee75818b6ce72e33a": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:47c42054fb80",
+  "confidence": 0.844
+ },
+ "d10581c7d6f2b218be977068d96fb1ddbd6e014b6ff7a2cda4a3a4c24d98cbe7": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:12b9b8048413",
+  "confidence": 0.422
+ },
+ "0e72c4c97d3c8c9019fefaaa691b1b51cecb49e9f118752eb4c9a1dc342b9e24": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:b4d1d3beb0f3",
+  "confidence": 0.484
+ },
+ "75fb0f6c342af12c4488ca51a3556e37dc88b8f112e4ef2abffe1fd810688c24": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:03c9d46b3d01",
+  "confidence": 0.879
+ },
+ "0dae6c5f494225673477047d3ea474629d67e85e9af87dc5ff0ea4b5411000b2": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:bd589870b919",
+  "confidence": 0.809
+ },
+ "8c733e0bf25b4021354b6e72dfb191f45d9f1b9bc195ff2c62dc4f9bc8e90b28": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:409e44eae1ae",
+  "confidence": 0.663
+ },
+ "299312061ed895b75d7165ddb676b97632a1acc0c9af982a218f0c03dda84b93": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:060c6609084d",
+  "confidence": 0.659
+ },
+ "97dab00ade4aafdca4a45ef34d467b6490d91b3bc05c68a5c52ecf54bddc83e6": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:b1527d009335",
+  "confidence": 0.841
+ },
+ "a3235c58cd0f652215f7915eef231930ae427cc97abcc2d676dbd3c5f7d9c196": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:ce17967b5629",
+  "confidence": 0.198
+ },
+ "f355bf008ab804d0ac73c36b201a7a8ea64e23ca1fd59066bd24e62eb168b0a6": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "clef-flash:9b",
+  "prompt_version": 1,
+  "page": 4,
+  "node": "4:688f479ff223",
+  "confidence": 0.133
+ },
+ "eedcadb34ca0ec5f216bb573f00613ddbbd8d4a7efc5aee22c4010ac17a7d1d1": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:ea414259fab8",
+  "confidence": 0.344
+ },
+ "31c795f3a08772f45409147cb6745cd96efdd2c4225ba1f9a2638fcb24b53947": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:1242ed6ef8b5",
+  "confidence": 0.295
+ },
+ "69519cabde2f0a521a5d01d166d7a788cd87af28ebddc7776d468fc62f6a557a": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:c79a7a20bad0",
+  "confidence": 0.635
+ },
+ "a3511b7a14f1088a363523515d741477f5d9611fd6e29f22bb73c574838cb719": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:5adc25c6eed5",
+  "confidence": 0.858
+ },
+ "a2852fda24f1f12bf2d15c2c932dfa9658ec3c8f31a1e64819637fa3ed3b4323": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:e28e78baa717",
+  "confidence": 0.507
+ },
+ "20b06b827af17dc6c34fa369fb589f1fdbdfd3995ce9e9fdf1269b01c58035c5": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:617853608a52",
+  "confidence": 0.366
+ },
+ "6c995d405820f1467344043b601996cd7fc487537fac9e3ae9e1c6260ba03be4": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:f1cce5884a95",
+  "confidence": 0.758
+ },
+ "aaf9f04912b02b39de641f5529b9aef03b97da1a5656c15c15d181294183ef56": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:377dc55dddcb",
+  "confidence": 0.226
+ },
+ "518a5ed122e22b4146e727cca948be40756bf3dd2aff36a264ec4ced09970148": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:9ffeb2384fd3",
+  "confidence": 0.258
+ },
+ "9019950edc852adebbff18f262cd13677e30311ad1010ad51342cd7123f46784": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:e6b50cda0647",
+  "confidence": 0.812
+ },
+ "f1bb022dd8598a843d2385af663ccd1010d250e368312689dcb019a2a0f1fb43": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:2131e044b599",
+  "confidence": 0.537
+ },
+ "69c71b894ed80481af7439dd865374a6a25d666939364dadbafd615647f84ef1": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:c09654357283",
+  "confidence": 0.288
+ },
+ "3f2250018a7ecafd02ba8ef4238f07a3f1d00f5f79611fcae58f3faa55bdd4d6": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:aa036b236699",
+  "confidence": 0.868
+ },
+ "f69108dea277138974a1a0429eb842cbb491baae664064e88db1a9ad685b5b9e": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:f104ae130e41",
+  "confidence": 0.275
+ },
+ "0784694a4cf1a0aa4285fa218e8fd34c78353a8e5de10b69e275044b1d7fe19a": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:a884d30c184f",
+  "confidence": 0.737
+ },
+ "db15e146d76acf1b1b97055fbe2cad912172ba51d6e2276f1743d4b4b9a3e966": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:f45d95f59e63",
+  "confidence": 0.653
+ },
+ "62b53a834fe8e2859395291ed69ebe05ac4b0a74e9d3fa9457b5562e9afa1465": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:5d9f3136ab18",
+  "confidence": 0.542
+ },
+ "48c19e82e55660a7a345c6fd4bebea50471ab9c9b1770a17790664c98d3ab751": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:ed9b0f65b7c1",
+  "confidence": 0.375
+ },
+ "05b7135a16e5329fe83ea3d6f9deee1a9665eeda01fe4d945a3119cd7f3c458c": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:8c78bcbaf508",
+  "confidence": 0.643
+ },
+ "d14fecc8342a9760528bbd9c6085a2e5bc44eb41ad7e8583c89d3f15d79e5c4c": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:36edef933361",
+  "confidence": 0.869
+ },
+ "8594b349b5b2aecbb13e1a7ef2b338ddd95ab6e7eac7d60ab2a6bb28e112bd53": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:b33c797515d2",
+  "confidence": 0.783
+ },
+ "aa9b71f6877e7fe49f6b56d8396716a957c4470c998f129064be6f770d7effe3": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:47c42054fb80",
+  "confidence": 0.903
+ },
+ "e8e43984c33cb237eefc691d26be9ac7d6b1e703020e2e528e461fad2e34215e": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:12b9b8048413",
+  "confidence": 0.598
+ },
+ "b953a0f93b77fdbea25cf40401ec709d882a5e0d97fe512b217572d72513e22c": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:b4d1d3beb0f3",
+  "confidence": 0.609
+ },
+ "87fc83d136355deb42e41a78f42237b453b0b3ef5f3eb2a0291cefd95e431f5c": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:03c9d46b3d01",
+  "confidence": 0.707
+ },
+ "472d75bcecef0f4ea1633cd829eb76dbeae063eed6b9fe16bf1c198d1dc2f00f": {
+  "kind": "structure",
+  "answer": "heading",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 1,
+  "node": "1:bd589870b919",
+  "confidence": 0.722
+ },
+ "a4ab562910538dfd08d896b982f3c442f3490843e0c2864edb8f465930d032f9": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:409e44eae1ae",
+  "confidence": 0.84
+ },
+ "44cad0473cba31787ce0dbb11130dd9239630e09fa543ee9974406dc17225132": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:060c6609084d",
+  "confidence": 0.87
+ },
+ "fc5f1ed9a90a0c836d75bc9cd7f5ba498c784e65f63c45fa7c8765d5bf85402d": {
+  "kind": "structure",
+  "answer": "value",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 2,
+  "node": "2:b1527d009335",
+  "confidence": 0.921
+ },
+ "82db1a99490e832231bf3b0a68aaed46f2588e744b5711a46537af014b892ebf": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 3,
+  "node": "3:ce17967b5629",
+  "confidence": 0.569
+ },
+ "37e05a4476841ebb1dd9639550426a9f28b00bb33c1327468e605a10dd5f4140": {
+  "kind": "structure",
+  "answer": "label",
+  "model": "d1:3b",
+  "prompt_version": 1,
+  "page": 4,
+  "node": "4:688f479ff223",
+  "confidence": 0.626
+ }
+}

@@ -1,0 +1,511 @@
+route,doc,figure,page,seconds,flag,kind,decorative,grade,grader_note
+local,cdc-firstline-slides-es,1:3da26d659d9a,1,1.37,suggested-alt,photo,False,right,Accurate and concise.
+ollama:gemma4:e4b,cdc-firstline-slides-es,1:3da26d659d9a,1,0.45,suggested-alt,photo,False,right,True; omits yellow background.
+ollama:minicpm-v4.6,cdc-firstline-slides-es,1:3da26d659d9a,1,0.34,suggested-alt,photo,False,partly,Generic; 'headwear' speculation adds nothing.
+ollama:openbmb/minicpm-v4.7:1b,cdc-firstline-slides-es,1:3da26d659d9a,1,0.51,suggested-alt,photo,False,partly,"Hair looks short and neat, not wavy; otherwise correct."
+ollama:openbmb/minicpm-v4.7:35b-a3b,cdc-firstline-slides-es,1:3da26d659d9a,1,0.87,suggested-alt,photo,False,right,Accurate; cover context reasonable.
+ollama:qwen3-vl:8b,cdc-firstline-slides-es,1:3da26d659d9a,1,1.43,suggested-alt,photo,False,right,"Dark hair, top of head, yellow background all visible."
+local,cdc-firstline-slides-es,1:47819a098f51,1,1.47,suggested-alt,photo,False,right,"Woman, dark hair, defined eyes, pink/magenta background."
+ollama:gemma4:e4b,cdc-firstline-slides-es,1:47819a098f51,1,0.31,suggested-alt,photo,False,partly,Expression not visible in crop (mouth cut off); otherwise fine.
+ollama:minicpm-v4.6,cdc-firstline-slides-es,1:47819a098f51,1,0.42,suggested-alt,photo,False,wrong,Claims upper shoulders visible; crop shows forehead and eyes only.
+ollama:openbmb/minicpm-v4.7:1b,cdc-firstline-slides-es,1:47819a098f51,1,0.57,suggested-alt,photo,False,partly,'Neutral expression' unverifiable in crop; rest correct.
+ollama:openbmb/minicpm-v4.7:35b-a3b,cdc-firstline-slides-es,1:47819a098f51,1,0.82,suggested-alt,photo,False,right,Side-parted dark hair and winged eyeliner both visible.
+ollama:qwen3-vl:8b,cdc-firstline-slides-es,1:47819a098f51,1,1.11,suggested-alt,photo,False,right,"Dark hair, purple-magenta background, eyes and forehead visible."
+local,cdc-firstline-slides-es,1:8970c0eb418f,1,1.39,suggested-alt,photo,False,right,Accurate.
+ollama:gemma4:e4b,cdc-firstline-slides-es,1:8970c0eb418f,1,0.34,suggested-alt,photo,False,partly,"Too generic; only one eye visible, no background."
+ollama:minicpm-v4.6,cdc-firstline-slides-es,1:8970c0eb418f,1,0.42,suggested-alt,photo,False,partly,Vague 'facial features'; true but unspecific.
+ollama:openbmb/minicpm-v4.7:1b,cdc-firstline-slides-es,1:8970c0eb418f,1,0.43,suggested-alt,photo,False,right,Accurate.
+ollama:openbmb/minicpm-v4.7:35b-a3b,cdc-firstline-slides-es,1:8970c0eb418f,1,0.82,suggested-alt,photo,False,right,"His right eye, eyebrow, dark hair, yellow background correct."
+ollama:qwen3-vl:8b,cdc-firstline-slides-es,1:8970c0eb418f,1,1.28,suggested-alt,photo,False,right,"Eye, yellow background, partial ear at left edge plausible."
+local,cdc-firstline-slides-es,1:a3ca228aeee2,1,1.49,suggested-alt,photo,False,right,"Young Black man, glasses, mustard collar, teal background."
+ollama:gemma4:e4b,cdc-firstline-slides-es,1:a3ca228aeee2,1,0.61,suggested-alt,photo,False,right,True; omits glasses but names subject and topic.
+ollama:minicpm-v4.6,cdc-firstline-slides-es,1:a3ca228aeee2,1,0.37,suggested-alt,photo,False,partly,Generic; 'thoughtful expression' adds little.
+ollama:openbmb/minicpm-v4.7:1b,cdc-firstline-slides-es,1:a3ca228aeee2,1,0.49,suggested-alt,photo,False,right,Accurate details.
+ollama:openbmb/minicpm-v4.7:35b-a3b,cdc-firstline-slides-es,1:a3ca228aeee2,1,1.04,suggested-alt,photo,False,partly,"Glasses are dark-framed with lighter lower rim, not white-rimmed."
+ollama:qwen3-vl:8b,cdc-firstline-slides-es,1:a3ca228aeee2,1,1.43,suggested-alt,photo,False,right,"Curly/locked hair, glasses, white shirt, orange collar, teal."
+local,cdc-firstline-slides-es,1:fa8abcf3aca6,1,1.70,suggested-alt,photo,False,right,Accurate and concise.
+ollama:gemma4:e4b,cdc-firstline-slides-es,1:fa8abcf3aca6,1,0.42,suggested-alt,photo,False,partly,Ignores the woman; man's hair not visible in crop.
+ollama:minicpm-v4.6,cdc-firstline-slides-es,1:fa8abcf3aca6,1,0.45,suggested-alt,photo,False,partly,Generic; woman's attire not visible.
+ollama:openbmb/minicpm-v4.7:1b,cdc-firstline-slides-es,1:fa8abcf3aca6,1,0.65,suggested-alt,photo,False,right,Scrubs supported by page; backgrounds correct.
+ollama:openbmb/minicpm-v4.7:35b-a3b,cdc-firstline-slides-es,1:fa8abcf3aca6,1,1.01,suggested-alt,photo,False,right,"Bearded man yellow, curly-haired woman orange; correct."
+ollama:qwen3-vl:8b,cdc-firstline-slides-es,1:fa8abcf3aca6,1,1.52,suggested-alt,photo,False,right,"Teal scrubs, stethoscope, curly hair, backgrounds correct."
+local,cdc-firstline-slides-es,5:5361522104b1,5,1.01,suggested-alt,other,True,right,Empty alt suits decorative background.
+ollama:gemma4:e4b,cdc-firstline-slides-es,5:5361522104b1,5,0.27,suggested-alt,other,True,right,Empty alt suits decorative background.
+ollama:minicpm-v4.6,cdc-firstline-slides-es,5:5361522104b1,5,0.39,suggested-alt,text,True,partly,Empty alt fine for decorative pattern but kind 'text' is wrong.
+ollama:openbmb/minicpm-v4.7:1b,cdc-firstline-slides-es,5:5361522104b1,5,0.57,suggested-alt,photo,True,partly,Empty alt fine but kind 'photo' is wrong.
+ollama:openbmb/minicpm-v4.7:35b-a3b,cdc-firstline-slides-es,5:5361522104b1,5,0.76,suggested-description,other,False,wrong,Claims text 'PROJECT FIRSTLINE' in image; shapes are lighter circles and diamonds.
+ollama:qwen3-vl:8b,cdc-firstline-slides-es,5:5361522104b1,5,0.93,suggested-alt-uncertain,other,True,right,Empty alt suits decorative background.
+local,cdc-firstline-slides-es,6:5361522104b1,6,1.01,suggested-alt,other,True,right,Empty alt suits decorative background.
+ollama:gemma4:e4b,cdc-firstline-slides-es,6:5361522104b1,6,0.28,suggested-alt,other,True,right,Empty alt suits decorative background.
+ollama:minicpm-v4.6,cdc-firstline-slides-es,6:5361522104b1,6,0.40,suggested-alt,chart,True,partly,Empty alt fine but kind 'chart' is wrong.
+ollama:openbmb/minicpm-v4.7:1b,cdc-firstline-slides-es,6:5361522104b1,6,0.52,suggested-alt,text,False,partly,Pattern correct; implies title text present and kind 'text' wrong.
+ollama:openbmb/minicpm-v4.7:35b-a3b,cdc-firstline-slides-es,6:5361522104b1,6,0.53,suggested-alt,other,True,right,Empty alt suits decorative background.
+ollama:qwen3-vl:8b,cdc-firstline-slides-es,6:5361522104b1,6,0.31,suggested-alt-uncertain,other,True,right,Empty alt suits decorative background.
+local,cdc-firstline-slides-es,7:5361522104b1,7,1.01,suggested-alt,other,True,right,Empty alt suits decorative background.
+ollama:gemma4:e4b,cdc-firstline-slides-es,7:5361522104b1,7,0.28,suggested-alt,other,True,right,Empty alt suits decorative background.
+ollama:minicpm-v4.6,cdc-firstline-slides-es,7:5361522104b1,7,0.40,suggested-alt,text,True,partly,Empty alt fine but kind 'text' is wrong.
+ollama:openbmb/minicpm-v4.7:1b,cdc-firstline-slides-es,7:5361522104b1,7,0.52,suggested-alt,text,False,right,"Orange circle and diamond pattern, no text; correct."
+ollama:openbmb/minicpm-v4.7:35b-a3b,cdc-firstline-slides-es,7:5361522104b1,7,0.53,suggested-alt,other,True,right,Empty alt suits decorative background.
+ollama:qwen3-vl:8b,cdc-firstline-slides-es,7:5361522104b1,7,0.31,suggested-alt-uncertain,other,True,right,Empty alt suits decorative background.
+local,cdc-firstline-slides-es,14:0e951d4f8126,14,3.76,suggested-alt-uncertain,logo,False,partly,"Shield holds three people, not medical icons; alt truncated."
+ollama:gemma4:e4b,cdc-firstline-slides-es,14:0e951d4f8126,14,0.53,suggested-alt-uncertain,logo,False,partly,"Shield holds three figures, not one."
+ollama:minicpm-v4.6,cdc-firstline-slides-es,14:0e951d4f8126,14,0.36,suggested-alt,text,False,partly,Generic; calls logo a section heading.
+ollama:openbmb/minicpm-v4.7:1b,cdc-firstline-slides-es,14:0e951d4f8126,14,0.58,suggested-alt,logo,False,wrong,Alt says 'injection prevention'; logo reads 'Infection Prevention'.
+ollama:openbmb/minicpm-v4.7:35b-a3b,cdc-firstline-slides-es,14:0e951d4f8126,14,0.89,suggested-alt,logo,False,right,"Logo, tagline, shield with three figures correct."
+ollama:qwen3-vl:8b,cdc-firstline-slides-es,14:0e951d4f8126,14,1.77,suggested-alt-uncertain,logo,False,right,"Logo, three figures, tagline correct; alt truncated."
+local,cdc-firstline-slides-es,14:2327fa0a7146,14,1.01,suggested-alt,other,True,right,Empty alt suits decorative fragment.
+ollama:gemma4:e4b,cdc-firstline-slides-es,14:2327fa0a7146,14,0.25,suggested-alt,other,True,right,Empty alt suits decorative fragment.
+ollama:minicpm-v4.6,cdc-firstline-slides-es,14:2327fa0a7146,14,0.34,suggested-alt,photo,False,partly,Omits dark bottom strip; otherwise true.
+ollama:openbmb/minicpm-v4.7:1b,cdc-firstline-slides-es,14:2327fa0a7146,14,0.54,suggested-alt,photo,False,partly,Table/panel speculation; bottom strip is dark blue-gray.
+ollama:openbmb/minicpm-v4.7:35b-a3b,cdc-firstline-slides-es,14:2327fa0a7146,14,0.51,suggested-alt,other,True,right,Empty alt suits decorative fragment.
+ollama:qwen3-vl:8b,cdc-firstline-slides-es,14:2327fa0a7146,14,1.33,suggested-alt,photo,False,right,Yellow with dark blue bottom strip; correct.
+local,cdc-firstline-slides-es,14:42b8057779ce,14,1.50,suggested-alt,photo,False,partly,Colors and black line right; 'fabric' only partly true.
+ollama:gemma4:e4b,cdc-firstline-slides-es,14:42b8057779ce,14,0.49,suggested-description,other,False,right,Decorative graphic element; accurate.
+ollama:minicpm-v4.6,cdc-firstline-slides-es,14:42b8057779ce,14,0.39,suggested-alt,photo,False,right,Abstract colored shapes and lines; accurate for fragment.
+ollama:openbmb/minicpm-v4.7:1b,cdc-firstline-slides-es,14:42b8057779ce,14,0.48,suggested-alt,photo,False,wrong,Invents 'firstline ES system' cord as service component.
+ollama:openbmb/minicpm-v4.7:35b-a3b,cdc-firstline-slides-es,14:42b8057779ce,14,0.52,suggested-alt,other,True,right,Empty alt suits decorative fragment.
+ollama:qwen3-vl:8b,cdc-firstline-slides-es,14:42b8057779ce,14,1.51,suggested-alt,photo,False,partly,"Black lines are drawn outlines, not stitching."
+local,cdc-firstline-slides-es,14:e232856adaf3,14,1.44,suggested-alt,photo,False,right,Accurate.
+ollama:gemma4:e4b,cdc-firstline-slides-es,14:e232856adaf3,14,0.34,suggested-alt,photo,False,partly,"Only eyes visible; generic, 'serious expression' unverifiable."
+ollama:minicpm-v4.6,cdc-firstline-slides-es,14:e232856adaf3,14,0.37,suggested-alt,photo,False,partly,'Sense of wonder' speculative; otherwise eyes on pink.
+ollama:openbmb/minicpm-v4.7:1b,cdc-firstline-slides-es,14:e232856adaf3,14,0.54,suggested-alt,photo,False,right,Accurate details.
+ollama:openbmb/minicpm-v4.7:35b-a3b,cdc-firstline-slides-es,14:e232856adaf3,14,0.73,suggested-alt,photo,False,right,"Eyes, eyebrows, pink background, yellow line correct."
+ollama:qwen3-vl:8b,cdc-firstline-slides-es,14:e232856adaf3,14,1.09,suggested-alt,photo,False,right,"Eyes, dark hair, pink background, yellow border visible."
+local,da-complex-rfp-diagrams,2:3db96977c1e7,2,6.81,suggested-alt-uncertain,chart,False,wrong,"Lowest total 173,336 in 2018 is the 911 value; 2018 total is 293,417."
+ollama:gemma4:e4b,da-complex-rfp-diagrams,2:3db96977c1e7,2,0.90,suggested-alt-uncertain,chart,False,wrong,"2018 total stated as 173,336; that is the 911 count (total 293,417)."
+ollama:minicpm-v4.6,da-complex-rfp-diagrams,2:3db96977c1e7,2,0.68,suggested-alt-uncertain,chart,False,partly,Correct subject and categories but no values; trend vague.
+ollama:openbmb/minicpm-v4.7:1b,da-complex-rfp-diagrams,2:3db96977c1e7,2,0.94,suggested-alt-uncertain,chart,False,partly,"Omits outgoing; says totals peak in 2022 and 2023, but 2021 (305,403) exceeds 2023."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-complex-rfp-diagrams,2:3db96977c1e7,2,1.63,suggested-alt-uncertain,chart,False,right,Categories and 2023 values correct.
+ollama:qwen3-vl:8b,da-complex-rfp-diagrams,2:3db96977c1e7,2,2.73,suggested-alt-uncertain,chart,False,wrong,"2023 10-Digit calls given as 184,281; actual 9,602."
+local,da-complex-rfp-diagrams,3:f0972800466d,3,4.94,suggested-description,map,False,right,"District codes, counties, legend, inset and producer all correct."
+ollama:gemma4:e4b,da-complex-rfp-diagrams,3:f0972800466d,3,1.02,suggested-description,map,False,right,District codes correct; less detail.
+ollama:minicpm-v4.6,da-complex-rfp-diagrams,3:f0972800466d,3,1.07,suggested-alt-uncertain,map,False,wrong,'KFR' is not a district label on the map.
+ollama:openbmb/minicpm-v4.7:1b,da-complex-rfp-diagrams,3:f0972800466d,3,1.28,suggested-description,map,False,wrong,"CKTR, BIED, FPD, 'Estuary Sound', 'parametric' stations are misreads."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-complex-rfp-diagrams,3:f0972800466d,3,1.65,suggested-description,map,False,wrong,Hospitals and schools not shown; NKER misread.
+ollama:qwen3-vl:8b,da-complex-rfp-diagrams,3:f0972800466d,3,2.41,suggested-description,map,False,wrong,"District labels SFFD and NKF do not exist (SKFR, NKFR)."
+local,da-complex-rfp-diagrams,4:a9642e5c6b47,4,1.68,suggested-alt,photo,False,right,Accurate brief photo description.
+ollama:gemma4:e4b,da-complex-rfp-diagrams,4:a9642e5c6b47,4,0.70,suggested-alt,photo,False,right,"Accurate, uses context for address."
+ollama:minicpm-v4.6,da-complex-rfp-diagrams,4:a9642e5c6b47,4,0.67,suggested-alt,photo,False,wrong,No label on building; equipment room/raised floor not shown.
+ollama:openbmb/minicpm-v4.7:1b,da-complex-rfp-diagrams,4:a9642e5c6b47,4,0.76,suggested-description,diagram,False,wrong,Claims raised floor and 9-foot racks visible; photo is building exterior.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-complex-rfp-diagrams,4:a9642e5c6b47,4,1.28,suggested-alt,photo,False,right,Accurate exterior description with tower and flag.
+ollama:qwen3-vl:8b,da-complex-rfp-diagrams,4:a9642e5c6b47,4,1.97,suggested-alt,photo,False,right,"Building, brown roof, tower, flag, vehicles visible."
+local,da-complex-rfp-diagrams,5:a8cfe70b8f26,5,1.50,suggested-alt,photo,False,right,Brief but correct.
+ollama:gemma4:e4b,da-complex-rfp-diagrams,5:a8cfe70b8f26,5,0.63,suggested-alt,photo,False,right,Accurate with context facts.
+ollama:minicpm-v4.6,da-complex-rfp-diagrams,5:a8cfe70b8f26,5,0.61,suggested-alt,photo,False,partly,Implies racks hold CAD equipment; context says room has space for it.
+ollama:openbmb/minicpm-v4.7:1b,da-complex-rfp-diagrams,5:a8cfe70b8f26,5,0.73,suggested-description,diagram,False,right,Accurate description despite diagram kind.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-complex-rfp-diagrams,5:a8cfe70b8f26,5,1.22,suggested-alt,photo,False,right,Details match; ceiling diffuser called fan is minor.
+ollama:qwen3-vl:8b,da-complex-rfp-diagrams,5:a8cfe70b8f26,5,1.92,suggested-alt,photo,False,right,"Raised tile floor, silver racks, colourful cables, monitor visible."
+local,da-complex-rfp-diagrams,7:704d9dc0e473,7,7.31,suggested-alt-uncertain,diagram,False,wrong,Says SKFR-BN-VS branches to K911-MP; not in diagram.
+ollama:gemma4:e4b,da-complex-rfp-diagrams,7:704d9dc0e473,7,0.96,suggested-description,diagram,False,partly,Presents sequential steps as parallel initial decisions; labels right.
+ollama:minicpm-v4.6,da-complex-rfp-diagrams,7:704d9dc0e473,7,0.64,suggested-description,chart,False,wrong,"SKF, K911-MIP, SKFR-BIN-VS misread; nested plans not shown."
+ollama:openbmb/minicpm-v4.7:1b,da-complex-rfp-diagrams,7:704d9dc0e473,7,0.79,suggested-description,diagram,False,wrong,K911-MIP misread; Yes on SKFR leads to SKFR-BIN-VS is wrong (No path).
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-complex-rfp-diagrams,7:704d9dc0e473,7,1.60,suggested-description,diagram,False,partly,Structure roughly right; SKFR-BIN-VS misread of SKFR-BN-VS.
+ollama:qwen3-vl:8b,da-complex-rfp-diagrams,7:704d9dc0e473,7,2.77,suggested-description,diagram,False,wrong,Says Yes from first box leads to K911-MP; it is No.
+local,da-complex-rfp-diagrams,8:0d43c4f47b38,8,5.07,suggested-description,other,False,wrong,Lists invented plan names incl. 'depo_skfr_12' as fourth; misread names.
+ollama:gemma4:e4b,da-complex-rfp-diagrams,8:0d43c4f47b38,8,0.97,suggested-description,table,False,right,Fields and values match the window.
+ollama:minicpm-v4.6,da-complex-rfp-diagrams,8:0d43c4f47b38,8,0.56,suggested-alt,text,False,wrong,"Pager and description columns belong to Dispatch Groups, not plans."
+ollama:openbmb/minicpm-v4.7:1b,da-complex-rfp-diagrams,8:0d43c4f47b38,8,0.74,suggested-description,diagram,False,wrong,Plan names deplo_skr1-3 invented; fourth not legible.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-complex-rfp-diagrams,8:0d43c4f47b38,8,1.51,suggested-alt,photo,False,partly,Correct agency facts; plan names misread (deplco_...).
+ollama:qwen3-vl:8b,da-complex-rfp-diagrams,8:0d43c4f47b38,8,1.78,suggested-description,table,False,partly,Plan names misread (depl0_skfr_11 vs deplo_skfr_l1); ignores rest of window.
+local,da-complex-rfp-diagrams,8:859b41a4e463,8,5.88,suggested-alt-uncertain,diagram,False,wrong,Says STAFFED_MED Yes leads to K911-MP; not in diagram.
+ollama:gemma4:e4b,da-complex-rfp-diagrams,8:859b41a4e463,8,0.87,suggested-alt-uncertain,diagram,False,right,Flow correctly described.
+ollama:minicpm-v4.6,da-complex-rfp-diagrams,8:859b41a4e463,8,0.61,suggested-alt-uncertain,chart,False,partly,Says two boxes (four shown); generic.
+ollama:openbmb/minicpm-v4.7:1b,da-complex-rfp-diagrams,8:859b41a4e463,8,0.77,suggested-alt-uncertain,diagram,False,wrong,Says Yes leads to STAFFED_MED/K911-MP; those are No branches.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-complex-rfp-diagrams,8:859b41a4e463,8,1.50,suggested-alt-uncertain,diagram,False,right,Sequence of checks matches diagram.
+ollama:qwen3-vl:8b,da-complex-rfp-diagrams,8:859b41a4e463,8,2.13,suggested-alt-uncertain,diagram,False,right,"Boxes, distances and No branches correct."
+local,da-complex-rfp-diagrams,9:58188bb81834,9,6.14,suggested-alt-uncertain,table,False,wrong,Says 17 rows; table has 24.
+ollama:gemma4:e4b,da-complex-rfp-diagrams,9:58188bb81834,9,0.87,suggested-alt-uncertain,table,False,wrong,Says 25 entries; table has 24 rows.
+ollama:minicpm-v4.6,da-complex-rfp-diagrams,9:58188bb81834,9,0.65,suggested-alt-uncertain,table,False,partly,True but generic.
+ollama:openbmb/minicpm-v4.7:1b,da-complex-rfp-diagrams,9:58188bb81834,9,0.79,suggested-description,table,False,partly,Vague; misframes table as Kitsap Fire case numbers.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-complex-rfp-diagrams,9:58188bb81834,9,1.52,suggested-alt-uncertain,table,False,right,"Title, columns and KCSO example correct."
+ollama:qwen3-vl:8b,da-complex-rfp-diagrams,9:58188bb81834,9,2.70,suggested-alt-uncertain,table,False,partly,Values correct; KCSO misread as KCSD.
+local,da-complex-rfp-diagrams,10:cc7f33c3a088,10,7.11,suggested-alt-uncertain,other,False,wrong,"Says M8A shared crew Y; M8A is N, M9 is Y."
+ollama:gemma4:e4b,da-complex-rfp-diagrams,10:cc7f33c3a088,10,0.87,suggested-description,diagram,False,partly,Calls unit records crew records; generic.
+ollama:minicpm-v4.6,da-complex-rfp-diagrams,10:cc7f33c3a088,10,0.75,suggested-alt,text,False,partly,Generic; no IDs or values.
+ollama:openbmb/minicpm-v4.7:1b,da-complex-rfp-diagrams,10:cc7f33c3a088,10,0.80,suggested-description,diagram,False,right,Accurate overview with real unit IDs.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-complex-rfp-diagrams,10:cc7f33c3a088,10,1.69,suggested-alt,photo,False,right,"Fields, sections and buttons correct."
+ollama:qwen3-vl:8b,da-complex-rfp-diagrams,10:cc7f33c3a088,10,2.71,suggested-alt-uncertain,table,False,wrong,"U Pri/E Pri are blank, not 'No'; 10 entries not shown."
+local,da-complex-rfp-diagrams,11:6d0836b33db4,11,5.08,suggested-description,other,False,right,Fields and plans correct.
+ollama:gemma4:e4b,da-complex-rfp-diagrams,11:6d0836b33db4,11,1.05,suggested-description,diagram,False,right,Agency event types and records correct.
+ollama:minicpm-v4.6,da-complex-rfp-diagrams,11:6d0836b33db4,11,0.77,suggested-alt,text,False,partly,Generic; 'page IDs' misread of Pager ID.
+ollama:openbmb/minicpm-v4.7:1b,da-complex-rfp-diagrams,11:6d0836b33db4,11,0.82,suggested-alt-uncertain,table,False,wrong,BANKFD and SFD are not listed (BANGFD; no SFD).
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-complex-rfp-diagrams,11:6d0836b33db4,11,1.62,suggested-alt-uncertain,photo,False,right,Accurate fields.
+ollama:qwen3-vl:8b,da-complex-rfp-diagrams,11:6d0836b33db4,11,2.60,suggested-alt-uncertain,text,False,right,All timer values and plans correct.
+local,da-complex-rfp-diagrams,11:e6791877cab2,11,8.82,suggested-alt-uncertain,table,False,wrong,Dispatch '1PFD'; pager IDs are response plans; KFST/SPC not present.
+ollama:gemma4:e4b,da-complex-rfp-diagrams,11:e6791877cab2,11,0.77,suggested-alt-uncertain,table,False,partly,Says various ESZ types; only ESZ 71002 shown.
+ollama:minicpm-v4.6,da-complex-rfp-diagrams,11:e6791877cab2,11,0.59,suggested-alt,text,False,partly,Generic; 'backup steps' misreads Backup Beats.
+ollama:openbmb/minicpm-v4.7:1b,da-complex-rfp-diagrams,11:e6791877cab2,11,0.72,suggested-alt-uncertain,table,False,partly,'Backup Beeps' and 'Table 11' misreads; little detail.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-complex-rfp-diagrams,11:e6791877cab2,11,1.43,suggested-alt-uncertain,table,False,wrong,KFST and SPR not in table; plan misread deplg_pfd.
+ollama:qwen3-vl:8b,da-complex-rfp-diagrams,11:e6791877cab2,11,2.16,suggested-alt-uncertain,table,False,right,Event types and columns correct; plan name minor typo.
+local,da-complex-rfp-diagrams,12:6b478faad727,12,5.05,suggested-alt-uncertain,text,False,right,Both halves and mappings correct.
+ollama:gemma4:e4b,da-complex-rfp-diagrams,12:6b478faad727,12,0.85,suggested-alt-uncertain,table,False,partly,Mapping correct; omits the Banner radio log half.
+ollama:minicpm-v4.6,da-complex-rfp-diagrams,12:6b478faad727,12,0.65,suggested-description,table,False,partly,True but generic; no mappings.
+ollama:openbmb/minicpm-v4.7:1b,da-complex-rfp-diagrams,12:6b478faad727,12,0.92,suggested-alt-uncertain,table,False,wrong,Says CH 1 maps to LE 1 labelled 'Fire 1'.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-complex-rfp-diagrams,12:6b478faad727,12,1.54,suggested-alt-uncertain,chart,False,partly,Mapping right; header misread 'Concom' for Cencom.
+ollama:qwen3-vl:8b,da-complex-rfp-diagrams,12:6b478faad727,12,2.25,suggested-alt-uncertain,table,False,wrong,Calls 00000CA9 CH 06 entries law enforcement; they are fire IDs.
+local,da-financial-audit-comprehensive,1:2052b0cde0d6,1,1.61,suggested-alt,photo,False,partly,Scene right but omits district; 'filled with material' is a loose reading of the dipper.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,1:2052b0cde0d6,1,0.39,suggested-alt,photo,False,wrong,"Says applying a substance to concrete; he holds a long-handled dipper, not applying anything."
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,1:2052b0cde0d6,1,0.46,suggested-alt,photo,False,partly,"Generic; dipper called a spoon, no district named."
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,1:2052b0cde0d6,1,0.56,suggested-alt,photo,False,wrong,Tool is a dipper not a shovel; jacket text 'Smear County' is made up.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,1:2052b0cde0d6,1,1.05,suggested-alt,photo,False,wrong,Trowel with mortar and Santa Monica Mountains Conservancy logo are invented.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,1:2052b0cde0d6,1,1.84,suggested-alt,photo,False,right,"District jacket, cap, scoop-ended tool and concrete wall all match."
+local,da-financial-audit-comprehensive,1:2e324259fbc7,1,1.49,suggested-alt,photo,False,wrong,'San Francisco Bay Area Control District' misreads the sign.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,1:2e324259fbc7,1,0.61,suggested-alt,photo,False,partly,"Generic; facade is multicolored, not just light with dark trim; no district named."
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,1:2e324259fbc7,1,0.51,suggested-alt,photo,False,partly,True but generic; doesn't name the district on the sign.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,1:2e324259fbc7,1,0.65,suggested-description,diagram,False,wrong,Anchorage Metropolitan Community Health Center sign is made up.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,1:2e324259fbc7,1,0.85,suggested-alt,photo,False,wrong,"Sign reads San Mateo County Mosquito & Vector Control District, not Mountain View health center."
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,1:2e324259fbc7,1,1.83,suggested-alt,photo,False,right,"Sign text, three-color facade, wet ground and landscaping all match."
+local,da-financial-audit-comprehensive,1:4b1835db0567,1,1.59,suggested-alt,photo,False,right,Woman in beige uniform adjusts tree-mounted device below red container.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,1:4b1835db0567,1,0.42,suggested-alt,photo,False,partly,Too generic; omits the trap and her task.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,1:4b1835db0567,1,0.44,suggested-alt,photo,False,partly,Vague but true; no specifics about the trap or district.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,1:4b1835db0567,1,0.57,suggested-alt,photo,False,wrong,Patch 'sharia' and sign 'DO NOT OPERATE' are invented.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,1:4b1835db0567,1,0.96,suggested-alt,photo,False,wrong,Park Ranger patch and precipitation gauge/weather station are made up.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,1:4b1835db0567,1,1.96,suggested-alt,photo,False,wrong,"'Lake County', 'Sephania' and 'DANGER SENSORS' sign text are misread/invented."
+local,da-financial-audit-comprehensive,1:5d2da471e76b,1,1.53,suggested-alt,photo,False,partly,"Right subject and flashlight, but it is a wall vent, not a drainage grate."
+ollama:gemma4:e4b,da-financial-audit-comprehensive,1:5d2da471e76b,1,0.44,suggested-alt,photo,False,partly,Generic; 'fiscal year 2023' setting adds nothing about the image.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,1:5d2da471e76b,1,0.42,suggested-alt,photo,False,partly,"Too generic; no district, no vent or flashlight."
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,1:5d2da471e76b,1,0.52,suggested-alt,photo,False,wrong,'Island Police Department' patch and law enforcement are invented; patch is the mosquito district.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,1:5d2da471e76b,1,0.93,suggested-alt,photo,False,wrong,Santa Monica Mountains Conservancy patch is made up.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,1:5d2da471e76b,1,1.67,suggested-alt,photo,False,right,"District patch and cap, inspecting wall mesh with a small device; matches."
+local,da-financial-audit-comprehensive,2:0939157e70d6,2,3.69,suggested-alt,logo,False,right,Three-line white uppercase text on orange matches.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,2:0939157e70d6,2,0.51,suggested-alt,text,False,partly,"Claims image shows fiscal year and District Manager; those are only context, not in image."
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,2:0939157e70d6,2,0.32,suggested-alt,text,False,right,Alt vague but description names the district correctly.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,2:0939157e70d6,2,0.47,suggested-alt,text,False,right,"Name, white on orange; correct."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,2:0939157e70d6,2,0.78,suggested-alt,logo,False,right,Name in three lines of white text on orange matches.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,2:0939157e70d6,2,1.44,suggested-alt,text,False,right,Text and colors match.
+local,da-financial-audit-comprehensive,5:e34b952d423c,5,2.99,suggested-alt,logo,False,right,Matches the logo.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,5:e34b952d423c,5,0.43,suggested-alt,logo,False,right,Stylized mosquito logo of the district; true.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,5:e34b952d423c,5,0.38,suggested-alt,logo,False,partly,Generic; doesn't name the district or describe the logo.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,5:e34b952d423c,5,0.48,suggested-description,diagram,False,right,Mosquito silhouette in orange frame; facts true.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,5:e34b952d423c,5,0.99,suggested-alt,logo,False,right,Accurate description of the logo.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,5:e34b952d423c,5,1.70,suggested-alt,logo,False,right,"Blue mosquito, light blue background, orange border; correct."
+local,da-financial-audit-comprehensive,6:870a90dbaaa3,6,5.08,suggested-alt-uncertain,map,False,wrong,Special tax area does not include Palo Alto or parts of San Francisco.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,6:870a90dbaaa3,6,0.83,suggested-description,map,False,partly,True but omits the two assessment areas the legend defines.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,6:870a90dbaaa3,6,0.74,suggested-description,map,False,right,Names both assessment areas; vague but true.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,6:870a90dbaaa3,6,0.90,suggested-alt-uncertain,map,False,partly,Areas named correctly; 'Fair Island' misreads Bair Island.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,6:870a90dbaaa3,6,1.56,suggested-description,map,False,wrong,"Half Moon Bay is in the North & West area, not the special tax area."
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,6:870a90dbaaa3,6,2.15,suggested-description,map,False,wrong,Says orange special area includes Half Moon Bay and Palo Alto; it does not.
+local,da-financial-audit-comprehensive,9:1bfeb7af036b,9,5.40,suggested-alt-uncertain,chart,False,right,Series and colors correct; general trends true.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,9:1bfeb7af036b,9,0.83,suggested-alt-uncertain,chart,False,partly,Accurate components and axis but no trends.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,9:1bfeb7af036b,9,0.61,suggested-alt-uncertain,chart,False,partly,Generic; lists components without trends.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,9:1bfeb7af036b,9,0.91,suggested-alt-uncertain,chart,False,partly,Series listed correctly but no trends; omits minimum working capital.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,9:1bfeb7af036b,9,1.55,suggested-alt-uncertain,chart,False,right,"Series, colors and trends (WC peak FY20-21, rising resources/expenditures) match."
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,9:1bfeb7af036b,9,2.64,suggested-alt-uncertain,chart,False,wrong,Actual WC peaks FY20-21 not FY19-20; unassigned declines after FY22-23; resources not constant.
+local,da-financial-audit-comprehensive,14:997067b6e895,14,3.89,suggested-alt-uncertain,logo,False,right,"Colors, text and tagline match."
+ollama:gemma4:e4b,da-financial-audit-comprehensive,14:997067b6e895,14,0.55,suggested-alt-uncertain,logo,False,right,Logo and name correct; omits contact block.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,14:997067b6e895,14,0.51,suggested-alt-uncertain,logo,False,right,"Logo, 1916 tagline and contact info present."
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,14:997067b6e895,14,0.89,suggested-alt-uncertain,text,False,partly,Facts true but description is cut off mid-sentence.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,14:997067b6e895,14,1.40,suggested-alt-uncertain,logo,False,right,"Address, phone, fax, website and tagline match."
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,14:997067b6e895,14,2.02,suggested-alt-uncertain,logo,False,right,Matches the logo; context details correct.
+local,da-financial-audit-comprehensive,15:5fbec75fa667,15,2.84,suggested-alt,logo,False,right,"Letters G, F, O, A around vertical bar with ®; matches."
+ollama:gemma4:e4b,da-financial-audit-comprehensive,15:5fbec75fa667,15,0.37,suggested-alt,logo,False,partly,"Lists F, O, A but omits G; nothing false."
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,15:5fbec75fa667,15,0.33,suggested-alt,logo,False,wrong,Reads letters as GFA; logo is GFOA.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,15:5fbec75fa667,15,0.49,suggested-alt,logo,False,wrong,Names it the 'GFA' logo though it lists the O; it is GFOA.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,15:5fbec75fa667,15,0.94,suggested-alt,logo,False,wrong,"Calls it GFA logo; letters are G, F, O, A (GFOA)."
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,15:5fbec75fa667,15,1.75,suggested-alt,logo,False,wrong,Reads 'GFA'; logo has an O too (GFOA).
+local,da-financial-audit-comprehensive,15:d91e9eca0048,15,1.75,suggested-description,other,False,partly,Name close but misspells the signer's surname by one letter.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,15:d91e9eca0048,15,0.51,suggested-alt,text,False,wrong,Misreads one letter of the signer's surname.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,15:d91e9eca0048,15,0.32,suggested-alt,text,False,partly,Misspells the signer's first name and surname; suggests it may be a title.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,15:d91e9eca0048,15,0.45,suggested-alt,text,False,partly,Misspells the signer's first name and surname.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,15:d91e9eca0048,15,0.87,suggested-alt,text,False,wrong,Misreads the signer's surname.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,15:d91e9eca0048,15,1.47,suggested-alt,text,False,partly,Close read but misspells the signer's surname by one letter.
+local,da-financial-audit-comprehensive,16:cbb83ca07bac,16,3.14,suggested-alt,logo,False,right,"Blue square initials, text colors and gray diamond shapes match."
+ollama:gemma4:e4b,da-financial-audit-comprehensive,16:cbb83ca07bac,16,0.51,suggested-alt,logo,False,right,b&a monogram and text match.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,16:cbb83ca07bac,16,0.36,suggested-alt,logo,False,right,Names the firm and CPA role; vague but true.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,16:cbb83ca07bac,16,0.51,suggested-alt,logo,False,partly,Firm right; 'circular emblem' misdescribes the b&a monogram.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,16:cbb83ca07bac,16,1.06,suggested-alt,logo,False,right,"Blue square monogram, navy name, grey subtitle; correct."
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,16:cbb83ca07bac,16,1.66,suggested-alt,logo,False,partly,Monogram garbled as 'ba&' plus ampersand; rest correct.
+local,da-financial-audit-comprehensive,18:043a281911b4,18,2.45,suggested-alt,logo,False,right,Signature and printed name/location match.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,18:043a281911b4,18,0.57,suggested-alt-uncertain,text,False,wrong,Calls a handwritten signature a logo/letterhead with stylized text.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,18:043a281911b4,18,0.43,suggested-alt,text,False,partly,"Alt fine; description summarizes surrounding text, not the image."
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,18:043a281911b4,18,0.43,suggested-alt,text,False,right,Signature and printed lines correct.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,18:043a281911b4,18,0.93,suggested-alt,text,False,right,"Signature block, CPAs, Berkeley; correct."
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,18:043a281911b4,18,1.65,suggested-alt,text,False,right,"Signature, printed name and Berkeley match."
+local,da-financial-audit-comprehensive,21:a1ad9c1038ab,21,8.92,suggested-alt-uncertain,table,False,right,All line-item figures match the table.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,21:a1ad9c1038ab,21,1.20,suggested-alt-uncertain,table,False,right,Totals for both years and percents match.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,21:a1ad9c1038ab,21,0.71,suggested-alt-uncertain,table,False,partly,Generic; no figures.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,21:a1ad9c1038ab,21,0.88,suggested-alt-uncertain,table,False,wrong,"Says June 30, 2020 and revenue/expense changes; table is 2023 vs 2022."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,21:a1ad9c1038ab,21,1.73,suggested-alt-uncertain,table,False,right,12.0% current assets and 9.0% net position are correct.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,21:a1ad9c1038ab,21,2.96,suggested-alt-uncertain,table,False,right,"Totals, changes and percentages all match."
+local,da-financial-audit-comprehensive,22:0dae13c72b13,22,7.26,suggested-alt-uncertain,table,False,right,Figures and percents match.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,22:0dae13c72b13,22,1.56,suggested-alt-uncertain,table,False,wrong,Alt says program revenues increased 3.1%; they decreased 3.1%.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,22:0dae13c72b13,22,0.61,suggested-alt-uncertain,table,False,partly,Generic; no figures.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,22:0dae13c72b13,22,0.88,suggested-alt-uncertain,table,False,wrong,"Says expenses decreased $536,594 and net position improved 10.9%; both wrong."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,22:0dae13c72b13,22,1.88,suggested-alt-uncertain,table,False,right,Figures and percents match.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,22:0dae13c72b13,22,4.27,suggested-alt-uncertain,table,False,right,All values and percents match.
+local,da-financial-audit-comprehensive,23:474e19df64f3,23,7.79,suggested-alt-uncertain,table,False,right,"Totals and 0.6%, 15.8%, 10.0% match."
+ollama:gemma4:e4b,da-financial-audit-comprehensive,23:474e19df64f3,23,1.08,suggested-alt-uncertain,table,False,right,Totals and 10.0% match.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,23:474e19df64f3,23,0.67,suggested-alt-uncertain,table,False,partly,Generic; omits 2022 column and figures.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,23:474e19df64f3,23,0.90,suggested-alt-uncertain,table,False,wrong,"Service Abatement fell $79,589 (-28.8%); not 'increased by $276,456'."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,23:474e19df64f3,23,1.78,suggested-alt-uncertain,table,False,wrong,"Investment earnings change is +$458,780, not a large negative change."
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,23:474e19df64f3,23,3.93,suggested-alt-uncertain,table,False,wrong,"2022 investment earnings were negative ($272,008), given as positive."
+local,da-financial-audit-comprehensive,23:6be45a5b7dbb,23,5.25,suggested-alt-uncertain,table,False,right,Changes and percents match.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,23:6be45a5b7dbb,23,0.85,suggested-alt-uncertain,table,False,right,Totals and category percents match.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,23:6be45a5b7dbb,23,0.52,suggested-alt-uncertain,table,False,partly,Generic; no figures.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,23:6be45a5b7dbb,23,0.75,suggested-alt-uncertain,table,False,wrong,"Totals given as $5,422,420 and $4,915,420; actual $5,452,420 and $4,915,826."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,23:6be45a5b7dbb,23,1.58,suggested-alt-uncertain,table,False,right,Values and percents match.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,23:6be45a5b7dbb,23,3.21,suggested-alt-uncertain,table,False,right,"All values, changes and percents match."
+local,da-financial-audit-comprehensive,24:70df296ead99,24,6.69,suggested-alt-uncertain,chart,False,right,Increases in cash and total assets; minimal others; correct.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,24:70df296ead99,24,0.90,suggested-alt-uncertain,chart,False,wrong,"Total assets about $10M and $9M, not $9M and $7.5M."
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,24:70df296ead99,24,0.66,suggested-alt-uncertain,chart,False,partly,Generic; no values or trend.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,24:70df296ead99,24,0.84,suggested-alt-uncertain,chart,False,wrong,Values stated in billions; also mislabels cash vs total.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,24:70df296ead99,24,1.77,suggested-alt-uncertain,chart,False,wrong,"Total assets about $10M (2023) and $9M (2022), not both near $10.5M."
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,24:70df296ead99,24,2.40,suggested-description,chart,False,right,"Categories, colors and largest bars correct."
+local,da-financial-audit-comprehensive,25:3785dc9ad35e,25,6.22,suggested-alt-uncertain,chart,False,wrong,Says other categories differ less; Assigned (+$2.3M) and Unassigned (-$1.2M) differ more.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,25:3785dc9ad35e,25,1.26,suggested-alt-uncertain,chart,False,wrong,"Values invented, e.g. nonspendable $1M; unassigned actually fell in 2023."
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,25:3785dc9ad35e,25,0.72,suggested-alt-uncertain,chart,False,partly,Generic; no values or trends.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,25:3785dc9ad35e,25,1.08,suggested-alt-uncertain,chart,False,wrong,Garbled totals; Unassigned not larger than Assigned in 2023.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,25:3785dc9ad35e,25,1.60,suggested-alt-uncertain,chart,False,wrong,Says total fund balance decreased; it rose from ~$8.7M to ~$9.8M.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,25:3785dc9ad35e,25,2.98,suggested-alt-uncertain,chart,False,wrong,"Unassigned decreased in 2023, not increased."
+local,da-financial-audit-comprehensive,25:45b4024aae8e,25,6.53,suggested-alt-uncertain,chart,False,wrong,Claims 2023 taller everywhere and total ~100k in 2022; total is ~188k.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,25:45b4024aae8e,25,0.92,suggested-alt-uncertain,chart,False,wrong,Values wrong: 2022 total ~188k not 120k; AP 2023 ~65k not 40k.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,25:45b4024aae8e,25,0.66,suggested-alt-uncertain,chart,False,partly,Correct categories and colors but no values or trend.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,25:45b4024aae8e,25,0.87,suggested-alt-uncertain,chart,False,partly,Correct labels and colors but no values; vague 'increase in both years'.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,25:45b4024aae8e,25,1.81,suggested-description,chart,False,wrong,Says total decreased; 2023 total (~190k) slightly exceeds 2022 (~188k).
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,25:45b4024aae8e,25,3.32,suggested-alt-uncertain,chart,False,wrong,Alt says 2023 higher in all categories; AP 2023 (~65k) is below 2022 (~80k).
+local,da-financial-audit-comprehensive,26:54306aba0fe3,26,5.54,suggested-alt-uncertain,table,False,right,"Rows and -31.8%, -53.9%, +12.2% match."
+ollama:gemma4:e4b,da-financial-audit-comprehensive,26:54306aba0fe3,26,1.16,suggested-alt-uncertain,table,False,right,"Revenue, expenditure and net change figures all match."
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,26:54306aba0fe3,26,0.85,suggested-alt-uncertain,table,False,partly,"Vague; 'year-to-date amounts' not in table, no figures."
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,26:54306aba0fe3,26,0.88,suggested-description,table,False,partly,Accurate row list but no figures.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,26:54306aba0fe3,26,1.98,suggested-alt-uncertain,table,False,right,Beginning and ending fund balances match the table.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,26:54306aba0fe3,26,2.77,suggested-alt-uncertain,table,False,right,"Rows, revenue variance and debt service +695.1% match."
+local,da-financial-audit-comprehensive,27:65a41e12d44f,27,6.13,suggested-alt-uncertain,table,False,wrong,"Debt Service Reserve unchanged, not +1,000,000; Unassigned fell 229,478 not 1,228,072."
+ollama:gemma4:e4b,da-financial-audit-comprehensive,27:65a41e12d44f,27,0.94,suggested-alt-uncertain,table,False,right,"Nonspendable, Pension and totals match."
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,27:65a41e12d44f,27,0.67,suggested-alt-uncertain,table,False,partly,Correct categories but no figures.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,27:65a41e12d44f,27,0.95,suggested-alt-uncertain,table,False,right,Totals and Real Property/Debt Service figures match.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,27:65a41e12d44f,27,1.38,suggested-alt-uncertain,table,False,right,Totals and categories match.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,27:65a41e12d44f,27,2.62,suggested-alt-uncertain,table,False,right,Rows and totals match.
+local,da-financial-audit-comprehensive,28:9d899483482f,28,6.41,suggested-alt-uncertain,table,False,wrong,"Investment Earnings variance is +421,085; 252,847 is the FY21-22 value."
+ollama:gemma4:e4b,da-financial-audit-comprehensive,28:9d899483482f,28,1.13,suggested-alt-uncertain,table,False,right,"Revenue, expenditure and ending balance totals match."
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,28:9d899483482f,28,0.76,suggested-alt-uncertain,table,False,partly,"Correct subject, no figures."
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,28:9d899483482f,28,1.04,suggested-alt-uncertain,table,False,wrong,"Service Abatement fell 276,456 to 196,867; example garbled and wrong."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,28:9d899483482f,28,1.77,suggested-alt-uncertain,table,False,right,"Totals, percentages and ending balance match."
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,28:9d899483482f,28,3.01,suggested-alt-uncertain,table,False,wrong,"Investment Earnings rose by $421,085 (variance positive), not decreased."
+local,da-financial-audit-comprehensive,29:4f48e5207319,29,8.44,suggested-alt-uncertain,table,False,partly,Gives -6.8% for accumulated depreciation; table shows 6.8%.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,29:4f48e5207319,29,0.88,suggested-alt-uncertain,table,False,partly,"Drops sign on accumulated depreciation, so 'down' misstates its growth."
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,29:4f48e5207319,29,0.55,suggested-alt-uncertain,table,False,wrong,Claims table compares revenues and expenditures; it lists capital assets.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,29:4f48e5207319,29,0.92,suggested-alt-uncertain,table,False,right,All values match; 'General Fund' framing minor.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,29:4f48e5207319,29,1.66,suggested-alt-uncertain,table,False,right,All 2023 values and net total match.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,29:4f48e5207319,29,3.48,suggested-alt-uncertain,table,False,right,"All values, changes and percentages match."
+local,da-financial-audit-comprehensive,29:70f8a4a88c02,29,6.46,suggested-alt-uncertain,table,False,right,All values and changes match.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,29:70f8a4a88c02,29,1.00,suggested-alt-uncertain,table,False,right,All values and percentages match.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,29:70f8a4a88c02,29,0.53,suggested-alt-uncertain,table,False,wrong,Describes revenues and expenditures; table is debt administration.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,29:70f8a4a88c02,29,0.84,suggested-alt-uncertain,table,False,wrong,"2022 total is 3,907,013 not 211,519; change is 211,519 not 51,549."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,29:70f8a4a88c02,29,2.14,suggested-alt-uncertain,table,False,right,Values and 5.4% decrease match.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,29:70f8a4a88c02,29,2.56,suggested-alt-uncertain,table,False,right,All values match.
+local,da-financial-audit-comprehensive,29:b6291e9e8ae5,29,7.38,suggested-alt-uncertain,table,False,right,All values and percentages match.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,29:b6291e9e8ae5,29,0.91,suggested-alt-uncertain,table,False,right,Values match.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,29:b6291e9e8ae5,29,0.69,suggested-alt-uncertain,table,False,wrong,Calls it the General Fund; it is the Capital Improvement Fund.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,29:b6291e9e8ae5,29,0.78,suggested-alt-uncertain,table,False,wrong,"Says revenues declined -96%; revenues rose from negative to 18,534 (NA)."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,29:b6291e9e8ae5,29,1.74,suggested-alt-uncertain,table,False,right,Balances and -96.0% variances match.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,29:b6291e9e8ae5,29,3.13,suggested-alt-uncertain,table,False,right,"All values, variances and percentages match."
+local,da-financial-audit-comprehensive,52:b43184119f4d,52,7.78,suggested-alt-uncertain,table,False,partly,Claims five rows including header but lists five data rows; figures correct.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,52:b43184119f4d,52,1.07,suggested-alt-uncertain,table,False,right,All rows match.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,52:b43184119f4d,52,0.48,suggested-alt-uncertain,table,False,partly,"Correct subject, no figures."
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,52:b43184119f4d,52,0.83,suggested-alt-uncertain,table,False,partly,Says four years for 2024-2028 (five); figures correct.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,52:b43184119f4d,52,1.27,suggested-alt-uncertain,table,False,right,2024 and 2028 figures match.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,52:b43184119f4d,52,2.94,suggested-alt-uncertain,table,False,right,All rows match.
+local,da-financial-audit-comprehensive,52:e088b5e897b0,52,5.20,suggested-alt-uncertain,table,False,partly,Values correct but alt invents 'various categories including leases'.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,52:e088b5e897b0,52,0.61,suggested-alt-uncertain,table,False,right,All six values match.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,52:e088b5e897b0,52,0.43,suggested-alt-uncertain,table,False,wrong,"Values like $39.13, $26.41 are misread."
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,52:e088b5e897b0,52,0.73,suggested-alt-uncertain,table,False,wrong,"Values like $390.3, $264 are misread."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,52:e088b5e897b0,52,1.21,suggested-alt-uncertain,table,False,wrong,"Values like $3,970,13, $2,264,1 are misread."
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,52:e088b5e897b0,52,2.14,suggested-alt-uncertain,table,False,right,All six values match.
+local,da-financial-audit-comprehensive,53:fb86cae7b316,53,9.94,suggested-alt-uncertain,table,False,right,All rows match.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,53:fb86cae7b316,53,1.21,suggested-alt-uncertain,table,False,right,All rows match.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,53:fb86cae7b316,53,0.45,suggested-alt-uncertain,table,False,partly,Generic; 'cumulative totals' inaccurate; no figures.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,53:fb86cae7b316,53,0.77,suggested-alt-uncertain,table,False,partly,"Ranges right, but calls totals 'cumulative' and years run in grouped periods."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,53:fb86cae7b316,53,1.35,suggested-alt-uncertain,table,False,right,"318,094 and 1,590,471 totals match."
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,53:fb86cae7b316,53,2.70,suggested-alt-uncertain,table,False,right,Ranges and grouped rows match.
+local,da-financial-audit-comprehensive,55:287e6bb68fda,55,5.89,suggested-alt-uncertain,table,False,right,Allocations and 2.40%-7.90% range match.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,55:287e6bb68fda,55,1.16,suggested-alt-uncertain,table,False,right,All allocations and rates match.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,55:287e6bb68fda,55,0.57,suggested-alt-uncertain,table,False,partly,"Correct subject, no figures."
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,55:287e6bb68fda,55,0.80,suggested-alt-uncertain,table,False,wrong,"Large Cap 30%, Mid Cap 15.5%, Short Term Bond 65% misattributed."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,55:287e6bb68fda,55,1.49,suggested-alt-uncertain,table,False,right,Allocations and rates cited match.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,55:287e6bb68fda,55,2.96,suggested-alt-uncertain,table,False,right,All allocations and rates match.
+local,da-financial-audit-comprehensive,57:0f599cadeac2,57,4.92,suggested-alt-uncertain,table,False,right,Both rows transcribed correctly.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,57:0f599cadeac2,57,0.75,suggested-description,table,False,wrong,Claims 'All other amounts' has no value; cell holds the 11.11-year text.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,57:0f599cadeac2,57,0.56,suggested-alt-uncertain,text,False,partly,Vague alt; omits the 5-year period.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,57:0f599cadeac2,57,0.74,suggested-alt-uncertain,table,False,partly,"Garbled: 'investments over 5 years', 'members providing benefits'."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,57:0f599cadeac2,57,1.41,suggested-alt-uncertain,table,False,right,5 years and 11.11-year EARSL match.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,57:0f599cadeac2,57,2.13,suggested-alt-uncertain,table,False,right,Both rows transcribed correctly.
+local,da-financial-audit-comprehensive,57:c170aeda62f7,57,4.84,suggested-alt-uncertain,table,False,partly,Values correct; misreads 'Changes of Assumptions' as table title.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,57:c170aeda62f7,57,0.84,suggested-alt-uncertain,table,False,wrong,Labels columns expected vs actual; they are deferred outflows vs inflows.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,57:c170aeda62f7,57,0.42,suggested-alt,text,False,partly,"Generic, no figures."
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,57:c170aeda62f7,57,0.77,suggested-alt-uncertain,table,False,partly,Values correct; columns unidentified; 'variance' interpretation unsupported.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,57:c170aeda62f7,57,1.51,suggested-alt-uncertain,table,False,wrong,"Columns are outflows/inflows, not FY2023/2022; 195,400 and 2022 investment 141,839 wrong."
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,57:c170aeda62f7,57,2.36,suggested-alt-uncertain,table,False,partly,Values correct but columns unlabelled; alt calls total 'expenses'.
+local,da-financial-audit-comprehensive,61:9607802ba2d0,61,1.39,suggested-alt,text,False,partly,True but no values.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,61:9607802ba2d0,61,0.63,suggested-alt-uncertain,table,False,right,0.1209% and three values match.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,61:9607802ba2d0,61,0.41,suggested-alt-uncertain,text,False,wrong,"0.29%, 2051.46, 81.498, (1.324) misread."
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,61:9607802ba2d0,61,0.67,suggested-alt-uncertain,table,False,wrong,"$205,146, $81,498, $91,498, $1,324 misread; actual 2,005,146 / 891,498 / (13,524)."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,61:9607802ba2d0,61,1.10,suggested-alt-uncertain,table,False,wrong,"'10.42%', $2,055,146, $814,988, $(324,524) misread."
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,61:9607802ba2d0,61,2.01,suggested-alt-uncertain,table,False,right,0.1209% and three values match.
+local,da-financial-audit-comprehensive,62:ce9da8254cbb,62,1.88,suggested-alt-uncertain,text,False,right,Both values match.
+ollama:gemma4:e4b,da-financial-audit-comprehensive,62:ce9da8254cbb,62,0.63,suggested-alt-uncertain,table,False,right,Both values match; period from context.
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,62:ce9da8254cbb,62,0.29,suggested-alt,text,False,partly,"Correct subject, no figures."
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,62:ce9da8254cbb,62,0.60,suggested-alt-uncertain,table,False,wrong,"$25,912 and $9,358 misread; not deferred outflows/inflows."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,62:ce9da8254cbb,62,0.97,suggested-alt-uncertain,table,False,wrong,"First value is 255,921,172, not 2,592,172."
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,62:ce9da8254cbb,62,1.88,suggested-alt-uncertain,table,False,wrong,"First value is 255,921,172, not 2,559,211,772."
+local,da-financial-audit-comprehensive,91:1d4b4ca39e26,91,5.62,suggested-description,chart,False,wrong,"2022 not second tallest (2019 tallest); rodent is yellow, no red/green."
+ollama:gemma4:e4b,da-financial-audit-comprehensive,91:1d4b4ca39e26,91,0.77,suggested-description,chart,False,wrong,"Reads axis ticks as values: 2013 is 3,504 not 4,000 etc."
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,91:1d4b4ca39e26,91,0.44,suggested-description,chart,False,partly,"Vague; no red segments (colors are blue, orange, gray, yellow)."
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,91:1d4b4ca39e26,91,0.72,suggested-alt-uncertain,chart,False,partly,"Vague; conflates requests and responses, calls mosquito fish pests."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,91:1d4b4ca39e26,91,1.32,suggested-description,chart,False,wrong,"Legend colors wrong: rodent yellow, YJ/Wasp dark blue; five categories."
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,91:1d4b4ca39e26,91,2.09,suggested-description,chart,False,wrong,"Five categories not three; YJ/Wasp, not mosquito, is largest segment."
+local,da-financial-audit-comprehensive,92:83b684fc783a,92,6.07,suggested-description,chart,False,right,"Colors, axis and 2022 highest total match."
+ollama:gemma4:e4b,da-financial-audit-comprehensive,92:83b684fc783a,92,0.85,suggested-alt-uncertain,chart,False,wrong,"Treatments ~30,000 and ~40,000 wrong; ~9-11k."
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,92:83b684fc783a,92,0.66,suggested-alt-uncertain,chart,False,partly,Vague; treatments did not clearly increase overall.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,92:83b684fc783a,92,0.82,suggested-description,chart,False,right,"Colors, axis and 2022 highest total match."
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,92:83b684fc783a,92,1.54,suggested-alt-uncertain,chart,False,right,Totals 35-45k and 2022 near 50k match.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,92:83b684fc783a,92,2.71,suggested-alt-uncertain,chart,False,partly,Treatments did not 'rise' in 2022; 2014-2016 (~13k) were higher.
+local,da-financial-audit-comprehensive,93:a3316313c121,93,5.97,suggested-alt-uncertain,chart,False,partly,"2020 peak is ~355k, not ~330k."
+ollama:gemma4:e4b,da-financial-audit-comprehensive,93:a3316313c121,93,0.84,suggested-alt-uncertain,chart,False,wrong,"2017 is ~145,000, not ~100,000."
+ollama:minicpm-v4.6,da-financial-audit-comprehensive,93:a3316313c121,93,0.66,suggested-alt-uncertain,chart,False,wrong,Says y-axis is treatment costs in thousands of dollars; it is counts.
+ollama:openbmb/minicpm-v4.7:1b,da-financial-audit-comprehensive,93:a3316313c121,93,0.91,suggested-alt-uncertain,chart,False,wrong,2017 low ~145k not 100k; counts don't range from 50k.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-financial-audit-comprehensive,93:a3316313c121,93,1.50,suggested-alt-uncertain,chart,False,right,Low 2017 ~140k and peak 2020 ~350k match.
+ollama:qwen3-vl:8b,da-financial-audit-comprehensive,93:a3316313c121,93,3.35,suggested-alt-uncertain,chart,False,right,Per-year estimates match the bars.
+local,da-scanned-budget-handwriting,5:0846ffbfc5ba,5,2.98,suggested-alt-uncertain,logo,False,right,"Name, state, visible ID and expiry correct."
+ollama:gemma4:e4b,da-scanned-budget-handwriting,5:0846ffbfc5ba,5,0.64,suggested-alt-uncertain,text,False,wrong,Treats the notary's commission expiry as the signing date.
+ollama:minicpm-v4.6,da-scanned-budget-handwriting,5:0846ffbfc5ba,5,0.45,suggested-alt-uncertain,text,False,right,Visible stamp text correct.
+ollama:openbmb/minicpm-v4.7:1b,da-scanned-budget-handwriting,5:0846ffbfc5ba,5,0.53,suggested-alt-uncertain,text,False,wrong,Misreads the notary's ID number on the stamp.
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-scanned-budget-handwriting,5:0846ffbfc5ba,5,1.03,suggested-alt-uncertain,other,False,right,Accurate.
+ollama:qwen3-vl:8b,da-scanned-budget-handwriting,5:0846ffbfc5ba,5,1.71,suggested-alt-uncertain,text,False,right,Accurate reading of partial stamp.
+local,da-timelines-difficult-graphics,1:bfc2578cb820,1,4.62,suggested-alt-uncertain,other,False,right,"Sign 3945, 1908, vacuum truck, plant walkways, pumps, sludge all correct"
+ollama:gemma4:e4b,da-timelines-difficult-graphics,1:bfc2578cb820,1,1.18,suggested-alt-uncertain,photo,False,partly,Says three scenes; misses clarifier and sludge panels
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,1:bfc2578cb820,1,1.12,suggested-alt,photo,False,wrong,Name misread as 'Camel Area Wastewater District'
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,1:bfc2578cb820,1,1.24,suggested-alt-uncertain,diagram,False,partly,Clarifier called 'stagnation water treatment facility'; otherwise panels roughly right
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,1:bfc2578cb820,1,2.14,suggested-alt-uncertain,photo,False,partly,"Says three photos below; there are four, sludge panel omitted"
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,1:bfc2578cb820,1,2.34,suggested-alt-uncertain,photo,False,partly,Panel positions mixed up and says four photos but lists five
+local,da-timelines-difficult-graphics,4:72fe41b07aac,4,1.56,suggested-alt,photo,False,right,"Metal truss bridge over river, correct"
+ollama:gemma4:e4b,da-timelines-difficult-graphics,4:72fe41b07aac,4,0.46,suggested-alt,photo,False,right,"Correct, mostly calm river with trees"
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,4:72fe41b07aac,4,0.69,suggested-alt,photo,False,right,"Bridge over river with trees, correct"
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,4:72fe41b07aac,4,0.71,suggested-alt,photo,False,right,Correct
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,4:72fe41b07aac,4,1.14,suggested-alt,photo,False,right,"Truss bridge, white water foreground, trees; correct"
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,4:72fe41b07aac,4,1.63,suggested-alt,photo,False,right,Correct; usage hedged
+local,da-timelines-difficult-graphics,6:71cc85e24788,6,3.13,suggested-alt-uncertain,logo,False,right,Correct
+ollama:gemma4:e4b,da-timelines-difficult-graphics,6:71cc85e24788,6,0.55,suggested-alt-uncertain,logo,False,partly,Says three waves; logo has two (green and blue)
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,6:71cc85e24788,6,0.41,suggested-alt-uncertain,logo,False,wrong,Name misread as 'Camel Area'
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,6:71cc85e24788,6,0.53,suggested-alt-uncertain,logo,False,right,"Two waves green/blue, text correct"
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,6:71cc85e24788,6,0.97,suggested-alt-uncertain,logo,False,wrong,Name misread as 'Camel Area'
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,6:71cc85e24788,6,1.77,suggested-alt-uncertain,logo,False,right,Correct
+local,da-timelines-difficult-graphics,6:d4d2e2d455ee,6,1.66,suggested-alt,photo,False,right,Correct and concise
+ollama:gemma4:e4b,da-timelines-difficult-graphics,6:d4d2e2d455ee,6,0.81,suggested-alt,photo,False,partly,Calls treatment plant a 'construction site'; stats only from context
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,6:d4d2e2d455ee,6,0.72,suggested-alt,photo,False,wrong,Claims collection system and manholes shown; it is the treatment plant
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,6:d4d2e2d455ee,6,0.80,suggested-alt,photo,False,right,"Correct; sky slightly hazy, not clear"
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,6:d4d2e2d455ee,6,1.28,suggested-alt,photo,False,right,Correct
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,6:d4d2e2d455ee,6,1.85,suggested-alt,photo,False,right,"Aerial plant, circular structures, tanks, crane, houses, water; correct"
+local,da-timelines-difficult-graphics,7:5d00492a7003,7,1.54,suggested-alt,text,False,right,Correct
+ollama:gemma4:e4b,da-timelines-difficult-graphics,7:5d00492a7003,7,0.50,suggested-alt,text,False,right,Reasonable reading of caption
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,7:5d00492a7003,7,0.43,suggested-alt,text,False,partly,Says building is labeled as a mixing pump; slight misreading
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,7:5d00492a7003,7,0.53,suggested-alt,text,False,right,Correct
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,7:5d00492a7003,7,1.04,suggested-alt,text,False,right,Exact text quoted
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,7:5d00492a7003,7,1.52,suggested-alt,text,False,right,Correct
+local,da-timelines-difficult-graphics,7:6bc7279b0395,7,1.59,suggested-alt,photo,False,right,Correct
+ollama:gemma4:e4b,da-timelines-difficult-graphics,7:6bc7279b0395,7,0.67,suggested-alt,photo,False,right,Correct; 4.0 MGD from context
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,7:6bc7279b0395,7,0.61,suggested-alt-uncertain,photo,False,right,Generic but correct subject
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,7:6bc7279b0395,7,0.65,suggested-description,diagram,False,partly,'Construction facility' unsupported; otherwise accurate
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,7:6bc7279b0395,7,1.11,suggested-alt,photo,False,right,Correct
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,7:6bc7279b0395,7,2.03,suggested-alt,photo,False,right,"Pump, motor, black pipe, gauges, ductwork, gray panel all visible"
+local,da-timelines-difficult-graphics,8:04a402630c29,8,6.35,suggested-description,chart,False,wrong,Treatment Fees called second largest; Highlands/Reserves values swapped
+ollama:gemma4:e4b,da-timelines-difficult-graphics,8:04a402630c29,8,0.87,suggested-description,chart,False,wrong,"Merges Reserves/Highlands/PBCSD Capital as $1,786,932"
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,8:04a402630c29,8,0.62,suggested-description,chart,False,wrong,Invents 'Revenue Tax'; Treatment Fees not second largest (Property Tax is)
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,8:04a402630c29,8,0.91,suggested-alt-uncertain,chart,False,wrong,"Reclamation given $2,740,617; Tax $50,000 invented"
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,8:04a402630c29,8,1.66,suggested-description,chart,False,partly,Merges Highlands and PBCSD Capital labels; omits Reserves; values otherwise right
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,8:04a402630c29,8,2.73,suggested-description,chart,False,wrong,"Highlands PBCSD Capital given $1,786,932; Reserves $120,000 misattributed"
+local,da-timelines-difficult-graphics,8:c4e10734dea8,8,7.28,suggested-description,chart,False,wrong,Treatment Fees called second largest; Property Tax $2.74M is
+ollama:gemma4:e4b,da-timelines-difficult-graphics,8:c4e10734dea8,8,1.03,suggested-description,chart,False,wrong,Treatment Fees ranked second; Reserves $1.79M called smaller than Reclamation
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,8:c4e10734dea8,8,0.76,suggested-alt-uncertain,chart,False,wrong,Treatment Fees ranked above Property Tax; Property Tax listed twice
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,8:c4e10734dea8,8,1.00,suggested-description,chart,False,right,All values correct
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,8:c4e10734dea8,8,2.20,suggested-description,chart,False,right,"All values correct, correct order"
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,8:c4e10734dea8,8,2.73,suggested-description,chart,False,right,All ten values correctly attributed
+local,da-timelines-difficult-graphics,9:08204c0e5314,9,1.70,suggested-alt,photo,False,right,"Correct, labels from context"
+ollama:gemma4:e4b,da-timelines-difficult-graphics,9:08204c0e5314,9,0.68,suggested-alt,photo,False,right,Correct
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,9:08204c0e5314,9,0.62,suggested-alt,photo,False,right,Correct
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,9:08204c0e5314,9,0.75,suggested-alt,photo,False,right,"Tanks, railings, young tree, light pole; correct"
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,9:08204c0e5314,9,1.18,suggested-alt,photo,False,right,Correct
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,9:08204c0e5314,9,1.80,suggested-alt,photo,False,right,Correct
+local,da-timelines-difficult-graphics,9:b265b9859e06,9,1.60,suggested-alt,photo,False,right,Correct
+ollama:gemma4:e4b,da-timelines-difficult-graphics,9:b265b9859e06,9,0.73,suggested-alt,photo,False,right,Correct
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,9:b265b9859e06,9,0.75,suggested-alt-uncertain,photo,False,right,Correct
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,9:b265b9859e06,9,0.79,suggested-alt,photo,False,right,Correct
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,9:b265b9859e06,9,1.30,suggested-alt,photo,False,right,Correct
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,9:b265b9859e06,9,1.91,suggested-alt,photo,False,right,"Bollards, columns, piping, sky; correct"
+local,da-timelines-difficult-graphics,10:1d8600e3ac3e,10,2.37,suggested-description,other,False,partly,Traffic signs 'mounted on poles'; lines are timeline connectors
+ollama:gemma4:e4b,da-timelines-difficult-graphics,10:1d8600e3ac3e,10,0.55,suggested-description,diagram,False,wrong,Invents mapping of icons to primary/secondary treatment events
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,10:1d8600e3ac3e,10,0.37,suggested-alt,logo,False,partly,Too generic
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,10:1d8600e3ac3e,10,0.48,suggested-description,diagram,False,partly,Icons described accurately but as directional signs; meaning speculative
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,10:1d8600e3ac3e,10,0.98,suggested-description,diagram,False,partly,Says top/bottom; icons are side by side
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,10:1d8600e3ac3e,10,1.79,suggested-description,diagram,False,partly,Calls timeline icons traffic signs with invented meanings
+local,da-timelines-difficult-graphics,10:214c7b608acf,10,2.91,suggested-description,diagram,False,partly,Triangle called arrow; icons side by side not vertical
+ollama:gemma4:e4b,da-timelines-difficult-graphics,10:214c7b608acf,10,0.61,suggested-description,diagram,False,wrong,Describes dated timeline; crop shows only two icons
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,10:214c7b608acf,10,0.34,suggested-description,diagram,False,partly,Too generic
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,10:214c7b608acf,10,0.48,suggested-description,diagram,False,partly,Icon meanings speculative
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,10:214c7b608acf,10,0.55,suggested-alt,other,True,partly,Empty alt
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,10:214c7b608acf,10,1.67,suggested-description,diagram,False,wrong,"Triangle points up, not down"
+local,da-timelines-difficult-graphics,10:4e103e6b7c57,10,1.74,suggested-alt,photo,False,right,Correct
+ollama:gemma4:e4b,da-timelines-difficult-graphics,10:4e103e6b7c57,10,0.66,suggested-alt,photo,False,wrong,Construction tower misread as transmission tower
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,10:4e103e6b7c57,10,0.58,suggested-alt,photo,False,right,Generic but correct
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,10:4e103e6b7c57,10,0.71,suggested-alt,photo,False,right,Correct
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,10:4e103e6b7c57,10,1.33,suggested-alt-uncertain,photo,False,partly,Correct scene but claims image is labeled with timeline title
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,10:4e103e6b7c57,10,1.84,suggested-alt,photo,False,right,"Correct, cylindrical tank visible"
+local,da-timelines-difficult-graphics,10:94e9a8ff7454,10,2.37,suggested-description,other,False,partly,Triangle called upward arrow
+ollama:gemma4:e4b,da-timelines-difficult-graphics,10:94e9a8ff7454,10,0.56,suggested-description,diagram,False,wrong,Invents icon-to-event mapping; garbles salinity and rehabilitation
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,10:94e9a8ff7454,10,0.34,suggested-alt,logo,False,partly,Generic; meaning speculative
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,10:94e9a8ff7454,10,0.48,suggested-description,diagram,False,partly,Icon meanings speculative
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,10:94e9a8ff7454,10,0.98,suggested-description,diagram,False,partly,Icons right; garbled '2015 Salinity Management Rehabilitation'
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,10:94e9a8ff7454,10,1.85,suggested-description,diagram,False,wrong,"Triangle points up, not downward"
+local,da-timelines-difficult-graphics,10:b10631c14fc3,10,4.34,suggested-description,diagram,False,wrong,Nodes labeled 1908/1934/1939 not in image; triangles called arrows
+ollama:gemma4:e4b,da-timelines-difficult-graphics,10:b10631c14fc3,10,0.64,suggested-description,diagram,False,partly,"Dates from context, not shown in crop; icons not described"
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,10:b10631c14fc3,10,0.39,suggested-description,diagram,False,partly,"Vague, garbled 'facility incorporation'"
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,10:b10631c14fc3,10,0.59,suggested-description,diagram,False,wrong,Invented icon meanings; garbled duplicate 'District Act 1923'
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,10:b10631c14fc3,10,0.88,suggested-description,diagram,False,right,"Three nodes, colours, symbols, 'District Act 1923' correct"
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,10:b10631c14fc3,10,1.79,suggested-description,diagram,False,wrong,Blue downward arrows; actually blue upward triangles
+local,da-timelines-difficult-graphics,10:e67cff9708af,10,4.73,suggested-alt-uncertain,text,False,right,All milestones correct
+ollama:gemma4:e4b,da-timelines-difficult-graphics,10:e67cff9708af,10,0.76,suggested-alt-uncertain,text,False,right,All milestones correct
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,10:e67cff9708af,10,0.47,suggested-alt,text,False,partly,Vague; no specific events
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,10:e67cff9708af,10,0.71,suggested-alt-uncertain,table,False,partly,Dates right but description garbled at end
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,10:e67cff9708af,10,1.24,suggested-alt-uncertain,chart,False,right,All five milestones correct
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,10:e67cff9708af,10,2.12,suggested-alt-uncertain,table,False,right,All five correct
+local,da-timelines-difficult-graphics,10:f38efffe9e58,10,4.83,suggested-alt-uncertain,chart,False,partly,Calls horizontal timeline vertical; events correct
+ollama:gemma4:e4b,da-timelines-difficult-graphics,10:f38efffe9e58,10,0.86,suggested-alt-uncertain,chart,False,wrong,"Wrong dates: reorganization 1923, agreement 1934, completion 1969"
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,10:f38efffe9e58,10,0.52,suggested-alt-uncertain,text,False,right,Dates correctly attributed
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,10:f38efffe9e58,10,0.57,suggested-alt-uncertain,table,False,wrong,"Invented '2018-2028', 'Lakier', 'Monterey Forest'"
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,10:f38efffe9e58,10,1.31,suggested-alt-uncertain,table,False,partly,Says seven events; there are six
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,10:f38efffe9e58,10,2.34,suggested-alt-uncertain,table,False,right,All six events and dates correct
+local,da-timelines-difficult-graphics,11:50f1e209a5d7,11,4.69,suggested-alt-uncertain,text,False,wrong,Name misread as 'Harold L. Igors'
+ollama:gemma4:e4b,da-timelines-difficult-graphics,11:50f1e209a5d7,11,0.62,suggested-alt-uncertain,text,False,wrong,Administrator named 'Harold L. Jones'; it is Ickes
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,11:50f1e209a5d7,11,0.65,suggested-alt-uncertain,text,False,right,Correct
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,11:50f1e209a5d7,11,0.74,suggested-alt-uncertain,text,False,wrong,Name misread as 'Harold L. Ignes'
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,11:50f1e209a5d7,11,1.27,suggested-alt-uncertain,photo,False,right,"Ickes, Roosevelt, 1939 correct"
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,11:50f1e209a5d7,11,1.79,suggested-alt-uncertain,text,False,wrong,Name misread as 'Harold L. Ices'
+local,da-timelines-difficult-graphics,11:a034a2e770cc,11,6.76,suggested-alt-uncertain,text,False,wrong,Top plaque dated 1908; it reads 1939
+ollama:gemma4:e4b,da-timelines-difficult-graphics,11:a034a2e770cc,11,1.12,suggested-alt-uncertain,text,False,wrong,"Names misread: 'Comsstock', 'McArthy', 'Glyde'"
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,11:a034a2e770cc,11,0.77,suggested-alt,text,False,partly,Too generic
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,11:a034a2e770cc,11,0.97,suggested-alt-uncertain,text,False,wrong,Top plaque dated 1999; it reads 1939
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,11:a034a2e770cc,11,1.64,suggested-alt-uncertain,photo,False,right,Correct
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,11:a034a2e770cc,11,2.70,suggested-alt-uncertain,text,False,wrong,Top plaque dated 1959; reads 1939
+local,da-timelines-difficult-graphics,12:621196955123,12,5.24,suggested-alt-uncertain,table,False,right,Values correct; CMMS lists four of five
+ollama:gemma4:e4b,da-timelines-difficult-graphics,12:621196955123,12,1.08,suggested-description,table,False,partly,Gives only first-column values as single counts
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,12:621196955123,12,0.69,suggested-description,table,False,partly,"Generic, no values"
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,12:621196955123,12,0.95,suggested-alt-uncertain,table,False,partly,Generic; roles loosely paraphrased
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,12:621196955123,12,1.91,suggested-description,table,False,right,Cited values correct
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,12:621196955123,12,2.38,suggested-description,table,False,right,All rows and five columns correct
+local,da-timelines-difficult-graphics,12:83ef694eae6a,12,4.06,suggested-alt-uncertain,table,False,wrong,Four columns and six roles; actually five and five
+ollama:gemma4:e4b,da-timelines-difficult-graphics,12:83ef694eae6a,12,0.68,suggested-description,table,False,wrong,Says four columns; there are five. Totals not in crop
+ollama:minicpm-v4.6,da-timelines-difficult-graphics,12:83ef694eae6a,12,0.44,suggested-alt-uncertain,table,False,partly,Vague; totals only from context
+ollama:openbmb/minicpm-v4.7:1b,da-timelines-difficult-graphics,12:83ef694eae6a,12,0.65,suggested-description,table,False,partly,"Garbled 'assets, collections, maintenance'"
+ollama:openbmb/minicpm-v4.7:35b-a3b,da-timelines-difficult-graphics,12:83ef694eae6a,12,1.10,suggested-description,table,False,right,"Ranges correct, five periods"
+ollama:qwen3-vl:8b,da-timelines-difficult-graphics,12:83ef694eae6a,12,2.20,suggested-alt-uncertain,table,False,right,All values exact
+local,nchs-bar-chart,1:f25557d93150,1,5.53,suggested-description,chart,False,right,All values correct.
+ollama:gemma4:e4b,nchs-bar-chart,1:f25557d93150,1,0.89,suggested-description,chart,False,right,All values correct.
+ollama:minicpm-v4.6,nchs-bar-chart,1:f25557d93150,1,0.74,suggested-alt-uncertain,chart,False,partly,Only three values; 'over time' misframes a period total.
+ollama:openbmb/minicpm-v4.7:1b,nchs-bar-chart,1:f25557d93150,1,0.90,suggested-alt-uncertain,chart,False,right,All values correct.
+ollama:openbmb/minicpm-v4.7:35b-a3b,nchs-bar-chart,1:f25557d93150,1,1.61,suggested-description,chart,False,right,All values and 694 total correct.
+ollama:qwen3-vl:8b,nchs-bar-chart,1:f25557d93150,1,2.54,suggested-description,chart,False,right,All values correct.
+local,nchs-bar-chart,2:b1b29a6fda0d,2,5.15,suggested-alt-uncertain,chart,False,right,All values correct.
+ollama:gemma4:e4b,nchs-bar-chart,2:b1b29a6fda0d,2,0.74,suggested-description,chart,False,right,All values correct.
+ollama:minicpm-v4.6,nchs-bar-chart,2:b1b29a6fda0d,2,0.68,suggested-alt-uncertain,chart,False,right,All values correct.
+ollama:openbmb/minicpm-v4.7:1b,nchs-bar-chart,2:b1b29a6fda0d,2,0.91,suggested-alt-uncertain,chart,False,right,All values correct.
+ollama:openbmb/minicpm-v4.7:35b-a3b,nchs-bar-chart,2:b1b29a6fda0d,2,1.39,suggested-description,chart,False,right,All values correct.
+ollama:qwen3-vl:8b,nchs-bar-chart,2:b1b29a6fda0d,2,2.65,suggested-alt-uncertain,chart,False,right,"Values, axis range and note correct."

@@ -1,0 +1,25 @@
+{
+  "doc": "scan",
+  "page": 1,
+  "description": "Scanned Form W-9 page 1 (samples/scan.pdf, no text layer). Ground truth is fw9 page 1: the title, the Part I/II headings, the certification list and the Sign Here row. Without OCR the page converts to empty.",
+  "assertions": [
+    {"no_text": ["�"]},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page recovers none of the reference form's words.",
+     "min_recall": {"floor": 60, "reference": {"doc": "fw9", "page": 1}}},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text at all.",
+     "contains": ["Request for Taxpayer"]},
+    {"xfail": "Without OCR the page has no text; with OCR the full form title is still not recovered as one heading.",
+     "heading": {"text": "Request for Taxpayer Identification Number and Certification", "levels": [1, 6]}},
+    {"xfail": "Without OCR the page has no text; with OCR the certification items are still not recovered as the expected ordered list.",
+     "list_items": {"ordered": true, "items": [
+       "The number shown on this form is my correct taxpayer identification number (or I am waiting for a number to be issued to me); and",
+       "I am a U.S. citizen or other U.S. person (defined below); and"
+     ]}},
+    {"xfail_without_ocr": "Without an OCR runner, the Sign Here row labels are not recovered in order.",
+     "contains_in_order": ["Name of entity/individual.", "Signature of", "U.S. person", "General Instructions"]},
+    {"toc_lacks": ["requester. Do not", "noted.", "should check the “LLC” box and enter its appropriate tax classification."], "why": "OCR text that starts in lowercase is a piece of a sentence, never a heading (#83)."},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "review_lacks": ["unread-signature"], "why": "A word OCR could not read in a printed line ('What’s' of the heading) is no signature, though a short line sits under it (#85)."},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not OCR'd, so it has no heading to read.", "contains": ["What’s New"], "why": "The bold heading OCR read without confidence is print: its confident neighbour 'New' is as bold (#148)."},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "review_lacks": ["unread-text"], "why": "The 'What’s New' heading and the URL under 'Future developments' are print, each with a confident neighbour of its stroke weight: no 'Writing OCR could not read' crop (#148)."}
+  ]
+}

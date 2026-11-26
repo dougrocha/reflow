@@ -1,0 +1,43 @@
+{
+  "doc": "az-hca-nondiscrim-multilang",
+  "page": 4,
+  "description": "Multi-language insert, page 4: Japanese, Korean, Khmer and Thai taglines get their language from their script; the Polish, Russian, Cyrillic and Tagalog taglines, which the script or words cannot name, stay untagged (#123).",
+  "assertions": [
+    {
+      "block_lang": [
+        {
+          "text": "日本語を話される場合",
+          "lang": "ja"
+        },
+        {
+          "text": "한국어를 사용하는 경우",
+          "lang": "ko"
+        },
+        {
+          "text": "សូមយកចិតទុកដោក់",
+          "lang": "km"
+        },
+        {
+          "text": "โปรดทราบ",
+          "lang": "th"
+        },
+        {
+          "text": "Jeżeli mówi Pan/Pani po polsku",
+          "lang": null
+        },
+        {
+          "text": "Если вы говорите на Русский",
+          "lang": null
+        },
+        {
+          "text": "Ako govorite srpsko-hrvatski",
+          "lang": null
+        },
+        {
+          "text": "Kung nagsasalita ka ng Tagalog",
+          "lang": null
+        }
+      ]
+    }
+  ]
+}

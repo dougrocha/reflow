@@ -1,0 +1,18 @@
+{
+  "doc": "az-audit-compliance-and-risk-committee-charter",
+  "page": 2,
+  "description": "The charter's name and date, printed at the top of every page, are listed once, on page 1 (#159).",
+  "assertions": [
+    {
+      "toc_on_page": [
+        "Oversight of the Corporation’s Internal Audit Function",
+        "Financial Statement and Disclosure Matters"
+      ]
+    },
+    {
+      "no_text": [
+        "AUDIT, COMPLIANCE, AND RISK COMMITTEE CHARTER"
+      ]
+    }
+  ]
+}

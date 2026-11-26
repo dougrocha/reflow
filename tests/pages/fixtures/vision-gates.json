@@ -1,0 +1,40 @@
+{
+  "about": "The page-vision model's confidently wrong heading and row-header answers from the #210 report (docs/research/vision-page-understanding.md, 'Every confidently wrong case'). Each heading case is a paragraph the model called a heading; `text` is the start of the block as reflow converts it, and `gate` the check meant to reject it (null where #222 names none). The legislation SECTION lines are scored by #223: a SECTION line that opens an amendment sentence holds no title, so the model is wrong to call it a heading. Each row-header case is a column the model called row headers; `column` counts from 0 in each table on that page. Audit p62's column 0 is left out: in reflow's table it holds the row labels, so it is no data column there, though another run's table put numbers in it.",
+  "headings": [
+    {"doc": "docaccess-legislation", "page": 5, "text": "court, each party or the party's attorney", "gate": "continuation"},
+    {"doc": "docaccess-legislation", "page": 9, "text": "court.", "gate": "continuation"},
+    {"doc": "docaccess-legislation", "page": 40, "text": "appeals;", "gate": "continuation"},
+    {"doc": "docaccess-legislation", "page": 4, "text": "Code, is amended to read as follows:", "gate": "runs-on", "xfail": "The first block on its page: the SECTION line it finishes ends the page before, and runs-on reads only the blocks of one page, as the pass asks about one page at a time."},
+    {"doc": "docaccess-legislation", "page": 8, "text": "Code, is amended to read as follows:", "gate": "runs-on", "xfail": "reflow joins it to its SECTION line (SECTION 11. Code, is amended to read as follows:), so the pass offers no such block."},
+    {"doc": "docaccess-legislation", "page": 19, "text": "Code, is amended to read as follows:", "gate": "runs-on", "xfail": "The first block on its page: the SECTION line it finishes ends the page before, and runs-on reads only the blocks of one page, as the pass asks about one page at a time."},
+    {"doc": "docaccess-legislation", "page": 12, "text": "hearing on the application before the other business", "gate": "continuation"},
+    {"doc": "docaccess-legislation", "page": 13, "text": "Sec. 151.003. QUALIFICATIONS OF JUDGE. The special", "gate": null},
+    {"doc": "docaccess-legislation", "page": 5, "text": "SECTION 6. Section 30.015(a)", "gate": "no-witness"},
+    {"doc": "docaccess-legislation", "page": 5, "text": "SECTION 7. Section 30.016(a)", "gate": "no-witness"},
+    {"doc": "docaccess-legislation", "page": 5, "text": "SECTION 8. Sections 30.017(a)", "gate": "no-witness"},
+    {"doc": "docaccess-legislation", "page": 24, "text": "SECTION 44. Sections 25A.003(d)", "gate": "no-witness"},
+    {"doc": "docaccess-budget", "page": 2, "text": "NOW, THEREFORE, BE IT RESOLVED", "gate": "no-witness"},
+    {"doc": "docaccess-audit", "page": 19, "text": "This page intentionally left blank.", "gate": "no-witness"},
+    {"doc": "docaccess-calendar", "page": 1, "text": "COLOR KEY:", "gate": null},
+    {"doc": "docaccess-assessment-appeal", "page": 1, "text": "BOE-305-AH (P1) REV. 12 (05-24)", "gate": "form-id"},
+    {"doc": "docaccess-assessment-appeal", "page": 2, "text": "BOE-305-AH (P2) REV. 12 (05-24)", "gate": "form-id"},
+    {"doc": "docaccess-assessment-appeal", "page": 3, "text": "BOE-305-AH (P3) REV. 12 (05-24)", "gate": "form-id"},
+    {"doc": "docaccess-budget", "page": 8, "text": "Adopted", "gate": "no-witness"},
+    {"doc": "docaccess-budget", "page": 8, "text": "Actual 6/30/2024", "gate": "no-witness"},
+    {"doc": "docaccess-budget", "page": 8, "text": "Adopted Budget 2024 2025", "gate": "no-witness"},
+    {"doc": "docaccess-permit", "page": 1, "text": "DATE OF APPLICATION", "gate": "no-witness"},
+    {"doc": "docaccess-permit", "page": 1, "text": "VALUATION", "gate": "no-witness"},
+    {"doc": "docaccess-permit", "page": 1, "text": "PERMIT #", "gate": "no-witness"},
+    {"doc": "docaccess-permit", "page": 1, "text": "FEE", "gate": "no-witness"},
+    {"doc": "docaccess-permit", "page": 1, "text": "DATE OF APPROVAL", "gate": "no-witness"},
+    {"doc": "docaccess-permit", "page": 3, "text": "BUILDING PERMIT APPLICATIONS", "gate": "no-witness"},
+    {"doc": "docaccess-permit", "page": 6, "text": "BUILDING PERMIT", "gate": "no-witness"}
+  ],
+  "row_headers": [
+    {"doc": "docaccess-calendar", "page": 1, "column": 0},
+    {"doc": "docaccess-audit", "page": 62, "column": 1},
+    {"doc": "docaccess-audit", "page": 62, "column": 2},
+    {"doc": "docaccess-permit", "page": 2, "column": 0},
+    {"doc": "docaccess-permit", "page": 6, "column": 0}
+  ]
+}

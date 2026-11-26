@@ -1,0 +1,14 @@
+{
+  "doc": "practitioner-data-form",
+  "page": 4,
+  "description": "AzAHP practitioner data form page 4: a mostly blank page with a languages / race-ethnicity box (two text fields and nine ethnicity checkboxes) and a record-keeping box (YES/NO pairs).",
+  "assertions": [
+    {"min_recall": 86.5},
+    {"no_text": ["�"]},
+    {"contains_in_order": ["Languages other than English spoken by PRACTITIONER:", "Languages other than English spoken by OFFICE STAFF:", "Asian", "Native American/American Indian", "Native Hawaiian", "Pacific Islander", "Prefer not to disclose", "Other", "Describe your Medical Record Keeping System(s)", "Describe your Cost Record Keeping System(s)", "Electronic Claims Submission?", "Internet Access?", "Is this a minority or female owned business?", "Electronic Funds Transfer?"]},
+    {"labelled_once": ["Languages other than English spoken by PRACTITIONER:", "Languages other than English spoken by OFFICE STAFF:"]},
+    {"contains": ["Race/Ethnicity:"]},
+    {"field_group": {"legend": "Race/Ethnicity:", "options": ["Black/African", "Hispanic/Latino/Spanish", "White/Caucasian", "Asian", "Native American/American Indian", "Native Hawaiian", "Pacific Islander", "Prefer not to disclose", "Other (please add)"]}},
+    {"contains_in_order": ["Black/African", "Hispanic/Latino/Spanish", "White/Caucasian", "Asian", "Native American/American Indian", "Native Hawaiian"]}
+  ]
+}

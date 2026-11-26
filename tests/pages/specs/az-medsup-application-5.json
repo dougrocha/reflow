@@ -1,0 +1,58 @@
+{
+  "doc": "az-medsup-application",
+  "page": 5,
+  "description": "Medicare application Yes/No questions. The last box of the lost-coverage question shares a text run with Yes while No is separate.",
+  "assertions": [
+    {
+      "min_recall": 97.5
+    },
+    {
+      "no_text": [
+        "■",
+        "�"
+      ]
+    },
+    {
+      "field_group": {
+        "legend": "IV. (a) Do you have another Medicare Supplement policy in force?",
+        "options": [
+          "Yes",
+          "No"
+        ]
+      }
+    },
+    {
+      "field_group": {
+        "legend": "(d) Have you lost coverage from another Medicare Supplement policy within the last 63 days?",
+        "options": [
+          "Yes",
+          "No"
+        ]
+      }
+    },
+    {
+      "field_group": {
+        "legend": "(d) Do you intend to replace this insurance with a new Medicare Supplement policy?",
+        "options": [
+          "Yes",
+          "No"
+        ]
+      }
+    },
+    {
+      "contains": [
+        "**If you answered Yes to questions III(c) or IV(c) and an agent is assisting you in purchasing this plan,"
+      ]
+    },
+    {
+      "xfail": "The wrapped replacement question is split: only its final line becomes the group legend.",
+      "field_group": {
+        "legend": "(c) If so, do you intend to replace your current Medicare Supplement policy with this new Medicare Supplement policy**?",
+        "options": [
+          "Yes",
+          "No"
+        ]
+      }
+    }
+  ]
+}

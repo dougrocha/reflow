@@ -1,0 +1,19 @@
+{
+  "doc": "az-ma-appeals-form",
+  "page": 3,
+  "description": "Mail:, Fax: and Email: are labels with their values beside them, not headings (#159).",
+  "assertions": [
+    {
+      "not_heading": [
+        "Mail:",
+        "Fax:",
+        "Email:"
+      ]
+    },
+    {
+      "heading": {
+        "text": "Where to send this form"
+      }
+    }
+  ]
+}

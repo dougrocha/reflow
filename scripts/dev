@@ -1,0 +1,80 @@
+#!/usr/bin/env bash
+# This worktree's web dev server on a port of its own, so several worktrees can run side by side.
+#   scripts/dev start | stop | status
+# start picks a free port (the last one it used when that is still free), runs `next dev` on it in
+# the background, and retries on the next port if another server took it first. The port goes into
+# .worktree/env as REFLOW_PORT;
+# the PID, its start time and the log go in .worktree/. REFLOW_PORT in the environment pins the port.
+#
+# The demo customer page (docs/embed.md, "Trying it") is a route of the same server, /demo-site/,
+# reached at http://127.0.0.1:<port>: another origin than the app at http://localhost:<port>, so the
+# loader runs its real cross-origin path with one server. The server gets
+# REFLOW_DEMO_ORIGIN=http://127.0.0.1:<port> (the resolver's `demo` site) and
+# REFLOW_PUBLIC_ORIGIN=http://localhost:<port> (reflow's origin, where the loader, the resolver and
+# the viewer are).
+set -euo pipefail
+here="$(git rev-parse --show-toplevel)"
+dir="$here/.worktree"; envf="$dir/env"; pidf="$dir/dev.pid"; log="$dir/dev.log"
+mkdir -p "$dir"; touch "$envf"
+cmd="${1:-status}"
+
+# start time of a PID (field 22 of /proc/PID/stat), so a reused PID is never taken for ours
+started() { awk '{ sub(/^.*\) /, ""); print $20 }' "/proc/$1/stat" 2>/dev/null; }
+ours() {
+  [[ -f "$pidf" ]] || return 1
+  local pid since; read -r pid since <"$pidf"
+  [[ -n "$pid" && "$(started "$pid")" == "$since" ]]
+}
+port_of() { rg -o '^REFLOW_PORT=(\d+)' -r '$1' "$envf" || true; }
+free() { [[ -z "$(ss -ltnH "sport = :$1")" ]]; }
+set_port() { { rg -v '^REFLOW_PORT=' "$envf" || true; echo "REFLOW_PORT=$1"; } >"$envf.new"; mv "$envf.new" "$envf"; }
+
+status() {
+  if ours; then echo "up: pid $(cut -d' ' -f1 "$pidf") at http://localhost:$(port_of), demo customer page at http://127.0.0.1:$(port_of)/demo-site"; else echo "down"; return 1; fi
+}
+
+start() {
+  if ours; then status; return; fi
+  local candidates
+  if [[ -n "${REFLOW_PORT:-}" ]]; then candidates="$REFLOW_PORT"
+  else candidates="$(port_of) $(seq 3200 3399)"; fi
+  for port in $candidates; do
+    free "$port" || continue
+    (cd "$here/web" && REFLOW_DEMO_ORIGIN="http://127.0.0.1:$port" REFLOW_PUBLIC_ORIGIN="http://localhost:$port" exec setsid bun run dev -p "$port" >"$log" 2>&1) &
+    local pid=$!
+    echo "$pid $(started "$pid")" >"$pidf"
+    for _ in $(seq 1 120); do
+      if ! kill -0 "$pid" 2>/dev/null; then break; fi
+      local listener; listener="$(ss -ltnpH "sport = :$port" | rg -o 'pid=(\d+)' -r '$1' | head -1 || true)"
+      if [[ -n "$listener" && "$(ps -o pgid= -p "$listener" | tr -d ' ')" == "$pid" ]]; then
+        set_port "$port"; status; return
+      fi
+      sleep 0.5
+    done
+    rm -f "$pidf"
+    if kill -0 "$pid" 2>/dev/null; then
+      kill -- -"$pid" 2>/dev/null || true
+      echo "the server did not start in 60 s; log: $log" >&2; return 1
+    fi
+    if rg -q 'EADDRINUSE|already in use|is in use' "$log"; then echo "port $port was taken meanwhile; trying the next"; continue; fi
+    echo "the server exited; log: $log" >&2; tail -20 "$log" >&2; return 1
+  done
+  echo "no free port among: $candidates" >&2; return 1
+}
+
+stop() {
+  if ours; then
+    local pid; pid="$(cut -d' ' -f1 "$pidf")"
+    kill -- -"$pid" 2>/dev/null || kill "$pid"
+    for _ in $(seq 1 50); do kill -0 "$pid" 2>/dev/null || break; sleep 0.1; done
+    echo "stopped pid $pid"
+  else echo "no server of this worktree is running"; fi
+  rm -f "$pidf"
+}
+
+case "$cmd" in
+  start) start ;;
+  stop) stop ;;
+  status) status ;;
+  *) echo "usage: scripts/dev start|stop|status" >&2; exit 64 ;;
+esac

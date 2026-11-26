@@ -1,0 +1,39 @@
+{
+  "doc": "az-tucson-member-guide",
+  "page": 19,
+  "description": "Maternity-care brochure: each benefit label stays with its explanatory text across the three columns.",
+  "assertions": [
+    {
+      "min_recall": 98
+    },
+    {
+      "heading": {
+        "text": "What's covered under the medical plan"
+      }
+    },
+    {
+      "contains_in_order": [
+        "Prenatal Checkups",
+        "These are your regular doctor visits",
+        "Ultrasounds",
+        "A safe way to see your baby",
+        "Gestational Diabetes Screening",
+        "Some women develop diabetes",
+        "Labor and Delivery",
+        "Your hospital stay",
+        "Breast Pump",
+        "Most breast pumps and supplies",
+        "Lactation Consultant",
+        "One-on-one support"
+      ]
+    },
+    {
+      "contains": [
+        "Participants can earn up to $150",
+        "azblue.com/maternity",
+        "Baby bottles",
+        "Pacifiers"
+      ]
+    }
+  ]
+}

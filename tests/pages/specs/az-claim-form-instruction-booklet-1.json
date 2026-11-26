@@ -1,0 +1,16 @@
+{
+  "doc": "az-claim-form-instruction-booklet",
+  "page": 1,
+  "description": "Instruction booklet cover (#160): the title is outlined type that OCR reads only as 'Claim Form' with 'Form' in doubt, so the title goes to review.",
+  "assertions": [
+    {
+      "title_suspect": true
+    },
+    {
+      "xfail": "OCR cannot read the cover's title, set in outlined condensed type",
+      "doc_title": "HOW TO COMPLETE YOUR Out-of-Network Claim Form"
+    },
+    {"xfail": "#291: OCR runs the condensed title together, and 'Out-of-Network' is a crop that says 'Not transcribed'.", "contains": ["HOW TO COMPLETE YOUR", "Out-of-Network Claim Form"]},
+    {"xfail": "#291: OCR's run-together reading of the title is kept.", "no_text": ["HOWTO", "Not transcribed"]}
+  ]
+}

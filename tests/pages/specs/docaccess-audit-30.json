@@ -1,0 +1,13 @@
+{
+  "doc": "docaccess-audit",
+  "page": 30,
+  "description": "Audit page 30 (scanned): the header rule is no handwriting, and the typed text under it survives.",
+  "assertions": [
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "review_lacks": ["unread-handwriting", "unread-text"]},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains_in_order": ["Management's Discussion and Analysis", "Conditions Affecting Current Financial Position"]},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "unread_figures": 0, "why": "No writing on the page (#84)."},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "heading": {"text": "Conditions Affecting Current Financial Position"}, "why": "Bold on the page image (#93)."},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "heading": {"text": "Requests for Information"}, "why": "Bold on the page image (#93)."},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "review_has": ["heading-from-ink"]}
+  ]
+}

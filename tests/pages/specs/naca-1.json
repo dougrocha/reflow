@@ -1,0 +1,20 @@
+{
+  "doc": "naca",
+  "page": 1,
+  "description": "NACA Report 914 title page (scanned, with a poor OCR text layer): the title lines, the byline and the publisher's line.",
+  "assertions": [
+    {"min_recall": 93.0},
+    {"no_text": ["�"]},
+    {"heading": {"text": "NATIONAL ADVISORY COMMITTEE", "levels": [2, 2]}},
+    {"heading": {"text": "REPORT No. 914", "levels": [2, 2]}},
+    {"heading": {"text": "EFFECT OF CENTRIFUGAL FORCE ON THE ELASTIC", "levels": [2, 2], "contains": true}},
+    {"heading": {"text": "EFFECT OF CENTRIFUGAL FORCE ON THE ELASTIC CURVE OF A VIBRATING CANTILEVER BEAM", "levels": [1, 2]}},
+    {"not_heading": ["By SCOTT H. SIMPKINSON, LAUREL J. EATHERTON"]},
+    {"contains_in_order": ["NATIONAL ADVISORY COMMITTEE", "FOR AERONAUTICS", "REPORT No. 914", "EFFECT OF CENTRIFUGAL FORCE ON THE ELASTIC", "CURVE OF A VIBRATING CANTILEVER BEAM", "SCOTT H. SIMPKINSON", "MORTON B. MILLENSON", "1948", "For sale by the Superintendent of Documents"]},
+    {"same_block": [["SCOTT H. SIMPKINSON", "LAUREL J. EATHERTON"]]},
+    {"unread_figures": {"min": 1}, "why": "The red MIT library stamp is ink no text reads (#84)."},
+    {"xfail_without_ocr": "Without an OCR runner, the kept layer is not graded.", "no_text": ["6'17", "#i 5"], "why": "#82 keeps the file's own OCR layer; its reading of the handwritten 'Copy #3' is graded unread and left out (#147)."},
+    {"xfail_without_ocr": "Without an OCR runner, the kept layer is not graded.", "review_has": ["ocr-words-omitted"], "why": "The words left out of the kept layer go to review (#147)."},
+    {"unread_over_text": ["NATIONAL ADVISORY COMMITTEE", "EFFECT OF CENTRIFUGAL FORCE", "SCOTT H. SIMPKINSON"], "why": "No crop lies over typed text."}
+  ]
+}

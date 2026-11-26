@@ -1,0 +1,26 @@
+{
+  "doc": "fw9",
+  "page": 5,
+  "description": "Form W-9 page 5: Part II headings, the two account/TIN tables side by side, the identity-theft bullets.",
+  "assertions": [
+    {"min_recall": 97.0},
+    {"no_text": ["�"]},
+    {"heading": {"text": "Part II. Certification", "levels": [3, 3]}},
+    {"heading": {"text": "What Name and Number To Give the Requester", "levels": [3, 3]}},
+    {"heading": {"text": "Secure Your Tax Records From Identity Theft", "levels": [3, 3]}},
+    {"tables": 2},
+    {"table": {"rows": 9, "cols": 2, "cells": ["For this type of account:", "Give name and SSN of:", "1. Individual", "The individual", "6. Sole proprietorship or disregarded entity owned by an individual"]}},
+    {"table": {"rows": 9, "cols": 2, "cells": ["Give name and EIN of:", "The corporation", "The organization", "The trust"]}},
+    {"same_block": [["1. Individual", "The individual"], ["12. Partnership or multi-member LLC", "The partnership"]]},
+    {"list_items": {"ordered": false, "items": [
+      "Protect your SSN,",
+      "Ensure your employer is protecting your SSN, and",
+      "Be careful when choosing a tax return preparer."
+    ]}},
+    {"contains_in_order": ["Part II. Certification", "What Name and Number To Give the Requester", "Secure Your Tax Records From Identity Theft", "For more information, see Pub. 5027"]},
+    {"contains_in_order": ["To establish to the withholding agent", "For a joint account, only the", "Signature requirements. Complete the certification as", "Interest, dividend, and barter exchange accounts", "You must give your correct TIN,", "Interest, dividend, broker, and barter exchange", "1983. You must sign the certification", "Real estate transactions. You must sign", "Other payments. You must give your", "Mortgage interest paid by you, acquisition", "IRA, Coverdell ESA, Archer MSA or", "What Name and Number To Give", "1 List first and circle the", "Note: If no name is circled", "Secure Your Tax Records From Identity", "Identity theft occurs when someone uses", "To reduce your risk:", "Ensure your employer is protecting your", "Be careful when choosing a tax", "If your tax records are affected", "If your tax records are not", "For more information, see Pub. 5027,"], "why": "The opening words of each paragraph, list item and heading, in reading order: catches swapped or moved paragraphs (#330)."},
+    {"contains_in_order": ["Form W-9. You", "item 1, 4, or 5 below", "line 1 must", "items 1 through 5 below.", "before 1984 and", "during 1983.", "after 1983 and", "1983. You", "item 2 in", "item 2 of", "section 529), ABLE", "section 529A),", "1. Individual", "2. Two", "the account1", "3. Two", "4. Custodial", "The minor2", "5. a.", "The grantor-trustee1", "actual owner1", "6. Sole", "The owner3", "7. Grantor", "Method 1 (see", "section 1.671-4(b)(2)(i)(A))** The", "8. Disregarded", "9. A", "Legal entity4", "10. Corporation", "Form 8832 or Form 2553 The", "11. Association,", "12. Partnership", "13. A", "14. Account", "15. Grantor", "Form 1041 or", "Method 2, requiring Form 1099 (see", "section 1.671-4(b)(2)(i)(B))** The", "1 List", "furnished. 2 Circle", "SSN. 3 You", "line 1, and", "line 2. You", "SSN. 4 List", "Form W-9 to", "Form 1041.", "at 800-908-4490 or", "Form 14039.", "Pub. 5027, Identity"], "why": "Every number with a word either side, in reading order: catches a changed digit (#330)."},
+    {"table": {"rows": 11, "cells": ["For this type of account:", "The individual", "2. Two or more individuals (joint account)", "if combined funds, the first individual", "on the account1", "3. Two or more U.S. persons (joint account maintained by an FFI)", "4. Custodial account of a minor (Uniform Gift to Minors Act)", "5. a. The usual revocable savings trust (grantor is also trustee)", "b. So-called trust account that is not a legal or valid trust under state law", "6. Sole proprietorship or disregarded entity owned by an individual", "7. Grantor trust filing under Optional Filing Method 1 (see Regulations section 1.671-4(b)(2)(i)(A))**"]}, "why": "Its rows, and the longest cell of each: catches a dropped row (#330)."},
+    {"table": {"rows": 9, "cells": ["For this type of account:", "8. Disregarded entity not owned by an individual", "9. A valid trust, estate, or pension trust", "10. Corporation or LLC electing corporate status on Form 8832 or Form 2553", "11. Association, club, religious, charitable, educational, or other tax-exempt organization", "12. Partnership or multi-member LLC", "13. A broker or registered nominee", "14. Account with the Department of Agriculture in the name of a public entity (such as a state or local government, school district, or prison) that receives agricultural program payments", "15. Grantor trust filing Form 1041 or under the Optional Filing Method 2, requiring Form 1099 (see Regulations section 1.671-4(b)(2)(i)(B))**"]}, "why": "Its rows, and the longest cell of each: catches a dropped row (#330)."}
+  ]
+}

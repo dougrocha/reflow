@@ -1,0 +1,25 @@
+{
+  "doc": "az-bluedental-manual",
+  "page": 12,
+  "description": "Two portal screenshots and their captions on printed page 10. The live page title above them is content too.",
+  "assertions": [
+    {
+      "contains_in_order": [
+        "Claims page (claim status search tool)",
+        "Remits page (online remits)"
+      ]
+    },
+    {
+      "figures": 2
+    },
+    {
+      "tables": 0
+    },
+    {
+      "xfail": "The live running section title above the screenshots is removed from the transcript.",
+      "contains": [
+        "BlueDental Online Resources"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "doc": "docaccess-rfp",
+  "page": 5,
+  "description": "Kitsap 911 RFP page 5: 3.1 CAD SYSTEM is a section of Section 3, and its numbered subsection sits one level under it.",
+  "assertions": [
+    {"heading": {"text": "3.1 CAD SYSTEM", "levels": [3, 3]}},
+    {"heading": {"text": "3.1.1 Database Servers", "levels": [4, 4]}}
+  ]
+}

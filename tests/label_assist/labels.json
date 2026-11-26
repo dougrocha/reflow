@@ -1,0 +1,71 @@
+{
+  "about": "Hand-labelled field-to-caption pairs, read from the rendered pages (not from the converter). 'caption' is the printed text that names the control; a name matches when the normalized caption is contained in the control's accessible name (aria, else its label text), or equals it when 'exact' is true; 'accept' lists other spellings that also count. 'name' is the PDF field name (a dotted suffix is enough); a group has no name and is found by 'at': its [x0, top] in points.",
+  "forms": {
+    "fw9": {
+      "pdf": "samples/fw9.pdf",
+      "labels": [
+        {"page": 1, "name": "Page1[0].f1_01[0]", "caption": "Name of entity/individual"},
+        {"page": 1, "name": "Page1[0].f1_02[0]", "caption": "Business name/disregarded entity name"},
+        {"page": 1, "name": "c1_1[0]", "caption": "Individual/sole proprietor"},
+        {"page": 1, "name": "c1_1[5]", "caption": "LLC"},
+        {"page": 1, "name": "f1_03[0]", "caption": "tax classification"},
+        {"page": 1, "name": "f1_04[0]", "caption": "Other (see instructions)"},
+        {"page": 1, "name": "Page1[0].f1_05[0]", "caption": "Exempt payee code"},
+        {"page": 1, "name": "Page1[0].f1_06[0]", "caption": "Foreign Account Tax Compliance"},
+        {"page": 1, "name": "c1_2[0]", "caption": "foreign partners"},
+        {"page": 1, "name": "f1_07[0]", "caption": "Address (number, street, and apt. or suite no.)"},
+        {"page": 1, "name": "f1_08[0]", "caption": "City, state, and ZIP code"},
+        {"page": 1, "name": "Page1[0].f1_09[0]", "caption": "Requester's name and address"},
+        {"page": 1, "name": "Page1[0].f1_10[0]", "caption": "account number"},
+        {"page": 1, "name": "Page1[0].f1_11[0]", "caption": "Social security number"},
+        {"page": 1, "name": "Page1[0].f1_12[0]", "caption": "Social security number"},
+        {"page": 1, "name": "Page1[0].f1_13[0]", "caption": "Social security number"},
+        {"page": 1, "name": "Page1[0].f1_14[0]", "caption": "Employer identification number"},
+        {"page": 1, "name": "Page1[0].f1_15[0]", "caption": "Employer identification number"}
+      ]
+    },
+    "uscis-i9": {
+      "pdf": "samples/corpus/uscis-i9.pdf",
+      "labels": [
+        {"page": 1, "name": "Last Name (Family Name)", "caption": "Last Name (Family Name)"},
+        {"page": 1, "name": "First Name Given Name", "caption": "First Name (Given Name)"},
+        {"page": 1, "name": "Employee Middle Initial (if any)", "caption": "Middle Initial (if any)"},
+        {"page": 1, "name": "Address Street Number and Name", "caption": "Address (Street Number and Name)"},
+        {"page": 1, "name": "Apt Number (if any)", "caption": "Apt. Number (if any)", "accept": ["Apartment Number"]},
+        {"page": 1, "name": "City or Town", "caption": "City or Town"},
+        {"page": 1, "name": "State", "caption": "State"},
+        {"page": 1, "name": "ZIP Code", "caption": "ZIP Code"},
+        {"page": 1, "name": "Date of Birth mmddyyyy", "caption": "Date of Birth"},
+        {"page": 1, "name": "US Social Security Number", "caption": "Social Security Number"},
+        {"page": 1, "name": "Employees E-mail Address", "caption": "Email Address", "accept": ["E-mail Address"]},
+        {"page": 1, "name": "Telephone Number", "caption": "Telephone Number"},
+        {"page": 1, "name": "Signature of Employee", "caption": "Signature of Employee"},
+        {"page": 1, "name": "Document Title 1", "caption": "Document Title 1"},
+        {"page": 1, "name": "Issuing Authority 1", "caption": "Issuing Authority"},
+        {"page": 1, "name": "Expiration Date if any", "caption": "Expiration Date"}
+      ]
+    },
+    "docaccess-assessment-appeal": {
+      "pdf": "samples/docaccess/03-assessment-appeal-application.pdf",
+      "labels": [
+        {"page": 1, "name": "NAME OF APPLICANT LAST FIRST MIDDLE INITIAL BUSINESS OR TRUST NAME", "caption": "NAME OF APPLICANT"},
+        {"page": 1, "name": "EMAIL ADDRESS", "caption": "EMAIL ADDRESS"},
+        {"page": 1, "name": "CITY", "caption": "CITY"},
+        {"page": 1, "name": "STATE", "caption": "STATE"},
+        {"page": 1, "name": "ZIP CODE", "caption": "ZIP CODE"},
+        {"page": 1, "name": "Daytime Telephone", "caption": "DAYTIME TELEPHONE"},
+        {"page": 1, "name": "FAX TELEPHONE", "caption": "FAX TELEPHONE"},
+        {"page": 1, "name": "COMPANY NAME", "caption": "COMPANY NAME"},
+        {"page": 1, "name": "CITY_2", "caption": "CITY"},
+        {"page": 1, "name": "STATE_2", "caption": "STATE"},
+        {"page": 1, "name": "AUTHORIZATION ATTACHED", "caption": "AUTHORIZATION ATTACHED"},
+        {"page": 1, "name": "Title", "caption": "TITLE"},
+        {"page": 1, "name": "Date", "caption": "DATE"},
+        {"page": 1, "name": "Yes", "caption": "Yes", "exact": true},
+        {"page": 1, "name": "No", "caption": "No", "exact": true},
+        {"page": 1, "at": [37, 555], "caption": "PROPERTY TYPE"},
+        {"page": 1, "at": [302, 554], "caption": "PROPERTY TYPE"}
+      ]
+    }
+  }
+}

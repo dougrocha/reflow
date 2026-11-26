@@ -1,0 +1,18 @@
+{
+  "doc": "pima-directory",
+  "page": 445,
+  "description": "Pima County provider directory page 445 (Ophthalmology, Tucson, continued): provider headings across three columns, one name that wraps onto a second line.",
+  "assertions": [
+    {"min_recall": 95.5},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Deokule, Sunil P, MD (M)", "contains": true, "levels": [5, 5]}},
+    {"heading": {"text": "Diaz, Carlos E, MD (M)", "contains": true, "levels": [5, 5]}},
+    {"heading": {"text": "Diesenhouse, Michael C", "contains": true, "levels": [5, 5]}},
+    {"heading": {"text": "Garrity, Sean", "contains": true, "levels": [5, 5]}},
+    {"same_entry": [["Deokule, Sunil P", "10195 N Oracle Rd, Ste 125"], ["Diaz, Carlos E", "2680 E Valencia Rd, Ste 188"], ["Garrity, Sean", "2121 N Craycroft Rd Bldg 6"]]},
+    {"same_block": [["1110 N El Dorado Pl", "Language: Spanish"]]},
+    {"contains_in_order": ["Continued: Ophthalmology › Tucson", "Deokule, Sunil P", "10195 N Oracle Rd, Ste 125", "Diaz, Carlos E", "Diesenhouse, Michael C", "Felix Tacoronte, Carmen L", "1110 N El Dorado Pl", "Garrity, Sean", "Harris, April E", "Henry, Michael D", "Hodges, Timothy L"]},
+    {"heading": {"text": "Felix Tacoronte, Carmen L, MD (F)", "contains": true, "levels": [5, 5]}}
+  ]
+}

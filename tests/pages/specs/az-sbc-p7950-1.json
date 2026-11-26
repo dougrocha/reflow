@@ -1,0 +1,15 @@
+{
+  "doc": "az-sbc-p7950",
+  "page": 1,
+  "description": "The SBC table's column headers are not a heading (#159).",
+  "assertions": [
+    {
+      "not_heading": [
+        "Important Questions Answers Why This Matters:"
+      ]
+    },
+    {
+      "toc_on_page": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "doc": "az-hca-nondiscrim-multilang",
+  "page": 4,
+  "description": "BCBSAZ Health Choice non-discrimination notice, multi-language insert, page 4: the Farsi tagline (#122). InDesign draws each connected piece of a word left to right but the pieces in logical order, so pdfium's reversal of the right-to-left run scrambled the letters.",
+  "assertions": [
+    {"contains": ["توجھ: اگر بھ زبان فارسی صحبت", "خدمات زبانی رایگان بھ شما ارائھ میشود."],
+     "why": "The tagline in logical order, as pdftotext reads its text layer after NFKC."},
+    {"same_block": [["توجھ: اگر بھ زبان فارسی", "(TTY: 711)"], ["توجھ: اگر بھ زبان فارسی", "بگیرید."]]},
+    {"xfail": "'تماس', the last word of the tagline's first row, is drawn left of the phone number and is read before the row, at the end of the Nepali tagline above.",
+     "same_block": [["توجھ: اگر بھ زبان فارسی", "تماس"]]}
+  ]
+}

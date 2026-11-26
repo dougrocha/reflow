@@ -1,0 +1,46 @@
+{
+  "doc": "az-aca-guide-es",
+  "page": 20,
+  "description": "Spanish half of a bilingual ACA guide. Three-column exclusions list, read down each column before moving right.",
+  "assertions": [
+    {
+      "doc_lang": "en-US"
+    },
+    {
+      "min_recall": 98
+    },
+    {
+      "heading": {
+        "text": "Exclusiones y limitaciones"
+      }
+    },
+    {
+      "contains_in_order": [
+        "Abortos",
+        "Exámenes genéticos o cromosómicos",
+        "Servicios de habilitación para pacientes ambulatorios",
+        "Servicios de enfermería privada",
+        "Programas para bajar de peso"
+      ]
+    },
+    {
+      "list_items": {
+        "ordered": false,
+        "items": [
+          "Abortos",
+          "Acupuntura",
+          "Visión de rutina para adultos",
+          "Medicina alternativa"
+        ]
+      }
+    },
+    {
+      "block_lang": [
+        {
+          "text": "A continuación, se presenta una lista parcial de las afecciones",
+          "lang": "es"
+        }
+      ]
+    }
+  ]
+}

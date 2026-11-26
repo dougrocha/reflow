@@ -1,0 +1,51 @@
+{
+  "doc": "az-remittance-advice-scan",
+  "page": 1,
+  "description": "Scanned redacted remittance advice. Recover legible text; the source line items require a table, not invented numeric prose: at least five rows of twelve columns (a header, three line items and the claim totals, not counting the member and provider band ruled under the header, which a faithful table may keep as a sixth row). The totals row is found by its billed total, 268.00 in column 3, because the unruled Claim Totals label spans columns 0 to 2.",
+  "assertions": [
+    {
+      "xfail_without_ocr": "This page has no text layer; it requires OCR.",
+      "contains": [
+        "Health Choice Arizona, Inc.",
+        "Statement Totals:",
+        "PAYMENT REDUCED BY MEDICARE OR OTHER INSURANCE PAYMENT"
+      ]
+    },
+    {
+      "no_text": [
+        "�"
+      ]
+    },
+    {
+      "xfail": "OCR does not reconstruct the ruled line-item table and corrupts its numeric values.",
+      "table": {
+        "rows": 5,
+        "cols": 12,
+        "cells": [
+          "J0702",
+          "20553",
+          "76942",
+          "168.00",
+          "R1"
+        ],
+        "cell_contains": [
+          {"row": {"col": 3, "text": "268.00"}, "cols": [0, 1, 2], "text": "Claim Totals:"},
+          {"row": {"col": 3, "text": "268.00"}, "cols": [4], "text": "0.00"},
+          {"row": {"col": 3, "text": "268.00"}, "cols": [5], "text": "136.14"},
+          {"row": {"col": 3, "text": "268.00"}, "cols": [6], "text": "131.86"},
+          {"row": {"col": 3, "text": "268.00"}, "cols": [7], "text": "105.49"},
+          {"row": {"col": 3, "text": "268.00"}, "cols": [8], "text": "0.00"},
+          {"row": {"col": 3, "text": "268.00"}, "cols": [9], "text": "0.00"},
+          {"row": {"col": 3, "text": "268.00"}, "cols": [10], "text": "26.37"}
+        ]
+      }
+    },
+    {
+      "xfail": "The scan layout promotes many fragments of addresses and column labels to headings.",
+      "max_headings": 6
+    },
+    {"xfail": "#291: OCR's misreadings of the small print are kept.", "no_text": ["revene", "ERAsinthe", "Tofals"]},
+    {"xfail": "#291: OCR misreads the small print, and its low-confidence words get no second reading.", "contains": ["revenue and payment cycle solutions", "ERAs in the", "offered to you at no additional cost", "available online"]},
+    {"xfail": "#291: OCR drops the decimal points of the claim totals.", "contains": ["136.14", "131.86", "105.49", "26.37"]}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "doc": "docaccess-rfp",
+  "page": 1,
+  "description": "Kitsap 911 RFP page 1: the project description text and its section heading survive conversion. The defined term \"Furnished System\" is italic in the source, with its closing quote and full stop (the font draws them italic too); \"24/7\" is set in the regular font.",
+  "assertions": [
+    {"doc_title": "Kitsap 911 - Computer Aided Dispatch - Request for Proposal"},
+    {"contains": ["Kitsap 911 (Kitsap) is improving"]},
+    {"heading": {"text": "Section 1 – Project Description"}},
+    {"emphasis": {"text": "Furnished System”.", "kind": "em"}}
+  ]
+}

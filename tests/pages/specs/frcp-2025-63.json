@@ -1,0 +1,10 @@
+{
+  "doc": "frcp-2025",
+  "page": 63,
+  "description": "Federal Rules of Civil Procedure: the final roman subitem of a list begins at the top of the page.",
+  "assertions": [
+    {"list_items": {"ordered": true, "items": [
+      "(ii) for discovery under (D), also pay the other party a fair portion of the fees and expenses it reasonably incurred in obtaining the expert’s facts and opinions."
+    ]}}
+  ]
+}

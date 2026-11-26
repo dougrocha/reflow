@@ -1,0 +1,69 @@
+{
+  "doc": "az-aca-guide-es",
+  "page": 15,
+  "description": "Spanish half of a bilingual ACA guide. Spanish plan matrix: nine plan choices plus the row-label column. Compare deductibles and generic-drug costs in their actual columns.",
+  "assertions": [
+    {
+      "doc_lang": "en-US"
+    },
+    {
+      "min_recall": 98
+    },
+    {
+      "heading": {
+        "text": "Información detallada del plan: opciones de planes para 2025"
+      }
+    },
+    {
+      "table": {
+        "rows": 20,
+        "cols": 10,
+        "cells": [
+          "EverydayHealth HMO",
+          "AdvanceHealth HMO",
+          "Deducible"
+        ],
+        "cell_contains": [
+          {
+            "row": {
+              "col": 0,
+              "text": "Deducible"
+            },
+            "cols": [
+              1
+            ],
+            "text": "$1,300"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Deducible"
+            },
+            "cols": [
+              9
+            ],
+            "text": "$2,500"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Nivel 1b (medicamentos genéricos)"
+            },
+            "cols": [
+              5
+            ],
+            "text": "$20"
+          }
+        ]
+      }
+    },
+    {
+      "block_lang": [
+        {
+          "text": "Todos los planes están sujetos a limitaciones",
+          "lang": "es"
+        }
+      ]
+    }
+  ]
+}

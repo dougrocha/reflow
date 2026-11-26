@@ -1,0 +1,15 @@
+{
+  "doc": "az-accident-insurance-flyer",
+  "page": 1,
+  "description": "Employer flyer for accident insurance (#166). Two statistics end in raised note markers, ¹ and ², whose sources sit at the foot of page 2, so no note on this page claims them. Each must stay a superscript, not run into the sentence as \"each year.1\". The title is the large headline alone (#281): the small kicker \"EMPLOYER\" at the right edge is not part of it and not a heading, but its words stay on the page.",
+  "assertions": [
+    {"superscripts": [{"text": "1", "after": "42.2 million times each year."},
+                      {"text": "2", "after": "pay $1,000 in an emergency."}]},
+    {"contains": ["Americans visit the emergency room for injury-related visits 42.2 million times each year.",
+                  "Two-thirds of Americans would struggle to pay $1,000 in an emergency."]},
+    {"doc_title": "How accident insurance can help enhance your benefits package"},
+    {"toc_lacks": ["EMPLOYER", "EMPLOYER How accident insurance can help enhance your benefits package"]},
+    {"not_heading": ["EMPLOYER", "ACCIDENT INSURANCE"]},
+    {"contains": ["EMPLOYER", "ACCIDENT INSURANCE"]}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "doc": "docaccess-brochure",
+  "page": 3,
+  "description": "Multi-column brochure page 3 (scanned): the hand-drawn plot map is a figure, not the whole page, and the street name under it stays text.",
+  "assertions": [
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "max_figure_share": 0.7, "why": "The map itself covers 0.66 of the page (hand box [96,80,592,724]), above the issue's 0.6; 0.7 still rejects the whole page."},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["CHAMBERLIN AVENUE"], "why": "The street under the map, read on the page image."},
+    {"max_headings": 0, "why": "The map's labels are OCR junk, not headings."},
+    {"toc_lacks": ["s S", "b LR SR S", "A el el e"]}
+  ]
+}

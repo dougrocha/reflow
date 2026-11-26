@@ -1,0 +1,40 @@
+{
+  "doc": "az-claim-form-instruction-booklet",
+  "page": 2,
+  "description": "Booklet page 2 (#281). The red \"REMEMBER\" over a tinted box is a callout label, never the document's title or a heading. Page 1's title is lost to OCR (the page-1 spec), and no metadata or bookmark names the document, so the title is the file name, sent to review. The REMEMBER callout is painted on a tinted rectangle: one filled group, an aside, named by its first line, holding the label and the sentence (#281).",
+  "assertions": [
+    {
+      "doc_title": "claim-form-instruction-booklet"
+    },
+    {
+      "title_suspect": true
+    },
+    {
+      "not_heading": [
+        "REMEMBER"
+      ]
+    },
+    {
+      "toc_lacks": [
+        "REMEMBER"
+      ]
+    },
+    {
+      "contains": [
+        "REMEMBER",
+        "Out-of-network claims must be submitted"
+      ]
+    },
+    {
+      "ruled_box": {
+        "name": "REMEMBER",
+        "filled": true,
+        "tag": "aside",
+        "texts": [
+          "REMEMBER",
+          "Out-of-network claims must be submitted within one year"
+        ]
+      }
+    }
+  ]
+}

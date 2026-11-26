@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Example customer page: reflow loader demo</title>
+<!-- The loader is the one script a customer adds. It talks only to the origin it came from. -->
+<script src="{{REFLOW_ORIGIN}}/embed/loader.js" data-site="demo" defer></script>
+</head>
+<body>
+<main>
+  <h1>Example customer page</h1>
+  <p>
+    This page stands in for a customer's website. It is served from an origin of its own, not
+    from reflow's, and its only link to reflow is the loader script in its head:
+  </p>
+  <pre><code>&lt;script src="{{REFLOW_ORIGIN}}/embed/loader.js" data-site="demo" defer&gt;&lt;/script&gt;</code></pre>
+
+  <h2>PDF links</h2>
+  <p>
+    Each link below is an ordinary link to a PDF. With the loader, a click opens reflow's
+    accessible version in a dialog on this page. Escape or Back closes it and puts focus back on
+    the link.
+  </p>
+  <ul>
+    <li><a href="/demo-site/files/fw9.pdf">Form W-9 (PDF)</a></li>
+    <li><a href="/demo-site/files/accident-insurance-flyer.pdf">Accident insurance flyer (PDF)</a></li>
+  </ul>
+
+  <h2>A PDF reflow has no conversion for</h2>
+  <p>
+    This site did not register the next link, so reflow answers "unknown" and the click goes to
+    the PDF, as it would without the script.
+  </p>
+  <ul>
+    <li><a href="/demo-site/files/resnet.pdf">Deep Residual Learning for Image Recognition (PDF, not registered)</a></li>
+  </ul>
+
+  <h2>What this page proves</h2>
+  <p>
+    The page's content security policy allows reflow's origin and nothing else: no inline script,
+    no other host. Ctrl-click, middle-click or "Save link as" still reach the PDF itself.
+  </p>
+</main>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "doc": "practitioner-data-form",
+  "page": 6,
+  "description": "AzAHP practitioner data form page 6: the accessibility checklist table, header Accommodation / YES / NO / NA / Comments and seventeen accommodation rows, each with four blank fillable cells (68 text fields).",
+  "assertions": [
+    {"min_recall": 93},
+    {"no_text": ["�"]},
+    {"tables": 1},
+    {"fields": {"text": 68}},
+    {"table": {"rows": 18, "cols": 5, "cells": ["Accommodation", "YES", "NO", "NA", "Comments", "Ceiling or floor based patient lift", "Gurneys and/or stretchers", "Wheelchair accessible scales", "Access ramps", "Accessible by bus"]}},
+    {"contains_in_order": ["Accommodation", "5ft circle or T-shaped space", "A clear floor space", "Adjustable height exam table or chair", "Positioning and support aids", "Ceiling or floor based patient lift", "Gurneys and/or stretchers", "Wheelchair accessible scales", "Adjustable height radiologic equipment", "Handicap parking", "Handicap accessible restroom", "Access ramps", "Accessible by bus", "Accessible by Taxis or other similar options (Uber/Lyft)", "Accessible by Valley Metro Rail", "Provider/Staff has completed cultural competence training", "Do you provide Field Clinic services?", "Do you provide Virtual Clinic services?"]},
+    {"table": {"rows": 18, "cols": 5, "exact": true}}
+  ]
+}

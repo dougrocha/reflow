@@ -1,0 +1,20 @@
+{
+  "doc": "resnet",
+  "page": 12,
+  "description": "ResNet paper page 12: the Table 13 localization table, the Table 14 comparison table, and section C text in two columns.",
+  "assertions": [
+    {"min_recall": 95.0},
+    {"no_text": ["�"]},
+    {"heading": {"text": "C. ImageNet Localization", "levels": [2, 2]}},
+    {"tables": 2},
+    {"figures": 0},
+    {"contains": ["Table 13. Localization error (%) on the ImageNet validation.", "Table 14. Comparisons of localization error (%) on the ImageNet dataset with state-of-the-art methods."]},
+    {"contains_in_order": ["58.8% mAP and our ensemble of 3 models has 62.1% mAP", "C. ImageNet Localization", "Table 13 compares the localization results.", "This method reduces the top-5 localization error to 10.6% (Table 13)."]},
+    {"table": {"rows": 7, "cols": 6, "exact": true, "cells": ["13.3", "11.7", "14.4", "10.6", "8.9"]}},
+    {"table": {"rows": 6, "cols": 3, "exact": true, "cells": ["OverFeat [40] (ILSVRC'13)", "30.0", "29.9", "GoogLeNet [44] (ILSVRC'14)", "26.7", "VGG [41] (ILSVRC'14)", "25.3", "ours (ILSVRC'15)", "9.0", "8.9"]}},
+    {"contains_in_order": ["Table 13. Localization error (%) on", "58.8% mAP and our ensemble of", "The ImageNet Localization (LOC) task [36]", "Our localization algorithm is based on", "As in our ImageNet classification training", "Table 13 compares the localization results.", "Table 14. Comparisons of localization error", "ports a center-crop error of 33.1%", "The above results are only based", "Our R-CNN implementation is as follows.", "This method reduces the top-5 localization"], "why": "The opening words of each paragraph, list item and heading, in reading order: catches swapped or moved paragraphs (#330)."},
+    {"contains_in_order": ["Table 13. Localization", "class\" ([41]), the", "column, \"1-crop\" denotes", "of 224×224 pixels,", "network top-5 LOC", "VGG's [41] VGG-16 1-crop 33.1 [41]", "RPN ResNet-101 1-crop 13.3", "RPN ResNet-101 dense 11.7", "RPN ResNet-101 dense ResNet-101 14.4", "RPN+RCNN ResNet-101 dense ResNet-101 10.6", "ensemble 8.9", "58.8% mAP", "of 3 models has 62.1% mAP", "(Table 12). This", "the 1st place", "ILSVRC 2015, surpassing", "by 8.5 points", "task [36] requires", "Following [40, 41], we", "strategy [40, 41], learning", "provided 1000-class ImageNet", "of [32] with", "in [32] that", "sibling 1×1 convolutional", "in [32]. The", "to [32]. Specifically,", "a 1000-d output,", "a 1000×4-d output", "for 1000 classes.", "in [32], our", "(Sec. 3.4), we", "sample 224×224 crops", "of 256 images", "dominate, 8 anchors", "of 1:1 [32]. For", "Table 13 compares", "Following [41], we", "paper [41] re", "Table 14. Comparisons", "method top-5 localization", "OverFeat [40] (ILSVRC'13) 30.0 29.9", "GoogLeNet [44] (ILSVRC'14) - 26.7", "VGG [41] (ILSVRC'14) 26.9 25.3", "ours (ILSVRC'15) 8.9 9.0", "of 33.1% (Table 13) using", "using ResNet-101 net", "to 13.3%. This", "our ResNet-101 has", "of 11.7% using", "Using ResNet-101 for", "classes (4.6% top-5 classification", "Table 4), the top-5 localization", "is 14.4%.", "R-CNN [32]. One", "R-CNN [7]) in", "R-CNN [7] generates", "R-CNN [8] that", "scored 200 proposals", "to 224×224 pixels,", "R-CNN [8]. The", "of 256 in", "scored 200 proposals", "the top-5 localization", "to 10.6% (Table 13). This", "a top-5 localization", "of 9.0% on", "ILSVRC 14 results (Table 14), showing a 64% relative", "the 1st place", "ILSVRC 2015."], "why": "Every number with a word either side, in reading order: catches a changed digit (#330)."},
+    {"table": {"rows": 7, "cells": ["top-5 LOC error on predicted CLS", "VGG's [41]", "ResNet-101", "RPN+RCNN"]}, "why": "Its rows, and the longest cell of each: catches a dropped row (#330)."},
+    {"table": {"rows": 6, "cells": ["top-5 localization err", "test", "OverFeat [40] (ILSVRC'13)", "GoogLeNet [44] (ILSVRC'14)", "VGG [41] (ILSVRC'14)", "ours (ILSVRC'15)"]}, "why": "Its rows, and the longest cell of each: catches a dropped row (#330)."}
+  ]
+}

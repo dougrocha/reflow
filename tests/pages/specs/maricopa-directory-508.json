@@ -1,0 +1,16 @@
+{
+  "doc": "maricopa-directory",
+  "page": 508,
+  "description": "Maricopa and Pinal provider directory page 508 (Family Nurse Practitioner, Phoenix, continued). Alexander, Derik M is the entry that a narrow-gutter column merge breaks: its name and address must stay together.",
+  "assertions": [
+    {"min_recall": 95.0},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Alexander, Derik M, FNP (M) — Accepting New Patients", "levels": [5, 5]}},
+    {"heading": {"text": "Aldor, Sarah J, FNP (F) — Accepting New Patients", "levels": [5, 5]}},
+    {"heading": {"text": "Alcala, Angelica", "contains": true, "levels": [5, 5]}},
+    {"same_entry": [["Alexander, Derik M", "500 W Thomas Rd, Ste 400"], ["Alexander, Derik M", "500 W Thomas Rd, Ste 720"], ["Aldor, Sarah J", "1701 E Thomas Rd, Ste A104"], ["Alcala, Angelica", "9610 N Metro Pkwy W"]]},
+    {"same_block": [["500 W Thomas Rd, Ste 400", "(602) 406-9441"], ["9610 N Metro Pkwy W", "Language: Spanish"]]},
+    {"contains_in_order": ["Continued: Non-Physicians › Family Nurse Practitioner › Phoenix", "Alcala, Angelica", "9610 N Metro Pkwy W", "Aldinger, John R", "Aldor, Sarah J", "Alexander, Derik M", "500 W Thomas Rd, Ste 400", "Alexander, Jennifer A", "Alonso, Lara A"]}
+  ]
+}

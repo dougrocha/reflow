@@ -1,0 +1,59 @@
+{
+  "doc": "az-hca-nondiscrim-multilang",
+  "page": 3,
+  "description": "Multi-language insert, page 3: the English heading and tagline stay untagged; each tagline whose script or words name one language gets it (es, zh-Hant, pt, fr, de, el, gu). Languages the reader cannot tell (Navajo, Vietnamese, Haitian Creole, Devanagari, Arabic) stay untagged: a wrong lang is worse than none (#123).",
+  "assertions": [
+    {
+      "block_lang": [
+        {
+          "text": "Multi-Language Interpreter Services",
+          "lang": null
+        },
+        {
+          "text": "If you speak a language other than English",
+          "lang": null
+        },
+        {
+          "text": "Si usted habla español",
+          "lang": "es"
+        },
+        {
+          "text": "若您使用繁體中文",
+          "lang": "zh-Hant"
+        },
+        {
+          "text": "Se você fala português brasileiro",
+          "lang": "pt"
+        },
+        {
+          "text": "Si vous parlez français",
+          "lang": "fr"
+        },
+        {
+          "text": "Wenn Sie Deutsch sprechen",
+          "lang": "de"
+        },
+        {
+          "text": "εάν μιλάτε Ελληνικά",
+          "lang": "el"
+        },
+        {
+          "text": "જો તમે બોલતા હોવ",
+          "lang": "gu"
+        },
+        {
+          "text": "Bilag1ana bizaad",
+          "lang": null
+        },
+        {
+          "text": "Nếu quý vị nói",
+          "lang": null
+        },
+        {
+          "text": "Si ou pale Kreyòl Ayisyen",
+          "lang": null
+        }
+      ]
+    }
+  ]
+}

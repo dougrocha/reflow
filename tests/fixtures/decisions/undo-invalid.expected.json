@@ -1,0 +1,29 @@
+{
+  "store": "00112233445566ff",
+  "bytes": 2302,
+  "lines": 11,
+  "counts": {
+    "records": 10,
+    "torn": 0,
+    "unreadable": 0,
+    "duplicate": 0
+  },
+  "active": [
+    "m2k9x4q6-00000006"
+  ],
+  "invalid": [
+    "m2k9x4q3-00000003",
+    "m2k9x4q4-00000004",
+    "m2k9x4q5-00000005",
+    "m2k9x4q8-00000008",
+    "m2k9x4q9-00000009"
+  ],
+  "unsupported": [],
+  "reattach": [
+    {
+      "from": "a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1",
+      "to": "b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2"
+    }
+  ],
+  "error": null
+}

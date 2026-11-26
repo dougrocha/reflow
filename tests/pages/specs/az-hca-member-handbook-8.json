@@ -1,0 +1,19 @@
+{
+  "doc": "az-hca-member-handbook",
+  "page": 8,
+  "description": "One bookmark per chapter (#157): the chapter's own headings are listed in the Contents under its bookmark.",
+  "assertions": [
+    {
+      "heading": {
+        "text": "Member Services"
+      }
+    },
+    {
+      "toc_on_page": [
+        "Getting Services",
+        "Member Services",
+        "Abbreviations"
+      ]
+    }
+  ]
+}

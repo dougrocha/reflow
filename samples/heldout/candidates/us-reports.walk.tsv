@@ -1,0 +1,9 @@
+pos	url	outcome	pages	bytes	sha256	id
+0	https://www.govinfo.gov/content/pkg/GAOREPORTS-B-400049/pdf/GAOREPORTS-B-400049.pdf	kept	6	140009	7e3ca17c063e988e36560dcb357736b212d3680279de05b525ec2ec8fd3e37f3	us-reports-1
+1	https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-07-773R/pdf/GAOREPORTS-GAO-07-773R.pdf	kept	14	244410	cd92dee84554cb6deb07b815d79770537f8a34a1a57413a6d6dda96a69ce7a00	us-reports-2
+2	https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-07-835T/pdf/GAOREPORTS-GAO-07-835T.pdf	kept	46	414825	844346b20c0bb2de6ee7595002a95e6d992e75c37db23ebc1699d78dee8d93ab	us-reports-3
+3	https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-05-654T/pdf/GAOREPORTS-GAO-05-654T.pdf	kept	12	163594	332f282efe1c379e299673f7745235557825f1f770cf5af3b53752237c53c72c	us-reports-4
+4	https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-01-297/pdf/GAOREPORTS-GAO-01-297.pdf	kept	40	357215	cfb51f51ec032c8017f4c7f01d4673b3a46df958cbfaaa46e57a5a0b4096f263	us-reports-5
+5	https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-03-930T/pdf/GAOREPORTS-GAO-03-930T.pdf	kept	26	930007	fec28b897347086e60b7d3b1566aa38e4402f2725ecd837c9e417ef217681dfc	us-reports-6
+6	https://www.govinfo.gov/content/pkg/GAOREPORTS-B-280767-4/pdf/GAOREPORTS-B-280767-4.pdf	kept	8	35350	e18aecd320ed4af6c7b5a92ff9fe13d633641cace7e28eda7a5eebeb6714df3a	us-reports-7
+7	https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-06-1087T/pdf/GAOREPORTS-GAO-06-1087T.pdf	kept	24	161652	d3555ecc737b132554f8b05d97e8d8e243214a208fece35dcad1d22a255d2c0a	us-reports-8

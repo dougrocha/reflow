@@ -1,0 +1,14 @@
+{
+  "doc": "az-bluedental-manual",
+  "page": 1,
+  "description": "Provider manual cover (#160): the first bookmark is 'Cover'. The cover sets a tall '2026' beside 'BlueDental' over 'PROVIDER MANUAL', which the line reader joins to the wrong row, so the title goes to review rather than out of order.",
+  "assertions": [
+    {
+      "title_suspect": true
+    },
+    {
+      "xfail": "the line reader joins the tall '2026' to the row 'PROVIDER MANUAL', so the cover's words are out of reading order",
+      "doc_title": "2026 BlueDentalSM PROVIDER MANUAL"
+    }
+  ]
+}

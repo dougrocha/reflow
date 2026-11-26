@@ -1,0 +1,55 @@
+{
+  "doc": "az-hca-nondiscrim-multilang",
+  "page": 2,
+  "description": "Multi-language insert, page 2: the Spanish notice. Every block of the page is Spanish, including the short heading and list items, though the document is en-US (#123). A lang of null means no lang attribute.",
+  "assertions": [
+    {
+      "block_lang": [
+        {
+          "text": "Notificación de no discriminación",
+          "lang": "es"
+        },
+        {
+          "text": "En cumplimiento con la Sección 1557",
+          "lang": "es"
+        },
+        {
+          "text": "cumple con las leyes federales de derechos civiles",
+          "lang": "es"
+        },
+        {
+          "text": "Intérpretes de lenguaje de señas capacitados",
+          "lang": "es"
+        },
+        {
+          "text": "Información escrita en otros formatos",
+          "lang": "es"
+        },
+        {
+          "text": "Intérpretes capacitados.",
+          "lang": "es"
+        },
+        {
+          "text": "Información escrita en otros idiomas.",
+          "lang": "es"
+        },
+        {
+          "text": "Si necesita recibir estos servicios",
+          "lang": "es"
+        },
+        {
+          "text": "Puede presentar el reclamo por correo postal",
+          "lang": "es"
+        },
+        {
+          "text": "Puede obtener los formularios de reclamo",
+          "lang": "es"
+        },
+        {
+          "text": "es una subsidiaria de Blue Cross",
+          "lang": "es"
+        }
+      ]
+    }
+  ]
+}

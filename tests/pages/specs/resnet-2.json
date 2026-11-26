@@ -1,0 +1,15 @@
+{
+  "doc": "resnet",
+  "page": 2,
+  "description": "ResNet paper page 2: the rest of the introduction, Figure 2 and its caption, and the start of Related Work. No page 4 text.",
+  "assertions": [
+    {"min_recall": 93.4},
+    {"no_text": ["�", "Residual Network. Based on the above plain network"]},
+    {"heading": {"text": "2. Related Work", "levels": [2, 2]}},
+    {"figures": 1},
+    {"contains": ["Figure 2. Residual learning: a building block.", "Concurrent with our work"]},
+    {"contains_in_order": ["are comparably good or better than the constructed solution", "In this paper, we address the degradation problem by introducing a deep residual learning framework.", "2. Related Work", "Residual Representations. In image recognition, VLAD", "Shortcut Connections. Practices and theories", "Concurrent with our work"]},
+    {"contains_in_order": ["Figure 2. Residual learning: a building", "are comparably good or better than", "In this paper, we address the", "The formulation of F(x) +x can", "We present comprehensive experiments on ImageNet", "Similar phenomena are also shown on", "On the ImageNet classification dataset [36],", "ImageNet test set, and won the", "Residual Representations. In image recognition, VLAD", "In low-level vision and computer graphics,", "Shortcut Connections. Practices and theories that", "Concurrent with our work, \"highway networks\""], "why": "The opening words of each paragraph, list item and heading, in reading order: catches swapped or moved paragraphs (#330)."},
+    {"contains_in_order": ["Figure 2. Residual", "(Fig. 2). Shortcut connections [2, 34, 49] are", "(Fig. 2). Identity", "Caffe [19]) without", "ImageNet [36] to", "that: 1) Our", "increases; 2) Our", "the CIFAR-10 set [20], suggesting", "over 100 layers,", "over 1000 layers.", "dataset [36], we", "Our 152layer residual", "nets [41]. Our", "has 3.57% top-5 error", "the 1st place", "ILSVRC 2015 classification", "the 1st places", "COCO 2015 competitions.", "2. Related", "VLAD [18] is", "Vector [30] can", "version [18] of", "classification [4, 48]. For", "vectors [17] is", "method [3] reformulates", "preconditioning [45, 46], which", "shown [3, 45, 46] that", "connections [2, 34, 49] have", "output [34, 49]. In [44, 24], a", "of [39, 38, 31, 47] propose", "In [44], an", "networks\" [42, 43] present", "functions [15]. These"], "why": "Every number with a word either side, in reading order: catches a changed digit (#330)."}
+  ]
+}

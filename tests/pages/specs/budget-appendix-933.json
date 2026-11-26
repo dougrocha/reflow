@@ -1,0 +1,8 @@
+{
+  "doc": "budget-appendix",
+  "page": 933,
+  "description": "Budget appendix page 933 (Status of Direct Loans, two columns): the left schedules' 2025 est. column must stay with the left schedule, not move to the right-hand tables.",
+  "assertions": [
+    {"table": {"rows": 5, "cols": 5, "cells": ["2023 actual", "2024 est.", "2025 est.", "Outstanding, start of year", "1,267", "1,156", "1,076", "Repayments: Repayments and prepayments", "–111", "–80", "–73", "Outstanding, end of year", "1,156", "1,076", "1,003"]}}
+  ]
+}

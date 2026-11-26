@@ -1,0 +1,17 @@
+{
+  "doc": "bluejourney-directory",
+  "page": 20,
+  "description": "BlueJourney directory PDF page 20 (printed page 17): Cochise County primary care, Family Nurse Practitioner (continued), Sierra Vista. One entry per provider, name then address, phone, website and language.",
+  "assertions": [
+    {"min_recall": 96},
+    {"no_text": ["�"]},
+    {"tables": 0},
+    {"heading": {"text": "Sierra Vista"}},
+    {"heading": {"text": "Asolas, Carly M, FNP (F) — Accepting New Patients"}},
+    {"heading": {"text": "Rowley, James D, FNP (M)", "contains": true}},
+    {"same_entry": [["Asolas, Carly M", "111 El Camino Real"], ["Clary, Brandy", "1590 Paseo San Luis, Ste 101"], ["Evans, Rawley C", "5700 E Highway 90"], ["Rowley, James D", "302 El Camino Real Bldg 11"]]},
+    {"same_block": [["1590 Paseo San Luis, Ste 101", "(520) 220-5711"], ["5700 E Highway 90", "Language: English"]]},
+    {"separate_blocks": [["Asolas, Carly M", "Bowles, Bianca"]]},
+    {"contains_in_order": ["Continued: Non-Physicians › Family Nurse Practitioner", "Sierra Vista", "Asolas, Carly M", "Bowles, Bianca", "Carr, Tina M", "Clary, Brandy", "Daneker, Geneva E", "Evans, Rawley C", "Fretz Mason, Lana D", "Gold, Rise", "Green, Stephanie", "Harris, Jonathan G", "Lyle, Judith H", "Mccrory, Ingrid", "Mcleod, Alison B", "Mungarro Rubio, Candy S", "Murray, Anne M", "Ray, Aric R", "Roth, Misty", "Rowley, James D"]}
+  ]
+}

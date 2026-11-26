@@ -1,0 +1,30 @@
+{
+  "doc": "p17",
+  "page": 130,
+  "description": "IRS Publication 17 page 130: the Getting Help page, with bold run-in leads, bullet lists and the CAUTION box.",
+  "assertions": [
+    {"min_recall": 88.5},
+    {"no_text": ["�"]},
+    {"list_items": {"ordered": false, "items": [
+      "Primarily responsible for the overall substantive accuracy of your return,",
+      "Required to sign the return, and",
+      "Required to include their preparer tax identification number (PTIN)."
+    ]}},
+    {"list_items": {"ordered": false, "items": [
+      "Standard Print.",
+      "Large Print.",
+      "Braille.",
+      "Audio (MP3).",
+      "Plain Text File (TXT).",
+      "Braille-Ready File (BRF)."
+    ]}},
+    {"list_items": {"ordered": false, "items": [
+      "Youtube.com/irsvideos.",
+      "Youtube.com/irsvideosASL."
+    ]}},
+    {"heading": {"text": "Ways to check on the status of your refund.", "levels": [2, 4]}},
+    {"not_heading": ["Employers can register to use", "Over-the-Phone Interpreter"]},
+    {"contains_in_order": ["don't have professional credentials.", "Employers can register to use", "Business Services Online.", "Over-the-Phone Interpreter", "(OPI) Service.", "Alternative media preference.", "Mobile-friendly forms.", "Access your online account (in", "Get a transcript of your return.", "Ways to check on the status of your refund.", "Making a tax payment."]},
+    {"contains": ["Taxpayers who need information about accessibility services can call 833-690-0598", "Form 9000, Alternative Media Preference, or Form 9000(SP)"]}
+  ]
+}

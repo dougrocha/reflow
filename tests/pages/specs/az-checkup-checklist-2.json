@@ -1,0 +1,16 @@
+{
+  "doc": "az-checkup-checklist",
+  "page": 2,
+  "description": "Women's checkup checklist: the same dot grid as page 1, with a '*Recommended for some women' note right under the last row. Recall is low by design: the 159 dots are \"l\" in the text layer and \"●\" in the transcript.",
+  "assertions": [
+    {"min_recall": 59.5},
+    {"no_text": ["l l l"]},
+    {"table": {"rows": 34, "cols": 8, "exact": true,
+               "cells": ["Preventing Falls: Counseling", "Bone Density",
+                         "Cholesterol Abnormalities in Adults (Dyslipidemia, Lipid Disorders): Screening*"],
+               "cell_contains": [
+                 {"row": {"col": 0, "text": "Preventing Falls: Counseling"}, "cols": [6], "text": "●"}
+               ]}},
+    {"separate_blocks": [["Preventing Falls: Counseling", "*Recommended for some women"]]}
+  ]
+}

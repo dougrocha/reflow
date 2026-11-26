@@ -1,0 +1,62 @@
+{
+  "doc": "az-tucson-employee-booklet",
+  "page": 15,
+  "description": "Annual salary-tier rates followed by three distinct dental and vision tables.",
+  "assertions": [
+    {
+      "min_recall": 98
+    },
+    {
+      "table": {
+        "rows": 5,
+        "cols": 8,
+        "cells": [
+          "Employee Only",
+          "Family"
+        ],
+        "cell_contains": [
+          {
+            "row": {
+              "col": 0,
+              "text": "Employee Only"
+            },
+            "cols": [
+              1
+            ],
+            "text": "$1,675.18"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Employee Only"
+            },
+            "cols": [
+              7
+            ],
+            "text": "$11,761.10"
+          },
+          {
+            "row": {
+              "col": 0,
+              "text": "Family"
+            },
+            "cols": [
+              7
+            ],
+            "text": "$35,270.56"
+          }
+        ]
+      }
+    },
+    {
+      "contains_in_order": [
+        "Cigna Dental (DHMO)",
+        "Cigna Dental (DPPO)",
+        "Vision (Avesis)"
+      ]
+    },
+    {
+      "tables": 4
+    }
+  ]
+}

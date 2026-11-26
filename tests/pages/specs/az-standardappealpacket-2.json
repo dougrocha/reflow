@@ -1,0 +1,13 @@
+{
+  "doc": "az-standardappealpacket",
+  "page": 2,
+  "description": "Three cards side by side, each a heading over a short text, under one line of no heading and above a full-width paragraph (#281). Each card is read whole, its heading then its text, before the next card; the full-width paragraph crossing the page gives no gutter to split the page by, so the cards' own gutters decide.",
+  "assertions": [
+    {"contains_in_order": [
+      "STANDARD APPEAL", "Denials of Medical Necessity",
+      "EXPEDITED APPEAL", "When your provider certifies",
+      "MEMBER GRIEVANCE", "Disputes about Member Cost share",
+      "A denial or partial denial occurs"
+    ]}
+  ]
+}

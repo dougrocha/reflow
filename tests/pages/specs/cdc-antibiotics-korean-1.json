@@ -1,0 +1,13 @@
+{
+  "doc": "cdc-antibiotics-korean",
+  "page": 1,
+  "description": "CDC antibiotics trifold, Korean edition, page 1: the 'Antibiotics aren't always the answer' panel with its Facts section, the 'Use antibiotics wisely' heading and the sentence that breaks across an h5 heading and the next paragraph.",
+  "assertions": [
+    {"min_recall": 100.0},
+    {"heading": {"text": "항생제가 항상 정답은 아닙니다.", "levels": [1, 6]}},
+    {"contains_in_order": ["항생제, 이제 알고 씁시다", "올바른 사용, 최선의 치료", "항생제가 필요하다면 꼭 처방된 만큼만 복용하십시오."]},
+    {"same_block": [["환자가 항생제를 써야만 할 때", "그 혜택은 부작용보다 훨씬 큽니다."]]},
+    {"xfail": "The h5 heading holds only the first half of the sentence; '생깁니다.' starts the following paragraph, so the sentence is split across two blocks.",
+     "same_block": [["항생제를 복용하면 내성을 가진 박테리아가", "생깁니다."]]}
+  ]
+}

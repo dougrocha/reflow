@@ -1,0 +1,15 @@
+{
+  "doc": "docaccess-legislation",
+  "page": 3,
+  "description": "Legislation page 3: a scanned bill under a visible title. Only the title has a text layer; the band of the image under it is read by redo OCR (#82), which keeps the title.",
+  "assertions": [
+    {"contains_in_order": ["CONFERENCE COMMITTEE REPORT", "3rd Printing"]},
+    {"xfail_without_ocr": "Without an OCR runner, the band of the page image is not read.", "contains_in_order": ["H.B. No. 40", "A BILL TO BE ENTITLED", "BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF TEXAS", "applies to each court in this state", "the Fifteenth Court of Appeals"]},
+    {"xfail_without_ocr": "Without an OCR runner, the band of the page image is not read.", "review_lacks": ["ocr-band-missing"]},
+    {"del_count": 1, "xfail_without_ocr": "Without an OCR runner, the page is not read.", "why": "#86: the struck [or] is a placeholder between its brackets, and the added words are an insertion."},
+    {"contains": ["a [] statutory county court"], "xfail_without_ocr": "Without an OCR runner, the page is not read."},
+    {"ins_texts": {"includes": ["court, a", ", or the business"]}, "xfail_without_ocr": "Without an OCR runner, the page is not read.", "why": "The insertion runs on as \"court\" on the next printed line, which is its own block until #94 joins the lines."},
+    {"unmarked": ["statutory county court"], "xfail_without_ocr": "Without an OCR runner, the page is not read."},
+    {"no_text": ["e¥"], "xfail_without_ocr": "Without an OCR runner, the page is not read."}
+  ]
+}

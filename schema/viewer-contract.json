@@ -1,0 +1,172 @@
+{
+ "manifest": {
+  "v": "0123456789ab",
+  "title": "Contract sample",
+  "titleOnPage": true,
+  "lang": "en-US",
+  "dir": "ltr",
+  "pageCount": 4,
+  "pageSize": [
+   612,
+   792
+  ],
+  "labelOffset": -1,
+  "imageWidths": [
+   800,
+   1600
+  ],
+  "pages": {
+   "1": {
+    "label": "i"
+   },
+   "3": {
+    "w": 792,
+    "h": 612
+   }
+  },
+  "chunks": [
+   {
+    "href": "chunks/0001.html",
+    "first": 1,
+    "last": 1
+   },
+   {
+    "href": "chunks/0002.html",
+    "first": 2,
+    "last": 3
+   },
+   {
+    "href": "chunks/0003.html",
+    "first": 4,
+    "last": 4
+   }
+  ],
+  "toc": [
+   {
+    "level": 2,
+    "text": "Overview",
+    "href": "chunks/0001.html#n1-1e544b37b907",
+    "page": 1
+   },
+   {
+    "level": 2,
+    "text": "Results",
+    "href": "chunks/0002.html#n2-78f407d46cfc",
+    "page": 2
+   },
+   {
+    "level": 3,
+    "text": "By region",
+    "href": "chunks/0002.html#n2-a50069ef9300",
+    "page": 2
+   },
+   {
+    "level": 2,
+    "text": "Appendix",
+    "href": "chunks/0003.html#n4-a99c16549d65",
+    "page": 4
+   }
+  ],
+  "tocComplete": true,
+  "textBase": 1.1,
+  "text": [
+   [
+    47,
+    19,
+    19
+   ],
+   [
+    34,
+    17,
+    17
+   ],
+   [
+    31,
+    7,
+    7
+   ],
+   [
+    28,
+    12,
+    12
+   ]
+  ],
+  "fillable": true
+ },
+ "pages": [
+  {
+   "number": 1,
+   "label": "i",
+   "width": 612,
+   "height": 792,
+   "image": "pages/0001.webp",
+   "chunk": "chunks/0001.html",
+   "text": {
+    "chars": 87,
+    "blocks": 5,
+    "lines": 5
+   }
+  },
+  {
+   "number": 2,
+   "label": "1",
+   "width": 612,
+   "height": 792,
+   "image": "pages/0002.webp",
+   "chunk": "chunks/0002.html",
+   "text": {
+    "chars": 25,
+    "blocks": 4,
+    "lines": 4
+   }
+  },
+  {
+   "number": 3,
+   "label": "2",
+   "width": 792,
+   "height": 612,
+   "image": "pages/0003.webp",
+   "chunk": "chunks/0002.html",
+   "text": {
+    "chars": 18,
+    "blocks": 1,
+    "lines": 1
+   }
+  },
+  {
+   "number": 4,
+   "label": "3",
+   "width": 612,
+   "height": 792,
+   "image": "pages/0004.webp",
+   "chunk": "chunks/0003.html",
+   "text": {
+    "chars": 13,
+    "blocks": 2,
+    "lines": 2
+   }
+  }
+ ],
+ "anchors": [
+  [
+   "1:1e544b37b907",
+   "n1-1e544b37b907"
+  ],
+  [
+   "2:78f407d46cfc",
+   "n2-78f407d46cfc"
+  ],
+  [
+   "2:a50069ef9300",
+   "n2-a50069ef9300"
+  ],
+  [
+   "2:ad466a294c5e",
+   "n2-ad466a294c5e"
+  ],
+  [
+   "4:a99c16549d65",
+   "n4-a99c16549d65"
+  ]
+ ]
+}

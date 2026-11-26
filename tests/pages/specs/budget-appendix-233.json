@@ -1,0 +1,13 @@
+{
+  "doc": "budget-appendix",
+  "page": 233,
+  "description": "Budget appendix page 233 (Operation and Maintenance, Marine Corps): the Program and Financing table, the Object Classification table and the Employment Summary.",
+  "assertions": [
+    {"min_recall": 97.0},
+    {"no_text": ["�"]},
+    {"table": {"rows": 30, "cols": 5, "cells": ["0001", "Operating forces", "8,268", "8,569", "8,869", "0799", "Total direct obligations", "9,962", "9,857", "10,562", "1900", "Budget authority (total)", "10,263", "10,191", "10,894"]}},
+    {"table": {"rows": 15, "cols": 5, "cells": ["11.1", "Full-time permanent", "1,439", "1,629", "1,700", "99.9", "Total new obligations, unexpired accounts", "10,264", "10,182", "10,893"]}},
+    {"same_block": [["Budget authority (total)", "10,263"]]},
+    {"contains_in_order": ["OPERATION AND MAINTENANCE, MARINE CORPS", "Program and Financing", "Obligations by program activity:", "Budgetary resources:", "Object Classification", "Employment Summary", "OPERATION AND MAINTENANCE, AIR FORCE"]}
+  ]
+}

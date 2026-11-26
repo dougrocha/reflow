@@ -1,0 +1,16 @@
+{
+  "doc": "docaccess-budget",
+  "page": 5,
+  "description": "Budget page 5 (scanned affidavit): no whole-page figure; the notary stamp may be one. OCR reads the ZIP code as 8011O: the text keeps OCR's reading, and the review queue carries the document's suggestion, 80110 (#99). The affidavit signature is one signature crop, directly before the line it signs; the notary stamp is no signature, and the typed '/s/ Sara Dieringer' of the notice stays text (#85).",
+  "assertions": [
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "max_figure_share": 0.6},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["AFFIDAVIT OF PUBLICATION"]},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["8011O"]},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "review_has": ["ocr-suggestion"]},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "review_has": ["unread-signature"]},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "signature_items": 1},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "unread_figures": {"min": 1}},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "figure_order": ["<figure kind=signature>", "For the Golden Transcript"]},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["Sara Dieringer"]}
+  ]
+}

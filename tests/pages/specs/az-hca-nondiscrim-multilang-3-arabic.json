@@ -1,0 +1,11 @@
+{
+  "doc": "az-hca-nondiscrim-multilang",
+  "page": 3,
+  "description": "BCBSAZ Health Choice non-discrimination notice, multi-language insert, page 3: the Arabic tagline (#122). InDesign draws each connected piece of a word left to right but the pieces in logical order, so pdfium's reversal of the right-to-left run scrambled the letters.",
+  "assertions": [
+    {"contains": ["تنبیھ: إذا كنت تتحدث العربیة، فسوف تتوفر لدیك خدمات المساعدة اللغویة، مجانًا. اتصل على"],
+     "why": "The tagline in logical order, as pdftotext reads its text layer after NFKC."},
+    {"same_block": [["تنبیھ: إذا كنت", "711"]],
+     "why": "The tagline wraps its phone tail '(711' onto a short line set flush right; it stays in the tagline's paragraph."}
+  ]
+}

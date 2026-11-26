@@ -1,0 +1,13 @@
+{
+  "doc": "docaccess-audit",
+  "page": 5,
+  "description": "Audit page 5 (born-digital letter in image strips): the letterhead is the only figure; the footer strip (a rule and the folio) is none.",
+  "assertions": [
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "max_figure_share": 0.3},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["TO THE MEMBERS OF THE BOARD OF TRUSTEES AND RESIDENTS OF SAN MATEO COUNTY"]},
+    {"xfail_without_ocr": "Without an OCR runner, the band of the page image is not read.", "contains": ["SAN MATEO COUNTY MOSQUITO & VECTOR CONTROL DISTRICT", "1351 Rollins Road", "(650) 344-8592", "www.smcmvcd.org"]},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "review_lacks": ["unread-handwriting", "unread-text"]},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "figures": 1},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "unread_figures": 0, "why": "No writing on the page (#84)."}
+  ]
+}

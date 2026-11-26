@@ -1,0 +1,37 @@
+{
+  "doc": "az-medsup-outline",
+  "page": 3,
+  "description": "Benefit matrix on PDF page 3, printed page 2. Ten plan columns distinguish 50%, 75%, and checkmarks; PDF page 2 is blank.",
+  "assertions": [
+    {
+      "contains": [
+        "Benefits",
+        "Blood (First 3 pints)",
+        "$8,000",
+        "$4,000"
+      ]
+    },
+    {
+      "heading": {
+        "text": "Benefit Chart of Medicare Supplement Plans sold on or after January 1, 2026"
+      }
+    },
+    {
+      "table": {
+        "rows": 10,
+        "cols": 9,
+        "cells": [
+          "Benefits",
+          "A",
+          "B",
+          "D",
+          "G*",
+          "K",
+          "L",
+          "M",
+          "N"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+text,page,status,seconds,printed_cer,handwritten_cells_read,handwritten_cells,words,unmatched_words,wrong_facts
+local (whole page),chem-math-p1,ok,15.43,0.0,14,15,210,1,2
+local (whole page),permit-p1,ok,37.27,0.0,98,145,306,28,56
+local (whole page),permit-p3,failed,112.03,1.0,0,160,0,0,0
+local (whole page),legislation-p5,ok,12.14,0.0051,0,0,269,3,0
+local (whole page),budget-p4,ok,3.98,0.0,1,2,30,0,0
+local (whole page),budget-p5,ok,28.79,0.0028,1,1,527,0,3
+local (whole page),carmel-p4,ok,13.08,0.0011,0,0,384,1,0
+local (whole page),brochure-p2,ok,4.22,0.0053,0,0,30,0,0
+local (assist drafts),chem-math-p1,ok,16.32,0.0,15,15,211,1,2
+local (assist drafts),permit-p1,ok,11.68,0.566,68,145,83,7,2
+local (assist drafts),permit-p3,ok,130.37,0.5377,86,160,160,11,20
+local (assist drafts),budget-p4,ok,4.07,0.0,1,2,30,0,0
+local (assist drafts),budget-p5,ok,28.74,0.0028,1,1,525,1,2
+reflow today (--ocr auto),chem-math-p1,,,0.0081,7,15,193,18,10
+reflow today (--ocr auto),permit-p1,,,0.0377,1,145,21,4,1
+reflow today (--ocr auto),permit-p3,,,0.0566,6,160,120,38,27
+reflow today (--ocr auto),legislation-p5,,,0.0188,0,0,256,5,1
+reflow today (--ocr auto),budget-p4,,,0.0625,0,2,26,1,3
+reflow today (--ocr auto),budget-p5,,,0.0092,1,1,520,1,2
+reflow today (--ocr auto),carmel-p4,,,0.0005,0,0,388,3,0
+reflow today (--ocr auto),brochure-p2,,,0.1915,0,0,18,0,0
+tesseract (forced),chem-math-p1,,3.55,0.0227,1,15,194,44,16
+tesseract (forced),permit-p1,,6.07,0.0472,23,145,328,202,111
+tesseract (forced),permit-p3,,6.01,0.0094,55,160,470,208,179
+tesseract (forced),legislation-p5,,2.85,0.0068,0,0,270,15,2
+tesseract (forced),budget-p4,,2.18,0.0156,0,2,29,2,1
+tesseract (forced),budget-p5,,3.99,0.0117,1,1,524,6,3
+tesseract (forced),carmel-p4,,4.47,0.0065,0,0,392,7,1
+tesseract (forced),brochure-p2,,2.08,0.1862,0,0,24,6,0
+ocr:minicpm-ocr (whole page),chem-math-p1,ok,1.51,0.0,14,15,210,6,7
+ocr:minicpm-ocr (whole page),permit-p1,ok,3.58,0.1226,126,145,356,25,51
+ocr:minicpm-ocr (whole page),permit-p3,ok,3.91,0.0,136,160,356,14,16
+ocr:minicpm-ocr (whole page),legislation-p5,ok,1.27,0.0162,0,0,263,0,0
+ocr:minicpm-ocr (whole page),budget-p4,ok,0.92,0.0,1,2,31,1,0
+ocr:minicpm-ocr (whole page),budget-p5,ok,1.33,0.3271,1,1,234,0,0
+ocr:minicpm-ocr (whole page),carmel-p4,ok,1.35,0.0011,0,0,384,1,0
+ocr:minicpm-ocr (whole page),brochure-p2,ok,1.06,0.0,0,0,30,0,0
+ocr:minicpm-ocr (assist drafts),chem-math-p1,ok,1.86,0.0,14,15,210,6,7
+ocr:minicpm-ocr (assist drafts),permit-p1,ok,3.57,0.5189,131,145,308,23,33
+ocr:minicpm-ocr (assist drafts),permit-p3,ok,3.74,0.5,139,160,298,23,9
+ocr:minicpm-ocr (assist drafts),budget-p4,ok,1.01,0.0,1,2,31,1,0
+ocr:minicpm-ocr (assist drafts),budget-p5,ok,1.51,0.3271,1,1,234,0,0
+ollama:openbmb/minicpm-o4.5 (whole page),chem-math-p1,ok,4.98,0.0,14,15,209,0,1
+ollama:openbmb/minicpm-o4.5 (whole page),permit-p1,ok,11.32,0.0,111,145,330,29,38
+ollama:openbmb/minicpm-o4.5 (whole page),permit-p3,ok,11.4,0.0,134,160,359,14,14
+ollama:openbmb/minicpm-o4.5 (whole page),legislation-p5,ok,4.04,0.0009,0,0,269,0,0
+ollama:openbmb/minicpm-o4.5 (whole page),budget-p4,ok,1.39,0.2292,1,2,27,1,0
+ollama:openbmb/minicpm-o4.5 (whole page),budget-p5,ok,8.34,0.0212,1,1,528,6,4
+ollama:openbmb/minicpm-o4.5 (whole page),carmel-p4,ok,4.31,0.0005,0,0,385,0,0
+ollama:openbmb/minicpm-o4.5 (whole page),brochure-p2,ok,1.64,0.0,0,0,30,0,0
+ollama:openbmb/minicpm-o4.5 (assist drafts),chem-math-p1,ok,5.25,0.0,14,15,210,1,2
+ollama:openbmb/minicpm-o4.5 (assist drafts),permit-p1,ok,37.32,0.5566,98,145,227,31,14
+ollama:openbmb/minicpm-o4.5 (assist drafts),permit-p3,ok,10.57,0.4717,132,160,278,10,7
+ollama:openbmb/minicpm-o4.5 (assist drafts),budget-p4,ok,1.82,0.0,1,2,31,1,0
+ollama:openbmb/minicpm-o4.5 (assist drafts),budget-p5,ok,8.34,0.0276,1,1,518,4,5
+ollama:qwen3-vl:8b (whole page),chem-math-p1,ok,5.44,0.0,14,15,210,3,6
+ollama:qwen3-vl:8b (whole page),permit-p1,ok,12.1,0.0094,103,145,285,21,20
+ollama:qwen3-vl:8b (whole page),permit-p3,ok,14.89,0.1226,144,160,340,14,17
+ollama:qwen3-vl:8b (whole page),legislation-p5,ok,5.58,0.0051,0,0,269,3,0
+ollama:qwen3-vl:8b (whole page),budget-p4,ok,2.51,0.0,2,2,32,0,1
+ollama:qwen3-vl:8b (whole page),budget-p5,ok,8.95,0.0392,1,1,482,2,4
+ollama:qwen3-vl:8b (whole page),carmel-p4,ok,5.13,0.0005,0,0,385,1,0
+ollama:qwen3-vl:8b (whole page),brochure-p2,ok,2.45,0.0,0,0,30,0,0
+ollama:qwen3-vl:8b (assist drafts),chem-math-p1,ok,5.7,0.0,14,15,210,3,6
+ollama:qwen3-vl:8b (assist drafts),permit-p1,ok,37.18,0.5755,69,145,79,2,2
+ollama:qwen3-vl:8b (assist drafts),permit-p3,ok,13.06,0.5189,134,160,286,19,15
+ollama:qwen3-vl:8b (assist drafts),budget-p4,ok,2.63,0.0,2,2,32,0,1
+ollama:qwen3-vl:8b (assist drafts),budget-p5,ok,9.61,0.0293,1,1,503,2,3

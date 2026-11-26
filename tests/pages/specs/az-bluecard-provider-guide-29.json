@@ -1,0 +1,18 @@
+{
+  "doc": "az-bluecard-provider-guide",
+  "page": 29,
+  "description": "A thin bar over the table is cut into three cells, with the fourth column's header running up through it. The bar is no row, and the header is the table's first row with all four names (#393).",
+  "assertions": [
+    {
+      "table": {
+        "cols": 4,
+        "col_headers": [
+          "Service rendered",
+          "How to file (required fields)",
+          "Where to file",
+          "Example"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "doc": "uscis-i9",
+  "page": 1,
+  "description": "Form I-9 page 1 (fillable AcroForm, no XFA): Section 1 and Section 2 fields as real controls, the citizenship status boxes as one fieldset, printed labels bound to their controls and not repeated.",
+  "assertions": [
+    {"min_recall": 98.0},
+    {"no_text": ["�"]},
+    {"fields": {"text": 46, "select": 1, "checkbox": 1, "radio": 4}},
+    {"field_group": {"legend": "Check one of the following boxes to attest to your citizenship or immigration status (See page 2 and 3 of the instructions.):", "type": "radio", "options": [
+      "1. A citizen of the United States",
+      "2. A noncitizen national of the United States (See Instructions.)",
+      "3. A lawful permanent resident (Enter USCIS or A-Number.)",
+      "4. An alien authorized to work until"
+    ]}},
+    {"labelled_once": ["Last Name (Family Name)", "First Name (Given Name)", "Middle Initial (if any)",
+                       "Other Last Names Used (if any)", "Address (Street Number and Name)",
+                       "Apt. Number (if any)",
+                       "Date of Birth (mm/dd/yyyy)", "Employee's Email Address",
+                       "Employee's Telephone Number", "USCIS A-Number", "Form I-94 Admission Number",
+                       "Signature of Employee"]},
+    {"contains_in_order": ["Section 1. Employee Information and Attestation", "Last Name (Family Name)",
+                           "Check one of the following boxes", "Signature of Employee",
+                           "Section 2. Employer Review and Verification", "List A"]},
+    {"contains_in_order": ["This document has fillable fields. They", "Employment Eligibility Verification Department of Homeland", "OMB No.1615-0047 Expires 05/31/2027", "START HERE: Employers must ensure the", "ANTI-DISCRIMINATION NOTICE: All employees can choose", "For reverification or rehire, complete Supplement", "Form I-9 Edition 01/20/25"], "why": "The opening words of each paragraph, list item and heading, in reading order: catches swapped or moved paragraphs (#330)."},
+    {"contains_in_order": ["Form I-9", "OMB No.1615-0047 Expires 05/31/2027", "Form I-9. Employers", "Section 1, or", "Section 2 or", "Section 1. Employee", "Section 1 of Form I-9 no", "page 2 and 3 of", "instructions.): 1. A", "States 2. A", "Instructions.) 3. A", "A-Number.) 4. An", "Number 4., enter", "Form I-94 Admission", "Section 1, that", "Page 3.", "Section 2. Employer", "Section 2 within", "Title 1", "Title 2 (if", "Title 3 (if", "that (1) I", "employee, (2) the", "and (3) to", "Page 4.", "Form I-9 Edition 01/20/25"], "why": "Every number with a word either side, in reading order: catches a changed digit (#330)."},
+    {"heading": {"text": "Employment Eligibility Verification Department of Homeland Security U.S. Citizenship and Immigration Services", "levels": [2, 2]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"heading": {"text": "USCIS Form I-9", "levels": [3, 3]}, "why": "A section heading of the page: catches a demoted heading (#330)."},
+    {"table": {"rows": 32, "cells": ["Section 1. Employee Information and Attestation: Employees must complete and sign Section 1 of Form I-9 no later than the first day of employment, but not before accepting a job offer.", "Other Last Names Used (if any)", "State AK AL AR AS AZ CA CO CT DC DE FL GA GU HI IA ID IL IN KS KY LA MA MD ME MI MN MO MP MS MT NC ND NE NH NJ NM NV NY OH OK OR PA PR RI SC SD TN TX UT VA VI VT WA WI WV WY CAN MEX", "U.S. Social Security Number", "I am aware that federal law provides for imprisonment and/or fines for false statements, or the use of false documents, in connection with the completion of this form. I attest, under penalty of perjury, that this information, including my selection of the box attesting to my citizenship or immigration status, is true and correct.", "Check one of the following boxes to attest to your citizenship or immigration status (See page 2 and 3 of the instructions.): 1. A citizen of the United States 2. A noncitizen national of the United States (See Instructions.) 3. A lawful permanent resident (Enter USCIS or A-Number.) 4. An alien authorized to work until", "(exp. date, if any) If you check Item Number 4., enter one of these: Foreign Passport Number and Country of Issuance OR OR USCIS A-Number Form I-94 Admission Number", "Foreign Passport Number and Country of Issuance", "Today's Date (mm/dd/yyyy)", "If a preparer and/or translator assisted you in completing Section 1, that person MUST complete the Preparer and/or Translator Certification on Page 3.", "Section 2. Employer Review and Verification: Employers or their authorized representative must complete and sign Section 2 within three business days after the employee's first day of employment, and must physically examine, or examine consistent with an alternative procedure authorized by the Secretary of DHS, documentation from List A OR a combination of documentation from List B and List C. Enter any additional documentation in the Additional Information box; see Instructions.", "List B List C AND", "Document Title 1", "Issuing Authority", "Document Number (if any)", "Expiration Date (if any)", "Document Title 2 (if any)", "Check here if you used an alternative procedure authorized by DHS to examine documents.", "Document Title 3 (if any)", "Certification: I attest, under penalty of perjury, that (1) I have examined the documentation presented by the above-named employee, (2) the above-listed documentation appears to be genuine and to relate to the employee named, and (3) to the best of my knowledge, the employee is authorized to work in the United States.", "Last Name, First Name and Title of Employer or Authorized Representative", "Employer's Business or Organization Address, City or Town, State, ZIP Code"]}, "why": "Its rows, and the longest cell of each: catches a dropped row (#330)."}
+  ]
+}

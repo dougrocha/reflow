@@ -1,0 +1,9 @@
+{
+  "doc": "docaccess-carmel",
+  "page": 10,
+  "description": "Carmel timelines page 10 (scanned): the photo above the timeline is a figure of its own, not the whole page, and the timeline title under it stays text.",
+  "assertions": [
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "max_figure_share": 0.6},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["Carmel Area Wastewater District Timeline"], "why": "The title bar under the photo, read on the page image."}
+  ]
+}

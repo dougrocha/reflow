@@ -1,0 +1,20 @@
+{
+  "doc": "cdc-antibiotics-trifold",
+  "page": 1,
+  "description": "CDC antibiotics trifold, English edition, page 1: the resistance question with its numbered list, the right-way-to-take section and the common and serious side-effect bullet lists.",
+  "assertions": [
+    {"min_recall": 98.5},
+    {"heading": {"text": "Why does taking antibiotics lead to antibiotic resistance?", "levels": [1, 6]}},
+    {"list_items": {"ordered": true, "items": [
+      "Antibiotic resistance does not mean the body is becoming resistant to antibiotics; it is that bacteria have become resistant to the antibiotics designed to kill them.",
+      "When bacteria become resistant, antibiotics cannot fight them, and the bacteria multiply.",
+      "Some resistant bacteria can be harder to treat and can spread to other people."
+    ]}},
+    {"heading": {"text": "What is the right way to take antibiotics?", "levels": [1, 6]}},
+    {"list_items": {"ordered": false, "items": ["Rash", "Dizziness", "Nausea", "Diarrhea", "Yeast infections"]}},
+    {"contains_in_order": ["What are the side effects?", "Common side effects range from minor to very severe health problems", "More serious side effects can include:"]},
+    {"contains_in_order": ["Why does taking antibiotics lead to", "Any time antibiotics are used, they", "Antibiotic resistance does not mean the", "When bacteria become resistant, antibiotics cannot", "Some resistant bacteria can be harder", "Each year in the United States,", "What is the right way to", "If you need antibiotics, take them", "Improving the way healthcare professionals prescribe", "Talk with your doctor if you", "What are the side effects?", "Common side effects range from minor", "More serious side effects can include:", "Severe and life-threatening allergic reactions", "To learn more about antibiotic prescribing", "Antibiotics Aren't Always the Answer."], "why": "The opening words of each paragraph, list item and heading, in reading order: catches swapped or moved paragraphs (#330)."},
+    {"contains_in_order": ["least 2 million", "least 23,000 people"], "why": "Every number with a word either side, in reading order: catches a changed digit (#330)."},
+    {"heading": {"text": "What are the side effects?", "levels": [2, 2]}, "why": "A section heading of the page: catches a demoted heading (#330)."}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "doc": "fw9",
+  "page": 6,
+  "description": "Form W-9 page 6: identity-theft and phishing text, and the Privacy Act Notice heading in the right column.",
+  "assertions": [
+    {"min_recall": 96.5},
+    {"no_text": ["�"]},
+    {"heading": {"text": "Privacy Act Notice", "levels": [2, 3]}},
+    {"max_headings": 1},
+    {"not_heading": ["Protect yourself from suspicious emails or phishing schemes."]},
+    {"contains_in_order": ["Victims of identity theft", "Protect yourself from suspicious emails or phishing schemes.", "Go to www.irs.gov/IdentityTheft", "Privacy Act Notice", "Section 6109 of the Internal Revenue Code"]},
+    {"contains_in_order": ["Victims of identity theft who are", "Protect yourself from suspicious emails or", "Phishing is the creation and use", "The IRS does not initiate contacts", "If you receive an unsolicited email", "Go to www.irs.gov/IdentityTheft to learn more", "Section 6109 of the Internal Revenue"], "why": "The opening words of each paragraph, list item and heading, in reading order: catches swapped or moved paragraphs (#330)."},
+    {"contains_in_order": ["at 877-777-4778 or TTY/TDD 800-829-4059.", "at 800-366-4484. You", "or 877-IDTHEFT (877-438-4338). If", "Pub. 5027.", "Section 6109 of", "section 3406, payors"], "why": "Every number with a word either side, in reading order: catches a changed digit (#330)."}
+  ]
+}

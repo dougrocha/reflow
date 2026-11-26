@@ -1,0 +1,12 @@
+{
+  "doc": "docaccess-permit",
+  "page": 2,
+  "description": "Permit ledger page 2 (scanned): the ledger strips are no whole-page figure.",
+  "assertions": [
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "max_figure_share": 0.6},
+    {"xfail_without_ocr": "Without an OCR runner, the scanned page converts with no text.", "contains": ["BUILDING PERMIT APPLICATIONS"], "why": "The printed column heading, read on the page image."},
+    {"toc_lacks": ["ree D"], "why": "OCR text that starts in lowercase is a piece of a sentence, never a heading (#83)."},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "unread_figures": {"min": 1}, "why": "The handwritten ledger is a crop: OCR's junk reading of it is not trusted (#84)."},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "review_has": ["unread-text"]}
+  ]
+}

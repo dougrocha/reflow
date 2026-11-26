@@ -1,0 +1,41 @@
+{
+  "doc": "az-privacy-release-spanish",
+  "page": 2,
+  "description": "Spanish release form: each date (month / day / year) is one row of boxes named by its printed Spanish caption, never by the English PDF field name.",
+  "assertions": [
+    {
+      "control_names": [
+        "Fecha de nacimiento: 2/3",
+        "Fecha de nacimiento: 3/3",
+        "La fecha señalada a continuación: 2/3",
+        "Fecha: 3/3"
+      ]
+    },
+    {
+      "no_control_names": [
+        "Shared DOB Day",
+        "Stop Sharing Date",
+        "Member Signature Year"
+      ]
+    },
+    {
+      "field_rows": [
+        [
+          "Fecha de nacimiento:",
+          "Fecha de nacimiento: 2/3",
+          "Fecha de nacimiento: 3/3"
+        ],
+        [
+          "La fecha señalada a continuación:",
+          "La fecha señalada a continuación: 2/3",
+          "La fecha señalada a continuación: 3/3"
+        ],
+        [
+          "Fecha:",
+          "Fecha: 2/3",
+          "Fecha: 3/3"
+        ]
+      ]
+    }
+  ]
+}

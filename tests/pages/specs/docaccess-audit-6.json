@@ -1,0 +1,9 @@
+{
+  "doc": "docaccess-audit",
+  "page": 6,
+  "description": "Audit page 6: its captioned figure is named by its kind or its own alt, never by its page number alone (#87).",
+  "assertions": [
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "min_figures": 1},
+    {"xfail_without_ocr": "Without an OCR runner, the page is not rasterized by OCR, so the page scan sees another page.", "alt_not": ["^Figure on page"]}
+  ]
+}

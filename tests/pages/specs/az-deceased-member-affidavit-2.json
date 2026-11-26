@@ -1,0 +1,24 @@
+{
+  "doc": "az-deceased-member-affidavit",
+  "page": 2,
+  "description": "Affidavit: the caption printed under the sworn name's rule names that field.",
+  "assertions": [
+    {
+      "control_names": [
+        "Print first and last name"
+      ]
+    },
+    {
+      "contains": [
+        "Print first and last name"
+      ]
+    },
+    {
+      "ins_count": 0,
+      "why": "#86: a scan with no tracked changes gets no insertions or deletions."
+    },
+    {
+      "del_count": 0
+    }
+  ]
+}

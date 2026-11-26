@@ -1,0 +1,28 @@
+{
+  "doc": "az-tsmc-hsa-mandarin",
+  "page": 10,
+  "description": "Chinese civil-rights notice. This PDF page is Chinese, despite the collection note describing a multilingual notice.",
+  "assertions": [
+    {
+      "doc_lang": "zh-Hant"
+    },
+    {
+      "min_recall": 98.5
+    },
+    {
+      "contains": [
+        "遵守適用的聯邦民權法",
+        "602-864-4884",
+        "1-877-475-4799"
+      ]
+    },
+    {
+      "tables": 0
+    },
+    {
+      "no_text": [
+        "�"
+      ]
+    }
+  ]
+}

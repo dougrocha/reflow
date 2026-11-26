@@ -1,0 +1,17 @@
+{
+  "doc": "docaccess-directory",
+  "page": 1,
+  "description": "Provider directory page 1: a provider street address survives conversion; the county banners are h2 headings over h3 providers; the running title is not a heading.",
+  "assertions": [
+    {"doc_title": "CICP Provider Directory"},
+    {"contains": ["13123 East 16th Avenue"]},
+    {"heading": {"text": "Adams", "levels": [2, 2]}},
+    {"heading": {"text": "Arapahoe", "levels": [2, 2]}},
+    {"heading": {"text": "Baca", "levels": [2, 2]}},
+    {"heading": {"text": "Boulder", "levels": [2, 2]}},
+    {"heading": {"text": "Boulder Community Health", "levels": [3, 3]}},
+    {"not_heading": ["CICP Provider Directory"]},
+    {"toc_lacks": ["CICP Provider Directory"], "why": "The running title on every page is not a section of the Contents."},
+    {"figures": 0}
+  ]
+}

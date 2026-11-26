@@ -1,0 +1,14 @@
+{
+  "doc": "naca",
+  "page": 4,
+  "description": "NACA committee page (scanned; the OCR text layer garbles many names, so only clean words are asserted): the headquarters paragraph, the technical committee block and the footer.",
+  "assertions": [
+    {"min_recall": 98.5},
+    {"no_text": ["�"]},
+    {"heading": {"text": "TECHNICAL COMMITTEES", "levels": [2, 3]}},
+    {"max_headings": 2},
+    {"contains_in_order": ["Headquarters, 1724 F Street NW, Washington 25, D. C.", "Created by act of", "Chairman", "Langley Field, Va.", "TECHNICAL COMMITTEES", "Research Needs of Military and Civil Aviation", "Calif.", "Collection, classification, compilation"]},
+    {"contains": ["unified control", "PROPULSION", "Ohio"]},
+    {"unread_over_text": ["Headquarters, 1724 F Street NW", "TECHNICAL COMMITTEES", "Research Needs of Military and Civil Aviation", "unified control", "PROPULSION"], "why": "No crop lies over typed text."}
+  ]
+}
